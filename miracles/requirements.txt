@@ -1,0 +1,20 @@
+# Quran Miracle Verifier Requirements
+# Python 3.8+ recommended
+
+# Core dependencies (all included in Python standard library)
+# No external packages required for basic functionality
+
+# Optional enhanced features:
+# arabic-reshaper>=2.1.0    # For better Arabic text display
+# python-bidi>=0.4.2        # For bidirectional text support
+# requests>=2.25.0          # For downloading Quran data from APIs
+# beautifulsoup4>=4.9.0     # For parsing web-based Quran sources
+
+# Development and testing:
+# pytest>=6.0.0             # For running test suite
+# black>=21.0.0              # For code formatting
+# mypy>=0.812                # For type checking
+
+# Note: Basic verification works with Python standard library only
+# Install optional packages for enhanced functionality:
+# pip install arabic-reshaper python-bidi requests beautifulsoup4
