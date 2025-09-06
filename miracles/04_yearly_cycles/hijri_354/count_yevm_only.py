@@ -8,7 +8,23 @@ def remove_diacritics(text):
     return re.sub(diacritics, '', text)
 
 def count_yevm_only():
-    data_path = "../../../data/quran-uthmani.txt"
+    from pathlib import Path
+    
+    # Find the data file by searching up the directory tree
+    current_dir = Path(__file__).parent
+    data_path = None
+    
+    # Search up to 5 levels up for the data directory
+    for _ in range(5):
+        potential_path = current_dir / "data" / "quran-uthmani.txt"
+        if potential_path.exists():
+            data_path = str(potential_path)
+            break
+        current_dir = current_dir.parent
+    
+    if not data_path:
+        raise FileNotFoundError("Could not find quran-uthmani.txt data file")
+    
     verses = {}
     
     # Load data
