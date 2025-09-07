@@ -36,11 +36,13 @@ Yeah—it's clean: a **57/57 split** and **swapped 27/30** across parity. Whethe
 
 This topic contains several detailed sub-analyses:
 
+- [**Core 2×2 Parity Grouping**](core_2x2_parity_grouping/) - The fundamental odd-odd, even-even, odd-even, even-odd classification
 - [**Verses > Surah Number Analysis**](verse_greater_than_number/) - Analysis of surahs where verse count exceeds surah order number
 - [**Even Sum Surahs**](even_sum_surahs/) - Surahs where (verse count + surah order) is even
-- [**Long/Short Parity Analysis**](long_short_parity/) - 40-verse threshold parity patterns  
+- [**Long/Short Parity Analysis**](long_short_parity/) - 40-verse threshold parity patterns
 - [**Probability Analysis**](probability_analysis/) - Statistical calculations and significance testing
+- [**New Data Slices — Six 19‑Surah Blocks**](new_data_slices/) - 2×2 parity grid and prime slices across six fixed 19‑surah blocks
 
 ---
 
-*This research demonstrates systematic numerical relationships in Quranic structure that exhibit remarkable symmetries and statistical significance.*
+_This research demonstrates systematic numerical relationships in Quranic structure that exhibit remarkable symmetries and statistical significance._
