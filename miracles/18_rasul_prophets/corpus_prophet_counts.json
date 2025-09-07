@@ -1,0 +1,430 @@
+{
+  "total_names_only": 511,
+  "by_prophet": [
+    {
+      "key": "adam",
+      "concept_id": "adam",
+      "english": "Adam",
+      "arabic": "آدم",
+      "count": 25,
+      "target": 25,
+      "delta": 0,
+      "examples": [
+        "2:31:2",
+        "2:33:2",
+        "2:34:5",
+        "2:35:2",
+        "2:37:2"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "idris",
+      "concept_id": "idris",
+      "english": "Idrīs",
+      "arabic": "إدريس",
+      "count": 2,
+      "target": 2,
+      "delta": 0,
+      "examples": [
+        "19:56:4",
+        "21:85:2"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "nuh",
+      "concept_id": "nuh",
+      "english": "Nūḥ",
+      "arabic": "نوح",
+      "count": 43,
+      "target": 43,
+      "delta": 0,
+      "examples": [
+        "3:33:5",
+        "4:163:7",
+        "6:84:7",
+        "7:59:3",
+        "7:69:18"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "hud",
+      "concept_id": "hud",
+      "english": "Hūd",
+      "arabic": "هود",
+      "count": 7,
+      "target": 7,
+      "delta": 0,
+      "examples": [
+        "7:65:4",
+        "11:50:4",
+        "11:53:2",
+        "11:58:5",
+        "11:60:17"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "salih",
+      "concept_id": "salih",
+      "english": "Ṣāliḥ",
+      "arabic": "صالح",
+      "count": 9,
+      "target": 9,
+      "delta": 0,
+      "examples": [
+        "7:73:4",
+        "7:75:14",
+        "7:77:8",
+        "11:61:4",
+        "11:62:2"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "lut",
+      "concept_id": "lut",
+      "english": "Lūṭ",
+      "arabic": "لوط",
+      "count": 27,
+      "target": 27,
+      "delta": 0,
+      "examples": [
+        "6:86:4",
+        "7:80:1",
+        "11:70:18",
+        "11:74:11",
+        "11:77:4"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "shuayb",
+      "concept_id": "shuayb",
+      "english": "Shuʿayb",
+      "arabic": "شعيب",
+      "count": 11,
+      "target": 11,
+      "delta": 0,
+      "examples": [
+        "7:85:4",
+        "7:88:8",
+        "7:90:9",
+        "7:92:3",
+        "7:92:10"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "ibrahim",
+      "concept_id": "ibrahim",
+      "english": "Ibrāhīm",
+      "arabic": "إبراهيم",
+      "count": 69,
+      "target": 69,
+      "delta": 0,
+      "examples": [
+        "2:124:3",
+        "2:125:10",
+        "2:125:14",
+        "2:126:3",
+        "2:127:3"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "ismail",
+      "concept_id": "ishmael",
+      "english": "Ismāʿīl",
+      "arabic": "إسماعيل",
+      "count": 12,
+      "target": 12,
+      "delta": 0,
+      "examples": [
+        "2:125:15",
+        "2:127:7",
+        "2:133:21",
+        "2:136:11",
+        "2:140:5"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "ishaq",
+      "concept_id": "isaac",
+      "english": "Isḥāq",
+      "arabic": "إسحاق",
+      "count": 17,
+      "target": 17,
+      "delta": 0,
+      "examples": [
+        "2:133:22",
+        "2:136:12",
+        "2:140:6",
+        "3:84:12",
+        "4:163:15"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "yaqub",
+      "concept_id": "yaqub",
+      "english": "Yaʿqūb",
+      "arabic": "يعقوب",
+      "count": 16,
+      "target": 16,
+      "delta": 0,
+      "examples": [
+        "2:132:5",
+        "2:133:6",
+        "2:136:13",
+        "2:140:7",
+        "3:84:13"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "yusuf",
+      "concept_id": "yusuf",
+      "english": "Yūsuf",
+      "arabic": "يوسف",
+      "count": 27,
+      "target": 27,
+      "delta": 0,
+      "examples": [
+        "6:84:16",
+        "12:4:3",
+        "12:7:4",
+        "12:8:3",
+        "12:9:2"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "ayyub",
+      "concept_id": "ayyub",
+      "english": "Ayyūb",
+      "arabic": "أيوب",
+      "count": 4,
+      "target": 4,
+      "delta": 0,
+      "examples": [
+        "4:163:19",
+        "6:84:15",
+        "21:83:1",
+        "38:41:3"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "dhul-kifl",
+      "concept_id": "dhul-kifl",
+      "english": "Dhū al-Kifl",
+      "arabic": "ذو الكفل",
+      "count": 2,
+      "target": 2,
+      "delta": 0,
+      "examples": [
+        "21:85",
+        "38:48"
+      ],
+      "source": "ontology+verse-fix"
+    },
+    {
+      "key": "musa",
+      "concept_id": "musa",
+      "english": "Mūsā",
+      "arabic": "موسى",
+      "count": 136,
+      "target": 136,
+      "delta": 0,
+      "examples": [
+        "2:51:3",
+        "2:53:3",
+        "2:54:3",
+        "2:55:3",
+        "2:60:3"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "harun",
+      "concept_id": "harun",
+      "english": "Hārūn",
+      "arabic": "هارون",
+      "count": 20,
+      "target": 20,
+      "delta": 0,
+      "examples": [
+        "2:248:20",
+        "4:163:21",
+        "6:84:18",
+        "7:122:3",
+        "7:142:15"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "dawud",
+      "concept_id": "david",
+      "english": "Dāwūd",
+      "arabic": "داود",
+      "count": 16,
+      "target": 16,
+      "delta": 0,
+      "examples": [
+        "2:251:5",
+        "4:163:24",
+        "5:78:9",
+        "6:84:13",
+        "17:55:14"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "sulayman",
+      "concept_id": "solomon",
+      "english": "Sulaymān",
+      "arabic": "سليمان",
+      "count": 17,
+      "target": 17,
+      "delta": 0,
+      "examples": [
+        "2:102:7",
+        "2:102:10",
+        "4:163:22",
+        "6:84:14",
+        "21:78:2"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "ilyas",
+      "concept_id": "elijah",
+      "english": "Ilyās",
+      "arabic": "إلياس",
+      "count": 3,
+      "target": 3,
+      "delta": 0,
+      "examples": [
+        "6:85:4",
+        "37:123:2",
+        "37:130:3"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "alyasa",
+      "concept_id": "elisha",
+      "english": "al-Yasaʿ",
+      "arabic": "اليسع",
+      "count": 2,
+      "target": 2,
+      "delta": 0,
+      "examples": [
+        "6:86:2",
+        "38:48:3"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "yunus",
+      "concept_id": "yunus",
+      "english": "Yūnus",
+      "arabic": "يونس",
+      "count": 4,
+      "target": 4,
+      "delta": 0,
+      "examples": [
+        "4:163:20",
+        "6:86:3",
+        "10:98:9",
+        "37:139:2"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "zakariya",
+      "concept_id": "zechariah",
+      "english": "Zakariyyā",
+      "arabic": "زكريا",
+      "count": 7,
+      "target": 7,
+      "delta": 0,
+      "examples": [
+        "3:37:9",
+        "3:37:13",
+        "3:38:3",
+        "6:85:1",
+        "19:2:5"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "yahya",
+      "concept_id": "yahya",
+      "english": "Yaḥyā",
+      "arabic": "يحيى",
+      "count": 5,
+      "target": 5,
+      "delta": 0,
+      "examples": [
+        "3:39:11",
+        "6:85:2",
+        "19:7:6",
+        "19:12:1",
+        "21:90:5"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "isa",
+      "concept_id": "jesus",
+      "english": "ʿĪsā",
+      "arabic": "عيسى",
+      "count": 25,
+      "target": 25,
+      "delta": 0,
+      "examples": [
+        "2:87:10",
+        "2:136:18",
+        "2:253:15",
+        "3:45:12",
+        "3:52:3"
+      ],
+      "source": "ontology"
+    },
+    {
+      "key": "muhammad",
+      "concept_id": "muhammad",
+      "english": "Muḥammad",
+      "arabic": "محمد",
+      "count": 4,
+      "target": 4,
+      "delta": 0,
+      "examples": [
+        "3:144:2",
+        "33:40:3",
+        "47:2:9",
+        "48:29:1"
+      ],
+      "source": "text-search"
+    },
+    {
+      "key": "ahmad",
+      "concept_id": "ahmad",
+      "english": "Aḥmad",
+      "arabic": "أحمد",
+      "count": 1,
+      "target": 1,
+      "delta": 0,
+      "examples": [
+        "61:6:24"
+      ],
+      "source": "ontology"
+    }
+  ],
+  "note": "Counts come from corpus.quran.com ontology; Muhammad uses PN-token override; Dhul-Kifl patched to include 21:85."
+}
