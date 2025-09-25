@@ -15,8 +15,8 @@
 
 ### Perfect Balance
 
-- **57** sūrahs have **odd** verse counts: `odd–odd (27) + even–odd (27) = 54` + 3 more = 57
-- **57** sūrahs have **even** verse counts: `even–even (30) + odd–even (30) = 60` - 3 = 57
+- **54** sūrahs have **odd** verse counts: `odd–odd (27) + even–odd (27) = 54`
+- **60** sūrahs have **even** verse counts: `even–even (30) + odd–even (30) = 60`
 
 ### Swap Symmetry
 
@@ -33,10 +33,10 @@
 
 This pattern demonstrates:
 
-1. **Perfect 57/57 Split**: Exactly half the surahs have odd verse counts, half have even
-2. **Symmetric Distribution**: The 2×2 grid shows balanced counts with elegant swap symmetry
-3. **Non-Trivial Structure**: This balance isn't forced by definition but emerges from the actual verse counts
-4. **Multiple Layer Alignment**: Both the row totals (57/57) and column patterns (27/30 swap) align perfectly
+1. **Exact Bucket Totals**: Each of the four parity buckets hits its target counts (`27, 30, 30, 27`).
+2. **Same vs Mixed Symmetry**: Same-parity (`odd–odd + even–even`) and mixed-parity (`odd–even + even–odd`) totals both land on **57**.
+3. **Actual Verse Distribution**: The raw verse counts split **54 odd** vs **60 even**, matching the script output precisely.
+4. **Non-Trivial Structure**: The mirrored arrangement emerges from the data—it is not a definitional artifact.
 
 ## Complete Lists
 
@@ -48,11 +48,11 @@ Surahs with odd order numbers and odd verse counts.
 
 Surahs with even order numbers and even verse counts.
 
-### Odd–Even Group (27 surahs)
+### Odd–Even Group (30 surahs)
 
 Surahs with odd order numbers and even verse counts.
 
-### Even–Odd Group (30 surahs)
+### Even–Odd Group (27 surahs)
 
 Surahs with even order numbers and odd verse counts.
 

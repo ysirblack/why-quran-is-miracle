@@ -124,7 +124,7 @@ This 513:513 alignment represents:
 ## Verification Methods
 
 - **Root analysis**: Systematic morphological coverage of ر-س-ل
-- **Name enumeration**: Complete list of prophetic names in Quran
+- **Name enumeration**: Complete list of prophetic names in Quran (live script pulls annotated matches from corpus.quran.com; run with network access or substitute an offline cache)
 - **Cross-reference**: Multiple sources confirm both counts
 - **Methodological transparency**: Clear inclusion criteria for both categories
 

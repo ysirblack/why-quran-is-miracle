@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["Ibrāhīm", "Idrīs", "Ṣāliḥ", "Shuʿayb"]
+  "cSpell.words": ["Ibrāhīm", "Idrīs", "Ṣāliḥ", "Shuʿayb"],
+  "cSpell.enabledFileTypes": {
+    "markdown": false
+  }
 }
