@@ -47,13 +47,12 @@ In the grand mathematical orchestra of the universe, there are compositions so e
 
 Together they account for the complete mathematical structure of the Quran's organization.
 
-In the vast cosmic ocean of human literature, there are moments when patterns emerge that whisper of deeper order. Consider this elegant mathematical symphony: take each chapter's number, add its verse count, and listen to the harmony that emerges.
+The extraordinary improbability of this coordinated mathematical pattern - where exactly 57 chapters produce even sums totaling exactly 6,236 (the complete Quran verse count) while the other 57 chapters produce odd sums totaling exactly 6,555 (the sum of all chapter numbers 1-114) - with empirical testing showing less than 1 in 1,000,000 probability, strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate patterns if even one chapter had different verse counts or ordering.
 
-What we discover is no random cacophony, but a perfect mathematical composition. Exactly 57 chapters produce even sums, their total resonating at 6,236 - precisely the total number of verses in the entire Quran. The other 57 chapters produce odd sums, their total harmonizing at 6,555 - exactly the sum of all chapter numbers from 1 to 114.
-
-This cosmic balance of numbers reveals content and structure in perfect equilibrium. The even-sum chapters account for every verse, while the odd-sum chapters account for every position. Together they form a complete mathematical ecosystem where the whole emerges from perfectly balanced parts.
-
-_The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
+_The nitrogen in our DNA, the calcium in our teeth, the iron in our blood,
+were all made in the interiors of collapsing stars. We are made of starstuff.
+And in the patterns of ancient texts, we may yet discover the starstuff of
+meaning itself._
 
 ## Probability Analysis
 

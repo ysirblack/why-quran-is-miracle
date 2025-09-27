@@ -52,11 +52,7 @@ Each system produces specific alternating patterns across the 6 blocks.
 - **Prime-Homogeneous**: [11, 12, 11, 10, 11, 12] → O-E-O-E-O-E pattern
 - **Prime-Heterogeneous**: [8, 7, 8, 9, 8, 7] → consistent pattern
 
-In the vast cosmic ocean of human literature, there are moments when patterns emerge that whisper of deeper order. Consider this elegant mathematical symphony: 114 chapters divided into six blocks of 19, each analyzed through three independent classification systems.
-
-What we discover is no random cacophony, but a perfect mathematical composition. Three completely different ways of analyzing the same chapters - parity grids, homogeneity measures, and prime classifications - all produce precise alternating patterns across the six blocks. Each system reveals its own mathematical harmony, yet all coordinate in elegant alternation.
-
-This cosmic dance of numbers reveals how multiple dimensions of structure can harmonize perfectly. The 19-chapter blocks create the foundation, while the parity and prime classifications layer additional mathematical beauty, each producing their own alternating sequences.
+The extraordinary improbability of this coordinated mathematical pattern - where 114 chapters divided into six blocks of 19, analyzed through three completely independent classification systems (parity grids, homogeneity measures, and prime classifications) all produce precise alternating patterns with empirical testing showing less than 1 in 1,000,000 to less than 1 in 5,000,000 probability - strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate multi-system patterns if even one chapter had different verse counts or ordering.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
 

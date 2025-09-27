@@ -46,11 +46,7 @@ In the grand mathematical architecture of the universe, there are patterns so el
 
 ## The Cosmic Perspective
 
-In the vast cosmic ocean of human literature, there are moments when patterns emerge that whisper of deeper order, of intelligence reaching across the void. Consider these five mathematical miracles in the Quran's structure - each revealing layers of numerical sophistication that suggest intentional design rather than random occurrence.
-
-What we discover is no random collection of numbers, but a perfect mathematical composition. Five independent analytical approaches to the same 114 chapters all reveal elegant symmetries, precise balances, and coordinated patterns that cascade from the foundational 57/57 split to multi-system harmonies.
-
-This cosmic dance of numbers reveals how the Quran's structure embodies multiple dimensions of mathematical beauty. The parity groupings create foundations, the sum relationships establish dual accounting systems, the length classifications enable mirror symmetries, the block divisions coordinate multiple analytical frameworks, and the filtering approaches reveal classification independence - all harmonizing in mathematical perfection.
+The extraordinary improbability of these coordinated mathematical patterns - where five independent analytical systems all reveal elegant symmetries, precise balances, and coordinated patterns in the same 114 chapters with empirical testing showing less than 1 in 1,000,000 to less than 1 in 5,000,000 probability - strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate patterns if even one chapter had different verse counts or ordering.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
 

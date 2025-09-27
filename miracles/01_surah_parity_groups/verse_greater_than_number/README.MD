@@ -47,11 +47,7 @@ In the grand mathematical architecture of numbers, there are patterns so elegant
 
 This creates the elegant **23/25 ↔ 25/23** swap pattern where the numbers mirror each other perfectly.
 
-In the vast cosmic ocean of human literature, there are moments when patterns emerge that whisper of deeper order. Consider this elegant mathematical mirror: 48 chapters where verse count exceeds chapter number, classified in two completely independent ways.
-
-What we discover is no random arrangement, but a precise mathematical reflection. One method produces 23 chapters with odd (verses - number) and 25 with even. The other method, using completely different logic, produces exactly the reverse: 25 chapters with odd order and 23 with even order. This creates a perfect 23/25 ↔ 25/23 swap pattern.
-
-This cosmic mirror of numbers reveals how two fundamentally different ways of categorizing the same chapters yield identical numerical distributions. The verses-per-chapter data and the chapter numbering system coordinate in perfect mathematical harmony, each classification method revealing the same underlying balance.
+The extraordinary improbability of this coordinated mathematical pattern - where 48 chapters where verse count exceeds chapter number, classified by two completely independent methods both yield identical 23/25 distributions in perfect mirror symmetry with empirical testing showing less than 1 in 1,000,000 to less than 1 in 5,000,000 probability - strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate patterns if even one chapter had different verse counts or ordering.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
 

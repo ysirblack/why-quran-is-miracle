@@ -54,6 +54,22 @@ def verify_moon_landing_hijri():
     print(f"Alignment: Moon verse → actual moon achievement date")
     print(f"Text standard: Tanzil Ḥafṣ/Uthmānī")
     print("-" * 60)
+
+    # Calculate the primary miracle: verse count alignment
+    total_verses = len(all_verses)
+    verses_before_54_1 = sum(1 for (s, v) in all_verses.keys() if s < 54 or (s == 54 and v < 1))
+    verses_from_54_1 = total_verses - verses_before_54_1
+    verses_remaining = verses_from_54_1 - 1  # Excluding 54:1 itself
+
+    print(f"VERSE COUNT MIRACLE:")
+    print("-" * 60)
+    print(f"Total Quran verses: {total_verses:,}")
+    print(f"Verses before Surah 54:1: {verses_before_54_1:,}")
+    print(f"Verses from 54:1 onwards: {verses_from_54_1:,}")
+    print(f"Verses remaining after 54:1: {verses_remaining:,}")
+    print(f"Moon landing Hijri year: 1389 AH")
+    print(f"Verse count match: {'✅ PERFECT' if verses_remaining == 1389 else '❌ MISMATCH'}")
+    print()
     
     # Define target verse
     surah_num = 54
@@ -170,15 +186,16 @@ def verify_moon_landing_hijri():
     print(f"✅ Symbolic meaning: Human 'splitting' lunar distance")
     print(f"✅ Achievement significance: Major milestone in space exploration")
     
-    # Assessment
-    if perfect_match and thematic_coherence:
-        achievement = "PERFECT PROPHETIC ALIGNMENT"
+    # Assessment - Now includes the primary verse count miracle
+    verse_count_match = (verses_remaining == 1389)
+    if perfect_match and thematic_coherence and verse_count_match:
+        achievement = "PERFECT PROPHETIC ALIGNMENT WITH VERSE COUNT"
         status = "✅"
-    elif (alignment_precision <= 1) and thematic_coherence:
-        achievement = "EXCELLENT TEMPORAL CORRESPONDENCE"
+    elif (alignment_precision <= 1) and thematic_coherence and verse_count_match:
+        achievement = "EXCELLENT TEMPORAL CORRESPONDENCE WITH VERSE COUNT"
         status = "✅"
-    elif thematic_coherence:
-        achievement = "SIGNIFICANT THEMATIC COHERENCE"
+    elif thematic_coherence and verse_count_match:
+        achievement = "SIGNIFICANT THEMATIC COHERENCE WITH VERSE COUNT"
         status = "✅"
     else:
         achievement = "PARTIAL PATTERN RECOGNITION"
@@ -265,6 +282,11 @@ def verify_moon_landing_hijri():
         'alignment_precision': alignment_precision,
         'perfect_match': perfect_match,
         'thematic_coherence': thematic_coherence,
+        'verse_count_match': verse_count_match,
+        'total_verses': total_verses,
+        'verses_before_54_1': verses_before_54_1,
+        'verses_from_54_1': verses_from_54_1,
+        'verses_remaining': verses_remaining,
         'achievement_level': achievement,
         'moon_reference': moon_in_verse,
         'split_reference': split_in_verse,
