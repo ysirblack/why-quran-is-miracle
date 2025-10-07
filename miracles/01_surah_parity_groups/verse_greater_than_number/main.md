@@ -32,8 +32,32 @@
 
 ---
 
-## Statistical Significance
+## Statistical Analysis
 
-This symmetry demonstrates a remarkable mathematical pattern where two completely different ways of categorizing the same 48 surahs yield identical count distributions (23/25), creating a perfect swap symmetry between different classification methods.
+**Permutation Test (1,000,000 trials):**
 
-The probability of such precise alignment occurring by chance is extremely low, especially when considering that this is just one component of a larger system of numerical relationships throughout the Quran.
+**Pattern Components:**
+
+1. **48 surahs filtered** (verses > number)
+
+   - Probability: ~1 in 7.5 (13.3%)
+
+2. **Swap pattern exists** (given 48 filtered)
+
+   - Probability: ~1 in 10.8 (9.2%)
+
+3. **Exact 23/25 split** (given swap)
+   - Probability: ~1 in 5.4 (18.6%)
+
+**Overall Result:**
+
+- **All together: ~1 in 439 (0.23%)**
+- **Test**: 1,000,000 trials, 2,276 matches
+
+**Key Points:**
+
+- Order parity split (25 odd, 23 even) is fixed by which surahs pass filter
+- Randomness is in verse count assignments
+- Classifications are independent under permutation
+
+**Independence**: This pattern tests a filtered subset with different classification, independent from previous analyses.

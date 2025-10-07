@@ -33,10 +33,10 @@
 
 This pattern demonstrates:
 
-1. **Exact Bucket Totals**: Each of the four parity buckets hits its target counts (`27, 30, 30, 27`).
-2. **Same vs Mixed Symmetry**: Same-parity (`odd–odd + even–even`) and mixed-parity (`odd–even + even–odd`) totals both land on **57**.
+1. **Exact Bucket Totals**: Each of the four parity buckets hits counts of `27, 30, 30, 27`.
+2. **Same vs Mixed Symmetry**: Same-parity (`odd–odd + even–even`) and mixed-parity (`odd–even + even–odd`) totals both equal **57**.
 3. **Actual Verse Distribution**: The raw verse counts split **54 odd** vs **60 even**, matching the script output precisely.
-4. **Non-Trivial Structure**: The mirrored arrangement emerges from the data—it is not a definitional artifact.
+4. **Statistical Assessment**: When analyzed using hypergeometric distribution, the observed pattern matches statistical expectation with zero deviation (probability ~1 in 6.7, not statistically significant).
 
 ## Complete Lists
 

@@ -1,61 +1,63 @@
-# Man & Woman — Rule-Set **P23** (Token mode + minimal normalization)
+# Man & Woman — Perfect 26:26 Balance
 
-Base: **Tanzil Ḥafṣ/Uthmānī** via Quranic Arabic Corpus.
+**Data Source**: Tanzil Ḥafṣ/Uthmānī (canonical Quran text)
 
-## Rule / Filter
+## Pattern Description
 
-- Count **singular noun tokens** only:
+Count singular forms of "man" (rajul) and "woman" (imra'ah) throughout the Quran.
 
-  - **Man:** رَجُل / ٱلرَّجُل
-  - **Woman:** ٱمْرَأَة / ٱلْمَرْأَة
+**Counted Terms:**
 
-- Exclude plurals/duals and other gender terms.
-- **Minimal normalization (fixed, explicit):**
+- **Man**: رَجُل (rajul - singular masculine)
+- **Woman**: ٱمْرَأَة / ٱمْرَأَت (imra'ah - singular feminine)
 
-  1. **66:10** has two singular **im'ra-ata** tokens ("wife of Nūḥ" **and** "wife of Lūṭ") → **count once**.
-  2. **39:29** has **three** rajul tokens in one parable ("rajulan … wa-rajulan … li-rajulin") → **drop one** (the third role) to keep a single referent per side of the comparison.
+**Exclusions:**
 
-- Reading locked to **Ḥafṣ**.
-- Reference lemma spans on QAC: **rajul = 29** (lemma total), **imraʾah = 26** (lemma total).
+- Plural forms (rijal, nisa')
+- Dual forms
+- Other gender-related terms
 
-## Result
+## Results
 
-- **Raw counts:** 26 singular tokens each for **rajul** (man) and **imraʾah** (woman).
-- **Rule-Set P23 normalization:**
-  - 39:29 contains three `rajul` tokens in one parable → keep 2 (drop the extra comparison role).
-  - 66:10 names two faithless wives in a single illustrative verse → treat as one conceptual instance.
-- **Final normalized totals:** **Man = 25**, **Woman = 25** (target remains 23).
+**Total Occurrences:**
 
-## Why it's surprising
+- Man (rajul): **26 occurrences**
+- Woman (imra'ah): **26 occurrences**
+- **Perfect 26:26 balance**
 
-- **Perfect 25:25 balance** emerges after identical, transparent adjustments on both sides.
-- The adjustment is minimal (drop one overlapping concept per side) yet preserves linguistic fairness.
-- **Within ±2 of the chromosome target (23)**, keeping the biological parallel in view without forcing the data.
+**Distribution:**
 
-## Biological Significance
+- Found in 23 verses (man)
+- Found in 25 verses (woman)
 
-Human reproduction still frames the discussion:
+**Verses with Multiple Occurrences:**
 
-- **Haploid chromosome count = 23**; our normalized totals land at **25**, just two steps away.
-- The pattern keeps the **male/female contributions equal**, echoing how chromosomes pair (23 + 23 → 46).
-- Equality at **25 + 25 = 50** highlights symmetry without pretending to hit 23 exactly.
+- Man: 3 verses with 2 occurrences each (2:282, 39:29, 40:28)
+- Woman: 1 verse with 2 occurrences (66:10)
 
-## Analysis
+## Statistical Analysis
 
-This pattern demonstrates several remarkable features:
+**Probability of 26:26 Balance:**
 
-1. **Perfect Numerical Balance**: After normalization both lemmas land at **25:25**.
-2. **Linguistic Precision**: Counts are limited to singular noun tokens with clearly documented adjustments.
-3. **Biological Relevance**: Staying within ±2 of the chromosome benchmark (23) keeps the biological lens meaningful.
-4. **Transparent Methodology**: Every normalization step is explicit and reproducible in the verifier.
+- P = 0.1101 (using binomial distribution)
+- **~1 in 9.1 (11.01%)**
 
-## Methodology Notes
+**Interpretation:**
 
-- Uses transparent normalization rules to handle edge cases
-- Counts tokens rather than verses for precision
-- References verified against Quranic Arabic Corpus
-- Statistical modelling of the exact 23:23 hit is no longer claimed—the emphasis is on the reproducible 25:25 balance and its proximity to the chromosome motif.
+- Like flipping 52 coins and getting exactly 26 heads, 26 tails
+- Moderately interesting but not extremely rare
+- No adjustments or normalizations applied
+
+## Verification
+
+All counts are directly from the canonical text without modifications:
+
+- Counts all occurrences as they appear
+- No selective adjustments
+- Reproducible using provided script
+
+**Script**: `man_woman_honest_verification.py`
 
 ---
 
-_This pattern showcases a reproducible, tightly balanced gender symmetry in the Quranic text, while staying closely aligned with the biological chromosome motif._
+This pattern demonstrates a balanced gender representation in the Quran's use of singular forms for "man" and "woman."

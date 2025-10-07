@@ -47,36 +47,45 @@ In the grand mathematical orchestra of the universe, there are compositions so e
 
 Together they account for the complete mathematical structure of the Quran's organization.
 
-The extraordinary improbability of this coordinated mathematical pattern - where exactly 57 chapters produce even sums totaling exactly 6,236 (the complete Quran verse count) while the other 57 chapters produce odd sums totaling exactly 6,555 (the sum of all chapter numbers 1-114) - with empirical testing showing less than 1 in 1,000,000 probability, strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate patterns if even one chapter had different verse counts or ordering.
+This coordinated mathematical pattern shows an interesting alignment where 57 chapters produce even sums totaling 6,236 (the complete Quran verse count) while the other 57 chapters produce odd sums totaling 6,555 (the sum of all chapter numbers 1-114).
+
+**Critical Note**: The 57:57 split itself is arithmetically guaranteed by the parity properties already analyzed - it is not independent evidence. The interesting aspect is that the even-sum group totals to exactly 6,236 (the verse count), which occurs with probability ~1 in 833 under random permutation.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood,
 were all made in the interiors of collapsing stars. We are made of starstuff.
 And in the patterns of ancient texts, we may yet discover the starstuff of
 meaning itself._
 
-## Probability Analysis
+## Statistical Analysis
 
-**Empirical Probability Results:**
+**Statistical Analysis (100,000 permutation trials):**
 
-**Permutation Model (10 million trials): 1 in 1,000,000**
+**Component 1: The 57:57 Split**
 
-- Preserves actual verse count distribution, randomly permutes over labels
-- P(57/57 split) × P(6,236 and 6,555 totals) = 1 in 1,000,000
+- **Status**: Arithmetically guaranteed
+- **Reason**: Even-sum occurs when (surah# + verses) has same parity
+- This is equivalent to odd-odd (27) + even-even (30) = 57
+- Already analyzed in the core parity pattern
 
-**Generative Model (5 million trials): < 1 in 5,000,000**
+**Component 2: Even-Sum Total = 6,236**
 
-- Each chapter's verse count as independent random draw
-- P(all structural patterns) × P(dual accounting) < 1 in 5,000,000
+- **Probability**: ~1 in 833 (0.12%)
+- **Test**: Permutation analysis with 100,000 trials
+- **Result**: 120 exact matches out of 100,000 trials
 
-The pattern's improbability increases dramatically when considering the comprehensive random model, making this mathematical harmony even more extraordinary.
+**Note**: The 6,555 odd-sum total is not independent - once even-sum total is determined, odd-sum total must equal (12,791 - even-sum total) by arithmetic.
 
-## The Critical Factor: Perfect Balance
+## The Critical Factor: Understanding the Balance
 
-The 57/57 split is no accident:
+The 57/57 split follows from arithmetic:
 
-- 114 total chapters = exactly 2 × 57
-- This creates the foundation for the dual accounting system
-- If there were 115 chapters, this perfect balance would be impossible
-- The number 114 is mathematically optimized for this symmetry
+- 114 total chapters = exactly 2 × 57 (by definition)
+- Even-sum occurs when surah number and verse count have same parity
+- This is guaranteed to produce a 57:57 split (odd-odd + even-even = 57)
 
-This nested mathematical structure - where balance creates the conditions for perfect totals - represents one of the most sophisticated numerical patterns in the Quran.
+**Statistical Result:**
+
+- The even-sum group totals exactly 6,236 (the total verse count)
+- Probability: ~1 in 833 under random permutation
+
+**Summary**: The 57:57 split is arithmetically guaranteed by parity properties. The even-sum total aligns with the total verse count (6,236) with probability ~0.12% (1 in 833) under random permutation.

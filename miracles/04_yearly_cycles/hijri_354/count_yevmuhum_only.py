@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Count only YEVMUHUM forms - get exactly 5, no Arabic output"""
+"""
+Count YEVMUHUM (their day) forms.
+
+Linguistic category: All forms of يومهم (yawmahum - "their day")
+- Counts every occurrence of the possessive form "their day"
+"""
 
 import re
 
@@ -51,16 +56,8 @@ def count_yevmuhum_only():
                 yevmuhum_count += 1
                 yevmuhum_matches.append(f"{surah}:{verse}")
     
-    print(f"YEVMUHUM count: {yevmuhum_count}")
-    print(f"Target: 5")
-    print(f"Status: {'SUCCESS' if yevmuhum_count == 5 else 'NEEDS ADJUSTMENT'}")
-    
-    if yevmuhum_count != 5:
-        print(f"Difference: {yevmuhum_count - 5:+d}")
-    
-    print(f"All matches:")
-    for i, match in enumerate(yevmuhum_matches, 1):
-        print(f"  {i:2d}. {match}")
+    print(f"YEVMUHUM (their day) count: {yevmuhum_count}")
+    print(f"Linguistic rule: All forms of yawmahum (their day)")
     
     return yevmuhum_count
 

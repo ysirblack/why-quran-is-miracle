@@ -52,25 +52,37 @@ Each system produces specific alternating patterns across the 6 blocks.
 - **Prime-Homogeneous**: [11, 12, 11, 10, 11, 12] → O-E-O-E-O-E pattern
 - **Prime-Heterogeneous**: [8, 7, 8, 9, 8, 7] → consistent pattern
 
-The extraordinary improbability of this coordinated mathematical pattern - where 114 chapters divided into six blocks of 19, analyzed through three completely independent classification systems (parity grids, homogeneity measures, and prime classifications) all produce precise alternating patterns with empirical testing showing less than 1 in 1,000,000 to less than 1 in 5,000,000 probability - strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate multi-system patterns if even one chapter had different verse counts or ordering.
+This pattern shows coordination across multiple classification systems where 114 chapters divided into six blocks of 19 produce alternating patterns when analyzed through parity grids, homogeneity measures, and prime classifications.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
 
-## Probability Analysis
+## Statistical Analysis
 
-**Empirical Probability Results:**
+**Permutation Test (1,000,000 trials):**
 
-**Permutation Model (10 million trials): 1 in 1,000,000**
+**Key Insight: Pattern Independence**
 
-- Preserves actual verse count distribution, randomly permutes over labels
-- P(19-block structure) × P(alternating patterns) = 1 in 1,000,000
+- The 8 patterns are NOT all independent
+- 6 patterns (odd-odd, even-odd, odd-even, even-even, homogeneous, heterogeneous) are all derived from the same 2×2 parity grid
+- 2 patterns (prime-based) are independent from parity
 
-**Generative Model (5 million trials): < 1 in 5,000,000**
+**Individual Pattern Probabilities:**
 
-- Each chapter's verse count as independent random draw
-- P(114 chapters) × P(19-block structure) × P(all three pattern sets) < 1 in 5,000,000
+- Odd-Odd alternates: ~1 in 32 (3.1%)
+- Even-Odd alternates: ~1 in 32 (3.1%)
+- Odd-Even all even: ~1 in 64 (1.6%)
+- Even-Even all odd: ~1 in 63 (1.6%)
+- Homogeneous alternates: ~1 in 16 (6.2%)
+- Heterogeneous alternates: ~1 in 16 (6.2%)
+- Prime-Homo alternates: ~1 in 16 (6.3%)
 
-The pattern's improbability increases dramatically when considering multiple coordinated systems, making this six-block symphony truly extraordinary.
+**All Patterns Simultaneously:**
+
+- **Probability**: ~1 in 29,412 (0.0034%)
+- **Test**: 1,000,000 permutation trials, 34 exact matches
+- Requires all alternating patterns to occur together
+
+**Independence**: This pattern is independent from previous parity analyses because it tests patterns across blocks of surahs, not just individual surah properties.
 
 ## The Critical Factor: 19-Chapter Blocks
 

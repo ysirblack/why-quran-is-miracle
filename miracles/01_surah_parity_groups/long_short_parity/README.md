@@ -49,25 +49,37 @@ In the grand mathematical architecture of numbers, there are patterns so elegant
 
 This creates the elegant **27/30 ↔ 30/27** pattern where the numbers mirror each other across the length boundary.
 
-The extraordinary improbability of this coordinated mathematical pattern - where 57 long chapters show 27 odd-order and 30 even-order while 57 short chapters show exactly the reverse 30 odd-order and 27 even-order, with no chapters having exactly 39 verses creating the perfect boundary - with empirical testing showing less than 1 in 1,000,000 to less than 1 in 5,000,000 probability, strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate patterns if even one chapter had different verse counts or ordering.
+This pattern shows a coordinated relationship where 57 long chapters (>=40 verses) show 27 odd-order and 30 even-order while 57 short chapters show the reverse 30 odd-order and 27 even-order, with no chapters having exactly 39 verses creating a clean boundary.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
 
-## Probability Analysis
+## Statistical Analysis
 
-**Empirical Probability Results:**
+**Permutation Test (1,000,000 trials):**
 
-**Permutation Model (10 million trials): 1 in 1,000,000**
+**Component 1: 57/57 Split at Threshold=40**
 
-- Preserves actual verse count distribution, randomly permutes over labels
-- P(57/57 length split) × P(27/30 swap pattern) × P(clean 39-verse boundary) = 1 in 1,000,000
+- **Status**: Guaranteed by the data
+- The actual verse counts contain exactly 57 surahs >=40 and 57 <40
+- Probability: 1.0 (every permutation maintains this split)
 
-**Generative Model (5 million trials): < 1 in 5,000,000**
+**Component 2: 27/30 Swap Pattern**
 
-- Each chapter's verse count as independent random draw
-- P(all structural patterns) × P(boundary constraints) × P(mirror symmetry) < 1 in 5,000,000
+- **Probability**: ~1 in 7.9 (12.7%)
+- **Test**: 1,000,000 permutation trials, 127,319 matches
+- Given the 57/57 split, the parity distribution showing swap pattern
 
-The pattern's improbability increases dramatically when considering the comprehensive random model, and becomes even more extraordinary with the 39-verse boundary constraint, making this mathematical mirror truly remarkable.
+**Component 3: Threshold Significance**
+
+- Only 2 thresholds (39 and 40) out of 284 possible give both 57/57 split AND 27/30 swap
+- **Probability**: 2/284 = ~1 in 142 for a threshold to produce both patterns
+
+**Component 4: No 39-Verse Surahs**
+
+- **Status**: True (clean boundary exists)
+- **Probability**: ~0.67 (about 2 in 3 chance if verse counts were uniform)
+
+**Independence**: This pattern tests verse magnitude (>=40 vs <40), which is independent from the core parity pattern that tested verse parity (odd/even). This IS independent evidence.
 
 ## The Critical Factor: 39-Verse Boundary
 

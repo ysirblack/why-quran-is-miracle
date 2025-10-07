@@ -47,25 +47,42 @@ In the grand mathematical architecture of numbers, there are patterns so elegant
 
 This creates the elegant **23/25 ↔ 25/23** swap pattern where the numbers mirror each other perfectly.
 
-The extraordinary improbability of this coordinated mathematical pattern - where 48 chapters where verse count exceeds chapter number, classified by two completely independent methods both yield identical 23/25 distributions in perfect mirror symmetry with empirical testing showing less than 1 in 1,000,000 to less than 1 in 5,000,000 probability - strongly suggests intentional mathematical design rather than random statistical fluctuation, particularly when considering the 1400-year preservation of a text that would break these intricate patterns if even one chapter had different verse counts or ordering.
+This pattern shows coordination where 48 chapters with verse count exceeding chapter number can be classified by two different methods that both yield 23/25 distributions in mirror symmetry.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
 
-## Probability Analysis
+## Statistical Analysis
 
-**Empirical Probability Results:**
+**Permutation Test (1,000,000 trials):**
 
-**Permutation Model (10 million trials): 1 in 1,000,000**
+**Step-by-Step Breakdown:**
 
-- Preserves actual verse count distribution, randomly permutes over labels
-- P(48 qualifying chapters) × P(identical 23/25 distributions) = 1 in 1,000,000
+1. **Get exactly 48 filtered (verses > number)**
 
-**Generative Model (5 million trials): < 1 in 5,000,000**
+   - Probability: ~1 in 7.5 (13.3%)
+   - 133,044 matches in 1,000,000 trials
 
-- Each chapter's verse count as independent random draw
-- P(114 chapters) × P(48 qualify) × P(perfect 23/25 swap) < 1 in 5,000,000
+2. **Given 48 filtered, get swap pattern**
 
-The pattern's improbability increases dramatically when considering classification independence, making this mathematical mirror truly extraordinary.
+   - Probability: ~1 in 10.8 (9.2%)
+   - 12,265 matches of 133,044 with correct filter count
+
+3. **Given swap, get exactly 23/25**
+   - Probability: ~1 in 5.4 (18.6%)
+   - 2,276 matches of 12,265 with swap pattern
+
+**Overall Probability:**
+
+- **All conditions simultaneously: ~1 in 439 (0.23%)**
+- **Test**: 1,000,000 permutation trials, 2,276 exact matches
+
+**Key Insight:**
+
+- The "order parity" split (25 odd, 23 even) is FIXED once we know which 48 surahs pass the filter
+- The randomness is in which verse counts get assigned to which surah positions
+- The two classifications are independent when verse counts are permuted
+
+**Independence**: This pattern is independent from previous parity analyses because it tests a filtered subset (verses > number) with a different classification system.
 
 ## The Critical Factor: Verses > Chapter Number
 

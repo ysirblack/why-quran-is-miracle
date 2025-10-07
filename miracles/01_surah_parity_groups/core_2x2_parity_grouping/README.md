@@ -54,17 +54,17 @@ But there's an even deeper layer: the 57/57 split itself is a perfect symmetry -
 
 We humans have always sought patterns in the cosmos - in galaxies, elements, and genetic code. Here, in this ancient arrangement, we find such nested order.
 
-**Empirical Probability Results:**
+**Statistical Analysis (Hypergeometric Distribution):**
 
-**Permutation Model (10 million trials): 1 in 1,000,000**
+Using the correct statistical model for finite populations:
 
-- Preserves actual verse count distribution, randomly permutes over labels
-- P(27/30 grid pattern) × P(57/57 parity foundation) = 1 in 1,000,000
+- **Observed pattern**: 27/30/30/27 distribution
+- **Expected under random chance**: 27.0/30.0/30.0/27.0
+- **Deviation from expected**: 0.0 (perfect match!)
+- **Probability**: Approximately 1 in 6.7 (14.9%)
+- **p-value**: 1.000 (not statistically significant)
 
-**Generative Model (5 million trials): < 1 in 5,000,000**
-
-- Each chapter's verse count as independent random draw
-- P(all parity patterns) × P(structural foundations) < 1 in 5,000,000
+**Interpretation**: This pattern is **exactly what we would expect from random chance** when properly analyzed using hypergeometric distribution. The observed values match the statistical expectation with zero deviation.
 
 **The Critical Factor: 114 Chapters**
 The number 114 is mathematically perfect for this pattern:
@@ -74,8 +74,10 @@ The number 114 is mathematically perfect for this pattern:
 - This would break the symmetry foundation that enables the 27/30 verse pattern
 - The specific number 114 creates the perfect conditions for nested symmetry
 
-Yet here it is, preserved across centuries, inviting us to ponder whether we witness divine intelligence or beautiful mathematics.
+Yet here it is, preserved across centuries - a pattern that, while not statistically anomalous, demonstrates elegant mathematical symmetry in its structure.
 
-These patterns do not demand belief, but they inspire wonder. In the search for meaning, whether in stars or verses, we are all explorers in the same grand adventure.
+**Honest Assessment**: While the 27/30/30/27 pattern is aesthetically pleasing and shows perfect nested symmetry, it is consistent with random chance when analyzed using proper statistical methods. This pattern alone does not provide evidence of intentional design beyond natural probability.
+
+These observations invite careful analysis rather than hasty conclusions. In the search for meaning, whether in stars or verses, we must balance wonder with rigorous methodology.
 
 _The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may discover the starstuff of meaning itself._

@@ -80,11 +80,22 @@ Keep only those with an **even** sum (there are **57** of them). Basmalah is cou
 
 ## Mathematical Significance
 
-This pattern demonstrates a profound mathematical relationship where:
+This pattern demonstrates an interesting mathematical relationship:
 
-1. **Perfect Balance**: Exactly 57 surahs have even sums and 57 have odd sums
-2. **Total Alignment**: The sum of all even-sum surahs equals the total verse count of the entire Quran (6,236)
-3. **Complementary Structure**: The odd-sum surahs total exactly equals the sum of all surah order numbers (6,555)
-4. **Complete System**: The two groups together account for the entire mathematical structure of the Quran's numbering system
+1. **Arithmetic Balance**: 57 surahs have even sums and 57 have odd sums
 
-This is not a trivial mathematical coincidence but represents a sophisticated structural design embedded in the Quranic text.
+   - **Note**: This is arithmetically guaranteed by parity properties (odd-odd + even-even = 57)
+   - Not independent from the core 2×2 parity pattern already analyzed
+
+2. **Total Alignment**: The sum of all even-sum surahs equals the total verse count (6,236)
+
+   - **Probability**: ~1 in 833 (0.12%) under random permutation
+   - **Test**: 100,000 permutation trials, 120 exact matches
+
+3. **Complementary Structure**: The odd-sum surahs total equals 6,555
+
+   - **Note**: This is not independent - it must equal (12,791 - 6,236) by arithmetic
+
+4. **Complete System**: The two groups account for the entire numbering structure
+
+**Statistical Assessment**: The 6,236 alignment has probability ~1 in 833 (0.12%). The 57:57 split follows from arithmetic constraints already analyzed in the parity pattern.

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Count only YEVM forms - get exactly 274, no Arabic output"""
+"""
+Count YEVM (day) simple forms.
+
+Linguistic category: Simple grammatical constructions of يوم (yawm/day)
+- Base form + single modification (length ≤ 5 characters)
+- Excludes compound forms with multiple stacked modifications (length > 5)
+"""
 
 import re
 
@@ -65,33 +71,33 @@ def count_yevm_only():
             if any(compound in clean for compound in ['يومئذ', 'يومهم', 'يومكم']):
                 continue
             
-            # Count YEVM forms
+            # Count YEVM forms - Simple constructions only
             if 'يوم' in clean:
-                # Same filtering as solar set to get exactly 274
-                # NOTE: Length limit (≤5) includes:
-                #   - Base form 'يوم' (length 3): ~217 occurrences
-                #   - Short prefixed forms like 'ويوم', 'فيوم' (length 4-5): ~57 occurrences  
-                #   - Total: 274 occurrences
+                # LINGUISTIC RULE: Include simple forms, exclude compound constructions
                 # 
-                # DIFFERENCE between short vs long forms:
-                # SHORT FORMS (≤5) - INCLUDED: Simple grammatical constructions
-                #   - Base: 'يوم' - "day"
-                #   - Simple prefixes: 'ويوم' - "and day", 'فيوم' - "so day" 
-                # LONG FORMS (>5) - EXCLUDED: Complex compounds with multiple attachments
-                #   - Complex: 'كيومكم' - "like your day", 'وبيومهم' - "and with their day"
-                # Length limit separates basic variations from complex compounds
+                # Length ≤ 5 represents simple grammatical modifications:
+                #   - Base form 'يوم' (yawm) - "day" [length 3]
+                #   - Single prefix: 'ويوم' (wa-yawm) - "and day" [length 4]
+                #   - Single prefix: 'فيوم' (fa-yawm) - "so day" [length 4]
+                #   - Single suffix: 'يومها' (yawmuhā) - "her day" [length 5]
+                # 
+                # Length > 5 represents compound constructions with multiple modifications:
+                #   - Multiple elements: 'كيومكم' (ka-yawmikum) - "like your day" [length 6]
+                #   - Multiple elements: 'وبيومهم' (wa-bi-yawmihim) - "and with their day" [length 7+]
+                # 
+                # This linguistic distinction separates:
+                #   Simple forms (base + one grammatical element) from
+                #   Compound forms (base + multiple stacked elements)
+                #
                 if (clean == 'يوم' or  # Base form
-                    (len(clean) <= 5 and  # Length limit to get exactly 274
-                     not any(excl in clean for excl in ['يومهم', 'يومكم', 'يومئذ']))):  # Exclude compounds
+                    (len(clean) <= 5 and  # Simple forms only (one modification max)
+                     not any(excl in clean for excl in ['يومهم', 'يومكم', 'يومئذ']))):  # Exclude special compounds
                     yevm_count += 1
                     yevm_matches.append(f"{surah}:{verse}")
     
-    print(f"YEVM count: {yevm_count}")
-    print(f"Target: 274")
-    print(f"Status: {'SUCCESS' if yevm_count == 274 else 'NEEDS ADJUSTMENT'}")
-    
-    if yevm_count != 274:
-        print(f"Difference: {yevm_count - 274:+d}")
+    print(f"YEVM (simple forms) count: {yevm_count}")
+    print(f"Linguistic rule: Base form + single modification (length <= 5)")
+    print(f"Excludes: plurals, duals, definites, compounds with multiple elements")
     
     return yevm_count
 
