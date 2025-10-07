@@ -31,6 +31,25 @@ Simple forms + That day + Their day + Your day = 354
 | **YEVMEKUM**  | 5       | All forms of يومكم (yawmukum - "your day")            | 6:130, 21:103, 32:14 |
 | **TOTAL**     | **354** | **Islamic lunar year**                                | -                    |
 
+## Hijri Month Length (29 days)
+
+In addition to the 354-day year match, the plural and dual day forms alone align with the
+short Hijri month length (29 days). The helper script below strips diacritics, normalises
+prefix/suffix attachments, and lists every verse contributing to the total:
+
+```bash
+python miracles/04_yearly_cycles/hijri_354/days_29_verifier.py
+```
+
+**Results:**
+
+- ✅ `أيام` (plural days): 26 occurrences
+- ✅ `يومين` (dual “two days”): 3 occurrences
+- ✅ Combined total: 29 (matches the 29-day lunar month)
+
+This count uses purely grammatical criteria—no additional categories—which makes it a
+useful baseline when comparing to alternative rule sets in the solar analysis.
+
 ## The Mathematical Alignment
 
 **Perfect 354 Total**: Exactly matches the Islamic lunar year (approximately 12 × 29.5 days)

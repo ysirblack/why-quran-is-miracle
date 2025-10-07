@@ -36,6 +36,7 @@ Four distinct grammatical categories of the Arabic word "day" (يوم) total exa
 - `count_yevmeizin_only.py` - "That day" forms (70)
 - `count_yevmuhum_only.py` - "Their day" forms (5)
 - `count_yevmekum_only.py` - "Your day" forms (5)
+- `days_29_verifier.py` - Plural + dual forms (26 + 3 = 29)
 
 ## Linguistic Analysis
 

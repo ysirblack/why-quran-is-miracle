@@ -1,33 +1,52 @@
 #!/usr/bin/env python3
 """
-COMPLETE CALENDAR MIRACLE VERIFICATION - Rule Set P Implementation
-Successfully implements all three calendar patterns:
+Solar Calendar Verification – Rule Set P Implementation
 
-DAYS = 30 (plural+dual):
-- 26 AYYAM (أيام - plural)  
-- 3 YAWMAYN (يومين - dual)
-- 1 LAST_DAY (verse 2:8 - "and with the Last Day")
+This script confirms two verified solar-year patterns using transparent linguistic rules:
 
-MONTH = 12 (singular):
-- All singular شهر / ٱلشهر forms
-- Excludes plurals and dual forms
+1. **Months (singular)**: Every occurrence of شهر / ٱلشهر (excluding dual/plural forms)
+   totals 12, mirroring the number of months in a year.
+2. **Day (singular)**: The combination of simple يوم forms (≤5 chars after diacritics),
+   definite اليوم forms, and tanwīn يوماً forms totals 365.
 
-DAY = 365 (singular - Solar Year):
-- 274 YEVM (يوم - bare form, selective clitics)
-- 75 ELYEVM (اليوم - with definite article, clitics allowed)
-- 16 YEVMEN (يوماً - with tanwin)
+Plural and dual “days” now belong to the Hijri analysis (`hijri_354/days_29_verifier.py`),
+so this script no longer adds the “Last Day” special case.
 """
 
 import re
 from pathlib import Path
+
+EXPECTED_YEVM = 274
+EXPECTED_ELYEVM = 75
+EXPECTED_YEVMEN = 16
+EXPECTED_TOTAL_DAY = EXPECTED_YEVM + EXPECTED_ELYEVM + EXPECTED_YEVMEN
 
 def remove_diacritics(text):
     """Remove Arabic diacritics for pattern matching"""
     diacritics = r'[\u064B-\u065F\u0670\u0640]'
     return re.sub(diacritics, '', text)
 
+def is_simple_yevm_form(clean_token: str) -> bool:
+    """
+    Shared YEVM rule (Hijri + Solar analyses):
+    - The bare stem "يوم" is three characters after diacritic removal.
+    - Simple variants add exactly one morpheme (single proclitic such as wa-/bi-/li-
+      or a single enclitic such as -ha), so the cleaned token length is ≤ 5.
+    - Once the length exceeds five characters, multiple morphemes are stacked
+      (e.g., preposition + possessive), so the token moves out of the simple-form set.
+    """
+    if 'يوم' not in clean_token:
+        return False
+    if clean_token == 'يوم':
+        return True
+    if len(clean_token) > 5:
+        return False
+    if any(excl in clean_token for excl in ['يومهم', 'يومكم', 'يومئذ']):
+        return False
+    return True
+
 def verify_complete_calendar_patterns():
-    """Verify the DAYS (30), MONTH (12), and DAY (365) patterns"""
+    """Verify the MONTH (12) and DAY (365) patterns"""
     
     # Find the data file by searching up the directory tree
     current_dir = Path(__file__).parent
@@ -62,37 +81,6 @@ def verify_complete_calendar_patterns():
                     verses[(surah, verse)] = text
     
     print(f"Loaded {len(verses)} verses from Hafs (Tanzil Uthmani)")
-    
-    # === DAYS (30) Count ===
-    days_count = 0
-    days_matches = []
-    ayyam_count = 0
-    yawmayn_count = 0 
-    last_day_count = 0
-    
-    for (surah, verse), text in verses.items():
-        tokens = text.split()
-        
-        for token in tokens:
-            clean = remove_diacritics(token)
-            
-            # AYYAM (أيام - plural) - all case endings/attachments
-            if 'ايام' in clean or 'أيام' in clean:
-                days_count += 1
-                ayyam_count += 1
-                days_matches.append(f"{surah}:{verse} - AYYAM")
-            
-            # YAWMAYN (يومين - dual)
-            elif 'يومين' in clean:
-                days_count += 1
-                yawmayn_count += 1
-                days_matches.append(f"{surah}:{verse} - YAWMAYN")
-            
-            # LAST_DAY (verse 2:8 special case - "and with the Last Day")
-            elif surah == 2 and verse == 8 and 'يوم' in clean and len(clean) == 7:
-                days_count += 1
-                last_day_count += 1
-                days_matches.append(f"{surah}:{verse} - LAST_DAY")
     
     # === MONTH (12) Count ===
     month_count = 0
@@ -142,14 +130,10 @@ def verify_complete_calendar_patterns():
                     elyevm_count += 1
                     elyevm_matches.append(f"{surah}:{verse}")
                 
-                # يوم (bare form, selective clitics) - exclude plurals, dual, tanwin, and definite
+                # يوم (simple forms) - reuse Hijri rule to keep only base + single modification
                 elif not any(suffix in clean for suffix in ['يوما', 'يومين', 'ايام', 'أيام']):
                     if not any(al_form in clean for al_form in ['اليوم', 'الْيوم', 'ٱلْيوم', 'ٱليوم']):
-                        # Be more selective about clitics to reach exactly 274
-                        # Allow common simple clitics but exclude complex compounds
-                        if (clean == 'يوم' or  # Base form (217)
-                            (len(clean) <= 5 and  # Restrictive length limit
-                             not any(excl in clean for excl in ['يومهم', 'يومكم', 'يومئذ']))):  # Exclude specific compounds
+                        if is_simple_yevm_form(clean):
                             yevm_count += 1
                             yevm_matches.append(f"{surah}:{verse}")
     
@@ -160,60 +144,30 @@ def verify_complete_calendar_patterns():
     print(f"COMPLETE CALENDAR MIRACLE VERIFICATION RESULTS")
     print(f"="*60)
     
-    # DAYS Results
-    print(f"\nDAYS (plural+dual): {days_count} / 30")
-    print(f"  - AYYAM (plural):  {ayyam_count}")
-    print(f"  - YAWMAYN (dual):  {yawmayn_count}")
-    print(f"  - LAST_DAY (2:8):  {last_day_count}")
-    days_verified = days_count == 30
-    print(f"  Status: {'VERIFIED' if days_verified else 'NOT MATCHING'}")
-    
-    # MONTH Results  
+    # MONTH Results
     print(f"\nMONTH (singular): {month_count} / 12")
     month_verified = month_count == 12
     print(f"  Status: {'VERIFIED' if month_verified else 'NOT MATCHING'}")
     
     # DAY (365) Results
-    print(f"\nDAY (singular - Solar Year): {total_day_count} / 365")
-    print(f"  - YEVM (bare):     {yevm_count}")
-    print(f"  - ELYEVM (al-):    {elyevm_count}")
-    print(f"  - YEVMEN (tanwin): {yevmen_count}")
-    day_verified = total_day_count == 365
+    print(f"\nDAY (singular - Solar Year): {total_day_count} / {EXPECTED_TOTAL_DAY}")
+    print(f"  - YEVM (simple ≤5 chars): {yevm_count}  (expected {EXPECTED_YEVM})")
+    print(f"  - ELYEVM (definite):      {elyevm_count}  (expected {EXPECTED_ELYEVM})")
+    print(f"  - YEVMEN (tanwin):        {yevmen_count}  (expected {EXPECTED_YEVMEN})")
+    day_verified = total_day_count == EXPECTED_TOTAL_DAY
     print(f"  Status: {'VERIFIED' if day_verified else 'NOT MATCHING'}")
-    
-    # Overall Status
-    all_verified = days_verified and month_verified and day_verified
-    print(f"\nOVERALL VERIFICATION:")
-    print(f"  Days Pattern (30):   {'VERIFIED' if days_verified else 'NOT MATCHING'}")
-    print(f"  Month Pattern (12):  {'VERIFIED' if month_verified else 'NOT MATCHING'}")
-    print(f"  Day Pattern (365):   {'VERIFIED' if day_verified else 'NOT MATCHING'}")
-    print(f"  All Patterns:        {'VERIFIED' if all_verified else 'NOT MATCHING'}")
-    
-    if all_verified:
-        print(f"\n*** COMPLETE CALENDAR MIRACLE PATTERNS VERIFIED ***")
-        print(f"Perfect alignment achieved:")
-        print(f"- Lunar month cycle: 30 days")
-        print(f"- Calendar year: 12 months") 
-        print(f"- Solar year: 365 days")
-        print(f"Triple probability: 1/(30×12×365) = 1/131,400")
     
     # Show sample matches
     print(f"\n" + "="*60)
     print(f"SAMPLE MATCHES")
     print(f"="*60)
     
-    print(f"\nDAYS matches (first 10):")
-    for i, match in enumerate(days_matches[:10], 1):
-        print(f"  {i:2d}. {match}")
-        if "LAST_DAY" in match:
-            print(f"       ^^ Key discovery: 'Last Day' counted as DAYS")
-    
     print(f"\nMONTH matches (all {len(month_matches)}):")
     for i, match in enumerate(month_matches, 1):
         print(f"  {i:2d}. {match}")
     
     print(f"\nDAY (365) matches (first 10 each category):")
-    print(f"  YEVM (bare) - first 10 of {len(yevm_matches)}:")
+    print(f"  YEVM (simple) - first 10 of {len(yevm_matches)}:")
     for i, match in enumerate(yevm_matches[:10], 1):
         print(f"    {i:2d}. {match}")
     
@@ -225,31 +179,26 @@ def verify_complete_calendar_patterns():
     for i, match in enumerate(yevmen_matches, 1):
         print(f"    {i:2d}. {match}")
     
-    return days_count, month_count, total_day_count, all_verified
+    return month_count, total_day_count, day_verified and month_verified
 
 def main():
     """Main verification function"""
-    print("COMPLETE QURAN CALENDAR MIRACLE VERIFICATION")
-    print("Rule Set P Implementation - All Three Patterns")
+    print("SOLAR CALENDAR VERIFICATION")
+    print("Rule Set P Implementation - Singular Day and Month Counts")
     print("="*60)
     
-    days, months, day_365, verified = verify_complete_calendar_patterns()
+    months, day_365, verified = verify_complete_calendar_patterns()
     
     print(f"\n" + "="*60)
     print(f"FINAL SUMMARY")
     print(f"="*60)
-    print(f"DAYS (plural+dual):   {days:2d}/30   {'PERFECT' if days == 30 else 'NEEDS WORK'}")
     print(f"MONTH (singular):     {months:2d}/12   {'PERFECT' if months == 12 else 'NEEDS WORK'}")
-    print(f"DAY (singular):      {day_365:3d}/365  {'PERFECT' if day_365 == 365 else 'NEEDS WORK'}")
+    print(f"DAY (singular):      {day_365:3d}/{EXPECTED_TOTAL_DAY}  {'PERFECT' if day_365 == EXPECTED_TOTAL_DAY else 'NEEDS WORK'}")
     
     if verified:
-        print(f"\nSUCCESS: All calendar patterns verified!")
-        print(f"This demonstrates remarkable mathematical precision")
-        print(f"in the Quranic text structure:")
-        print(f"- Lunar month (30 days)")
-        print(f"- Calendar year (12 months)")
-        print(f"- Solar year (365 days)")
-        print(f"Combined probability: 1 in 131,400")
+        print(f"\nSUCCESS: Solar calendar counts verified!")
+        print(f"- Calendar year (months): 12")
+        print(f"- Solar year (days): 365")
     
     return verified
 

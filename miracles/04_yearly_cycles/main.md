@@ -16,10 +16,10 @@ This analysis examines how different filtering approaches applied to the same ro
 
 ## Results Summary
 
-| Calendar Type  | Target   | Result         | Probability       |
-| -------------- | -------- | -------------- | ----------------- |
-| **Solar Year** | 365 days | **365 tokens** | ~1 in 406 (0.25%) |
-| **Hijri Year** | 354 days | **354 tokens** | ~1 in 406 (0.25%) |
+| Calendar Type  | Target   | Result         |
+| -------------- | -------- | -------------- |
+| **Solar Year** | 365 days | **365 tokens** |
+| **Hijri Year** | 354 days | **354 tokens** |
 
 ## Significance
 
@@ -27,7 +27,8 @@ This pattern demonstrates:
 
 1. **Dual Calendar Alignment**: Same root yields both solar and lunar calendar constants
 2. **Morphological Precision**: Different grammatical forms naturally separate into calendar-relevant counts
-3. **Statistical Rarity**: Both results have similar low probability (~0.25% each)
+3. **Statistical Rarity**: A probability helper explores how unlikely these counts are
+   under simple random subset models
 4. **Complementary Design**: Solar and lunar calendars both embedded in the same linguistic system
 
 ## Detailed Analysis
@@ -35,17 +36,18 @@ This pattern demonstrates:
 - [**Solar Year (365)**](solar_365/) - Analysis of forms yielding 365 total
 - [**Hijri Year (354)**](hijri_354/) - Analysis of forms yielding 354 total
 
-## Joint Probability
+## Probability Exploration
 
-The probability of achieving both exact matches simultaneously from the same root, using reasonable morphological boundaries:
+An optional probability helper (`combined_probability_analysis.py`) estimates how unlikely
+the key counts would be under simple random subset models:
 
-- Individual probabilities: ~0.25% each
-- Joint probability (assuming independence): ~0.25% × 0.25% = **0.000625%** (≈ 1 in 160,000)
+- Solar 365-day composition (Rule Set P)
+- Hijri 354-day composition (component rule set)
+- Lunar month 29 (plural + dual forms)
+- Calendar months 12 (singular `شهر`)
 
-However, the internal compositional probabilities (specific breakdowns within each set) are much lower:
-
-- Solar set composition: ~1.49 × 10⁻⁵ %
-- Hijri set composition: ~1.49 × 10⁻⁷ %
+All figures depend entirely on the chosen null model, so the script prints both the
+assumptions and the resulting probabilities for transparency.
 
 ## Methodology Notes
 
