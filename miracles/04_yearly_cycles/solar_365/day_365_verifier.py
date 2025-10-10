@@ -6,7 +6,7 @@ Verifies the three singular-day categories counted across the text:
 - YEVMEN (يوماً): tanwin form (extended duration nuance)
 - ELYEVM (اليوم): definite article forms, clitics allowed
 - YEVM (يوم): simple forms using the same base + single-modification rule
-              as the Hijri 354 analysis (diacritic-free length ≤ 5)
+              as the Hijri 354 analysis (diacritic-free length <= 5)
 """
 
 import re
@@ -81,7 +81,7 @@ def verify_day_365_pattern():
     print(f"Loaded {len(verses)} verses from Hafs (Tanzil Uthmani)")
     
     # === DAY (365) Count ===
-    yevm_count = 0      # يوم - simple form (≤5 chars after cleaning)
+    yevm_count = 0      # يوم - simple form (<=5 chars after cleaning)
     elyevm_count = 0    # اليوم - with definite article
     yevmen_count = 0    # يومًا - with tanwin
     
@@ -126,7 +126,7 @@ def verify_day_365_pattern():
     print(f"="*60)
     
     print(f"\nBreakdown:")
-    print(f"  - YEVM (simple ≤5 chars): {yevm_count:3d}  (expected {EXPECTED_YEVM})")
+    print(f"  - YEVM (simple <=5 chars): {yevm_count:3d}  (expected {EXPECTED_YEVM})")
     print(f"  - ELYEVM (definite):      {elyevm_count:3d}  (expected {EXPECTED_ELYEVM})")
     print(f"  - YEVMEN (tanwin):        {yevmen_count:3d}  (expected {EXPECTED_YEVMEN})")
     print(f"  TOTAL:                    {total_day_count:3d}  (expected {EXPECTED_TOTAL})")
@@ -178,7 +178,7 @@ def main():
     print(f"TOTAL DAY:         {total:3d}/{EXPECTED_TOTAL}  {'PERFECT' if total == EXPECTED_TOTAL else 'NEEDS WORK'}")
     
     if total == 365:
-        print(f"\n🎉 SUCCESS: Solar year pattern verified!")
+        print(f"\n[+] SUCCESS: Solar year pattern verified!")
         print(f"   365-day solar calendar embedded in Quranic structure.")
     
     return total == 365

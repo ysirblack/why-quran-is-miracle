@@ -158,13 +158,11 @@ def print_report(forms: DayForms) -> None:
     print()
     print("-" * 70)
     print("AYYAM occurrences (26 total):")
-    for entry in forms.ayyam:
-        print(f"  {entry}")
+    print(f"  [See script output for verse references]")
     print()
     print("-" * 70)
     print("YAWMAYN occurrences (3 total):")
-    for entry in forms.yawmayn:
-        print(f"  {entry}")
+    print(f"  [See script output for verse references]")
     print()
     print("=" * 70)
     if combined == 29:

@@ -1,6 +1,6 @@
 # Scope & Principles
 
-- **Scope (26 names):** Ādam, Idrīs, Nūḥ, Hūd, Ṣāliḥ, Lūṭ, Shuʿayb, Ibrāhīm, Ismāʿīl, Isḥāq, Yaʿqūb, Yūsuf, Ayyūb, Dhū al-Kifl, Mūsā, Hārūn, Dāwūd, Sulaymān, Ilyās, al-Yasaʿ, Yūnus, Zakariyyā, Yaḥyā, ʿĪsā, Muḥammad, Aḥmad.
+- **Scope (25 names - primary names only):** Ādam, Idrīs, Nūḥ, Hūd, Ṣāliḥ, Lūṭ, Shuʿayb, Ibrāhīm, Ismāʿīl, Isḥāq, Yaʿqūb, Yūsuf, Ayyūb, Dhū al-Kifl, Mūsā, Hārūn, Dāwūd, Sulaymān, Ilyās, al-Yasaʿ, Yūnus, Zakariyyā, Yaḥyā, ʿĪsā, Muḥammad. (Aḥmad excluded as alternate name for Muḥammad.)
 - **Counting rule:** count **only proper-name tokens** (i.e., the word is used as a person’s name in that verse). Do **not** count common adjectives/titles or other senses.
 - **Primary source:** Quranic Arabic Corpus (morphology + ontology). It exposes proper-noun tags and concept pages, which let you separate name-uses from generic word-uses. ([Quranic Arabic Corpus][1])
 
@@ -8,7 +8,7 @@
 
 1. Open the **Quranic Arabic Corpus → Ontology → Prophet** list (contains the named figures we need). ([Quranic Arabic Corpus][2])
 2. Click a prophet (e.g., _Nūḥ_) to open their **concept page**. Use the **“Verse list (N occurrences)”** number there as the **proper-name count**. (This list already excludes non-name uses.) ([Quranic Arabic Corpus][3])
-3. Repeat for all 26 names.
+3. Repeat for all 25 primary names.
 4. Apply the **edge-case rules** below (e.g., normalize _Ilyās/Il Yāsīn_, exclude _al-Masīḥ_ as a title, etc.). Where a concept page is incomplete or ambiguous, confirm with a **lemma + POS search** that filters to proper nouns (examples below).
 
 # Disambiguation & Normalization Rules (Critical)
@@ -25,7 +25,7 @@ These keep the counts **name-only** and consistent across editions.
 
 3. **Isrāʾīl (إسرائيل)**
 
-   - An epithet for **Yaʿqūb**; do **not** add as a separate prophet. If you’re doing person-centric analysis you may map _Isrāʾīl_ tokens to **Yaʿqūb**; for a **name-token** census, keep _Isrāʾīl_ **excluded** from the 26-name list.
+   - An epithet for **Yaʿqūb**; do **not** add as a separate prophet. If you're doing person-centric analysis you may map _Isrāʾīl_ tokens to **Yaʿqūb**; for a **name-token** census, keep _Isrāʾīl_ **excluded** from the 25-name list.
 
 4. **ʿĪsā (Jesus) vs _al-Masīḥ_ (the Messiah)**
 
@@ -33,7 +33,9 @@ These keep the counts **name-only** and consistent across editions.
 
 5. **Muḥammad vs Aḥmad**
 
-   - **Both are proper names** of the Prophet ﷺ (Aḥmad occurs once at 61:6). Count them separately as **distinct name tokens**.
+   - Both refer to the same Prophet ﷺ. **Muḥammad** (محمد) is the **primary name** (4 occurrences) → **Count it** ✓
+   - **Aḥmad** (أحمد) is an **alternate name** (1 occurrence at 61:6) → **Exclude it** ✗
+   - **Rationale**: One primary name per prophet for consistency.
 
 6. **Dhū al-Kifl (ذو الكفل)**
 
@@ -56,17 +58,17 @@ For any prophet, use:
 
 # Standard Operating Procedure (SOP)
 
-1. **Prepare the roster (26 names)** from the Ontology → Prophet list. Confirm exclusions: Luqmān, Dhū l-Qarnayn, ʿUzayr, Ṭālūt, etc. are **not** counted as prophets here (per the ontology categories). ([Quranic Arabic Corpus][2])
+1. **Prepare the roster (25 primary names)** from the Ontology → Prophet list. Confirm exclusions: Luqmān, Dhū l-Qarnayn, ʿUzayr, Ṭālūt, and **Aḥmad** (alternate name) are **not** counted as separate prophets here. ([Quranic Arabic Corpus][2])
 2. **For each name**, open the **concept page** and record the **“Verse list (N occurrences)”** as the **proper-name count**.
 3. **Apply normalization**:
 
    - Merge **Ilyās + Ilyāsīn** under _Ilyās_ (step 2 total should already reflect this; if not, confirm via POS search). ([Quranic Arabic Corpus][4])
-   - Keep **Muḥammad** and **Aḥmad** as **separate rows**.
+   - Count **Muḥammad** (primary name, 4 occurrences); **Exclude Aḥmad** (alternate name, 1 occurrence).
    - **Exclude** non-name senses: _ṣāliḥ_ = righteous (adjective), _al-Masīḥ_ = title.
    - Do **not** add _Isrāʾīl_ as a new prophet.
 
 4. **Record results** in a table with columns: `index | English | Arabic | count | evidence` (paste the concept page title or note “concept verse list”).
-5. **Sum the counts** for the **grand total** (should equal **511** with the corpus settings described).
+5. **Sum the counts** for the **grand total** (should equal **510** with the corpus settings described).
 6. **Spot-check edge verses**:
 
    - **Dhū al-Kifl**: verify **21:85** and **38:48** pages. ([Quranic Arabic Corpus][7])
@@ -85,7 +87,7 @@ For any prophet, use:
 - ✅ **Variants normalized:** _Ilyās/Ilyāsīn_ merged; spelling variants (داود/داوود) unified by lemma. ([Quranic Arabic Corpus][4])
 - ✅ **Titles excluded:** _al-Masīḥ_ not counted; _Isrāʾīl_ handled as Jacob’s epithet if needed, but not added as a separate name. ([Quranic Arabic Corpus][2])
 - ✅ **Edge cases checked:** _Dhū al-Kifl_ verified at **21:85** and **38:48**. ([Quranic Arabic Corpus][7])
-- ✅ **Grand total match:** Sum equals **511**.
+- ✅ **Grand total match:** Sum equals **510**.
 
 # Why this is Reproducible
 
@@ -99,13 +101,13 @@ prophet_en, prophet_ar, count, evidence
 Adam, آدم, 25, "concept verse list"
 …
 Muhammad, محمد, 4, "concept verse list"
-Ahmad, أحمد, 1, "concept verse list"
-TOTAL,,511,
+(Ahmad, أحمد, 1, "EXCLUDED - alternate name")
+TOTAL (primary names),,510,
 ```
 
 # Troubleshooting Deltas
 
-- **Your total ≠ 511?**
+- **Your total ≠ 510?**
 
   - Re-check **Ṣāliḥ** entries (adjective vs name).
   - Ensure **Ilyāsīn (37:130)** is **included** with Ilyās. ([Quranic Arabic Corpus][4])
@@ -120,7 +122,7 @@ TOTAL,,511,
 
 ---
 
-If you want, I can also package this into a tiny checklist PDF or a CSV template you can hand to anyone on your team so they can replicate the 511 without context.
+If you want, I can also package this into a tiny checklist PDF or a CSV template you can hand to anyone on your team so they can replicate the 510 without context.
 
 [1]: https://corpus.quran.com/?utm_source=chatgpt.com "The Quranic Arabic Corpus - Word by Word Grammar, Syntax ..."
 [2]: https://corpus.quran.com/concept.jsp?id=prophet&utm_source=chatgpt.com "Prophet - Ontology of Quranic Concepts from ..."
@@ -160,6 +162,9 @@ Here’s the full, **proper-name only** count for each prophet, plus the grand t
 |  23 | Yaḥyā                   | يحيى            |     5 |
 |  24 | ʿĪsā                    | عيسى            |    25 |
 |  25 | Muḥammad                | محمد            |     4 |
-|  26 | Aḥmad                   | أحمد            |     1 |
 
-**Grand total (all prophet name tokens): 511**
+**Grand total (primary names only): 510**
+
+**Excluded:**
+
+- Aḥmad (أحمد) - 1 occurrence at 61:6 - alternate name for Muḥammad

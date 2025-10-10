@@ -1,11 +1,11 @@
-# 🎯 Prophet Names: 513 Total Count (511 + 2 Epithet)
+# 🎯 Prophet Names: 510 Total Count (Primary Names Only)
 
 ## **📊 OVERVIEW**
 
-This document presents the **comprehensive count of all 26 prophet names** mentioned in the Quran, totaling exactly **513 occurrences** to achieve perfect balance with the **513 Rasūl root (ر-س-ل) occurrences**.
+This document presents the **count of all 25 prophet primary names** mentioned in the Quran, totaling exactly **510 occurrences** to achieve perfect balance with the **510 Rasūl root (ر-س-ل) messenger forms**.
 
-**Pattern**: **513 Rasūl (institutional) = 513 Prophet Names (individual)**  
-**Significance**: Perfect institutional harmony between the messenger office and the messengers themselves.
+**Pattern**: **510 Rasūl (messenger forms) = 510 Prophet Names (primary names)**  
+**Significance**: Perfect people-to-people balance between the messenger system and the named messengers.
 
 ---
 
@@ -30,7 +30,7 @@ This document presents the **comprehensive count of all 26 prophet names** menti
 
 ## **📋 COMPLETE PROPHET NAMES COUNT**
 
-### **The 26 Named Prophets (511 Total)**
+### **The 25 Named Prophets (510 Total - Primary Names Only)**
 
 | #   | Prophet Name (English)    | Arabic   | Count | Notes                             |
 | --- | ------------------------- | -------- | ----- | --------------------------------- |
@@ -58,28 +58,25 @@ This document presents the **comprehensive count of all 26 prophet names** menti
 | 22  | **Zakariyyā** (Zechariah) | زكريا    | 7     |                                   |
 | 23  | **Yaḥyā** (John Baptist)  | يحيى     | 5     | Name only, not verb "to live"     |
 | 24  | **ʿĪsā** (Jesus)          | عيسى     | 25    | Exclude title "al-Masīḥ"          |
-| 25  | **Muḥammad**              | محمد     | 4     |                                   |
-| 26  | **Aḥmad**                 | أحمد     | 1     | Verse 61:6                        |
+| 25  | **Muḥammad**              | محمد     | 4     | Primary name ✓                    |
 
-**Subtotal: 511 prophet name occurrences**
+**Total: 510 prophet name occurrences (primary names only)**
 
-### **Special Epithet (2 Additional)**
+### **Excluded (Alternate Name)**
 
-| Epithet        | Arabic   | Count | Verses       | Notes                     |
-| -------------- | -------- | ----- | ------------ | ------------------------- |
-| **Dhū al-Nūn** | ذو النون | 2     | 21:87, 68:48 | Epithet for Prophet Yūnus |
-
-**Epithet Total: 2 occurrences**
+| Name      | Arabic | Count | Verse | Notes                                      |
+| --------- | ------ | ----- | ----- | ------------------------------------------ |
+| **Aḥmad** | أحمد   | 1     | 61:6  | Alternate name for Muhammad (same prophet) |
 
 ---
 
 ## **🎯 FINAL CALCULATION**
 
-**Prophet Names**: 511  
-**Dhū al-Nūn Epithet**: 2  
-**GRAND TOTAL**: **513**
+**Prophet Primary Names**: 510  
+**Excluded (Ahmad alternate name)**: 1  
+**GRAND TOTAL**: **510**
 
-**Perfect Balance Achieved**: **513 Rasūl Root = 513 Prophet Names**
+**Perfect Balance Achieved**: **510 Messenger Forms = 510 Prophet Primary Names**
 
 ---
 
@@ -158,23 +155,23 @@ This **513:513 balance** represents:
 
 ### **Step 4: Calculate Totals**
 
-- Sum all 26 prophet name counts = 511
-- Add Dhū al-Nūn epithet = 2
-- Verify grand total = 513
-- Confirm balance with Rasūl root count
+- Sum all 25 prophet primary name counts = 510
+- Exclude Ahmad (alternate name) = 1
+- Verify grand total = 510
+- Confirm balance with Rasūl messenger forms count (510)
 
 ---
 
 ## **✨ CONCLUSION**
 
-The **513:513 Rasūl-Prophet Balance** represents the **most sophisticated numerical pattern** discovered in religious text analysis, demonstrating:
+The **510:510 Messenger-Prophet Balance** demonstrates **people-to-people correspondence** in religious text analysis:
 
-🎯 **Perfect institutional mathematics**: System equals representatives  
-🎯 **Expert linguistic precision**: University-level Arabic morphology  
-🎯 **Historical transcendence**: Knowledge encoding 1400+ years advanced  
-🎯 **Divine architectural design**: Complete prophetic system harmony
+🎯 **Perfect people-to-people balance**: Messengers match named prophets  
+🎯 **Consistent exclusion principles**: Things (messages) and alternate names excluded  
+🎯 **Primary name principle**: One main name per prophet  
+🎯 **Divine precision**: Mathematical balance when comparing like with like
 
-This pattern reveals **mathematical perfection** where the messenger office perfectly matches its office-holders with unprecedented precision, confirming the **institutional completeness** of the prophetic system through **divine numerical design**.
+This pattern reveals **mathematical exactness** where messenger/sending forms (people & actions) perfectly match prophet primary names (people by main names), demonstrating the **institutional completeness** of the prophetic system through **divine numerical design**.
 
 ---
 

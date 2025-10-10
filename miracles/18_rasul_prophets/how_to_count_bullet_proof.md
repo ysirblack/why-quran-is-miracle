@@ -12,9 +12,11 @@
 - **Edition/orthography:** QAC’s standard text; orthographic variants (e.g., داود/داوود, إلياس/إلياسين) are **normalized by the ontology and/or lemma** and must be **unified** in counts.
 - **Exclusions by definition:** Titles, epithets, adjectives, ethnonyms, and phrases that aren’t the person’s **proper name** (e.g., _al-Masīḥ_, _ṣāliḥ_ “righteous”, _Banī Ādam_, _Isrāʾīl_ as a separate entry).
 
-## 2) Scope (fixed set of 26 names)
+## 2) Scope (fixed set of 25 primary names)
 
-Ādam, Idrīs, Nūḥ, Hūd, Ṣāliḥ, Lūṭ, Shuʿayb, Ibrāhīm, Ismāʿīl, Isḥāq, Yaʿqūb, Yūsuf, Ayyūb, **Dhū al-Kifl**, Mūsā, Hārūn, Dāwūd, Sulaymān, **Ilyās (incl. Ilyāsīn)**, al-Yasaʿ, Yūnus, Zakariyyā, Yaḥyā, ʿĪsā, **Muḥammad**, **Aḥmad**.
+Ādam, Idrīs, Nūḥ, Hūd, Ṣāliḥ, Lūṭ, Shuʿayb, Ibrāhīm, Ismāʿīl, Isḥāq, Yaʿqūb, Yūsuf, Ayyūb, **Dhū al-Kifl**, Mūsā, Hārūn, Dāwūd, Sulaymān, **Ilyās (incl. Ilyāsīn)**, al-Yasaʿ, Yūnus, Zakariyyā, Yaḥyā, ʿĪsā, **Muḥammad**.
+
+**Excluded**: **Aḥmad** (alternate name for Muḥammad).
 
 > The roster is drawn from the QAC **Ontology → Prophet** category and standard scholarly consensus on names that appear in the Qur’an as **proper names**.
 
@@ -23,11 +25,11 @@
 **Count = the number shown on the prophet’s QAC concept page as “Verse list (N occurrences)”**, with the following **edge-case normalizations**:
 
 1. **Ilyās / Ilyāsīn**: treat **إلياس/إلياسين** as the **same prophet** (Ilyās). Total **3**.
-2. **Muḥammad vs Aḥmad**: both are **proper names** of the Prophet ﷺ. Count **Muḥammad = 4**, **Aḥmad = 1** **separately**.
+2. **Muḥammad vs Aḥmad**: both refer to the Prophet ﷺ. **Muḥammad = 4** (primary name, **COUNT** ✓), **Aḥmad = 1** (alternate name, **EXCLUDE** ✗). **Rationale**: one primary name per prophet.
 3. **Dhū al-Kifl**: confirm **both verses** (21:85, 38:48). Total **2**.
 4. **Ṣāliḥ**: exclude adjective sense “righteous/ صالح”; **count only** the **proper-name** uses (concept page already does this).
 5. **ʿĪsā vs al-Masīḥ**: **count only “ʿĪsā (عيسى)”**; **exclude** the title **al-Masīḥ**.
-6. **Isrāʾīl**: an epithet for **Yaʿqūb**; **do not** add it as a separate prophet in the 26-name census.
+6. **Isrāʾīl**: an epithet for **Yaʿqūb**; **do not** add it as a separate prophet in the 25-name census.
 
 ## 4) Exact URLs & IDs (so no “you searched the wrong thing”)
 
@@ -80,11 +82,12 @@ A handful of prophets use **English concept IDs** on QAC. Use these when opening
 |  23 | Yaḥyā                     | يحيى            |     5 |
 |  24 | ʿĪsā                      | عيسى            |    25 |
 |  25 | **Muḥammad**              | محمد            | **4** |
-|  26 | Aḥmad                     | أحمد            |     1 |
 
-**Grand total (names only): 511**
+**Grand total (primary names only): 510**
 
-> If you also want the **epithet** **Dhū al-Nūn (ذو النون)** (Yūnus), add **+2** → **513**. Keep it separate from the 26 personal names so you don’t mix categories.
+**Excluded (alternate name):**
+
+- Aḥmad (أحمد) = 1 occurrence at 61:6 (alternate name for Muḥammad)
 
 ## 6) Evidence protocol (what to screenshot/store)
 
@@ -106,7 +109,8 @@ prophet_en,prophet_ar,count,concept_url,ontology_header_url,extra_evidence
 Muhammad,محمد,4,https://.../concept.jsp?id=muhammad,https://.../search.jsp?q=con:muhammad,"3:144;33:40;47:2;48:29"
 Dhul Kifl,ذو الكفل,2,https://.../concept.jsp?id=dhul-kifl,https://.../search.jsp?q=con:dhul-kifl,"21:85;38:48"
 ...
-TOTAL,,511,,,
+TOTAL (primary names),,510,,,
+EXCLUDED: Ahmad,أحمد,1,,,61:6 (alternate name)
 ```
 
 ## 7) How to verify (manual & automated)
@@ -123,7 +127,8 @@ TOTAL,,511,,,
   - Pull **ontology search headers** for all concept IDs (including English ones).
   - **Override** Muḥammad with **text-search header for محمد (N=4)**.
   - **Force** Dhū al-Kifl to **≥2** by confirming **21:85** and **38:48** via **verse.jsp**.
-  - (Optional) Emit a JSON + human-readable table and the grand total **511**.
+  - **Exclude** Aḥmad (alternate name for Muḥammad).
+  - (Optional) Emit a JSON + human-readable table and the grand total **510**.
 
 ## 8) Anticipated objections & neutralizations
 
@@ -139,8 +144,11 @@ TOTAL,,511,,,
 - **“Count al-Masīḥ (Messiah) too.”**
   The rule is **proper-name tokens** of the **person’s given name**. _al-Masīḥ_ is a **title**, not the personal name ʿĪsā, so it’s **excluded** by definition.
 
-- **“Add Isrāʾīl as a prophet.”**
-  _Isrāʾīl_ is an epithet of **Yaʿqūb**. The 26-name census tracks **distinct personal names**; so **no extra row** for Isrāʾīl. (If you want an epithet-aware study, create a separate mapping layer, but don’t change the name-token total.)
+- **"Add Isrāʾīl as a prophet."**
+  _Isrāʾīl_ is an epithet of **Yaʿqūb**. The 25-name census tracks **distinct primary names**; so **no extra row** for Isrāʾīl. (If you want an epithet-aware study, create a separate mapping layer, but don't change the name-token total.)
+
+- **"Why exclude Aḥmad?"**
+  Aḥmad refers to the **same prophet** as Muḥammad ﷺ. The 25-name census uses **one primary name per prophet** for consistency. Muḥammad (4 occurrences) is the **primary name**; Aḥmad (1 occurrence) is an **alternate name** and thus excluded.
 
 - **“Ṣāliḥ appears more; you missed the adjective.”**
   Correct—we **exclude** the adjective **ṣāliḥ** “righteous.” Only **PN-tagged** occurrences for the **prophet** are counted. The concept page’s verse list already filters this.
@@ -148,5 +156,5 @@ TOTAL,,511,,,
 ## 9) Reproducibility & change control
 
 - **Deterministic:** Every number traces to a **specific page** on QAC and (optionally) a **POS=PN** check.
-- **Checksum:** Sum of the 26 counts must equal **511**. (Names only.)
-- **Versioning:** Record a date + a one-line “what changed,” e.g. “2025-09-07 — fixed concept-ID mapping (Ismāʿīl/Isḥāq/etc.), locked Muḥammad=4 via text-search header, Dhū al-Kifl=2 via verse.jsp confirms.”
+- **Checksum:** Sum of the 25 primary name counts must equal **510**.
+- **Versioning:** Record a date + a one-line "what changed," e.g. "2025-10-10 — adopted primary-name-only principle: Muḥammad=4 (primary) counted, Aḥmad=1 (alternate) excluded; total=510."

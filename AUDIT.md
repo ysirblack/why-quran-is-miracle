@@ -1,3 +1,5 @@
+"Hello, I want you to be honest as possible, evaluate my resarch on the Quran. we will go step by step. We will look at the code and then run it. And then criticese the code okay? I don't know arabic, so I trust your arabic! Are you ready?"
+
 # Research Audit Guidelines
 
 ## Purpose
@@ -45,6 +47,12 @@ This document defines the standards and methodology for auditing the Quranic num
 
 ### 3. Proper Statistical Testing
 
+Different patterns require different statistical approaches:
+
+#### 3A. Permutation Testing (for structural patterns)
+
+**Use for:** Surah verse counts, parity patterns, structural arrangements
+
 **Standard Methodology:**
 
 1. **Load the data** - Use actual Quran text (quran-uthmani.txt)
@@ -57,8 +65,57 @@ This document defines the standards and methodology for auditing the Quranic num
 **Minimum Test Size:**
 
 - At least 100,000 permutation trials for patterns
+- Ideally 1,000,000 trials for critical patterns
 - Report exact match count, not just probability
 - Include close matches (±tolerance) when relevant
+
+#### 3B. Combinatorial Probability (for word subset selection)
+
+**Use for:** Word count patterns where linguistic rules select specific subsets
+
+**Methodology:**
+
+1. **Count total tokens** - All tokens containing the root word
+2. **Apply linguistic rules** - Define clear grammatical categories
+3. **Count selected tokens** - How many tokens pass the filters
+4. **Calculate probability** - P = 1 / C(total, selected)
+5. **Report result** - Use scientific notation for large numbers
+
+**Formula:**
+
+```
+P(selecting exactly k from n) = 1 / C(n, k)
+where C(n, k) = n! / (k! × (n-k)!)
+```
+
+**Example:** Hijri 354 pattern
+
+- Total tokens with يوم root: 451
+- Selected by linguistic rules: 354
+- Probability = 1 / C(451, 354) = 1 / 4.26 × 10^100
+
+**Important Notes:**
+
+- This assumes uniform random selection (null hypothesis)
+- Linguistic rules must be defined BEFORE counting
+- Categories should be based on grammatical principles, not target numbers
+- Very useful when dealing with large combinatorial spaces
+
+#### 3C. Binomial Testing (for word occurrence counts)
+
+**Use for:** Counting specific words with binary outcomes (match/no match)
+
+**Methodology:**
+
+1. **Define search criteria** - Exact morphological forms
+2. **Count occurrences** - Apply criteria consistently
+3. **Calculate probability** - P(k successes in n trials) with p=0.5
+4. **Report result** - Include probability and match count
+
+**Example:** Man/Woman balance (26:26)
+
+- Probability of exactly 26 matches when total is 52
+- P = C(52, 26) × (0.5)^52 ≈ 1 in 9.1
 
 ### 4. Documentation Style
 
@@ -246,6 +303,124 @@ if __name__ == "__main__":
     main()
 ```
 
+## Template for Combinatorial Analysis
+
+```python
+#!/usr/bin/env python3
+"""
+Combinatorial Probability Analysis for [PATTERN NAME]
+
+Calculates the probability of selecting exactly k tokens from n total tokens
+using linguistic rules, under the null hypothesis of uniform random selection.
+"""
+
+from pathlib import Path
+from typing import List
+import math
+import re
+
+def remove_diacritics(text: str) -> str:
+    """Strip Arabic diacritics for token matching"""
+    diacritics = r'[\u064B-\u065F\u0670\u0640]'
+    return re.sub(diacritics, '', text)
+
+def load_all_tokens() -> List[str]:
+    """Load all tokens containing the root word"""
+    current = Path(__file__).parent
+    data_path = None
+
+    for _ in range(6):
+        candidate = current / "data" / "quran-uthmani.txt"
+        if candidate.exists():
+            data_path = candidate
+            break
+        current = current.parent
+
+    if not data_path:
+        raise FileNotFoundError("Could not locate quran-uthmani.txt")
+
+    tokens = []
+    with data_path.open('r', encoding='utf-8') as f:
+        for line in f:
+            if not line.strip() or line.startswith('#'):
+                continue
+            _, _, text = line.split('|', 2)
+            for token in text.split():
+                clean = remove_diacritics(token)
+                if '[ROOT]' in clean:  # Replace with actual root
+                    tokens.append(clean)
+
+    return tokens
+
+def categorize_tokens(tokens: List[str]) -> dict:
+    """Apply linguistic rules to categorize tokens"""
+    categories = {
+        'category_1': [],
+        'category_2': [],
+        'excluded': []
+    }
+
+    for token in tokens:
+        # Apply linguistic rules
+        if [condition_1]:
+            categories['category_1'].append(token)
+        elif [condition_2]:
+            categories['category_2'].append(token)
+        else:
+            categories['excluded'].append(token)
+
+    return categories
+
+def calculate_probability(n: int, k: int) -> dict:
+    """Calculate combinatorial probability C(n,k)"""
+    if k > n or k < 0:
+        return {'prob': 0, 'log10': float('-inf')}
+
+    # Use math.comb for accurate calculation
+    combinations = math.comb(n, k)
+    probability = 1 / combinations
+    log10_prob = math.log10(probability) if probability > 0 else float('-inf')
+
+    return {
+        'combinations': combinations,
+        'probability': probability,
+        'log10': log10_prob,
+        'one_in': combinations
+    }
+
+def main():
+    print("=" * 70)
+    print("COMBINATORIAL PROBABILITY ANALYSIS: [PATTERN NAME]")
+    print("=" * 70)
+    print()
+
+    # Load and categorize
+    tokens = load_all_tokens()
+    categories = categorize_tokens(tokens)
+
+    total = len(tokens)
+    selected = len(categories['category_1']) + len(categories['category_2'])
+
+    print(f"Total tokens: {total}")
+    print(f"Selected by linguistic rules: {selected}")
+    print()
+
+    # Calculate probability
+    result = calculate_probability(total, selected)
+
+    print("Probability Calculation:")
+    print(f"  C({total}, {selected}) = {result['combinations']:.3e}")
+    print(f"  P(selecting exactly {selected}) = {result['probability']:.3e}")
+    print(f"  -> approximately 1 in {result['one_in']:.3e}")
+    print(f"  -> log10(p) ~ {result['log10']:.2f}")
+    print()
+    print("Note: This assumes uniform random selection (null hypothesis).")
+    print("Linguistic rules are defined independently of target numbers.")
+
+if __name__ == "__main__":
+    main()
+```
+
 ## Markdown Template
 
 ```markdown
@@ -286,6 +461,8 @@ Each audited pattern should have:
 
 ## Audit Log
 
+### Surah Parity Patterns (Permutation Testing)
+
 | Pattern             | Status      | Probability (Corrected)   | Original Claim   | Date       |
 | ------------------- | ----------- | ------------------------- | ---------------- | ---------- |
 | Core 2×2 Parity     | ✅ Complete | ~1 in 7 (14.9%)           | ~1 in 1,000,000  | 2025-01-07 |
@@ -293,6 +470,36 @@ Each audited pattern should have:
 | Long/Short Parity   | ✅ Complete | ~1 in 7.9 (12.7%) + Other | < 1 in 5,000,000 | 2025-01-07 |
 | Six-Block Pattern   | ✅ Complete | ~1 in 29,412 (0.0034%)    | < 1 in 5,000,000 | 2025-01-07 |
 | Verse-Number Mirror | ✅ Complete | ~1 in 439 (0.23%)         | < 1 in 5,000,000 | 2025-01-07 |
+
+### Word Count Patterns (Binomial Testing)
+
+| Pattern           | Status      | Probability (Corrected) | Original Claim         | Date       |
+| ----------------- | ----------- | ----------------------- | ---------------------- | ---------- |
+| Man/Woman Balance | ✅ Complete | ~1 in 9.1 (11%)         | 24:24 with adjustments | 2025-01-10 |
+
+### Yearly Cycles (Two Statistical Approaches)
+
+**Method 1: Combinatorial Probability (Uniform Subset Model)**
+
+| Pattern            | Status      | Probability (Corrected) | Methodology                  | Date       |
+| ------------------ | ----------- | ----------------------- | ---------------------------- | ---------- |
+| Solar 365 Days     | ✅ Complete | 1 in 1.29 × 10^94       | C(478, 365) from يوم tokens  | 2025-01-10 |
+| Hijri 354 Days     | ✅ Complete | 1 in 4.26 × 10^100      | C(478, 354) from يوم tokens  | 2025-01-10 |
+| Lunar 29 Days      | ✅ Complete | 1 in 4.22 × 10^45       | C(478, 29) plural+dual forms | 2025-01-10 |
+| Calendar 12 Months | ✅ Complete | 1 in 1.26 × 10^5        | C(20, 12) from شهر tokens    | 2025-01-10 |
+| Combined Yearly    | ✅ Complete | 1 in 2.91 × 10^245      | Product (if independent)     | 2025-01-10 |
+
+**Method 2: Bootstrap Resampling (Linguistically Realistic)**
+
+| Pattern                | Status      | Probability (Corrected) | Methodology           | Date       |
+| ---------------------- | ----------- | ----------------------- | --------------------- | ---------- |
+| Solar 365 alone        | ✅ Complete | ~4.3% (~1 in 23)        | Bootstrap 100k trials | 2025-01-10 |
+| Hijri 354 alone        | ✅ Complete | ~4.2% (~1 in 24)        | Bootstrap 100k trials | 2025-01-10 |
+| Lunar 29 alone         | ✅ Complete | ~7.7% (~1 in 13)        | Bootstrap 100k trials | 2025-01-10 |
+| Solar 365 + Hijri      | ✅ Complete | ~0.15% (~1 in 667)      | Bootstrap 100k trials | 2025-01-10 |
+| All three (365+354+29) | ✅ Complete | ~0.04% (~1 in 2,500)    | Bootstrap 100k trials | 2025-01-10 |
+
+**Note:** Both methods are valid. Combinatorial assumes all token subsets equally likely (mathematically rigorous but linguistically unrealistic). Bootstrap preserves grammatical structure (more realistic). Use bootstrap when presenting to audiences unfamiliar with the assumptions.
 
 ---
 
@@ -329,6 +536,10 @@ After auditing all individual patterns, we tested them together using proper sta
 
 ---
 
-**Last Updated**: 2025-01-07  
-**Audit Methodology Version**: 1.0  
+**Last Updated**: 2025-01-10  
+**Audit Methodology Version**: 1.1
 **Auditors**: AI Assistant & Research Owner
+
+**Recent Additions:**
+
+- Yearly Cycles: Added bootstrap resampling analysis alongside combinatorial probability (both methods documented)

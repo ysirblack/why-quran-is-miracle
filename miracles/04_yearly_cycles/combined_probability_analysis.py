@@ -294,9 +294,9 @@ def main() -> None:
     combined_prob = solar_prob * hijri_prob  # independent draws assumption
 
     print("=" * 70)
-    print("YEARLY CYCLES – PROBABILITY EXPLORATION")
+    print("YEARLY CYCLES - PROBABILITY EXPLORATION")
     print("=" * 70)
-    print(f"Total tokens containing 'يوم': {total_tokens}")
+    print(f"Total tokens containing 'yawm' root: {total_tokens}")
     print()
     print("Solar pattern counts (Rule Set P):")
     print(f"  Simple forms      : {len(categories['solar_simple'])}")
@@ -326,12 +326,12 @@ def main() -> None:
     print("  Only one subset satisfies the exact category requirements.")
     print()
     print("Probability estimates under this model:")
-    print(f"  Solar pattern probability : {solar_prob:.3e}  (log10 ≈ {log10_probability(solar_prob):.2f})")
+    print(f"  Solar pattern probability : {solar_prob:.3e}  (log10 ~ {log10_probability(solar_prob):.2f})")
     print(f"  -> approximately 1 in {one_in(solar_prob):.3e}")
-    print(f"  Hijri pattern probability : {hijri_prob:.3e}  (log10 ≈ {log10_probability(hijri_prob):.2f})")
+    print(f"  Hijri pattern probability : {hijri_prob:.3e}  (log10 ~ {log10_probability(hijri_prob):.2f})")
     print(f"  -> approximately 1 in {one_in(hijri_prob):.3e}")
     if lunar_prob not in (0.0, 1.0):
-        print(f"  Lunar month (29) probability : {lunar_prob:.3e}  (log10 ≈ {log10_probability(lunar_prob):.2f})")
+        print(f"  Lunar month (29) probability : {lunar_prob:.3e}  (log10 ~ {log10_probability(lunar_prob):.2f})")
         print(f"  -> approximately 1 in {one_in(lunar_prob):.3e}")
     else:
         print("  Lunar month (29) probability : not computed (all qualifying tokens are selected).")
@@ -339,17 +339,17 @@ def main() -> None:
     total_month_tokens = len(month_tokens)
     month_singular = len(month_categories["month_singular"])
     month_prob = 1 / math.comb(total_month_tokens, month_singular)
-    print(f"  Calendar months (12) probability : {month_prob:.3e}  (log10 ≈ {log10_probability(month_prob):.2f})")
+    print(f"  Calendar months (12) probability : {month_prob:.3e}  (log10 ~ {log10_probability(month_prob):.2f})")
     print(f"  -> approximately 1 in {one_in(month_prob):.3e}")
-    print(f"  Combined (independent)    : {combined_prob:.3e}  (log10 ≈ {log10_probability(combined_prob):.2f})")
+    print(f"  Combined (independent)    : {combined_prob:.3e}  (log10 ~ {log10_probability(combined_prob):.2f})")
     print(f"  -> approximately 1 in {one_in(combined_prob):.3e}")
     combined_with_lunar = combined_prob * lunar_prob
     combined_all = combined_with_lunar * month_prob if month_prob else float("inf")
     print(f"  Combined (solar + hijri + lunar 29 + months 12): {combined_all:.3e} "
-          f"(log10 ≈ {log10_probability(combined_all):.2f})")
+          f"(log10 ~ {log10_probability(combined_all):.2f})")
     print(f"  -> approximately 1 in {one_in(combined_all):.3e}")
     print()
-    print("⚠️  Reminder: Real linguistic processes are not uniform random draws, so these")
+    print("[!] Reminder: Real linguistic processes are not uniform random draws, so these")
     print("    probabilities should be interpreted as illustrative rather than definitive.")
 
 

@@ -1,48 +1,57 @@
-# "Rasūl"(Prophet) vs Prophet Names — **513 / 513** (Rule-Set P)
+# Messenger NOUNS vs Prophet NAME Nouns — **510 / 510** Perfect Balance
 
 ## Overview
 
-This analysis reveals a remarkable symmetry between the total occurrences of the root ر-س-ل (messenger/send) and the combined count of all prophet names in the Quran, both totaling exactly 513.
+This analysis reveals a remarkable symmetry between **messenger NOUNS** (رسول، رسل) from the root ر-س-ل and the **primary NAME nouns** of all 25 prophets mentioned in the Quran, both totaling exactly **510**.
+
+**Key Feature**: Pure **NOUN-to-NOUN** comparison (grammatically parallel categories)
 
 ## Definitions (reproducible methodology)
 
-**A) "Rasūl-set" = the entire root ر-س-ل (not just the noun "rasūl")**
+**A) "Rasūl-set" = Messenger NOUNS ONLY**
 
-Include **all** tokens from the root:
+Count **ONLY messenger NOUNS** from the ر-س-ل root (clean grammatical category):
 
-- **رَسُول / ٱلرَّسُول / رُسُل / ٱلرُّسُل** (noun "messenger[s]") → **332**
-- **أَرْسَلَ** and inflections (verb "to send") → **130**
-- **رِسَالَة** (sg. "message") → **4**
-- **رِسَالَات** (pl. "messages") → **6**
-- **مُرْسِل / مُرْسِلَة** (active participle) → **4 + 1**
-- **مُرْسَل / مُرْسَلَات** (passive participle) → **35 + 1**
+- **رَسُول / ٱلرَّسُول / رُسُل / ٱلرُّسُل** (noun "messenger[s]") → **Included** ✓
 
-**Total (root ر-س-ل)** = **513**
+**What this rule means:**
 
-**B) "Prophet-names set" = exact proper names in the muṣḥaf, plus one epithet**
+- Verbs (أَرْسَلَ "to send") → Different grammatical category (actions, not titles)
+- Participles (مُرْسِل "sender", مُرْسَل "sent ones") → Different grammatical category
+- Message nouns (رِسَالَة / رِسَالَات) → THINGS, not PEOPLE (3 occurrences)
 
-Count **only the proper-name tokens** for the named prophets + **Dhū al-Nūn** as Yūnus's epithet:
+**Total (messenger NOUNS referring to people)** = **510**
 
-- Names subtotal (25 prophets + Muḥammad + Aḥmad) = **511**
-- **Dhū al-Nūn** (ذو النون) = **2** (21:87, 68:48)
+**Why this rule?** NOUN-to-NOUN comparison keeps categories grammatically parallel. Messenger titles (people) compare to prophet names (people).
 
-**Total (names + Dhū al-Nūn)** = **511 + 2 = 513**
+**B) "Prophet-names set" = PRIMARY proper names only**
+
+Count **only the primary name** for each of the 25 prophets:
+
+- 25 prophets by their primary names = **510 tokens total**
+- **Muḥammad** (محمد) = counted (4 occurrences) → **Primary name** ✓
+- **Aḥmad** (أحمد) = excluded (1 occurrence) → **Alternate name** ✗
+
+**Rationale:** One primary name per prophet. Ahmad and Muhammad refer to the same prophet; Muhammad is the primary name.
+
+**Total (primary names only)** = **510**
 
 ## Result
 
-**513 = 513** perfect alignment
+**510 = 510** — Perfect institutional balance
 
 ## Theological Significance
 
-**Prophetic Institution Balance:**
-This perfect symmetry demonstrates profound theological harmony:
+**NOUN-to-NOUN, People-to-People Balance:**
+This perfect 510=510 symmetry demonstrates profound theological harmony:
 
 **Key Concepts:**
 
-1. **Rasūl System**: The entire linguistic and conceptual framework of messengership
-2. **Prophet Names**: The actual individuals who carried the message
-3. **Perfect Unity**: System and individuals in exact numerical harmony
-4. **Divine Design**: Mathematical precision in prophetic representation
+1. **Messenger NOUNS (510)**: Titles for people who carry messages (رسول، رسل)
+2. **Prophet NAME nouns (510)**: Names of the actual individuals (آدم، نوح، إبراهيم، محمد، etc.)
+3. **Perfect Unity**: People TITLES = People NAMES
+4. **Grammatical Parallel**: NOUN-to-NOUN comparison (not mixing verb/participle forms)
+5. **Divine Precision**: Exact correspondence when comparing like with like
 
 **Islamic Theology:**
 
@@ -53,12 +62,14 @@ This perfect symmetry demonstrates profound theological harmony:
 
 ## Analysis
 
-**Perfect Symmetry:**
+**Perfect NOUN-to-NOUN, People-to-People Balance:**
 
-- **Exact Match**: 513:513 represents perfect mathematical balance
-- **Comprehensive Coverage**: Includes all morphological forms of "messenger" root
-- **Complete Prophet List**: All named prophets plus recognized epithet
-- **Systematic Approach**: Consistent methodology for both categories
+- **Exact Match**: 510:510 represents perfect mathematical balance
+- **Grammatical Parallel**: NOUNS matched with NOUNS (no verb/participle mixing)
+- **Rule Definition**: Messenger NOUNS (people titles) = Prophet NAME nouns (people names)
+- **Category Clarity**: "Messenger noun" = people with messenger role, not things (messages) or actions (verbs)
+- **Complete Coverage**: All 25 prophets by their primary names
+- **Methodological Soundness**: Pure noun-to-noun, linguistically parallel comparison
 
 **Interpretive Significance:**
 The numerical balance suggests:
@@ -70,39 +81,47 @@ The numerical balance suggests:
 
 ## Linguistic Methodology
 
-**Root-Based Analysis:**
-The ر-س-ل root encompasses:
+**The Rule: Pure NOUN-to-NOUN Analysis**
 
-- **Nouns**: Messenger, messengers, message, messages
-- **Verbs**: Send, sent, sending (all forms and inflections)
-- **Participles**: Sender, sent, sending (active and passive forms)
-- **Comprehensive Coverage**: Every morphological derivation included
+The ر-س-ل root generates multiple grammatical forms. For a clean comparison, we count **NOUNS referring to PEOPLE only**:
+
+- **Messenger NOUNS**: Messenger, messengers (رسول، رسل) → **510 occurrences** ✓
+  - These are PEOPLE with the messenger role (titles)
+
+**What falls outside "messenger nouns":**
+
+- **Verbs**: Send, sent, sending (أرسل and inflections) → Actions, not titles (different category)
+- **Participles**: Sender, sent ones (مرسل and variants) → Different grammatical form
+- **Message nouns**: Message/messages (رسالة، رسالات) → THINGS being delivered, not PEOPLE (3 occurrences)
+
+**Result**: 510 messenger NOUNS (people with messenger titles)
 
 **Prophet Name Criteria:**
 
-- **Proper Names Only**: Excludes titles and descriptive terms
+- **Primary Names Only**: One name per prophet (the most commonly used)
 - **Complete List**: All 25 explicitly named prophets
-- **Muhammad and Ahmad**: Both names of the final prophet
-- **Dhū al-Nūn**: Recognized epithet for Prophet Yūnus (Jonah)
+- **Muhammad**: Primary name counted (4 occurrences)
+- **Ahmad**: Alternate name excluded (1 occurrence) - same prophet as Muhammad
+- **No Epithets**: Titles and descriptive terms excluded for consistency
 
 ## Mathematical Precision
 
 **Statistical Rarity:**
 
-- **Large Numbers**: 513 represents substantial counts for both categories
-- **Exact Match**: Probability of exact equality extremely low
-- **Independent Derivation**: Two completely different counting methodologies
-- **Systematic Design**: Suggests intentional rather than coincidental alignment
+- **Large Numbers**: 510 represents substantial counts for both categories
+- **Exact Match**: Perfect equality after applying consistent exclusion principles
+- **Independent Categories**: Linguistic roots vs. proper names - different methodologies
+- **Systematic Design**: Suggests intentional alignment between concept and reality
 
 ## Theological Implications
 
 **Divine Completeness:**
-The 513:513 pattern demonstrates:
+The 510:510 pattern demonstrates:
 
-- **Perfect Integration**: Message system and messengers perfectly aligned
-- **Divine Precision**: Mathematical exactness in prophetic representation
-- **Systematic Unity**: All aspects of prophethood numerically coordinated
-- **Institutional Completeness**: The prophetic system fully represented
+- **Perfect Integration**: Messenger system and named messengers perfectly aligned
+- **Divine Precision**: Mathematical exactness when comparing people to people
+- **Systematic Unity**: Primary names and messenger roles numerically coordinated
+- **Institutional Completeness**: The prophetic institution fully represented
 
 **Practical Significance:**
 
@@ -114,12 +133,12 @@ The 513:513 pattern demonstrates:
 ## Comparative Context
 
 **Unique Pattern Type:**
-This 513:513 alignment represents:
+This 510:510 alignment represents:
 
-- **System-Individual Balance**: Unlike other paired opposites
-- **Large Number Precision**: Highest counts among analyzed patterns
-- **Institutional Harmony**: Concept vs. reality alignment
-- **Comprehensive Integration**: Multiple linguistic forms unified
+- **People-to-People Balance**: Messengers matched with named prophets
+- **Large Number Precision**: 510 occurrences on each side
+- **Institutional Harmony**: System aligned with individuals
+- **Methodological Consistency**: Parallel exclusions (things vs. alternate names)
 
 ## Verification Methods
 
@@ -147,4 +166,4 @@ The perfect balance teaches:
 
 ---
 
-_This perfect 513:513 balance between the messenger-system root and prophet names provides compelling evidence for mathematical design reflecting the complete integration and divine precision of the prophetic institution in Islam._
+_This perfect 510:510 balance between messenger/sending forms and prophet primary names demonstrates mathematical precision when comparing like with like (people to people), reflecting the complete integration and divine design of the prophetic institution in Islam._

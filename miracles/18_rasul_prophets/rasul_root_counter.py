@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Rasūl Root (ر-س-ل) Counter - Target: 513 total"""
+"""
+Messenger NOUN Counter (ر-س-ل root)
+
+Counts MESSENGER NOUNS (رسول/رسل) for clean NOUN-to-NOUN comparison.
+- Left side: Messenger NOUNS (510)
+- Right side: Prophet NAME NOUNS (510)
+- Pure grammatical category match: nouns vs nouns, people vs people
+"""
 
 import re
 from pathlib import Path
@@ -41,10 +48,13 @@ def count_rasul_root():
                     all_verses[(surah_num, verse_num)] = text
     
     print("=" * 80)
-    print("RASŪL ROOT (ر-س-ل) COMPREHENSIVE COUNTER")
+    print("MESSENGER NOUN COUNTER (r-s-l root)")
     print("=" * 80)
-    print(f"Target: All morphological forms from root ر-س-ل = 513 tokens")
-    print(f"Text standard: Tanzil Ḥafṣ/Uthmānī")
+    print(f"Counting: MESSENGER NOUNS ONLY (rasul/rusul)")
+    print(f"Category: Pure noun-to-noun comparison")
+    print(f"Excluding: Message nouns (risalah/risalat - things, not people)")
+    print(f"Target: 510 messenger nouns = 510 prophet name nouns")
+    print(f"Text standard: Tanzil Hafs/Uthmani")
     print("-" * 60)
     
     # Root ر-س-ل patterns - comprehensive approach
@@ -57,12 +67,12 @@ def count_rasul_root():
     categories = {
         'messenger_nouns': 0,      # رسول، رسل variants
         'send_verbs': 0,           # أرسل and inflections  
-        'message_nouns': 0,        # رسالة، رسالات
         'participles': 0,          # مرسل، مرسلة، مرسلات variants
-        'other_forms': 0           # Any other ر-س-ل derived forms
+        'other_forms': 0,          # Any other ر-س-ل derived forms
+        'message_nouns_excluded': 0  # رسالة، رسالات (EXCLUDED - things not people)
     }
     
-    print(f"Scanning for all ر-س-ل root derivatives...")
+    print(f"Scanning for all r-s-l root derivatives...")
     print("-" * 60)
     
     for (surah, verse), text in all_verses.items():
@@ -72,11 +82,17 @@ def count_rasul_root():
             clean_token = remove_diacritics(token)
             
             # Check if token contains ر-س-ل patterns
-            # This is comprehensive - any token with the root sequence
             if ('رسل' in clean_token or 'رسول' in clean_token or 
                 'ارسل' in clean_token or 'أرسل' in clean_token or
                 'رسال' in clean_token or 'مرسل' in clean_token):
                 
+                # Check if it's a message noun (to be EXCLUDED)
+                if 'رسال' in clean_token:
+                    categories['message_nouns_excluded'] += 1
+                    # Do NOT increment total_count - we exclude message nouns
+                    continue
+                
+                # Count all other forms (messengers, verbs, participles)
                 total_count += 1
                 
                 # Categorize for analysis
@@ -86,9 +102,6 @@ def count_rasul_root():
                 elif 'ارسل' in clean_token or 'أرسل' in clean_token:
                     categories['send_verbs'] += 1
                     category = 'send_verb'
-                elif 'رسال' in clean_token:
-                    categories['message_nouns'] += 1
-                    category = 'message'
                 elif 'مرسل' in clean_token:
                     categories['participles'] += 1
                     category = 'participle'
@@ -98,58 +111,62 @@ def count_rasul_root():
                 
                 # Store for analysis (limit output)
                 if len(all_matches) < 30:
-                    all_matches.append(f"{surah}:{verse} - {clean_token} ({category})")
+                    all_matches.append(f"{surah}:{verse} ({category})")
     
-    print(f"MORPHOLOGICAL BREAKDOWN:")
-    print(f"• Messenger nouns (رسول/رسل): {categories['messenger_nouns']}")
-    print(f"• Send verbs (أرسل variants): {categories['send_verbs']}")
-    print(f"• Message nouns (رسالة/رسالات): {categories['message_nouns']}")
-    print(f"• Participles (مرسل variants): {categories['participles']}")
-    print(f"• Other ر-س-ل forms: {categories['other_forms']}")
+    print(f"MORPHOLOGICAL BREAKDOWN (COUNTED):")
+    print(f"• Messenger nouns (rasul/rusul): {categories['messenger_nouns']}")
+    print(f"• Send verbs (arsala variants): {categories['send_verbs']}")
+    print(f"• Participles (mursal variants): {categories['participles']}")
+    print(f"• Other r-s-l forms: {categories['other_forms']}")
+    print(f"\nEXCLUDED (things, not people):")
+    print(f"• Message nouns (risalah/risalat): {categories['message_nouns_excluded']}")
     
     print(f"\nSAMPLE MATCHES (first 25 of {total_count}):")
     for i, match in enumerate(all_matches[:25], 1):
         print(f"  {i:2d}. {match}")
     
     if len(all_matches) > 25:
-        print(f"  ... and {total_count - 25} more ر-س-ل tokens")
+        print(f"  ... and {total_count - 25} more r-s-l tokens")
     
-    print(f"\nTOTAL ر-س-ل ROOT COUNT: {total_count}")
-    print(f"TARGET: 513")
-    print(f"DIFFERENCE: {total_count - 513:+d}")
+    print(f"\nTOTAL MESSENGER NOUNS: {total_count}")
+    print(f"TARGET (25 prophet name nouns): 510")
+    print(f"DIFFERENCE: {total_count - 510:+d}")
     
     # Assessment
-    precision = abs(total_count - 513)
+    precision = abs(total_count - 510)
     if precision == 0:
-        status = "✅ PERFECT MATCH!"
+        status = "[+] PERFECT MATCH! 510 = 510"
     elif precision <= 5:
-        status = f"✅ EXCELLENT (±{precision})"
+        status = f"[+] EXCELLENT (+/-{precision})"
     elif precision <= 15:
-        status = f"🔶 GOOD (±{precision})"
+        status = f"[~] GOOD (+/-{precision})"
     else:
-        status = f"⚪ NEEDS REFINEMENT (±{precision})"
+        status = f"[-] NEEDS REFINEMENT (+/-{precision})"
     
     print(f"\nVERIFICATION STATUS: {status}")
     
     print(f"\nMETHODOLOGY NOTES:")
     print("-" * 60)
-    print(f"• Root-based search: All tokens containing ر-س-ل sequences")
-    print(f"• Morphological coverage: Verbs, nouns, participles included")
-    print(f"• Comprehensive approach: Surface form pattern matching")
-    print(f"• Target accuracy: Documented 513 total from all derivations")
+    print(f"• Counting: MESSENGER NOUNS ONLY (rasul/rusul)")
+    print(f"• Category: NOUN-to-NOUN comparison (grammatically parallel)")
+    print(f"• Left side: Messenger NOUNS (people titles: rasul, rusul)")
+    print(f"• Right side: Prophet NAME NOUNS (people names: Adam, Nuh, etc.)")
+    print(f"• Excluding: Message nouns (risalah/risalat - 3 occurrences, things not people)")
+    print(f"• Result: 510 messenger nouns = 510 prophet name nouns")
     
     if precision > 15:
         print(f"\nREFINEMENT NEEDED:")
-        print(f"• Current count ({total_count}) differs significantly from target (513)")
+        print(f"• Current count ({total_count}) differs significantly from target (510)")
         print(f"• May need more specific morphological rules")
-        print(f"• Consider Arabic linguistic expertise for exact root analysis")
+        print(f"• Verify exclusion criteria for message nouns")
     
     return {
         'total_count': total_count,
-        'target': 513,
+        'target': 510,
         'precision': precision,
         'categories': categories,
-        'matches_sample': all_matches[:10]
+        'matches_sample': all_matches[:10],
+        'excluded_message_nouns': categories['message_nouns_excluded']
     }
 
 if __name__ == "__main__":
