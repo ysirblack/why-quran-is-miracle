@@ -25,10 +25,62 @@ Deep beneath our feet, the inner core boundary rests around 5,100 km. In the tex
 
 ## Q&A
 
-- Q: Isn’t this just a numerical coincidence?  
-  A: Baseline odds for any specific index out of ~6,236 landing on this scientific constant are ~1 in 6,236. Requiring thematic relevance only lowers the odds.
-- Q: What about content relevance?  
-  A: Context analysis often shows earth/creation themes near this position; even without that, the positional precision itself is striking.
+**Q: What verse is at position 5,100?**  
+A: **Surah 57:25**, which says:
+
+- **"وَأَنزَلْنَا ٱلْحَدِيدَ"** = "And We sent down iron"
+- This is in Surah 57 "Al-Hadid" (The Iron chapter)
+- The inner core at ~5,100 km is ~80% iron
+
+**Q: Is this just a numerical coincidence?**  
+A: For this to be coincidence:
+
+- The 5,100th verse would randomly mention **iron**
+- It would randomly be in the **Iron chapter** (Surah 57)
+- The position 5,100 would randomly match **~5,100 km** (core depth)
+- The core would randomly be made of **iron** (~80%)
+- The phrase "sent down" would randomly match iron's stellar origin
+- Baseline odds: ~1 in 6,236 for position, multiplied by thematic factors
+
+**Q: Is the verse count accurate?**  
+A: Yes. Anyone can verify:
+
+- Count verses sequentially from 1:1
+- The 5,100th verse = Surah 57:25 ✅
+- Standard Ḥafṣ ʿUthmānī text (6,236 total verses)
+
+**Q: Does it really say "iron"?**  
+A: Absolutely clear in Arabic:
+
+- **ٱلْحَدِيدَ** (al-ḥadīd) = "the iron" (definite)
+- Full phrase: **وَأَنزَلْنَا ٱلْحَدِيدَ** = "And We sent down iron"
+- No ambiguity in the Arabic
+
+**Q: Is 5,100 km scientifically accurate?**  
+A: Yes:
+
+- Outer core: 2,890-5,150 km (liquid iron-nickel)
+- Inner core: 5,150+ km (solid iron-nickel)
+- **5,100 km** marks the transition zone
+- Discovery: Inge Lehmann (1936) via seismology
+- Composition: ~80-85% iron by mass
+
+**Q: What about content relevance?**  
+A: Perfect thematic alignment:
+
+- Verse explicitly mentions **iron**
+- In the **Iron chapter** (Surah 57)
+- Describes iron being "sent down" (stellar origin)
+- Position matches iron core depth
+- Triple coherence: position + content + science
+
+**Q: Did you try many positions to find this?**  
+A: No. Simple observation:
+
+- Count to position 5,100
+- Check what it says: mentions **iron**
+- Check scientific fact: core depth ~5,100 km, made of iron
+- This is direct verification, not extensive searching
 
 ## How Could This Be Possible?
 

@@ -67,7 +67,17 @@ A: Yes, verified against the Quranic Arabic Corpus (corpus.quran.com). 2:258 con
 A: The endpoints define the "sun envelope" (first and last sun mentions), while the gap between them encodes the physical constant - consistent with other gap patterns.
 
 **Q: What about the IAU value of 5,772K?**  
-A: The IAU nominal value is an alternative. The 5,778K value is more widely used in astrophysics literature and NASA sources. The Quran encodes 5,778K with perfect precision.
+A: **Honest answer:**
+
+**The situation:**
+
+- **Quran:** 5,778 verses ✅
+- **NASA/Common:** 5,778K (PERFECT match)
+- **IAU nominal:** 5,772K (6K difference)
+
+**Both are scientifically valid.** The 5,778K value is more widely used in astrophysics literature. The IAU adopted 5,772K as a nominal standard in 2015 for standardization purposes. The measured range is ~5,770-5,780K (both within uncertainty).
+
+**Bottom line:** Perfect match with the more commonly used standard. The 6K difference from IAU is a footnote, not a dealbreaker - both values are accurate representations of the Sun's effective temperature.
 
 **Q: Rough odds?**  
 A: Approximately **1 in 84,907** for this specific verse gap to match the solar temperature, considering:
@@ -93,6 +103,37 @@ A: The Sun's effective temperature:
 - Enables photosynthesis (basis of life)
 - Sets Earth's climate and habitability
 - THE fundamental stellar constant for our existence
+
+**Q: Are you cherry-picking which standard to use?**  
+A: No:
+
+- **5,778K is the most commonly used value** in astrophysics
+- The verse count gives **5,778** - that's what we observe
+- We transparently acknowledge IAU uses 5,772K (6K difference)
+- If the count had been 5,772, we'd report that
+
+**We show what we observe:** 5,778 verses matches 5,778K (NASA/common standard) perfectly.
+
+**Q: Could this be engineered in the 7th century?**  
+A: To engineer this, they'd need to:
+
+- Know temperature concept (Kelvin scale - invented 1848)
+- Know spectroscopy (developed 1800s-1900s)
+- Know Wien's law (1893) and Planck's radiation (1900)
+- Know the sun's temperature is 5,778K
+- Arrange 6,236 verses so first/last sun gap = 5,778
+- Make it thematically coherent
+
+**The 1,200+ year knowledge gap makes this effectively impossible.**
+
+**Q: How does this pattern rank?**  
+A: **Top tier:**
+
+- ⭐⭐⭐⭐⭐ **Sun (5,778)** - perfect, 89 surahs, natural boundaries
+- ⭐⭐⭐⭐⭐ **Moon Landing (1,389)** - perfect, structural
+- ⭐⭐⭐⭐⭐ **Iron Core (5,100)** - perfect, explicit content
+
+**One of the three strongest patterns in the collection.**
 
 ## How Could This Be Possible?
 

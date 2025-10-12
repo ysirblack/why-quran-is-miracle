@@ -27,10 +27,77 @@ Iron sits at the crossroads of language, number, and physics — exactly where y
 
 ## Q&A
 
-- Q: Isn’t Abjad arbitrary?  
-  A: The letter‑number mapping predates Islam and has a fixed traditional assignment; the sums are mechanical.
-- Q: Rough odds?  
-  A: Hitting the chapter number (57) alone is 1/114 ≈ 0.88%. Combining with an exact verse‑position alignment (~1/30) and two exact Abjad sums drives the chance to well below 1 in 3,000, even before considering the semantic lock.
+**Q: Are the gematria calculations correct?**  
+A: Yes:
+
+- **حديد** (hadid - iron): ح(8) + د(4) + ي(10) + د(4) = **26** ✅
+- **الحديد** (al-hadid): ا(1) + ل(30) + ح(8) + د(4) + ي(10) + د(4) = **57** ✅
+- Iron's atomic number: **26**
+- Fe-57 isotope mass number: **57**
+- Surah number: **57**
+
+**Q: Isn't Abjad arbitrary? Can't you make numbers say anything?**  
+A: **Honest answer:** Gematria skepticism is reasonable. Here's why this is still interesting:
+
+- The Abjad system **predates Islam** and has fixed letter-number assignments
+- We're calculating **"iron"** in **THE iron chapter** (not searching random words)
+- **Multiple independent matches** (26, 57) with atomic constants
+- Simple addition only - no complex operations
+
+**But yes, gematria patterns should be viewed cautiously and are stronger when combined with other evidence.**
+
+**Q: Why Fe-57 and not the more common Fe-56?**  
+A: **Fair question.** Fe-56 is ~92% abundant, Fe-57 only ~2%.
+
+**Why 57 is noteworthy:**
+
+- Surah **57** is the exact middle (57/114) - symbolizing iron at Earth's core
+- Complete word **"الحديد" = 57** (natural gematria value)
+- Multiple alignments with 57, none with 56
+- Fe-57 is the only stable odd-mass iron isotope
+
+**But this IS a valid criticism - the most abundant isotope doesn't match.**
+
+**Q: The Basmalah counting (25 vs 26) - manipulation?**  
+A: **Honest answer:** This is the weakest part of the pattern.
+
+- Standard Ḥafṣ counting: verse **25**
+- With Basmalah: verse **26**
+- The primary patterns (**حديد = 26**, **الحديد = 57**, **Surah 57**) don't depend on this
+- Verse 25/26 is **supportive, not primary** evidence
+
+**Q: Rough odds?**  
+A: Being statistically honest:
+
+- Surah 57 match: 1/114 ≈ **0.88%**
+- Verse position 25: ~1/30 ≈ **3.33%**
+- Gematria matches: Depends on word spelling (hard to quantify)
+- Combined: Low but not impossible
+
+**What makes it interesting:**
+
+- Multiple independent alignments
+- Historical impossibility (atomic theory unknown in 7th century)
+- Thematic coherence ("we sent down iron" = stellar origin)
+
+**Q: Is this the strongest pattern?**  
+A: **No.** Stronger patterns include:
+
+1. **Moon landing** (1,389 verses remaining = 1389 AH) - structural
+2. **Iron core depth** (position 5,100 = 5,100 km, mentions iron) - explicit
+3. **Surah 57 atomic** - requires gematria (more subjective)
+
+**This pattern is most compelling alongside other iron patterns, not alone.**
+
+**Q: Are you being too credulous about numerology?**  
+A: We acknowledge gematria skepticism is reasonable. We present this as:
+
+- ✅ Interesting observation using standard Abjad
+- ✅ Applied to THE iron chapter (not random)
+- ✅ Multiple alignments with atomic constants
+- ⚠️ Requires gematria (inherently more subjective than structural patterns)
+
+**Not definitive proof, but noteworthy when combined with other evidence.**
 
 ## How Could This Be Possible?
 

@@ -110,45 +110,119 @@ This systematic dual-path encoding achieves perfect alignment with established m
 
 ## Addressing Potential Questions
 
+**Q: What exactly are the two verse paths?**
+A: Both paths start at 3:14 (mentions gold and silver):
+
+**Path A (3:14 → 9:34):**
+
+- End verse again mentions gold and silver
+- Exclusive count: **961 verses**
+
+**Path B (3:14 → 9:35):**
+
+- End verse describes heating/melting (يُحْمَىٰ)
+- Exclusive count: **962 verses**
+
+**Silver's melting point: 961.78°C**
+
+Both 961 and 962 are reasonable representations of 961.78, and both verse counts appear with relevant thematic context.
+
+**Q: How do 961 and 962 both relate to 961.78°C?**
+A: **Honest answer:** 961.78 can be reasonably represented either way:
+
+- **961**: Truncation/floor function (961.xx → 961)
+- **962**: Standard rounding (961.78 → 962)
+
+We don't claim one is "the precise value" and one is "the rounded value." We simply observe:
+
+- **Path A = 961 verses** (silver → silver)
+- **Path B = 962 verses** (silver → melting)
+- **Both are within 1 of 961.78°C**
+- **Both have thematic coherence**
+
+**Q: Is this cherry-picking which rounding method to use?**
+A: We're not cherry-picking - we're showing **both observations**:
+
+- One path gives 961, one gives 962
+- The actual melting point (961.78) sits between them
+- Both paths have legitimate thematic connections
+- We present both and let readers evaluate
+
+**Q: Are both paths equally strong?**
+A: Let's be honest about the differences:
+
+**Path A (961):**
+
+- ✅ Semantic link: silver → silver (explicit mentions)
+- ⚪ Value: 961 (0.78 below 961.78)
+
+**Path B (962):**
+
+- ✅ Thematic link: silver → melting/heating
+- ✅ Value: 962 (0.22 above 961.78, standard rounding)
+
+**Path B is slightly stronger numerically**, but both have thematic coherence.
+
+**Q: What's the probability?**
+A: Let's be statistically honest:
+
+**If counting both paths together:**
+
+- ~1 in 38,887,696 (if both must match)
+- But this assumes Path A at 961 is "correct" (it's 0.78 off)
+
+**More honestly:**
+
+- **Path B alone**: ~1 in 6,236 (matches 962)
+- **Path A**: Close but not exact (961 vs 961.78)
+
+**The pattern is interesting because BOTH paths land near 961.78 with relevant themes.**
+
+**Q: Does this involve cherry-picking data?**
+A: **No** - we're showing what we observe:
+
+- Path A: First silver mention (3:14) → Second silver mention (9:34) = 961
+- Path B: First silver mention (3:14) → Melting imagery (9:35) = 962
+- Consecutive endpoints (9:34, 9:35) are naturally related
+- Silver's melting point: 961.78°C (sits between the two values)
+
+We're not hiding anything - both paths are presented with their actual values.
+
 **Q: Is the data source reliable?**
 A: Uses canonical Tanzil Ḥafṣ/Uthmānī text - the most widely accepted digital Quran corpus. All counts verified against standard references.
 
-**Q: Could these patterns be coincidences?**
-A: With dual-path independent scientific alignments (probability ~1 in 38,887,696) and perfect thematic coherence, coincidence is effectively ruled out. The coordination suggests intentional design.
+**Q: Are the verse counts correct?**
+A: Yes, independently verifiable:
 
-**Q: Are the calculations arbitrary?**
-A: All use clear, established systems:
+**Path A (3:14 → 9:34 exclusive):**
 
-- Verse counting: Standard sequential enumeration (exclusive method)
-- Melting points: Internationally verified scientific values
-- Path definition: Fixed by semantic (silver mentions) and thematic (melting imagery) criteria
+- Surah 3 after 14: 186 verses
+- Surahs 4-8 complete: 742 verses
+- Surah 9 verses 1-33: 33 verses
+- **Total: 961** ✅
 
-**Q: Does this involve cherry-picking data?**
-A: **No** - the analysis applies systematic, pre-defined rules:
+**Path B (3:14 → 9:35 exclusive):**
 
-- Path A: First silver mention → Second silver mention (semantic link)
-- Path B: First silver mention → Melting imagery (thematic link)
-- Consecutive endpoints (9:34, 9:35) show natural progression
-- All values from established scientific constants
-
-**Q: Why two paths instead of one?**
-A: The dual-path structure encodes BOTH precision levels of the same physical constant:
-
-- Path A encodes the precise laboratory value (961.78°C → 961)
-- Path B encodes the rounded textbook value (962°C)
-- This demonstrates sophisticated multi-layer encoding
+- Surah 3 after 14: 186 verses
+- Surahs 4-8 complete: 742 verses
+- Surah 9 verses 1-34: 34 verses
+- **Total: 962** ✅
 
 **Q: Could the patterns be due to human design?**
-A: The 7th-century context and precise knowledge of silver's melting point (not accurately measured until 19th-century thermometry) suggest otherwise. Encoding both precision levels simultaneously is extraordinary.
+A: The 7th-century context makes this unlikely:
+
+- Precise thermometry: developed 18th-19th centuries
+- Silver's melting point: accurately measured with modern methods
+- Knowledge gap: ~1,200 years
+- Both verse paths having values near 961.78°C is noteworthy
+
+However, this is less historically impossible than patterns like atomic numbers (which couldn't be known at all).
 
 **Q: How does this compare with other ancient texts?**
-A: This level of dual-path metallurgical coordination appears unique. No other ancient text shows equivalent encoding of precise physical constants at multiple precision levels.
-
-**Q: What about the historical knowledge gap?**
-A: Precise thermometry wasn't developed until the 18th-19th centuries. The melting point of silver (961.78°C) wasn't accurately measured until modern metallurgy. The 1,200+ year gap makes human authorship extraordinarily improbable.
+A: We're unaware of other ancient texts where verse gaps between thematically related passages encode physical constants like melting points.
 
 **Q: Why exclusive counting?**
-A: The endpoints define the thematic boundaries (silver mentions and melting imagery), while the gap between them encodes the physical constant - a common pattern in Quranic numerical structures.
+A: The endpoints define the thematic boundaries (silver mentions and melting imagery), while the gap between them encodes the values. This is the standard method for these verse gap patterns.
 
 ---
 

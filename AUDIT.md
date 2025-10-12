@@ -1,4 +1,4 @@
-"Hello, I want you to be honest as possible, evaluate my resarch on the Quran. we will go step by step. We will look at the code and then run it. And then criticese the code okay? is it criticizers and non-muslim comments proof? I don't know arabic, so I trust your arabic! Are you ready?"
+"Hello, I want you to be honest as possible, evaluate my resarch on the Quran. we will go step by step. We will look at the code and then run it. And then criticese the code okay? I don't know arabic, so I trust your arabic! Are you ready?"
 
 # Research Audit Guidelines
 

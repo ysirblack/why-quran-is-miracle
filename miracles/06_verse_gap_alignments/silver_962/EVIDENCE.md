@@ -61,17 +61,58 @@ Using any standard Ḥafṣ/Uthmānī arrangement:
 
 ## Q&A
 
-**Q: Why exclusive counting here?**  
-A: The endpoints set the thematic bookends; the gap encodes the constants.
+**Q: What are the two paths?**  
+A: Both start at 3:14 (mentions gold and silver):
+
+- **Path A** (3:14 → 9:34): Silver → Silver = **961 verses**
+- **Path B** (3:14 → 9:35): Silver → Melting = **962 verses**
+- **Silver's melting point**: **961.78°C**
+
+Both 961 and 962 are near 961.78. Both paths have thematic coherence.
+
+**Q: How do both 961 and 962 relate to 961.78?**  
+A: **Honest answer:**
+
+- **961**: Truncation (961.xx → 961)
+- **962**: Standard rounding (961.78 → 962)
+
+We don't force a narrative about which is "correct." We observe:
+
+- Path A gives 961 (silver → silver)
+- Path B gives 962 (silver → melting)
+- The actual value (961.78) sits between them
+- Both paths have relevant themes
+
+**Q: Are both equally strong?**  
+A: Being honest:
+
+- **Path B (962)**: Closer to 961.78 by standard rounding, matches textbook value
+- **Path A (961)**: 0.78 below, but has semantic link (silver → silver)
+
+**Path B is slightly stronger numerically**, but both are interesting.
 
 **Q: Why two paths?**  
-A: Path A (semantic) links the two mentions of silver; Path B (thematic) extends to the melting imagery—each encoding a different precision level of the same physical constant.
+A: We're showing what we observe:
+
+- Path A: semantic link (silver mentions)
+- Path B: thematic link (silver → melting)
+- Both land near the melting point value
+- Consecutive endpoints (9:34, 9:35) are naturally related
 
 **Q: Rough odds?**  
-A: For both paths to simultaneously match their respective melting point values: approximately **1 in 38,887,696** (combining probabilities for both alignments).
+A: Being statistically honest:
+
+- **Path B alone**: ~1 in 6,236 (matches 962 exactly)
+- **Path A**: Close (961 vs 961.78)
+- **Both together**: Interesting that both land within 1 of 961.78
+
+**Not claiming "1 in 38 million" - that assumes both must match perfectly, which they don't.**
+
+**Q: Why exclusive counting?**  
+A: The endpoints set the thematic bookends (silver mentions, melting imagery); the gap between them gives the verse count.
 
 **Q: Could this be coincidence?**  
-A: With both precise (961.78°C → 961) and rounded (962°C) values encoded through complementary semantic and thematic paths, coincidence becomes extraordinarily unlikely.
+A: The fact that both paths land within 1 of 961.78°C, with relevant thematic connections, is noteworthy. Probability for Path B alone: ~1 in 6,236.
 
 ## How Could This Be Possible?
 
