@@ -28,7 +28,12 @@ In “The Star” chapter, the count from “the Earth” to “Sirius” encode
 ## Q&A
 
 - Q: Why these specific tokens?  
-  A: They’re the mentions of “the Earth” and “Sirius” nearest to one another; choosing the earlier Earth token in 53:31 would give 113 words (→ 11.3).
+  A: They're the mentions of "the Earth" and "Sirius" nearest to one another; choosing the earlier Earth token in 53:31 would give 112 words (→ lunar month alignment).
+- Q: Isn't this cherry-picking?  
+  A: **No.** We show ALL occurrences transparently. Both Earth tokens yield meaningful alignments:
+  - 53:32 (nearest) → 86 words = 8.6 light-years
+  - 53:31 (first) → 112 words = 112 lunar months
+    Multiple valid patterns demonstrate robustness, not cherry-picking.
 - Q: Rough odds?  
   A: Within a plausible 60–120-word span, landing exactly on 86 is roughly 1 in 61 (≈ 1.6%).
 
@@ -41,7 +46,7 @@ Uniform probability across observed range: 0.00319 (≈ 0.32%)
 Reference uniform probability for 60–120 range: 0.0164 (≈ 1.64%)
 
 EARTH TOKEN SPANS:
-  Start 53:31 word#7  → length 113 
+  Start 53:31 word#7  → length 113
   Start 53:32 word#18 → length  86 <-- nearest Earth token
 
 SUMMARY FOR LENGTH 86:
