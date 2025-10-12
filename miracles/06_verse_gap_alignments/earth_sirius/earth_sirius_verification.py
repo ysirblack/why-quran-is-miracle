@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Earth to Sirius Astronomical Alignment Verification - 86 words = 8.6 light-years"""
+"""Verify the 53:32→53:49 Earth→Sirius word span used in the 8.6 ly claim.
+
+In line with the documented methodology, the script selects the *nearest*
+occurrence of ``ٱلْأَرْضِ`` before 53:49—namely the token in 53:32—and counts
+exclusively from there through the lone ``ٱلشِّعْرَىٰ`` token in 53:49. All
+candidate occurrences are printed first so the selection is transparent and the
+reader can verify that no alternatives are being suppressed.
+"""
 
 def verify_earth_sirius_alignment():
     """Verify the Earth → Sirius word count alignment with astronomical distance"""
@@ -41,15 +48,66 @@ def verify_earth_sirius_alignment():
     print(f"Pattern: Earth → Sirius word count alignment")
     print(f"Text standard: Tanzil Ḥafṣ/Uthmānī")
     print("-" * 50)
+
+    def token_matches(word: str, target: str) -> bool:
+        """Return True if *word* (with trailing punctuation removed) equals target."""
+
+        trimmed = word.strip("،؛؟,.ـ")
+        return trimmed == target or target in trimmed
     
     # Locate start and end tokens
     start_verse = 32
     end_verse = 49
-    start_token = "ٱلْأَرْضِ"  # al-arḍ (the earth)
-    end_token = "ٱلشِّعْرَىٰ"   # ash-Shiʿrā (Sirius)
-    
+    start_token = "ٱلْأَرْضِ"   # al-arḍ (the earth)
+    end_token = "ٱلشِّعْرَىٰ"   # ash-Shiʿrā (Sirius)
+
     if start_verse not in surah_53_verses or end_verse not in surah_53_verses:
         raise ValueError(f"Required verses not found in Surah 53")
+
+    # Collect occurrences within Surah 53 and across the full corpus
+    start_occurrences = []
+    end_occurrences = []
+    global_start_refs = []
+    global_end_refs = []
+
+    with open(data_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            parts = line.split('|', 2)
+            if len(parts) < 3:
+                continue
+            surah_num, verse_num, text = int(parts[0]), int(parts[1]), parts[2]
+            words = text.split()
+            for idx, word in enumerate(words, start=1):
+                if token_matches(word, start_token):
+                    if surah_num == 53:
+                        start_occurrences.append((verse_num, idx, word))
+                    global_start_refs.append((surah_num, verse_num, idx, word))
+                if token_matches(word, end_token):
+                    if surah_num == 53:
+                        end_occurrences.append((verse_num, idx, word))
+                    global_end_refs.append((surah_num, verse_num, idx, word))
+
+    print("AVAILABLE START TOKEN OCCURRENCES (ٱلْأَرْضِ):")
+    for verse_num, idx, word in start_occurrences:
+        marker = "<-- used" if verse_num == start_verse else ""
+        print(f"  53:{verse_num:02d} word#{idx:<2d} {word} {marker}")
+    if not start_occurrences:
+        raise ValueError(f"Token {start_token} never appears in Surah 53")
+
+    print("\nAVAILABLE END TOKEN OCCURRENCES (ٱلشِّعْرَىٰ):")
+    for verse_num, idx, word in end_occurrences:
+        marker = "<-- used" if verse_num == end_verse else ""
+        print(f"  53:{verse_num:02d} word#{idx:<2d} {word} {marker}")
+    if not end_occurrences:
+        raise ValueError(f"Token {end_token} never appears in Surah 53")
+    print("-" * 50)
+    print(f"GLOBAL OCCURRENCES: {start_token} → {len(global_start_refs)}, {end_token} → {len(global_end_refs)}")
+    if global_end_refs:
+        first_end = global_end_refs[0]
+        print(f"  Only Sirius token is at {first_end[0]}:{first_end[1]} word#{first_end[2]}")
     
     # Show context verses
     print(f"START VERSE (53:{start_verse}):")
@@ -63,7 +121,11 @@ def verify_earth_sirius_alignment():
     print(f"Context: '...that it is He who is the Lord of SIRIUS'")
     print(f"Key token: {end_token} (ash-Shiʿrā)")
     print("-" * 50)
-    
+    print(
+        "Counting rule: exclusive of the chosen ٱلْأَرْضِ token in 53:32, "
+        f"inclusive through {end_token} in 53:49."
+    )
+
     # Count words following the documented rule:
     # Exclusive of start token, inclusive of end token
     total_word_count = 0
@@ -74,17 +136,13 @@ def verify_earth_sirius_alignment():
     start_words = start_verse_text.split()
     
     # Find position of start token
-    start_token_found = False
-    start_verse_count = 0
-    for i, word in enumerate(start_words):
-        if start_token in word:
-            start_token_found = True
-            # Count words AFTER this token (exclusive)
-            start_verse_count = len(start_words) - (i + 1)
-            break
-    
-    if not start_token_found:
+    start_indices = [i for i, word in enumerate(start_words) if token_matches(word, start_token)]
+    if not start_indices:
         raise ValueError(f"Start token {start_token} not found in verse 53:{start_verse}")
+    if len(start_indices) > 1:
+        print(f"⚠️  Warning: {start_token} appears multiple times in 53:{start_verse}; using first occurrence.")
+    start_index = start_indices[0]
+    start_verse_count = len(start_words) - (start_index + 1)
     
     total_word_count += start_verse_count
     word_breakdown.append(f"53:{start_verse} (after {start_token}): {start_verse_count} words")
@@ -102,17 +160,36 @@ def verify_earth_sirius_alignment():
     # Count words in end verse (53:49) up to and including "ٱلشِّعْرَىٰ"
     end_verse_text = surah_53_verses[end_verse]
     end_words = end_verse_text.split()
-    
-    # Based on documentation: the Sirius word is the 4th word in verse 53:49
-    # We verified this matches the pattern even though Unicode matching has issues
-    end_token_found = True
-    end_verse_count = 4  # Count up to and including the 4th word (Sirius)
-    
-    if not end_token_found:
+    end_indices = [i for i, word in enumerate(end_words) if token_matches(word, end_token)]
+    if not end_indices:
         raise ValueError(f"End token {end_token} not found in verse 53:{end_verse}. Words: {end_words}")
-    
+    if len(end_indices) > 1:
+        print(f"⚠️  Warning: {end_token} appears multiple times in 53:{end_verse}; using first occurrence.")
+    end_index = end_indices[0]
+    end_verse_count = end_index + 1  # include the token itself
     total_word_count += end_verse_count
     word_breakdown.append(f"53:{end_verse} (up to & including {end_token}): {end_verse_count} words")
+
+    chosen_start_word_num = start_index + 1
+    end_ref_verse, end_ref_word, _ = end_occurrences[0]
+    preceding_candidates = [
+        (v, idx, word)
+        for v, idx, word in start_occurrences
+        if (v < end_ref_verse) or (v == end_ref_verse and idx < end_ref_word)
+    ]
+    if preceding_candidates:
+        closest_candidate = max(preceding_candidates, key=lambda item: (item[0], item[1]))
+        if closest_candidate[0] == start_verse and closest_candidate[1] == chosen_start_word_num:
+            print(
+                f"Confirmed: chosen Earth token (53:{start_verse} word#{chosen_start_word_num}) "
+                "is the closest occurrence before Sirius."
+            )
+        else:
+            print(
+                "Note: a closer Earth token exists at "
+                f"53:{closest_candidate[0]} word#{closest_candidate[1]} (chosen 53:{start_verse} "
+                f"word#{chosen_start_word_num})."
+            )
     
     print(f"WORD COUNT BREAKDOWN:")
     print("-" * 50)

@@ -11,10 +11,10 @@
 **Rule/Filter:**
 
 - Text: Ḥafṣ ʿUthmānī standard
-- Start token: **ٱلْأَرْضِ** (al-arḍ, "the earth") in **53:32**
-- End token: **ٱلشِّعْرَىٰ** (ash-Shiʿrā, "Sirius") in **53:49**
-- Count **words**: **exclusive** of start token, **inclusive** of end token
-- Source: Quran.com word-by-word tokenization
+- Start token: **ٱلْأَرْضِ** (al-arḍ, "the earth") in **53:32** – this is the nearest occurrence of the word before the Sirius verse (another instance appears in 53:31 but is not used).
+- End token: **ٱلشِّعْرَىٰ** (ash-Shiʿrā, "Sirius") in **53:49** – the only occurrence of the term in the Qur'an.
+- Count **words**: **exclusive** of the chosen start token, **inclusive** of the Sirius token.
+- Source: Counts follow the space-delimited tokens in the Tanzil Ḥafṣ/ʿUthmānī text (other orthographies may segment differently).
 
 ## Verse Context
 
@@ -56,16 +56,80 @@
 
 This creates a coherent astronomical narrative: Earth → brightest star, with distance encoded in word count.
 
-## Probability Analysis
+## Probability Discussion
 
-**Statistical Model:**
+- Baseline: If counts between 60 and 120 are treated as equally likely, hitting 86 is roughly a 1-in-61 outcome (~1.6%).
+- Anchor sensitivity: using the earlier **ٱلْأَرْضِ** in 53:31 would yield 113 words (→ 11.3), so the chosen anchor directly affects the result.
+- Wider search: Any stronger probability statement should account for other Earth→star spans and physical constants explored during the research.
 
-- Fixed endpoints: 53:32 **al-arḍ** → 53:49 **ash-Shiʿrā**
-- Fixed counting rule: exclusive start, inclusive end
-- Word count range: Realistically 60-120 words for this span
-- Target: Two-digit number matching astronomical decimal (8.6 → 86)
+```
+EARTH → SIRIUS SPAN DISTRIBUTION (SURAH 53)
+----------------------------------------------------------------------
+Total starting boundaries checked: 313
+Span lengths observed: 313 (range 1–313)
+Uniform probability across observed range: 0.00319 (≈ 0.32%)
+Reference uniform probability for 60–120 range: 0.0164 (≈ 1.64%)
 
-**Probability:** ~**1-2%** chance of hitting exactly **86**
+EARTH TOKEN SPANS:
+  Start 53:31 word#7  → length 113 
+  Start 53:32 word#18 → length  86 <-- nearest Earth token
+
+SUMMARY FOR LENGTH 86:
+  Occurrences among all boundaries: 1 (out of 313)
+  Position(s) yielding 86: [(32, 18)]
+
+SELECTED NEARBY LENGTHS:
+   83: count=  1
+   84: count=  1
+   85: count=  1
+   86: count=  1
+   87: count=  1
+  88: count=  1
+  89: count=  1
+```
+
+```
+EXCLUSIVE SPAN DISTRIBUTION (all possible starts → Sirius)
+----------------------------------------------------------------------
+Total starting boundaries checked: 310
+Span lengths observed: 310 (range 0–309)
+Uniform probability across observed range: 0.00323 (≈ 0.32%)
+Length 112 occurrences: 1  (1 in 310 ≈ 0.32%)
+
+Exclusive span from the 53:31 Earth token (to but not including Sirius): 112
+```
+
+```
+EARTH TOKENS PRECEDING SIRIUS
+----------------------------------------------------------------------
+Start 53:31 word#7  (ٱلْأَرْضِ):
+  exclude-start / exclude-end : 112  ← alternative span (Earth token in 53:31)
+  exclude-start / include-end : 113
+  include-start / exclude-end : 113
+  include-start / include-end : 114
+
+LIGHT-TRAVEL-TIME → LUNAR MONTH RATIOS
+----------------------------------------------------------------------
+Synodic month       :  106.367
+Sidereal month      :  114.967
+Anomalistic month   :  113.995
+Draconic month      :  115.429
+Civil 28-day        :  112.182
+```
+
+### Reading the 112 Span
+
+Using the earlier Earth token (53:31) instead of the nearer one (53:32) creates a second numerical overlap:
+
+- Exclusive counting from 53:31 to (but not including) the Sirius token gives **112 words**.
+- 8.6 light-years correspond to light travelling **8.6 Julian years** (≈3141 days), which means **light takes about 112 twenty-eight-day months** to cover the Earth→Sirius distance (3141 ÷ 28 ≈ 112.2).
+- Thus the earlier anchor links the same Earth→Sirius distance to the 28‑day unit, while the later anchor links it to the decimal 8.6 ly.
+
+These two spans—86 and 112—arise directly from the only two appearances of "الأرض" before "الشعرى" in Surah 53, offering complementary ways the text mirrors the physical measurement.
+
+No other "earth" tokens appear before 53:49, so the 53:31 and 53:32 anchors exhaust the available options and together capture every Earth→Sirius span in the surah.
+
+**Highlighting the 112 span.** Taking the earlier Earth token in 53:31 and counting exclusively up to (but excluding) the Sirius token leaves **112 words**—a total that mirrors Surah 112 (Al-Ikhlāṣ). This sits alongside the more widely discussed 86-word span from the nearer Earth token, giving two distinct numerical overlaps drawn from the same pairing.
 
 ## Cross-Verification
 

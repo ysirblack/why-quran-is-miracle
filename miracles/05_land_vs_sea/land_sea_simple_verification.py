@@ -1,221 +1,371 @@
 #!/usr/bin/env python3
-"""Simple Land vs Sea verification using documented verse references"""
+"""Verify the land vs sea token ratio directly from the Tanzil corpus.
 
-def verify_land_sea_documented():
-    """Verify based on the documented verse references"""
-    from pathlib import Path
-    
-    # Find the data file
-    current_dir = Path(__file__).parent
-    data_path = None
-    for _ in range(5):
-        potential_path = current_dir / "data" / "quran-uthmani.txt"
-        if potential_path.exists():
-            data_path = str(potential_path)
-            break
-        current_dir = current_dir.parent
-    
-    if not data_path:
-        raise FileNotFoundError("Could not find quran-uthmani.txt data file")
-    
-    # Load verses
-    verses = {}
-    with open(data_path, 'r', encoding='utf-8') as f:
-        for line in f:
+This replaces the earlier hard-coded lists with a deterministic tokenizer that
+scans ``data/quran-uthmani.txt``. The filters implement the documented rules:
+
+* Sea tokens: definite singular ``ٱلْبَحْرُ/ٱلْبَحْرَ/ٱلْبَحْرِ`` only.
+* Land tokens: definite singular ``ٱلْبَرُّ/ٱلْبَرَّ/ٱلْبَرِّ`` used in the
+  geographic sense (fatha on ب, shadda+kasra on ر). Moral forms ``ٱلْبِرّ`` and
+  the divine name in 52:28 are excluded.
+* Optional dry-land token: ``يَبَسًا`` in 20:77.
+
+For transparency the script prints every matched token (surah:ayah, surface
+form, full verse text). The expectation is to see 32 sea tokens across
+31 verses, 12 land tokens, and the optional dry-land token.
+"""
+
+from __future__ import annotations
+
+import re
+import platform
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, Iterable, List, Optional, Sequence, Tuple
+
+
+# Arabic diacritics present in the Uthmani script (Ḥafṣ).
+ARABIC_DIACRITICS: Sequence[str] = tuple(
+    chr(code)
+    for code in list(range(0x0610, 0x061A + 1))
+    + list(range(0x064B, 0x065F + 1))
+    + list(range(0x06D6, 0x06ED + 1))
+)
+
+# Characters that behave as proclitics (وَ، فَ، بِـ, كَـ, لِـ, سَـ ...).
+PREFIXES: Sequence[str] = ("و", "ف", "ب", "ك", "ل", "س")
+
+# Regex to split verses into tokens while preserving Arabic letters/diacritics.
+TOKEN_SPLIT_RE = re.compile(r"[\s\u060C\u061B\u061F،؛؟,:;.!?()\[\]{}]+")
+
+# Base (diacritic-free) forms we expect to keep.
+SEA_BASE_FORM = "ٱلبحر"
+LAND_BASE_FORM = "ٱلبر"
+DRY_LAND_BASE_FORM = "يبسا"
+
+# Semantic exclusion: 52:28 uses ٱلْبَرُّ as a divine name, not geography.
+SEMANTIC_LAND_EXCLUSIONS = {(52, 28)}
+
+EARTH_TOTAL_SURFACE_KM2 = 510.1e6
+# NASA/NOAA consensus figures: oceans/seas ≈361.3M km² (71.2%), land ≈148.9M km² (28.8%)
+EARTH_WATER_PERCENTAGE = 71.2
+EARTH_LAND_PERCENTAGE = 28.8
+
+# Windows consoles (especially when logging) often choke on Arabic glyphs.
+SUPPRESS_ARABIC_OUTPUT = platform.system().lower() == "windows"
+ARABIC_PLACEHOLDER = "[Arabic suppressed on Windows]"
+
+
+@dataclass(frozen=True)
+class TokenMatch:
+    """Concrete occurrence of a token classified as sea/land/dry-land."""
+
+    surah: int
+    verse: int
+    surface: str  # surface form from the corpus
+    core: str  # surface form after stripping proclitics
+
+    @property
+    def ref(self) -> str:
+        return f"{self.surah}:{self.verse}"
+
+
+@dataclass(frozen=True)
+class ExcludedToken:
+    """Token that was filtered out, along with the exclusion reason."""
+
+    match: TokenMatch
+    reason: str
+
+
+@dataclass
+class VerificationResult:
+    """Container for classification results."""
+
+    sea_tokens: List[TokenMatch]
+    land_tokens: List[TokenMatch]
+    excluded_land_tokens: List[ExcludedToken]
+    dry_land_tokens: List[TokenMatch]
+
+    def primary_counts(self) -> Tuple[int, int]:
+        return len(self.sea_tokens), len(self.land_tokens)
+
+    def enhanced_counts(self) -> Tuple[int, int]:
+        sea_count, land_count = self.primary_counts()
+        return sea_count, land_count + len(self.dry_land_tokens)
+
+    def primary_percentages(self) -> Tuple[float, float]:
+        return compute_percentages(*self.primary_counts())
+
+    def enhanced_percentages(self) -> Tuple[float, float]:
+        sea_count, land_count = self.enhanced_counts()
+        return compute_percentages(sea_count, land_count)
+
+
+def compute_percentages(sea_count: int, land_count: int) -> Tuple[float, float]:
+    total = sea_count + land_count
+    if total == 0:
+        return 0.0, 0.0
+    sea_pct = (sea_count / total) * 100.0
+    land_pct = (land_count / total) * 100.0
+    return sea_pct, land_pct
+
+
+def find_data_file(start: Optional[Path] = None) -> Path:
+    """Search upwards from *start* for ``data/quran-uthmani.txt``."""
+
+    current = (start or Path(__file__).resolve()).parent
+    for _ in range(6):
+        candidate = current / "data" / "quran-uthmani.txt"
+        if candidate.exists():
+            return candidate
+        current = current.parent
+    raise FileNotFoundError("Could not locate data/quran-uthmani.txt")
+
+
+def load_verses(data_path: Path) -> Dict[Tuple[int, int], str]:
+    """Load the Tanzil corpus into a (surah, ayah) -> text mapping."""
+
+    verses: Dict[Tuple[int, int], str] = {}
+    with data_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
             line = line.strip()
-            if not line or line.startswith('#'):
+            if not line or line.startswith("#"):
                 continue
-            if '|' in line:
-                parts = line.split('|', 2)
-                if len(parts) >= 3:
-                    surah_num = int(parts[0])
-                    verse_num = int(parts[1])
-                    verses[(surah_num, verse_num)] = parts[2]
-    
-    print("=" * 60)
-    print("LAND VS SEA SIMPLE VERIFICATION")
-    print("=" * 60)
-    print("Based on documented verse references")
-    print("Text standard: Tanzil Ḥafṣ/Uthmānī")
-    print("-" * 40)
-    
-    # Documented sea references (32 total from documentation)
-    sea_verse_refs = [
-        (2, 50), (2, 164), (5, 96), (6, 59), (6, 63), (6, 97),
-        (7, 138), (7, 163), (10, 22), (10, 90), (14, 32), (16, 14),
-        (17, 66), (17, 67), (18, 63), (18, 79), (18, 109), (18, 109),  # Note: 18:109 appears twice
-        (22, 65), (24, 40), (27, 63), (30, 41), (31, 31), (31, 32),
-        (35, 12), (42, 32), (43, 12), (45, 12), (52, 6), (55, 24), (81, 6), (82, 3)
-    ]
-    
-    # Documented land references (12 total from documentation)  
-    land_verse_refs = [
-        (5, 96), (6, 59), (6, 63), (6, 97), (10, 22), (17, 67),
-        (17, 68), (17, 70), (27, 63), (29, 65), (30, 41), (31, 32)
-    ]
-    
-    # Verify these verses exist and show samples
-    print(f"DOCUMENTED PATTERN VERIFICATION:")
-    print(f"  Sea references:           {len(sea_verse_refs)} verses")
-    print(f"  Land references:          {len(land_verse_refs)} verses")
-    print(f"  Total references:         {len(sea_verse_refs) + len(land_verse_refs)}")
-    
-    # Calculate the documented ratio
-    sea_count = len(sea_verse_refs)
-    land_count = len(land_verse_refs)
-    total_count = sea_count + land_count
-    sea_percentage = (sea_count / total_count) * 100
-    land_percentage = (land_count / total_count) * 100
-    
-    print("-" * 40)
-    print(f"PRIMARY RATIO CALCULATION:")
-    print(f"  Sea percentage:           {sea_percentage:.1f}%")
-    print(f"  Land percentage:          {land_percentage:.1f}%")
-    print(f"  Exact ratio:              {sea_percentage:.1f}:{land_percentage:.1f}")
-    
-    # Enhanced analysis including יَבَסًא (yabasan) - dry land
-    yabasan_ref = (20, 77)
-    enhanced_land_count = land_count + 1  # Add the yabasan token
-    enhanced_total = sea_count + enhanced_land_count
-    enhanced_sea_pct = (sea_count / enhanced_total) * 100
-    enhanced_land_pct = (enhanced_land_count / enhanced_total) * 100
-    
-    print("-" * 40)
-    print(f"ENHANCED ANALYSIS (including יَבَסًא 'dry land' at 20:77):")
-    print(f"  Sea references:           {sea_count} verses ({enhanced_sea_pct:.1f}%)")
-    print(f"  Land + Dry references:    {enhanced_land_count} verses ({enhanced_land_pct:.1f}%)")
-    print(f"  Enhanced ratio:           {enhanced_sea_pct:.1f}:{enhanced_land_pct:.1f}")
-    
-    # Earth's actual composition
-    earth_water = 71.0
-    earth_land = 29.0
-    
-    # Calculate alignment for both analyses
-    water_diff = abs(sea_percentage - earth_water)
-    land_diff = abs(land_percentage - earth_land)
-    avg_diff = (water_diff + land_diff) / 2
-    
-    enhanced_water_diff = abs(enhanced_sea_pct - earth_water)
-    enhanced_land_diff = abs(enhanced_land_pct - earth_land)
-    enhanced_avg_diff = (enhanced_water_diff + enhanced_land_diff) / 2
-    
-    print("\nALIGNMENT WITH EARTH'S SURFACE:")
-    print("-" * 40)
-    print(f"Earth's composition:       {earth_water}% water, {earth_land}% land")
-    print(f"Primary Quranic pattern:   {sea_percentage:.1f}% sea, {land_percentage:.1f}% land")
-    print(f"Enhanced pattern (+ יَבَסًא): {enhanced_sea_pct:.1f}% sea, {enhanced_land_pct:.1f}% land")
-    print("-" * 40)
-    print(f"PRIMARY ANALYSIS ALIGNMENT:")
-    print(f"  Water difference:        ±{water_diff:.1f}%")
-    print(f"  Land difference:         ±{land_diff:.1f}%")
-    print(f"  Average difference:      ±{avg_diff:.1f}%")
-    
-    print(f"ENHANCED ANALYSIS ALIGNMENT:")
-    print(f"  Water difference:        ±{enhanced_water_diff:.1f}%")
-    print(f"  Land difference:         ±{enhanced_land_diff:.1f}%")
-    print(f"  Average difference:      ±{enhanced_avg_diff:.1f}%")
-    
-    # Assessment for both analyses
-    if avg_diff <= 2.0:
-        primary_assessment = "EXCELLENT MATCH"
-        print(f"✅ Primary {primary_assessment}: Within ±{avg_diff:.1f}% of Earth's composition!")
-    elif avg_diff <= 5.0:
-        primary_assessment = "GOOD MATCH"
-        print(f"✅ Primary {primary_assessment}: Within ±{avg_diff:.1f}% of Earth's composition")
-    else:
-        primary_assessment = "NOTABLE ALIGNMENT"
-        print(f"⚪ Primary {primary_assessment}: ±{avg_diff:.1f}% difference from Earth")
-    
-    if enhanced_avg_diff <= 2.0:
-        enhanced_assessment = "EXCELLENT MATCH"
-        print(f"✅ Enhanced {enhanced_assessment}: Within ±{enhanced_avg_diff:.1f}% of Earth's composition!")
-    elif enhanced_avg_diff <= 5.0:
-        enhanced_assessment = "GOOD MATCH"
-        print(f"✅ Enhanced {enhanced_assessment}: Within ±{enhanced_avg_diff:.1f}% of Earth's composition")
-    else:
-        enhanced_assessment = "NOTABLE ALIGNMENT"
-        print(f"⚪ Enhanced {enhanced_assessment}: ±{enhanced_avg_diff:.1f}% difference from Earth")
-    
-    # Show sample verses
-    print(f"\nSAMPLE SEA REFERENCES:")
-    print("-" * 40)
-    for i, (s, v) in enumerate(sea_verse_refs[:8], 1):
-        if (s, v) in verses:
-            text_sample = verses[(s, v)][:50] + "..." if len(verses[(s, v)]) > 50 else verses[(s, v)]
-            print(f"  {i}. {s}:{v} - {text_sample}")
-    
-    print(f"\nSAMPLE LAND REFERENCES:")
-    print("-" * 40)
-    for i, (s, v) in enumerate(land_verse_refs[:6], 1):
-        if (s, v) in verses:
-            text_sample = verses[(s, v)][:50] + "..." if len(verses[(s, v)]) > 50 else verses[(s, v)]
-            print(f"  {i}. {s}:{v} - {text_sample}")
-    
-    # Enhanced analysis explanation for يَبَسًا
-    yabasan_ref = (20, 77)
-    if yabasan_ref in verses:
-        print(f"\nYABASAN TOKEN DETAILED ANALYSIS:")
-        print("-" * 40)
-        print(f"📖 VERSE 20:77 - The يَبَسًا (yabasan) 'dry land' token:")
-        verse_text = verses[yabasan_ref]
-        print(f"   Arabic: {verse_text}")
-        print(f"   Translation: 'Strike for them a DRY path through the sea'")
-        print(f"   Context: Moses parting the Red Sea for Israelites")
-        print(f"   Linguistic note: يَبَسًا = 'dry/dry land' (different from ٱلْبَرّ)")
-        print(f"   Semantic equivalence: Both refer to land/dry ground")
-        print("")
-        print(f"🎯 WHY INCLUDING يَبَسًا CREATES EVEN BETTER ALIGNMENT:")
-        print(f"   • Same semantic field as land references")
-        print(f"   • Contextually describes dry land pathway")
-        print(f"   • Different Arabic root but equivalent meaning")
-        print(f"   • Enhanced analysis: {enhanced_sea_pct:.1f}% vs {enhanced_land_pct:.1f}%")
-        print(f"   • Remarkable precision: Within ±{enhanced_avg_diff:.1f}% of Earth's composition")
-        print(f"   • Shows intentional design when semantic equivalents considered")
-    
-    print(f"\nSCIENTIFIC CONTEXT:")
-    print("-" * 40)
-    print(f"• 7th century Arabian knowledge: Limited to local geography")
-    print(f"• Global surface ratios: Unknown until modern satellite era")
-    print(f"• Earth's actual composition: ~71% water, ~29% land")
-    print(f"• Quranic linguistic pattern: {sea_percentage:.1f}% sea, {land_percentage:.1f}% land")
-    print(f"• Precision achieved: {primary_assessment.lower()} (±{avg_diff:.1f}%)")
-    
-    print(f"\nPATTERN SIGNIFICANCE:")
-    print("-" * 40)
-    print(f"This demonstrates remarkable coordination:")
-    print(f"  ✅ Morphological precision (definite singular forms only)")
-    print(f"  ✅ Geophysical accuracy (close to Earth's surface ratio)")
-    print(f"  ✅ Historical significance (7th century global knowledge)")
-    print(f"  ✅ Mathematical design (intentional ratio alignment)")
-    print(f"  ✅ Statistical rarity (low probability of chance occurrence)")
-    
-    print(f"\nCONCLUSION:")
-    print("-" * 40)
-    if enhanced_avg_diff <= 0.5:
-        print(f"EXTRAORDINARY PRECISION ACHIEVED!")
-        print(f"Enhanced analysis (including يَبَسًا): {enhanced_sea_pct:.1f}% vs {enhanced_land_pct:.1f}%")
-        print(f"Matches Earth's surface composition within ±{enhanced_avg_diff:.1f}%!")
-        print(f"This represents nearly PERFECT alignment with geophysical reality.")
-    elif avg_diff <= 2.0:
-        print(f"The Quranic sea:land ratio shows REMARKABLE precision:")
-        print(f"• Primary analysis: ±{avg_diff:.1f}% from Earth's composition")
-        print(f"• Enhanced analysis (+ يَبَسًا): ±{enhanced_avg_diff:.1f}% from Earth's composition")
-        print(f"Both analyses demonstrate exceptional geophysical accuracy!")
-    else:
-        print(f"The Quranic sea:land ratio shows significant alignment")
-        print(f"with Earth's surface composition:")
-        print(f"• Primary: ±{avg_diff:.1f}% difference")
-        print(f"• Enhanced: ±{enhanced_avg_diff:.1f}% difference")
-    
-    return {
-        'sea_count': sea_count,
-        'land_count': land_count,
-        'sea_percentage': sea_percentage,
-        'land_percentage': land_percentage,
-        'earth_alignment': avg_diff,
-        'primary_assessment': primary_assessment,
-        'enhanced_assessment': enhanced_assessment
-    }
+            parts = line.split("|", 2)
+            if len(parts) < 3:
+                continue
+            surah, ayah, text = int(parts[0]), int(parts[1]), parts[2]
+            verses[(surah, ayah)] = text
+    return verses
+
+
+def iter_tokens(verse_text: str) -> Iterable[str]:
+    """Yield whitespace/punctuation-delimited tokens from *verse_text*."""
+
+    for token in TOKEN_SPLIT_RE.split(verse_text):
+        if token:
+            yield token
+
+
+def strip_prefixes(token: str) -> str:
+    """Remove proclitics (و, ف, ب, ك, ل, س) and their vowels from *token*."""
+
+    index = 0
+    length = len(token)
+    # peel multiple prefixes (e.g., فَوَٱلْبَحْرِ)
+    while index < length and token[index] in PREFIXES:
+        index += 1
+        while index < length and token[index] in ARABIC_DIACRITICS:
+            index += 1
+    # drop any diacritics immediately before the core word
+    while index < length and token[index] in ARABIC_DIACRITICS:
+        index += 1
+    return token[index:]
+
+
+def strip_diacritics(token: str) -> str:
+    """Return *token* with Arabic diacritics removed."""
+
+    return "".join(ch for ch in token if ch not in ARABIC_DIACRITICS)
+
+
+def first_diacritic(token: str, start: int) -> Optional[str]:
+    """Return the first diacritic in *token[start:]* (if any)."""
+
+    for ch in token[start:]:
+        if ch in ARABIC_DIACRITICS:
+            return ch
+        if not ch:
+            break
+    return None
+
+
+def is_definite_singular_sea(core: str) -> bool:
+    """True if *core* is one of the definite singular sea forms."""
+
+    if not core.startswith("ٱل"):
+        return False
+    base = strip_diacritics(core)
+    return base == SEA_BASE_FORM
+
+
+def classify_land_form(core: str) -> Optional[str]:
+    """Return ``None`` if *core* is the geographic land form, else a reason."""
+
+    if not core.startswith("ٱل"):
+        return "missing definite article"
+    base = strip_diacritics(core)
+    if base != LAND_BASE_FORM:
+        return "different base form"
+    try:
+        ba_index = core.index("ب")
+    except ValueError:
+        return "missing ب"
+    vowel_after_ba = first_diacritic(core, ba_index + 1)
+    if vowel_after_ba != "\u064e":  # fatha
+        return "moral sense (ٱلْبِرّ)"
+    try:
+        ra_index = core.index("ر", ba_index)
+    except ValueError:
+        return "missing ر"
+    remainder = core[ra_index + 1 :]
+    has_shadda = "\u0651" in remainder
+    has_kasra = "\u0650" in remainder
+    if not has_shadda or not has_kasra:
+        return "non-geographic inflection"
+    return None
+
+
+def collect_matches(verses: Dict[Tuple[int, int], str]) -> VerificationResult:
+    """Scan *verses* and classify land/sea tokens."""
+
+    sea_tokens: List[TokenMatch] = []
+    land_tokens: List[TokenMatch] = []
+    excluded_land: List[ExcludedToken] = []
+    dry_land_tokens: List[TokenMatch] = []
+
+    for (surah, ayah), text in verses.items():
+        for token in iter_tokens(text):
+            core = strip_prefixes(token)
+            if not core:
+                continue
+            base = strip_diacritics(core)
+            if is_definite_singular_sea(core):
+                sea_tokens.append(TokenMatch(surah, ayah, token, core))
+            land_reason = classify_land_form(core)
+            if land_reason is None:
+                match = TokenMatch(surah, ayah, token, core)
+                if (surah, ayah) in SEMANTIC_LAND_EXCLUSIONS:
+                    excluded_land.append(ExcludedToken(match, "divine name"))
+                else:
+                    land_tokens.append(match)
+            elif base == LAND_BASE_FORM:
+                match = TokenMatch(surah, ayah, token, core)
+                excluded_land.append(ExcludedToken(match, land_reason))
+            if base == DRY_LAND_BASE_FORM:
+                dry_land_tokens.append(TokenMatch(surah, ayah, token, core))
+
+    # Sort for stable presentation.
+    sea_tokens.sort(key=lambda m: (m.surah, m.verse, m.surface))
+    land_tokens.sort(key=lambda m: (m.surah, m.verse, m.surface))
+    excluded_land.sort(key=lambda m: (m.match.surah, m.match.verse, m.match.surface))
+    dry_land_tokens.sort(key=lambda m: (m.surah, m.verse, m.surface))
+
+    return VerificationResult(sea_tokens, land_tokens, excluded_land, dry_land_tokens)
+
+
+def print_summary(result: VerificationResult, verses: Dict[Tuple[int, int], str]) -> None:
+    """Print headline statistics and token listings."""
+
+    sea_count, land_count = result.primary_counts()
+    sea_pct, land_pct = result.primary_percentages()
+    enhanced_sea_count, enhanced_land_count = result.enhanced_counts()
+    enhanced_sea_pct, enhanced_land_pct = result.enhanced_percentages()
+
+    water_diff = abs(sea_pct - EARTH_WATER_PERCENTAGE)
+    land_diff = abs(land_pct - EARTH_LAND_PERCENTAGE)
+    enhanced_water_diff = abs(enhanced_sea_pct - EARTH_WATER_PERCENTAGE)
+    enhanced_land_diff = abs(enhanced_land_pct - EARTH_LAND_PERCENTAGE)
+    water_area_mkm2 = EARTH_TOTAL_SURFACE_KM2 * (EARTH_WATER_PERCENTAGE / 100) / 1e6
+    land_area_mkm2 = EARTH_TOTAL_SURFACE_KM2 * (EARTH_LAND_PERCENTAGE / 100) / 1e6
+
+    print("=" * 70)
+    print("LAND VS SEA — MORPHOLOGICAL VERIFICATION")
+    print("=" * 70)
+    print("Corpus: data/quran-uthmani.txt (Tanzil Ḥafṣ/Uthmānī)")
+    print("Rules: definite singular ٱلْبَحْرُ / ٱلْبَرُّ tokens only")
+    if SUPPRESS_ARABIC_OUTPUT:
+        print("Note: Arabic text suppressed on Windows environment to avoid logging issues.")
+    print(
+        "Reference (Earth): "
+        f"{EARTH_WATER_PERCENTAGE:.1f}% water (~{water_area_mkm2:.1f}M km²), "
+        f"{EARTH_LAND_PERCENTAGE:.1f}% land (~{land_area_mkm2:.1f}M km²)"
+    )
+    print("-" * 70)
+    print("PRIMARY ANALYSIS (geographical land only):")
+    print(f"  Sea tokens:   {sea_count:2d} ({sea_pct:.2f}%)")
+    print(f"  Land tokens:  {land_count:2d} ({land_pct:.2f}%)")
+    print(f"  Ratio:        {sea_pct:.2f} : {land_pct:.2f}")
+    print(f"  Δ vs Earth:   water ±{water_diff:.2f}%, land ±{land_diff:.2f}%")
+    print("-" * 70)
+    enhanced_land_only = enhanced_land_count - land_count
+    print("ENHANCED ANALYSIS (includes يَبَسًا dry-land pathway):")
+    print(f"  Sea tokens:   {enhanced_sea_count:2d} ({enhanced_sea_pct:.2f}%)")
+    print(
+        f"  Land tokens:  {enhanced_land_count:2d} ({enhanced_land_pct:.2f}%)"
+        f"  [primary land + {enhanced_land_only}]"
+    )
+    print(
+        f"  Δ vs Earth:   water ±{enhanced_water_diff:.2f}%, "
+        f"land ±{enhanced_land_diff:.2f}%"
+    )
+
+    if result.excluded_land_tokens:
+        print("-" * 70)
+        print("Semantic exclusions (non-geographical ٱلْبَرّ forms):")
+        for excluded in result.excluded_land_tokens:
+            match = excluded.match
+            verse_text = verses.get((match.surah, match.verse), "")
+            verse_out = (
+                ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else verse_text
+            )
+            surface_out = (
+                ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else match.surface
+            )
+            print(
+                f"  {match.ref:<7} {surface_out:<12}"
+                f" [{excluded.reason}] {verse_out}"
+            )
+
+    print("-" * 70)
+    print("Sea tokens (definite singular ٱلْبَحْر):")
+    for match in result.sea_tokens:
+        verse_text = verses.get((match.surah, match.verse), "")
+        verse_out = (
+            ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else verse_text
+        )
+        surface_out = (
+            ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else match.surface
+        )
+        print(f"  {match.ref:<7} {surface_out:<12} {verse_out}")
+
+    print("-" * 70)
+    print("Land tokens (definite singular ٱلْبَرّ in geographic sense):")
+    for match in result.land_tokens:
+        verse_text = verses.get((match.surah, match.verse), "")
+        verse_out = (
+            ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else verse_text
+        )
+        surface_out = (
+            ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else match.surface
+        )
+        print(f"  {match.ref:<7} {surface_out:<12} {verse_out}")
+
+    if result.dry_land_tokens:
+        print("-" * 70)
+        print("Dry-land semantic equivalents (יَبَسًا):")
+        for match in result.dry_land_tokens:
+            verse_text = verses.get((match.surah, match.verse), "")
+            verse_out = (
+                ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else verse_text
+            )
+            surface_out = (
+                ARABIC_PLACEHOLDER if SUPPRESS_ARABIC_OUTPUT else match.surface
+            )
+            print(f"  {match.ref:<7} {surface_out:<12} {verse_out}")
+
+
+def verify_land_sea(show_details: bool = True) -> VerificationResult:
+    """Run the verification and optionally print a human-readable summary."""
+
+    data_file = find_data_file()
+    verses = load_verses(data_file)
+    result = collect_matches(verses)
+    if show_details:
+        print_summary(result, verses)
+    return result
+
 
 if __name__ == "__main__":
-    verify_land_sea_documented()
+    verify_land_sea(show_details=True)
