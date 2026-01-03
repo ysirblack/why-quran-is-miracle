@@ -1,0 +1,57 @@
+# COMPLETE QAC BREAKDOWN: Belief vs Disbelief Roots
+# Source: corpus.quran.com
+# Belief root: أ-م-ن (Amn)
+# Disbelief root: ك-ف-ر (Kfr)
+
+================================================================================
+BELIEF ROOT (أ-م-ن) - TOTAL: 879 occurrences
+================================================================================
+
+## VERBS (558 total)
+Form I (أَمِنَ - to feel secure/entrust):        20
+Form IV (ءَامَنَ - to believe):                  537
+Form VIII (ٱؤْتُمِنَ - to be entrusted):         1
+
+## NOUNS (66 total)
+أَمَٰنَٰت (amānāt - trusts):                     4
+أَمَٰنَت (amānat - trust):                       2
+أَمْن (amn - security):                         5
+أَمَنَة (amanat - security/drowsiness):          2
+مَأْمَن (maman - place of safety):               1
+
+## ADJECTIVES/PARTICIPLES (210 total)
+أَمِين (amīn - trustworthy):                    14
+ءَامِن (āmin - safe/secure):                     6
+ءَامِنِين (āminīn - safe ones, plural):         10
+ءَامِنَة (āminat - secure, feminine):            1
+مَأْمُون (mamūn - one from whom punishment not feared): 1
+مُؤْمِن (mu'min - believer):                    202
+مُّؤْمِنَٰت (mu'mināt - believing women):        22
+مُّؤْمِنَة (mu'minat - believing woman):          6
+
+## MASDAR (Verbal Noun) (45 total)
+إِيمَٰن (īmān - faith/belief):                   45  
+
+================================================================================
+DISBELIEF ROOT (ك-ف-ر) - TOTAL: 525 occurrences
+================================================================================
+
+## VERBS (304 total)
+Form I (كَفَرَ - to disbelieve):                289
+Form II (كَفَّرَ - to expiate/remove sins):      14
+Form IV (أَكْفَرَ - to be ungrateful):            1
+
+## NOUNS (91 total)
+كَافِر (kāfir - disbeliever, singular):         27
+كَافُور (kāfūr - Kafur, fragrance):              1
+كَفَّار (kaffār - ungrateful one):               5
+كَفَّارَات (kaffārāt - expiation):               4
+كُفْر (kufr - disbelief):                       37  
+كُفْرَان (kuf'rān - rejection/ingratitude):      1
+كَفُور (kafūr - ungrateful):                    12
+كُفُور (kufūr - disbelief, alternate):           3
+كَوَافِر (kawāfir - disbelieving women):         1
+
+## PARTICIPLES (130 total)
+كَافِرُون (kāfirūn - disbelievers, plural):    129
+كَافِرَة (kāfirat - disbelieving woman):         1

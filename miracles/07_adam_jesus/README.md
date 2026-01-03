@@ -1,156 +1,212 @@
-# Adam & Jesus — Proper-Name Tokens (Tanzil Ḥafṣ/Uthmānī)
+# Adam & Jesus: 25:25 Balance
 
-## Rule / Filter
+## The Claim
 
-- Count proper-name tokens only: آدم (Ādam) and عيسى (ʿĪsā).
-- Count every token (no per-verse cap).
-- Clitics allowed; treat orthographic variants as the same name.
-- Exclude titles/epithets (المسيح, ابن مريم), pronouns, and non-name words.
+The names "Adam" (آدم) and "Jesus" (عيسى) each appear exactly 25 times in the Quran - a perfect balance for the only two figures the Quran explicitly pairs as sharing miraculous, fatherless creation.
 
-## Result
+---
 
-- Ādam (آدم) = 25 tokens (QAC dictionary explicitly states 25)
-- ʿĪsā (عيسى) = 25 tokens (QAC concept page: "Verse List … 25 occurrences")
+## The Evidence
 
-## Why it's surprising
+| Name  | Arabic | Count | Verified |
+| ----- | ------ | ----- | -------- |
+| Adam  | آدم    | 25    | YES      |
+| Jesus | عيسى   | 25    | YES      |
 
-- Explicit equivalence in the text: 3:59 says, "The example of Jesus with Allah is like that of Adam…"—a direct pairing by the Qur'an itself.
-- Mirrored mode of origin: both are portrayed without a human father—Adam from clay (e.g., 38:71–72), Jesus by a virgin birth (19:20–21).
-- Global count symmetry: across the whole corpus and after excluding titles (e.g., al-Masīḥ), their proper-name totals tie exactly 25:25, matching the theological pairing.
+**Balance**: Perfect 25:25
 
-## Theological Significance
+---
 
-### Quranic Parallelism:
+## Theological Context
 
-The Quran explicitly draws a parallel between Adam and Jesus in 3:59:
+### The Explicit Pairing (Quran 3:59)
 
 > "Indeed, the example of Jesus to Allah is like that of Adam. He created him from dust; then He said to him, 'Be,' and he was."
 
-### Shared Characteristics:
+This verse explicitly establishes the Adam-Jesus pairing - the ONLY such comparison in the Quran.
 
-- Unique Creation: Both created without human fathers
-- Divine Command: Both brought into existence by divine "Be" (كن)
-- Miraculous Origin: Adam from clay/dust, Jesus through virgin birth
-- Prophetic Status: Both hold special positions in Islamic theology
+### Shared Characteristics
 
-## Structural Symmetries: The Holographic Navigation System
+| Attribute                 | Adam           | Jesus        |
+| ------------------------- | -------------- | ------------ |
+| Human father              | NO             | NO           |
+| Created by divine command | YES ("Be")     | YES ("Be")   |
+| Miraculous origin         | From dust/clay | Virgin birth |
+| Quranic mentions          | 25             | 25           |
 
-Beyond the primary 25:25 count, deeper structural analysis reveals a "Navigation System" where the numerical properties of the names (letter counts) act as coordinates to specific Surahs that contain the thematic keys to understanding these prophets.
+---
 
-### 1. Adam (3 Letters) → Surah 3 (Al-Imran)
+## Methodology
 
-The name Adam (آدم) is composed of 3 letters. This points to Surah 3: Al-Imran.
+### Counting Rules
 
-- **The Destination:** Al-Imran means "The Family of Imran".
-- **The "Why":** This Surah is thematically dedicated to Lineage, Family, and Selection (Istifa). Adam is the father of all humanity—the root of every family tree.
-- **The Connection:** In this specific Surah (linked by the number 3), we find the foundational verse declaring Adam's status:
+1. **Proper names only**: آدم (Ādam), عيسى (ʿĪsā)
+2. **Count every token** (no per-verse cap)
+3. **Clitics allowed**: Prefixes like يا (vocative) included
+4. **Exclude titles**: المسيح (al-Masīḥ), ابن مريم (Ibn Maryam) not counted
 
-Verse 3:33:
-"Indeed, Allah chose Adam and Noah and the family of Abraham and the family of Imran over the worlds."
-
-- **The Coincidence:** Noah (نوح), who appears right next to Adam in this verse, also has 3 letters. Both are the "Fathers of Humanity" (Adam as the first man, Noah as the second father after the flood).
-
-### 2. Jesus (4 Letters) → Surah 4 (An-Nisa)
-
-The name Isa (عيسى) is composed of 4 letters. This points to Surah 4: An-Nisa.
-
-- **The Destination:** An-Nisa means "The Women".
-- **The "Why":** Jesus has the most unique biological origin of any prophet: he was born of a woman without a man. His existence is entirely dependent on the female line (Mary). He is defined by his relationship to his mother ("Isa Ibn Maryam").
-- **The Connection:** It is fitting that his numerical coordinate points to the Chapter of Women. Within this Surah, we find the definitive theological definition of Jesus in Islam:
-
-Verse 4:171:
-"...The Messiah, Jesus, the son of Mary, was but a messenger of Allah and His word which He directed to Mary..."
-
-### 3. Frequency (25 Occurrences) → Surah 25 (Al-Furqan)
-
-Since both names appear exactly 25 times, the number 25 serves as a shared coordinate pointing to Surah 25: Al-Furqan.
-
-- **The Destination:** Al-Furqan means "The Criterion" (The Standard that distinguishes truth from falsehood).
-- **The Structural Lock:** Surah 25 has exactly 77 verses. (The sum of Adam's 3 letters + Jesus's 4 letters = 7).
-- **The Thematic Mirror:** This Surah contains two key verses that mirror the dual nature of these prophets:
-
-Verse 25:7 (The Human Nature):
-"And they say, 'What is this messenger that eats food and walks in the markets?'..."
-
-- **Link:** This challenges the mortality of prophets. Adam, created from dust/clay, represents this Human/Earthly nature.
-
-Verse 25:25 (The Celestial Nature):
-"And [mention] the Day when the heaven will split open with [emerging] clouds, and the angels will be sent down..."
-
-- **Link:** This describes a heavenly opening and descent. Jesus, created from Spirit/Word, ascended to heaven and will descend again. This represents the Celestial/Spiritual nature.
-
-## Probability Analysis
-
-Let prophet-name totals plausibly range up to the high end (Moses ≈ 136 mentions).
-
-- Tie at any value:
-  ( P \approx 1/(136+1) = \mathbf{0.73%} ). (Two distinct names end up equal.)
-
-- Exact tie at 25:25:
-  ( P \approx 1/137^2 = \mathbf{0.0053%} ) (≈ 1 in 18,800)
-
-## Analysis
-
-### Remarkable Features:
-
-- Perfect numerical balance: Exact 25:25 count ratio
-- Theological coherence: Matches explicit Quranic pairing in verse 3:59
-- Holographic Design: Numerical properties (3, 4, 25) act as functional coordinates
-- Thematic Precision: The Surahs pointed to (Family, Women, Criterion) perfectly match the biological and theological attributes of Adam and Jesus
-- Structural depth: Letter counts sum (7) aligns with Surah 25's structure (77 verses)
-
-### Interpretive Significance:
-
-This goes beyond a simple count match. It suggests a "self-referential" design where the spelling and frequency of the names serve as a navigational index, guiding the reader to the specific chapters that define the essence of these prophets (Adam to Lineage, Jesus to Women/Mary).
-
-## Implementation
-
-- **Verification Script:** `adam_jesus_verification.py` - Confirms exact 25:25 balance
-
-### Pattern Matching:
+### Pattern Matching
 
 - Adam: `ادم` pattern (matches ءَادَمَ, يَءَادَمُ variants)
 - Jesus: `عيسى` pattern (matches عِيسَىٰ forms)
 
-## Verification Results
+---
 
-✅ VERIFIED USING QURANIC TEXT ANALYSIS
+## Structural Symmetries: The Holographic Navigation System
 
-- Adam (آدم): 25 occurrences ✅
-- Jesus (عيسى): 25 occurrences ✅
-- Balance: Perfect 25:25 equality ✅
+Beyond the 25:25 count, the letter counts of each name point to Surahs with thematically relevant content.
 
-Sample Adam verses: 2:31, 2:33, 2:34, 3:59, 5:27, 7:11, 7:19, 7:26...
-Sample Jesus verses: 2:87, 2:136, 3:45, 3:52, 3:55, 3:59, 4:157, 4:163...
+### The Pattern at a Glance
 
-## Verification Methods
+| Name         | Letters        | Points to Surah | Surah Meaning         | Thematic Connection                   |
+| ------------ | -------------- | --------------- | --------------------- | ------------------------------------- |
+| Adam (آدم)   | 3              | Surah 3         | "The Family of Imran" | Adam = father of all families         |
+| Jesus (عيسى) | 4              | Surah 4         | "The Women"           | Jesus = born of woman alone           |
+| Both         | 25 occurrences | Surah 25        | "The Criterion"       | Both distinguish truth from falsehood |
 
-- Source: Direct Quranic text analysis with diacritic normalization
-- Filtering: Strict proper-name only criteria
-- Pattern matching: Comprehensive spelling variants included
-- Cross-reference: Quranic Arabic Corpus confirms 25 occurrences each
-- Theological verification: Both names appear together in verse 3:59
+### Additional Pattern
 
-## Contextual Analysis
-
-### Adam References: Typically relate to:
-
-- Original creation and humanity's beginning
-- Fall from paradise and subsequent guidance
-- Father of mankind and first prophet
-
-### Jesus References: Typically relate to:
-
-- Virgin birth and miraculous nature
-- Prophet to Children of Israel
-- Sign for all peoples
-
-### Shared Themes:
-
-- Divine creative intervention
-- Miraculous origins outside natural law
-- Spiritual significance for humanity
+| Property                     | Value         | Connection                 |
+| ---------------------------- | ------------- | -------------------------- |
+| Adam letters + Jesus letters | 3 + 4 = **7** | Surah 25 has **77** verses |
 
 ---
 
-This perfect numerical balance between two prophets explicitly paired in the Quran provides strong evidence for intentional mathematical design reflecting theological themes.
+### 1. Adam (3 Letters) → Surah 3 (Al-Imran)
+
+**The name آدم has 3 letters → Surah 3**
+
+| Surah 3                           | Connection to Adam                                           |
+| --------------------------------- | ------------------------------------------------------------ |
+| Name: Al-Imran                    | "The Family of Imran"                                        |
+| Theme: Lineage, Family, Selection | Adam = father of ALL humanity                                |
+| Key verse: 3:33                   | "Allah chose **Adam** and Noah and the family of Abraham..." |
+
+> **Verse 3:33**: "Indeed, Allah chose Adam and Noah and the family of Abraham and the family of Imran over the worlds."
+
+**Bonus**: Noah (نوح) also has 3 letters. Both Adam and Noah are "Fathers of Humanity" - Adam as the first man, Noah as the second father after the flood.
+
+---
+
+### 2. Jesus (4 Letters) → Surah 4 (An-Nisa)
+
+**The name عيسى has 4 letters → Surah 4**
+
+| Surah 4                           | Connection to Jesus               |
+| --------------------------------- | --------------------------------- |
+| Name: An-Nisa                     | "The Women"                       |
+| Theme: Women's rights, family law | Jesus = born of woman WITHOUT man |
+| Key verse: 4:171                  | Defines Jesus's nature in Islam   |
+
+> **Verse 4:171**: "...The Messiah, Jesus, the son of Mary, was but a messenger of Allah and His word which He directed to Mary..."
+
+**Why fitting**: Jesus is the ONLY prophet whose identity is entirely defined by his mother ("Isa Ibn Maryam" = Jesus son of Mary). His numerical coordinate points to the Chapter of Women.
+
+---
+
+### 3. Frequency (25) → Surah 25 (Al-Furqan)
+
+**Both names appear 25 times → Surah 25**
+
+| Surah 25                   | Connection to Both                                   |
+| -------------------------- | ---------------------------------------------------- |
+| Name: Al-Furqan            | "The Criterion" (distinguishes truth from falsehood) |
+| Verses: 77                 | 7 + 7 = sum of name letters (3 + 4 = 7)              |
+| Key verses: 25:7 and 25:25 | Mirror the dual nature of these prophets             |
+
+**The Thematic Mirror in Surah 25:**
+
+| Verse     | Content                                                                      | Represents                                                      |
+| --------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **25:7**  | "What is this messenger that eats food and walks in the markets?"            | **Human nature** → Adam (from dust/clay)                        |
+| **25:25** | "The Day when the heaven will split open...and the angels will be sent down" | **Celestial nature** → Jesus (ascended to heaven, will descend) |
+
+**The pattern**: Verse 25:**7** discusses human nature (Adam's attribute). Verse 25:**25** discusses celestial descent (Jesus's attribute). The verse numbers themselves encode the pattern.
+
+---
+
+## Statistical Significance
+
+### The Probability Framework
+
+**Question**: What are the odds that two prophets explicitly paired in the text would have exactly matching name counts?
+
+**Quran Word Statistics**:
+
+- Total word tokens: ~77,430
+- Unique word forms: ~18,994
+- Prophet name frequency range: ~1 to ~136 (Moses is highest)
+
+### Probability Factors
+
+| Factor           | Description                      | Probability    |
+| ---------------- | -------------------------------- | -------------- |
+| Prophet range    | Names can appear 1-136 times     | baseline       |
+| Exact match      | Two names having identical count | ~1/137 ≈ 0.73% |
+| **Conservative** | Match at any value               | **~1 in 137**  |
+
+**Conservative Probability: ~1 in 137**
+
+**Note**: If we asked "exact match at specifically 25", the probability would be ~1 in 18,800.
+
+---
+
+## The Human Perspective
+
+This probability calculation cannot capture the full picture:
+
+1. **Explicit Textual Pairing**
+
+   - Quran 3:59 directly compares Adam to Jesus
+   - Not cherry-picked by researchers - the text itself establishes this pairing
+   - They are the ONLY two figures paired this way
+
+2. **Shared Miraculous Origin**
+
+   - Both created without human father
+   - Adam: divine "Be" from dust
+   - Jesus: divine "Be" through virgin birth
+   - Symmetry in counts mirrors symmetry in origin
+
+3. **No Other Prophets Match**
+
+   - Moses: ~136 mentions
+   - Abraham: ~69 mentions
+   - Noah: ~43 mentions
+   - Only Adam and Jesus share exact count
+   - And they are the only ones explicitly paired in the text
+
+4. **Thematic Perfection**
+   - The numerical equality reinforces the theological point
+   - Equal mentions = equal in their miraculous creation
+
+---
+
+## Verification
+
+```bash
+python3 miracles/07_adam_jesus/adam_jesus_verification.py
+```
+
+**Sample Adam verses**: 2:31, 2:33, 2:34, 3:59, 5:27, 7:11, 7:19...
+
+**Sample Jesus verses**: 2:87, 2:136, 3:45, 3:52, 3:55, 3:59, 4:157...
+
+**Data source**: Tanzil Ḥafṣ/Uthmānī (`data/quran-uthmani.txt`)
+
+**Cross-verified with**: Quranic Arabic Corpus (QAC)
+
+---
+
+## Summary
+
+| Metric           | Value         |
+| ---------------- | ------------- |
+| Adam count       | 25            |
+| Jesus count      | 25            |
+| Balance          | Perfect 25:25 |
+| Explicit pairing | Yes (3:59)    |
+| Probability      | ~1 in 137     |
+| Passes p < 0.05  | YES           |
+
+**Key finding**: The only two figures the Quran explicitly pairs as sharing fatherless, miraculous creation have exactly equal name counts - a numerical symmetry reinforcing the theological symmetry.

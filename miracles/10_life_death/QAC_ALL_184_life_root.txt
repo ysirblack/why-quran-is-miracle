@@ -1,0 +1,152 @@
+# ALL 184 Occurrences of Life Root ح-ي-ي from QAC
+# Source: corpus.quran.com/qurandictionary.jsp?q=Hyy
+
+## Form I Verb (حَىَّ) - to live (7 occurrences)
+7:25:3
+8:42:27
+8:42:29
+20:74:13
+23:37:7
+45:24:8
+87:13:6
+
+## Form II Verb (حَيَّ) - to greet (4 occurrences)
+4:86:2
+4:86:4
+58:8:20
+58:8:23
+
+## Form IV Verb (أَحْيَا) - to give life (51 occurrences)
+2:28:6
+2:28:10
+2:73:5
+2:164:24
+2:243:17
+2:258:18
+2:258:22
+2:259:12
+2:260:7
+3:49:27
+3:156:31
+5:32:23
+5:32:25
+6:122:4
+7:158:18
+8:24:10
+9:116:7
+10:56:2
+15:23:3
+16:65:6
+16:97:10
+22:6:7
+22:66:3
+22:66:7
+23:80:3
+25:49:1
+26:81:4
+29:63:8
+30:19:9
+30:24:11
+30:40:9
+30:50:7
+35:9:11
+36:12:3
+36:33:5
+36:78:8
+36:79:2
+40:11:5
+40:68:3
+41:39:15
+42:9:10
+44:8:5
+45:5:11
+45:26:3
+46:33:15
+50:11:3
+50:43:3
+53:44:4
+57:2:5
+57:17:4
+75:40:6
+
+## Form X Verb (يَسْتَحْىِۦٓ) - to let live / be shy (9 occurrences)
+2:26:4
+2:49:11
+7:127:17
+7:141:11
+14:6:19
+28:4:14
+33:53:32
+33:53:36
+40:25:12
+
+## Nominal ḥayy (حَيّ) - alive/living (24 occurrences)
+2:154:10
+2:255:6
+3:2:6
+3:27:10
+3:27:16
+3:169:10
+6:95:7
+6:95:13
+10:31:13
+10:31:19
+16:21:3
+19:15:9
+19:31:11
+19:33:9
+19:66:8
+20:111:3
+21:30:16
+25:58:3
+30:19:2
+30:19:8
+35:22:3
+36:70:4
+40:65:2
+77:26:1
+
+## Noun ḥayawān (حَيَوَان) - life/animal (1 occurrence)
+29:64:12
+
+## Noun ḥayat (حَيَوٰة) - life (76 occurrences)
+# QAC lists "All 76 occurrences across chapters 2-89"
+# Individual references need to be fetched from detailed search
+
+## Noun ḥayyat (حَيَّة) - snake (1 occurrence)
+20:20:4
+
+## Noun maḥyā (مَّحْيَا) - living (2 occurrences)
+6:162:5
+45:21:13
+
+## Form II Verbal Noun taḥiyyat (تَحِيَّة) - greeting (6 occurrences)
+4:86:3
+10:10:5
+14:23:15
+24:61:64
+25:75:8
+33:44:1
+
+## Form IV Active Participle muḥ' (مُحْى) - giver of life (2 occurrences)
+30:50:13
+41:39:16
+
+## Form X Verbal Noun is'tiḥ'yā (ٱسْتِحْيَآء) - shyness (1 occurrence)
+28:25:5
+
+# TOTAL COUNT
+Form I verb: 7
+Form II verb (greet): 4
+Form IV verb: 51
+Form X verb: 9
+Nominal ḥayy: 24
+Noun ḥayawān: 1
+Noun ḥayat: 76
+Noun snake: 1
+Noun maḥyā: 2
+Verbal noun greeting: 6
+Active participle: 2
+Verbal noun shyness: 1
+----------------------
+TOTAL: 184 ✓

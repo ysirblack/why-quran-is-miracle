@@ -1,101 +1,123 @@
-# Yearly Cycles Miracle – Solar & Hijri Alignment
+# Yearly Cycles: Solar & Hijri Calendar Alignment
 
-The Qur’an’s use of the root **يوم (yawm / “day”)** maps perfectly onto both the solar year
-and the Hijri lunar year. The patterns below are fully reproducible from the canonical
-Tanzil Ḥafṣ/Uthmānī text and can be shown to any audience in minutes.
+## What is this pattern?
 
-## Four Calendar Signatures
+The Qur'an contains 478 tokens with the root **يوم (yawm / "day")**. Different morphological filters on this SAME set of tokens yield both solar and lunar calendar constants:
 
-| Calendar constant         | Qur’anic rule                                                                      | Count   | Quick verifier                     |
-| ------------------------- | ---------------------------------------------------------------------------------- | ------- | ---------------------------------- |
-| **365 solar days**        | Simple `يوم` (≤ 5 chars) + definite `اليوم` + tanwīn `يوماً`                       | **365** | `solar_365/day_365_verifier.py`    |
-| **12 calendar months**    | Singular `شهر` / `ٱلشهر` (dual/plural excluded)                                    | **12**  | `solar_365/days_month_verified.py` |
-| **354 Hijri days**        | Simple `يوم` + `يومئذ` (“that day”) + `يومهم` (“their day”) + `يومكم` (“your day”) | **354** | `hijri_354/hijri_354_combined.py`  |
-| **29 Hijri month length** | Plural `أيام` + dual `يومين`                                                       | **29**  | `hijri_354/days_29_verifier.py`    |
+| Calendar Constant  | Filter Rule                                    | Count   |
+| ------------------ | ---------------------------------------------- | ------- |
+| **365 solar days** | simple + definite + tanwīn                     | **365** |
+| **354 Hijri days** | simple + "that day" + "their day" + "your day" | **354** |
+| **12 months**      | singular شهر only                              | **12**  |
+| **29 Hijri month** | plural + dual                                  | **29**  |
 
-Each script prints the total and example verses. No manual tweaking—just computed counts
-from the full 6,236 verses.
+---
 
-## How Rare Is This?
+## Critical: How the Token Sets Overlap
 
-We provide two statistical approaches:
+**This is important to understand**: The 478 "day" tokens are categorized into grammatical groups. Solar and Hijri counts use DIFFERENT combinations of these groups, but they SHARE the 274 "simple" forms:
 
-### 1. Combinatorial Analysis (Uniform Subset Model)
+```
+All 478 tokens breakdown:
+├── simple (يوم):        274  ← SHARED by both calendars
+├── definite (اليوم):     75  ← Solar only
+├── tanwīn (يوماً):       16  ← Solar only
+├── "that day" (يومئذ):   70  ← Hijri only
+├── "their day" (يومهم):   5  ← Hijri only
+├── "your day" (يومكم):    5  ← Hijri only
+├── plural (أيام):        26  ← Lunar month only
+├── dual (يومين):          3  ← Lunar month only
+└── excluded:              4
 
-`combined_probability_analysis.py` assumes every subset of the 478 `يوم` tokens is equally likely:
+Solar 365 = simple(274) + definite(75) + tanwīn(16) = 365
+Hijri 354 = simple(274) + "that day"(70) + "their day"(5) + "your day"(5) = 354
+Lunar 29  = plural(26) + dual(3) = 29
+```
 
-| Pattern                   | Probability  | Approximate odds     |
-| ------------------------- | ------------ | -------------------- |
-| Solar 365-day composition | `7.780e-95`  | ≈ 1 in 1.285 × 10⁹⁴  |
-| Hijri 354-day composition | `2.348e-101` | ≈ 1 in 4.259 × 10¹⁰⁰ |
-| Lunar 29 (plural + dual)  | `2.371e-46`  | ≈ 1 in 4.218 × 10⁴⁵  |
-| Calendar months 12        | `7.938e-06`  | ≈ 1 in 1.260 × 10⁵   |
+**What this means**: Both calendars emerge from the SAME root word, using different morphological filters. The 274 "simple" forms are foundational to both patterns.
 
-> **Note:** This model is mathematically correct but linguistically unrealistic. It treats all
-> token selections as equally probable, which doesn't reflect how language works.
+---
 
-### 2. Bootstrap Resampling (Linguistically Realistic)
+## The "≤5 Characters" Rule Explained
 
-`bootstrap_probability_analysis.py` preserves linguistic structure by resampling actual tokens
-and recategorizing them using grammatical rules. Based on 100,000 trials:
+The "simple" category uses a length filter (≤5 characters after removing diacritics):
 
-| Pattern                        | Bootstrap Probability | Approximate odds |
-| ------------------------------ | --------------------- | ---------------- |
-| Solar 365 alone                | ~4.3%                 | ~1 in 23         |
-| Hijri 354 alone                | ~4.2%                 | ~1 in 24         |
-| Lunar 29 alone                 | ~7.7%                 | ~1 in 13         |
-| **Solar 365 AND Hijri 354**    | **~0.15%**            | **~1 in 667**    |
-| **All three (365 + 354 + 29)** | **~0.04%**            | **~1 in 2,500**  |
+| Length | Type                   | Examples                        | Included? |
+| ------ | ---------------------- | ------------------------------- | --------- |
+| 3      | Base form              | يوم (yawm)                      | YES       |
+| 4      | Single prefix          | ويوم (wa-yawm), فيوم (fa-yawm)  | YES       |
+| 5      | Single suffix          | يومها (yawmuhā), ليوم (li-yawm) | YES       |
+| 6+     | Multiple modifications | كيومكم (ka-yawmikum)            | NO        |
 
-> **Note:** This approach is more realistic because it:
->
-> - Preserves the distribution of grammatical forms (definite, possessive, plural, etc.)
-> - Tests whether the exact calendar totals could occur by chance
-> - Doesn't assume all subsets are equally likely
+**Linguistic rationale**: Length ≤5 captures "base + single modification" forms. Longer tokens stack multiple prefixes/suffixes, creating compound constructions that are grammatically distinct.
 
-The bootstrap analysis shows that while individual patterns are moderately common, the **simultaneous occurrence** of all three calendar alignments (solar year, lunar year, and lunar month) is statistically notable at approximately **1 in 2,500**.
+**Transparency note**: This cutoff produces the 274 count. A cutoff of ≤4 or ≤6 would yield different totals.
 
-## Sharing the Miracle
+---
 
-- `main.md` – one-page story of the solar and Hijri matches with direct links.
-- `bootstrap_probability_analysis.py` – **recommended** realistic probability model (run with 100k trials).
-- `combined_probability_analysis.py` – combinatorial baseline (mathematically correct but unrealistic).
-- `solar_365/` & `hijri_354/` – verse lists, screenshots, and detailed notes ready to share.
+## Statistical Significance
 
-With these resources you can walk anyone through the counts, the rule sets, and the
-honest probabilities—showing how the Qur'an contains a notable pattern of calendar alignments.
+### Bootstrap Resampling (Realistic Model)
 
-## Quick Q&A
+`bootstrap_probability_analysis.py` tests whether these patterns could occur by chance:
 
-**Q1. How do I verify the 365-day count myself?**  
-Run `python miracles/04_yearly_cycles/solar_365/day_365_verifier.py` to see the total and sample verses.
+| Pattern             | Probability     | Odds                     |
+| ------------------- | --------------- | ------------------------ |
+| Solar 365 alone     | ~4.2%           | ~1 in 24                 |
+| Hijri 354 alone     | ~4.0%           | ~1 in 25                 |
+| Lunar 29 alone      | ~7.7%           | ~1 in 13                 |
+| **Solar AND Hijri** | **~0.15%**      | **~1 in 650**            |
+| **All three**       | **~0.01-0.04%** | **~1 in 2,500 to 7,000** |
 
-**Q2. Does the 365 rule include plural or possessive forms?**  
-No—only simple `يوم`, definite `اليوم`, and tanwīn `يوماً`, each with light clitic attachment (≤ 5 characters after removing diacritics).
+**Note**: Bootstrap has randomness. Multiple runs give slightly different results. The range ~1 in 2,500 to ~1 in 7,000 for all three patterns is representative.
 
-**Q3. Is the month count also automated?**  
-Yes. `solar_365/days_month_verified.py` finds exactly 12 singular mentions of `شهر` / `ٱلشهر`; plurals and duals are excluded.
+**Our threshold**: p < 5% (0.05)
 
-**Q4. What about the Hijri 354-day tally?**  
-`hijri_354/hijri_354_combined.py` adds four categories—simple `يوم`, “that day” (`يومئذ`), “their day” (`يومهم`), and “your day” (`يومكم`)—for a total of 354.
+**Passes threshold**: YES (combined patterns are well below 5%)
 
-**Q5. How is the 29-day Hijri month length counted?**  
-`hijri_354/days_29_verifier.py` lists every plural `أيام` (26 occurrences) and dual `يومين` (3 occurrences) for a combined 29.
+### Method
 
-**Q6. What are the two probability models?**  
-We provide two approaches:
+1. Resample the 478 tokens with replacement
+2. Recategorize using grammatical rules
+3. Check if we hit exactly 365, 354, and 29
+4. Repeat 100,000 times
 
-1. `combined_probability_analysis.py` - Combinatorial model (mathematically correct but linguistically unrealistic)
-2. `bootstrap_probability_analysis.py` - Bootstrap resampling (preserves linguistic structure, more realistic)
+This preserves linguistic distribution while testing for coincidence.
 
-**Q7. Which probability should I quote?**  
-Use the **bootstrap probabilities** (~1 in 2,500 for all three patterns) when sharing with others. The combinatorial model (10^245) is too unrealistic because it assumes all token arrangements are equally likely.
+---
 
-**Q8. How does bootstrap resampling work?**  
-It resamples the 478 actual tokens with replacement, preserving their grammatical distribution, then recategorizes them and checks if we get the exact calendar totals. This tests whether the pattern is coincidental while respecting how Arabic grammar works.
+## Verification
 
-**Q9. Can I see the verse references for each category?**  
-All verifiers print sample verses; for complete lists, read the scripts or redirect their output to a file.
+```bash
+# Solar 365 days
+python3 miracles/04_yearly_cycles/solar_365/day_365_verifier.py
 
-**Q10. Is any manual tweaking required to hit the totals?**  
-No. The scripts operate on the full Tanzil dataset, applying fixed linguistic rules. Anyone can rerun them and get the same totals.
+# 12 months
+python3 miracles/04_yearly_cycles/solar_365/days_month_verified.py
+
+# Hijri 354 days
+python3 miracles/04_yearly_cycles/hijri_354/hijri_354_combined.py
+
+# Hijri 29-day month
+python3 miracles/04_yearly_cycles/hijri_354/days_29_verifier.py
+
+# Bootstrap probability
+python3 miracles/04_yearly_cycles/bootstrap_probability_analysis.py
+```
+
+**Data source**: Tanzil Ḥafṣ/Uthmānī (`data/quran-uthmani.txt`)
+
+---
+
+## Summary
+
+| Pattern         | Count                      | Verified |
+| --------------- | -------------------------- | -------- |
+| Solar year      | 274 + 75 + 16 = **365**    | YES      |
+| Hijri year      | 274 + 70 + 5 + 5 = **354** | YES      |
+| Calendar months | **12**                     | YES      |
+| Hijri month     | 26 + 3 = **29**            | YES      |
+
+**Key finding**: Both solar and lunar calendar constants emerge from the same root word using different morphological filters.
+
+**Combined probability**: ~1 in 2,500 to 7,000 (passes p < 0.05 threshold)

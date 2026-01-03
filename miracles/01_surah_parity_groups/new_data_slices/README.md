@@ -1,97 +1,107 @@
-# The Six-Block Symphony: Multiple Mathematical Harmonies
+# Six-Block Symphony
 
-In the grand mathematical architecture of numbers, there are patterns so elegantly coordinated they seem to dance across multiple dimensions. Consider this: divide the 114 chapters into six blocks of 19, and witness how three independent classification systems all produce perfect alternating patterns.
+## What is this pattern?
 
-## How the Six-Block Analysis Works
+Divide the 114 chapters into **6 blocks of 19 chapters** each:
 
-**Step 1: Divide into Six Blocks**
+| Block | Chapters |
+| ----- | -------- |
+| 1     | 1-19     |
+| 2     | 20-38    |
+| 3     | 39-57    |
+| 4     | 58-76    |
+| 5     | 77-95    |
+| 6     | 96-114   |
 
-- **Block 1**: Chapters 1-19
-- **Block 2**: Chapters 20-38
-- **Block 3**: Chapters 39-57
-- **Block 4**: Chapters 58-76
-- **Block 5**: Chapters 77-95
-- **Block 6**: Chapters 96-114
+Within each block, count how many chapters fall into each parity category (odd position + odd verses, etc.).
 
-**Step 2: Three Independent Classification Systems**
+**The finding**: Multiple classification systems produce **alternating patterns** across all 6 blocks.
 
-1. **2×2 Parity Grid**: Order parity × Verse-count parity
-2. **Homogeneous/Heterogeneous**: Same vs different parity
-3. **Prime Classification**: Special rule where 1 = prime, standard primality for others
+Example - Odd-Odd counts per block: **[6, 5, 4, 1, 4, 7]** → parities alternate E-O-E-O-E-O
 
-**Step 3: Count Patterns in Each Block**
-Each system produces specific alternating patterns across the 6 blocks.
+---
 
-## Clear Examples from Real Data
+## The Patterns
 
-| Block | Chapters | Odd-Order | Even-Order | Pattern |
-| ----- | -------- | --------- | ---------- | ------- |
-| **1** | 1-19     | 10        | 9          | O-E     |
-| **2** | 20-38    | 9         | 10         | E-O     |
-| **3** | 39-57    | 10        | 9          | O-E     |
-| **4** | 58-76    | 9         | 10         | E-O     |
-| **5** | 77-95    | 10        | 9          | O-E     |
-| **6** | 96-114   | 9         | 10         | E-O     |
+### 2×2 Parity Grid (per block)
 
-## The Three Mathematical Harmonies
+| Category  | Block 1 | Block 2 | Block 3 | Block 4 | Block 5 | Block 6 | Parity Pattern |
+| --------- | ------- | ------- | ------- | ------- | ------- | ------- | -------------- |
+| Odd-Odd   | 6       | 5       | 4       | 1       | 4       | 7       | E-O-E-O-E-O    |
+| Even-Odd  | 4       | 3       | 8       | 3       | 4       | 5       | E-O-E-O-E-O    |
+| Odd-Even  | 4       | 4       | 6       | 8       | 6       | 2       | all even       |
+| Even-Even | 5       | 7       | 1       | 7       | 5       | 5       | all odd        |
 
-### 1. 2×2 Parity Grid Results
+### Homogeneous vs Heterogeneous
 
-- **Odd-Odd**: [6, 5, 4, 1, 4, 7] → E-O-E-O-E-O pattern
-- **Even-Odd**: [4, 3, 8, 3, 4, 5] → E-O-E-O-E-O pattern
-- **Odd-Even**: [4, 4, 6, 8, 6, 2] → all even counts
-- **Even-Even**: [5, 7, 1, 7, 5, 5] → all odd counts
+| Category         | Block 1 | Block 2 | Block 3 | Block 4 | Block 5 | Block 6 | Parity Pattern |
+| ---------------- | ------- | ------- | ------- | ------- | ------- | ------- | -------------- |
+| Same parity      | 11      | 12      | 5       | 8       | 9       | 12      | O-E-O-E-O-E    |
+| Different parity | 8       | 7       | 14      | 11      | 10      | 7       | E-O-E-O-E-O    |
 
-### 2. Homogeneous vs Heterogeneous
+## Statistics
 
-- **Homogeneous**: [11, 12, 5, 8, 9, 12] → O-E-O-E-O-E pattern
-- **Heterogeneous**: [8, 7, 14, 11, 10, 7] → E-O-E-O-E-O pattern
+**All patterns simultaneously**:
 
-### 3. Prime Classification
+- Probability: ~1 in 29,412 (0.0034%)
+- Our threshold: p < 0.05 (5%)
+- Method: 1,000,000 permutation trials
+- **Passes threshold**: Yes (most significant pattern in this folder)
 
-- **Prime-Homogeneous**: [11, 12, 11, 10, 11, 12] → O-E-O-E-O-E pattern
-- **Prime-Heterogeneous**: [8, 7, 8, 9, 8, 7] → consistent pattern
+**Note**: 6 of 8 patterns derive from the same 2×2 grid, so they're not fully independent.
 
-This pattern shows coordination across multiple classification systems where 114 chapters divided into six blocks of 19 produce alternating patterns when analyzed through parity grids, homogeneity measures, and prime classifications.
+## Verification
 
-_The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, were all made in the interiors of collapsing stars. We are made of starstuff. And in the patterns of ancient texts, we may yet discover the starstuff of meaning itself._
+```bash
+python3 new_data_slices_verification.py
+```
 
-## Statistical Analysis
+---
 
-**Permutation Test (1,000,000 trials):**
+## PS: Detailed Explanation
 
-**Key Insight: Pattern Independence**
+**Step 1: What is a "parity category"?**
 
-- The 8 patterns are NOT all independent
-- 6 patterns (odd-odd, even-odd, odd-even, even-even, homogeneous, heterogeneous) are all derived from the same 2×2 parity grid
-- 2 patterns (prime-based) are independent from parity
+Each chapter has two properties:
 
-**Individual Pattern Probabilities:**
+- Position parity: Is the chapter number odd or even?
+- Verse parity: Is the verse count odd or even?
 
-- Odd-Odd alternates: ~1 in 32 (3.1%)
-- Even-Odd alternates: ~1 in 32 (3.1%)
-- Odd-Even all even: ~1 in 64 (1.6%)
-- Even-Even all odd: ~1 in 63 (1.6%)
-- Homogeneous alternates: ~1 in 16 (6.2%)
-- Heterogeneous alternates: ~1 in 16 (6.2%)
-- Prime-Homo alternates: ~1 in 16 (6.3%)
+This creates 4 categories:
 
-**All Patterns Simultaneously:**
+- **Odd-Odd**: Chapter 1 (position 1=odd, 7 verses=odd)
+- **Even-Even**: Chapter 2 (position 2=even, 286 verses=even)
+- **Odd-Even**: Chapter 3 (position 3=odd, 200 verses=even)
+- **Even-Odd**: Chapter 6 (position 6=even, 165 verses=odd)
 
-- **Probability**: ~1 in 29,412 (0.0034%)
-- **Test**: 1,000,000 permutation trials, 34 exact matches
-- Requires all alternating patterns to occur together
+**Step 2: What do we count in each block?**
 
-**Independence**: This pattern is independent from previous parity analyses because it tests patterns across blocks of surahs, not just individual surah properties.
+Take Block 1 (chapters 1-19). Count how many chapters fall into each category:
 
-## The Critical Factor: 19-Chapter Blocks
+- Odd-Odd: 6 chapters
+- Even-Odd: 4 chapters
+- Odd-Even: 4 chapters
+- Even-Even: 5 chapters
 
-The 19-chapter block size is mathematically perfect:
+Do this for all 6 blocks.
 
-- 114 ÷ 19 = 6 blocks exactly
-- Creates the foundation for alternating patterns
-- Resonates with other "19" patterns in the text
-- Enables the coordination of multiple classification systems
-- Any other block size would break these elegant harmonies
+**Step 3: What is the "alternating pattern"?**
 
-This multi-layered mathematical structure - where block size, parity grids, homogeneity measures, and prime classifications all coordinate in perfect alternation - represents one of the most sophisticated numerical patterns in the Quran.
+Look at the Odd-Odd counts across all blocks: **[6, 5, 4, 1, 4, 7]**
+
+Now check each number's parity:
+
+- 6 = Even (E)
+- 5 = Odd (O)
+- 4 = Even (E)
+- 1 = Odd (O)
+- 4 = Even (E)
+- 7 = Odd (O)
+
+Pattern: **E-O-E-O-E-O** — it alternates perfectly!
+
+**Step 4: Why is this notable?**
+
+Multiple different count sequences (Odd-Odd, Even-Odd, Homogeneous, etc.) ALL show this alternating behavior simultaneously. The probability of this happening by chance is ~1 in 29,412.
+
+**Simple analogy**: Imagine rolling dice 6 times and getting alternating odd/even results. That's ~1 in 64. Now imagine doing this with 7 different dice sequences simultaneously — that's much rarer.

@@ -1,48 +1,42 @@
-# Surah Parity Groups (Ḥafṣ/Tanzil)
-
-## Overview
-
-**Rule:** Basmalah counted **only** in Al-Fātiḥah. Group by _(āyāt parity – sūrah order parity)_.
+# Surah Parity Groups
 
 ## Summary
 
-| Group         |  Count |
-| ------------- | -----: |
-| **odd–odd**   | **27** |
-| **even–even** | **30** |
-| **odd–even**  | **27** |
-| **even–odd**  | **30** |
+Analysis of numerical patterns in the Quran's 114-chapter structure.
 
-## Consequences / Notes
+**3 patterns pass p < 0.05**:
+1. Even-Sum = 6,236 (0.12%)
+2. Six-Block Symphony (0.0034%)
+3. Verse-Number Mirror (0.23%)
 
-- Exactly **57** sūrahs have an **odd** number of verses: `odd–odd (27) + even–odd (30) = 57`.
-- Exactly **57** sūrahs have an **even** number of verses: `even–even (30) + odd–even (27) = 57`.
-- The two "mixed" groups mirror the two "same-parity" groups (27/30 vs 30/27) → a neat swap symmetry.
-- This balance isn't forced by definition; it's a tidy pattern of the actual verse counts under this numbering.
+**2 patterns do not pass p < 0.05** (documented as observations):
+1. Core 2×2 Grid (14.9%)
+2. Long/Short Swap (12.7%)
 
-**Label → Count Parity Alignment**
+## Key Results
 
-- If the group starts with odd, its count is 27 (odd); if it starts with even, its count is 30 (even):
+| Group | Count |
+|-------|-------|
+| odd-odd | 27 |
+| even-even | 30 |
+| odd-even | 27 |
+| even-odd | 30 |
 
-- odd–odd → 27 (odd)
-- odd–even → 27 (odd)
-- even–even → 30 (even)
-- even–odd → 30 (even)
+- 57 surahs have odd verse counts
+- 57 surahs have even verse counts
+- The 57/57 split is arithmetically guaranteed, not a random outcome
 
-**Is it a good symmetry?**
-Yeah—it's clean: a **57/57 split** and **swapped 27/30** across parity. Whether it's _significant_ beyond aesthetics would need a statistical test; as a presentation nugget, it's solid and defensible.
+## Sub-Analyses
 
-## Sub-Analysis
+- [Core 2×2 Parity Grouping](core_2x2_parity_grouping/) - Observation (p = 14.9%)
+- [Even Sum Surahs](even_sum_surahs/) - Significant (p = 0.12%)
+- [Long/Short Parity](long_short_parity/) - Observation (p = 12.7%)
+- [Six-Block Symphony](new_data_slices/) - Significant (p = 0.0034%)
+- [Verse-Number Mirror](verse_greater_than_number/) - Significant (p = 0.23%)
 
-This topic contains several detailed sub-analyses:
+## Methodology
 
-- [**Core 2×2 Parity Grouping**](core_2x2_parity_grouping/) - The fundamental odd-odd, even-even, odd-even, even-odd classification
-- [**Verses > Surah Number Analysis**](verse_greater_than_number/) - Analysis of surahs where verse count exceeds surah order number
-- [**Even Sum Surahs**](even_sum_surahs/) - Surahs where (verse count + surah order) is even
-- [**Long/Short Parity Analysis**](long_short_parity/) - 40-verse threshold parity patterns
-- [**Probability Analysis**](probability_analysis/) - Statistical calculations and significance testing
-- [**New Data Slices — Six 19‑Surah Blocks**](new_data_slices/) - 2×2 parity grid and prime slices across six fixed 19‑surah blocks
-
----
-
-_This research demonstrates systematic numerical relationships in Quranic structure that exhibit remarkable symmetries and statistical significance._
+- Data: Tanzil Ḥafṣ/Uthmānī text
+- Basmalah counted only in Al-Fatiha
+- Statistical method: Permutation testing (1,000,000 trials)
+- Significance threshold: p < 0.05
