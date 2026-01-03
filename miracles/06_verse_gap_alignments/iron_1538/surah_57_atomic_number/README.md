@@ -1,6 +1,42 @@
-# The Iron Atomic Code: Surah 57 and Fe-57
+# Iron Atomic Code: Surah 57 & Fe-57
 
-In the grand mathematical architecture of atomic structure, there are patterns so elegantly coordinated they seem to encode the fundamental building blocks of matter itself. Consider this: Surah 57 "Al-Hadid" (The Iron) reveals multiple numerical alignments with iron's atomic properties that were unknown until the 20th century.
+## The Claim
+
+Surah 57 "Al-Hadid" (The Iron) shows multiple gematria alignments with iron's atomic properties: حديد = 26 (atomic number), الحديد = 57 (Fe-57 isotope).
+
+## The Quranic Data (EXACT - Gematria)
+
+| Arabic Word    | Calculation              | Value  | Rounding? |
+| -------------- | ------------------------ | ------ | --------- |
+| حديد (iron)    | ح(8)+د(4)+ي(10)+د(4)     | **26** | EXACT     |
+| الحديد (the iron)| ا(1)+ل(30)+ح(8)+د(4)+ي(10)+د(4) | **57** | EXACT |
+| Surah number   | -                        | **57** | EXACT     |
+
+**Key Point:** Standard Abjad gematria. Anyone can verify the arithmetic.
+
+## Scientific Comparison
+
+| Scientific Data        | Value     | Match?                   |
+| ---------------------- | --------- | ------------------------ |
+| Iron atomic number     | **26**    | ✅ Matches حديد gematria  |
+| Fe-57 mass number      | **57**    | ✅ Matches الحديد & surah |
+| Discovery (Moseley)    | 1913      | 1,300+ year gap          |
+
+## Honest Limitations
+
+⚠️ **Gematria can be prone to confirmation bias** - we acknowledge this
+⚠️ **Fe-56 is more common** than Fe-57 (~92% vs ~2%)
+⚠️ **Verse 25/26 counting** depends on Basmalah inclusion
+
+**What makes it interesting despite limitations:**
+- Multiple independent alignments (not just one)
+- Applied to THE iron chapter (not random)
+- Standard Abjad system (fixed, not manipulated)
+- Historical impossibility (atomic theory: 1803+)
+
+---
+
+*Original detailed analysis follows:*
 
 ## How the Pattern Works
 

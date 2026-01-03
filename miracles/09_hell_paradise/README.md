@@ -1,5 +1,18 @@
 # Hell vs Paradise: 77:78
 
+## The Quranic Data (EXACT)
+
+| Count Type                  | Value     | Rounding? |
+| --------------------------- | --------- | --------- |
+| Hell (جهنم) occurrences     | **77**    | EXACT     |
+| Paradise (الجنة+) occurrences| **78**   | EXACT     |
+| Ratio                       | **77:78** | EXACT     |
+| Gates parallel              | **7:8**   | Quranic/Hadith |
+
+**Key Point:** These are countable facts from Tanzil text. The counts are EXACT.
+
+---
+
 ## 📌 CORE METHODOLOGY (READ THIS FIRST!)
 
 **What we're comparing:** ONE WORD in various grammatical forms (not all synonyms)

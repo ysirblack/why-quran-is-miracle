@@ -1,6 +1,45 @@
-# The Sun-Sirius Code: Radius Ratio Alignment
+# Sun-Sirius Radius Ratio: 91÷53 = 1.717
 
-In the grand mathematical architecture of stellar relationships, there are patterns so elegantly coordinated they seem to encode the fundamental size ratios of stars. Consider this: the ratio of surah numbers for "The Sun" and "The Star" (which explicitly names Sirius) matches the precise radius ratio between these two celestial bodies.
+## The Claim
+
+The ratio of Surah 91 (The Sun) ÷ Surah 53 (The Star, which names Sirius) = 1.717, matching Sirius A's radius (1.711-1.713 solar radii).
+
+## The Quranic Data (EXACT)
+
+| Quranic Fact           | Value     | Rounding? |
+| ---------------------- | --------- | --------- |
+| Surah 91 "Ash-Shams"   | **91**    | EXACT     |
+| Surah 53 "An-Najm"     | **53**    | EXACT     |
+| Ratio 91÷53            | **1.717** | EXACT     |
+| Sirius named in 53:49  | **YES**   | Only star named in Quran |
+
+**Key Point:** Simple division. Surah numbers are fixed.
+
+## Scientific Comparison
+
+| Scientific Data          | Value            | Match?              |
+| ------------------------ | ---------------- | ------------------- |
+| Sirius A radius (2003)   | 1.711 ± 0.013 R☉ | ✅ Within error      |
+| Sirius A radius (2010)   | 1.713 ± 0.009 R☉ | ✅ Within error      |
+| Error from 1.717         | 0.232%           | Sub-percent         |
+
+## Honest Assessment
+
+⚠️ **Base probability: 1 in 169** (modest compared to top patterns)
+⚠️ **More flexible than verse counts** (6,441 possible surah ratios)
+⚠️ **Could have chosen other properties** (mass, luminosity)
+
+**What makes it interesting despite limitations:**
+- ✅ Sirius is THE ONLY star named in the entire Quran
+- ✅ Natural selection (Sun surah ÷ Star surah)
+- ✅ Sub-percent precision (0.232% error)
+- ✅ Historical impossibility (interferometry: 2000s)
+
+**Honest verdict:** Weaker than top-tier patterns (Sun 5778K, Iron 1538). Present as supplementary, not flagship.
+
+---
+
+*Original detailed analysis follows:*
 
 ## How the Pattern Works
 

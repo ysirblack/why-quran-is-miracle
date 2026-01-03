@@ -2,7 +2,19 @@
 
 ## The Claim
 
-The Quran contains exactly **115 occurrences** of the word meaning "the world" (الدنيا - ad-dunya) and exactly **115 occurrences** of the word meaning "the hereafter" (الآخرة - al-akhirah) - a perfect 115:115 balance representing the fundamental Islamic duality between temporal and eternal existence.
+The Quran contains exactly **115 occurrences** of "the world" (الدنيا) and exactly **115 occurrences** of "the hereafter" (الآخرة)—perfect 115:115 balance.
+
+---
+
+## The Quranic Data (EXACT)
+
+| Count Type                     | Value       | Rounding? |
+| ------------------------------ | ----------- | --------- |
+| World occurrences (الدنيا)     | **115**     | EXACT     |
+| Hereafter occurrences (الآخرة) | **115**     | EXACT     |
+| Balance                        | **115:115** | EXACT     |
+
+**Key Point:** These are countable facts. Run the script. Search the text. The balance is EXACT.
 
 ---
 
@@ -218,6 +230,63 @@ The Quran consistently pairs الدنيا (temporal world) and الآخرة (ete
 - Cross-referenced morphological data
 
 **Conclusion:** Impossible to plan intentionally in 7th century, only verifiable with modern computational tools.
+
+---
+
+## Why This Isn't Cherry-Picking
+
+| Question                   | Answer                                   |
+| -------------------------- | ---------------------------------------- |
+| Why these specific words?  | THE theological pair (world ↔ hereafter) |
+| Same rule for both sides?  | **YES** (specific word + all clitics)    |
+| Exclusions on either side? | Only unrelated root meanings             |
+| Are exclusions arbitrary?  | **NO** (different semantic meanings)     |
+| Source of data?            | QAC + Tanzil text (verifiable)           |
+
+**Not cherry-picking because:**
+
+- These are THE standard terms for world/hereafter in Quran
+- Same methodology for both sides (all clitic variants)
+- Exclusions are only other root meanings (not الدنيا/الآخرة)
+- Anyone can verify by searching the text
+
+## Addressing Criticism
+
+**"You only counted specific forms!"**
+
+- الدنيا means "the worldly life" specifically
+- الآخرة means "the hereafter" specifically
+- Other root forms have different meanings (verb: to approach, adj: nearer)
+- We counted the theological concepts, not every root instance
+
+**"Different roots have different frequencies!"**
+
+- True: د-ن-و has 133 total, أ-خ-ر has 250 total
+- But the SPECIFIC words (الدنيا and الآخرة) both appear 115 times
+- This makes the balance even more remarkable
+
+**"Could be coincidence?"**
+
+- Probability < 1%
+- Thematic coherence (world ↔ hereafter is THE Quranic duality)
+- Perfect balance despite different root frequencies
+- 115 = 115 exactly, not "close to"
+
+**"Why include clitic prefixes?"**
+
+- Arabic clitics (و، ب، ل) don't change the word's meaning
+- بالدنيا = "in the world" (still الدنيا)
+- Same rule applied to both sides
+- Symmetric methodology
+
+**"7th century Arabs could track this?"**
+
+| Requirement                | 7th Century? | Modern?  |
+| -------------------------- | ------------ | -------- |
+| Word frequency tracking    | ❌           | ✅ (QAC) |
+| 23-year vocabulary control | Impossible   | Verified |
+| Exact count awareness      | ❌           | ✅       |
+| Cross-surah consistency    | ❌           | ✅       |
 
 ---
 

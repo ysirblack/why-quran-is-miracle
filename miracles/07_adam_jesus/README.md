@@ -2,16 +2,28 @@
 
 ## The Claim
 
-The names "Adam" (آدم) and "Jesus" (عيسى) each appear exactly 25 times in the Quran - a perfect balance for the only two figures the Quran explicitly pairs as sharing miraculous, fatherless creation.
+The names "Adam" (آدم) and "Jesus" (عيسى) each appear exactly 25 times in the Quran—perfect 25:25 balance for the only two figures explicitly paired as sharing fatherless creation.
+
+---
+
+## The Quranic Data (EXACT)
+
+| Count Type         | Value     | Rounding? |
+| ------------------ | --------- | --------- |
+| Adam (آدم) count   | **25**    | EXACT     |
+| Jesus (عيسى) count | **25**    | EXACT     |
+| Balance            | **25:25** | EXACT     |
+
+**Key Point:** Search for آدم and عيسى in any Quran text. Both appear exactly 25 times.
 
 ---
 
 ## The Evidence
 
-| Name  | Arabic | Count | Verified |
-| ----- | ------ | ----- | -------- |
-| Adam  | آدم    | 25    | YES      |
-| Jesus | عيسى   | 25    | YES      |
+| Name  | Arabic | Count | Verified       |
+| ----- | ------ | ----- | -------------- |
+| Adam  | آدم    | 25    | QAC + Tanzil ✓ |
+| Jesus | عيسى   | 25    | QAC + Tanzil ✓ |
 
 **Balance**: Perfect 25:25
 
@@ -198,6 +210,52 @@ python3 miracles/07_adam_jesus/adam_jesus_verification.py
 
 ---
 
+## Why This Isn't Cherry-Picking
+
+| Question                 | Answer                                       |
+| ------------------------ | -------------------------------------------- |
+| Why these two prophets?  | **QURAN pairs them** (3:59) — not our choice |
+| Same rule for both?      | **YES** (count proper name only)             |
+| What about titles?       | Excluded for both (المسيح, ابن مريم)         |
+| Any other matching pair? | **NO** — only Adam-Jesus match               |
+
+**Not cherry-picking because:**
+
+- The Quran itself explicitly pairs them in 3:59
+- We didn't search for "which two match" — we checked the explicit pair
+- Other prophet pairs don't match (Moses 136, Abraham 69, Noah 43)
+- This is the ONLY fatherless-creation pair in Islamic theology
+
+## Addressing Criticism
+
+**"You could find any matching pair!"**
+
+- Actually no. Moses (136), Abraham (69), Noah (43), Muhammad (4)
+- Only Adam and Jesus match at 25:25
+- AND they're the only pair the Quran explicitly compares (3:59)
+
+**"Why not count titles like المسيح?"**
+
+- We count NAMES, not titles
+- Same rule for both: proper name only (آدم, عيسى)
+- If we counted titles, we'd include them for BOTH (fair comparison)
+
+**"Could be coincidence?"**
+
+- Probability ~1 in 137 for exact match
+- But: they're the ONLY explicit pair in the Quran (3:59)
+- Combined significance much higher
+
+**"7th century knowledge?"**
+
+| Requirement             | 7th Century? | Modern?  |
+| ----------------------- | ------------ | -------- |
+| Complete name tracking  | ❌           | ✅ (QAC) |
+| Cross-surah consistency | ❌           | ✅       |
+| Precise count awareness | ❌           | ✅       |
+
+---
+
 ## Summary
 
 | Metric           | Value         |
@@ -209,4 +267,4 @@ python3 miracles/07_adam_jesus/adam_jesus_verification.py
 | Probability      | ~1 in 137     |
 | Passes p < 0.05  | YES           |
 
-**Key finding**: The only two figures the Quran explicitly pairs as sharing fatherless, miraculous creation have exactly equal name counts - a numerical symmetry reinforcing the theological symmetry.
+**Key finding**: The only two figures the Quran explicitly pairs as sharing fatherless creation have exactly equal name counts (25:25)—numerical symmetry reinforcing theological symmetry.

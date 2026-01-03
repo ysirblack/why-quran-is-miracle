@@ -1,6 +1,31 @@
-# The Iron Core Depth: 5,100 km Earth’s Inner Core
+# Iron Core Depth: 5,100 = 5,100 km
 
-In the grand mathematical architecture of planetary structure, there are patterns so elegantly coordinated they seem to encode the very depths of our world. Consider this: the sequential verse position 5,100 corresponds exactly to the depth of Earth's inner core boundary (~5,100 km), located in a verse that mentions iron being "sent down" - matching the scientific understanding of iron forming planetary cores.
+## The Claim
+
+The 5,100th verse in sequential order is Surah 57:25 ("We sent down iron"), matching Earth's inner core depth (~5,100 km) where iron comprises 80% of the composition.
+
+## The Quranic Data (EXACT)
+
+| Quranic Fact             | Value       | Rounding? |
+| ------------------------ | ----------- | --------- |
+| Sequential verse position| **5,100**   | EXACT     |
+| Verse location           | **57:25**   | EXACT     |
+| Surah name               | **Al-Hadid**| "The Iron" |
+| Verse content            | "We sent down iron" | Verified |
+
+**Key Point:** Count to the 5,100th verse. It's 57:25. It mentions iron. These are facts.
+
+## Scientific Comparison
+
+| Scientific Data          | Value       | Match?              |
+| ------------------------ | ----------- | ------------------- |
+| Inner core boundary      | ~5,100-5,150 km | ✅ Matches position |
+| Core composition         | ~80% iron   | ✅ Matches content   |
+| Discovery (Lehmann)      | 1936        | 1,300+ year gap     |
+
+---
+
+*Original detailed analysis follows:*
 
 ## How the Pattern Works
 

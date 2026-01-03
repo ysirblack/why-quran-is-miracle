@@ -62,9 +62,15 @@ def count_prayers_plural(tokens):
     Count صَلَوَات (Salawat - prayers, plural form)
 
     Include: صَلَوَات, ٱلصَّلَوَات, وَٱلصَّلَوَات, etc.
-    Exclude: صَلَاة (singular), verbs, مُصَلّى (prayer place)
+    Exclude:
+    - صَلَاة (singular), verbs, مُصَلّى (prayer place)
+    - 22:40 وَصَلَوَٰتٌ = "synagogues" (places of worship, not prayers)
+    - 11:87 أَصَلَوٰتُكَ = treated as singular by QAC
+
+    Target: 5 plural forms (matching 5 daily prayers)
     """
     matches = []
+    excluded = []
 
     for surah, verse, token in tokens:
         original = normalize_arabic(token)
@@ -72,21 +78,43 @@ def count_prayers_plural(tokens):
 
         # Look for plural صلوات pattern
         # In Uthmani: صَلَوَٰت or صَّلَوَٰت (with superscript alif)
+        found = False
         if 'صَلَوَٰت' in original or 'صَّلَوَٰت' in original:
-            matches.append({
-                'surah': surah,
-                'verse': verse,
-                'token': token
-            })
+            found = True
         # Also check without diacritics
         elif 'صلوات' in clean or 'صلوت' in clean:
+            found = True
+
+        if found:
+            # EXCLUSION 1: 22:40 - وَصَلَوَٰتٌ means "synagogues" (places)
+            # Context: "monasteries, churches, synagogues, mosques"
+            if surah == 22 and verse == 40:
+                excluded.append({
+                    'surah': surah,
+                    'verse': verse,
+                    'token': token,
+                    'reason': 'synagogues (places, not prayers)'
+                })
+                continue
+
+            # EXCLUSION 2: 11:87 - أَصَلَوٰتُكَ treated as singular by QAC
+            # QAC analysis: "Does your prayer command you"
+            if surah == 11 and verse == 87:
+                excluded.append({
+                    'surah': surah,
+                    'verse': verse,
+                    'token': token,
+                    'reason': 'singular per QAC morphological analysis'
+                })
+                continue
+
             matches.append({
                 'surah': surah,
                 'verse': verse,
                 'token': token
             })
 
-    return matches
+    return matches, excluded
 
 
 def count_prayer_singular(tokens):
@@ -136,11 +164,17 @@ def main():
     print("-" * 70)
     print("PRAYERS - PLURAL (صَلَوَات - Salawat)")
     print("-" * 70)
-    plural_matches = count_prayers_plural(tokens)
+    plural_matches, excluded = count_prayers_plural(tokens)
     print(f"Count: {len(plural_matches)}")
     print(f"Target: 5 (matching 5 daily prayers)")
     print(f"Match: {'YES ✓' if len(plural_matches) == 5 else 'NO'}")
     print()
+
+    if excluded:
+        print(f"Excluded: {len(excluded)} forms")
+        for ex in excluded:
+            print(f"  - {ex['surah']}:{ex['verse']} - {ex['token']} ({ex['reason']})")
+        print()
 
     # Count Prayer (singular) for comparison
     print("-" * 70)

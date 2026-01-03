@@ -115,7 +115,7 @@ Nothing hidden. Every occurrence counted. Verify yourself.
 ### "How do we know the script isn't rigged?"
 
 **Answer:** Full transparency:
-1. **Source code available**: Read every line of `final_verification.py`
+1. **Source code available**: Read every line of `paradise_hell_people_verification.py`
 2. **Data source**: Standard Tanzil Ḥafṣ/Uthmānī text (publicly available)
 3. **Cross-verified**: Quranic Arabic Corpus confirms similar counts (~10-14 paradise, ~19-20 fire, 6 jahim)
 4. **Reproducible**: Run the script yourself - same input = same output
@@ -133,7 +133,7 @@ The probability that all these factors align by chance is much lower than 2-5%.
 ## Verification (Fully Reproducible)
 
 ```bash
-python3 miracles/15_paradise_hell_people/final_verification.py
+python3 miracles/15_paradise_hell_people/paradise_hell_people_verification.py
 ```
 
 **Output:**

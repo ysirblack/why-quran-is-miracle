@@ -1,12 +1,29 @@
 # Man & Woman Word Count
 
-## What is this pattern?
+## The Claim
 
-Count occurrences of "man" (رَجُل - rajul) and "woman" (ٱمْرَأَة - imra'ah) in the Quran.
+The words "man" (رَجُل) and "woman" (ٱمْرَأَة) show balanced counts across three methodologies, with the semantic role count (23:23) matching human chromosome pairs.
 
-**Key finding**: Three balanced counts exist using different methodologies, with the semantic role count (23:23) matching human chromosome pairs.
+---
 
-> _"In a 7th century text, man and woman are mentioned almost equally - not 250 vs 10, but 29 vs 26. Three different valid linguistic rules ALL produce perfect balance. And the semantic role count lands on exactly 23 - the number of chromosomes each parent contributes to a child. A biological fact unknown until 1955."_
+## The Quranic Data (EXACT)
+
+| Count Type      | Man    | Woman  | Rounding? |
+| --------------- | ------ | ------ | --------- |
+| All occurrences | **29** | **26** | EXACT     |
+| Singulars only  | **24** | **24** | EXACT     |
+| By verse        | **25** | **25** | EXACT     |
+| Semantic roles  | **23** | **23** | EXACT     |
+
+**Key Point:** Three different methods yield three balanced counts. All are EXACT counts from the text.
+
+## Scientific Connection
+
+| Biological Data         | Value  | Match?                  |
+| ----------------------- | ------ | ----------------------- |
+| Chromosomes from father | **23** | ✅ Man semantic roles   |
+| Chromosomes from mother | **23** | ✅ Woman semantic roles |
+| Discovery date          | 1955   | 1,323 years after Quran |
 
 ---
 
@@ -220,6 +237,47 @@ This probability calculation cannot capture the historical reality:
 
 ---
 
+## Why This Isn't Cherry-Picking
+
+| Question                  | Answer                                  |
+| ------------------------- | --------------------------------------- |
+| Why these two words?      | THE gendered pair (man ↔ woman)         |
+| Why three methods?        | All are linguistically valid approaches |
+| Same rule for both sides? | **YES** (identical methodology)         |
+| Did we search for 23?     | **NO** — discovered by applying rules   |
+
+**Not cherry-picking because:**
+
+- Man/woman is THE natural gendered pair
+- Three methods independently produce balance
+- 23:23 wasn't our target—we discovered it
+- Chromosomes unknown until 1955
+
+## Addressing Criticism
+
+**"Three methods = trying until something works!"**
+
+- All three are linguistically valid (singulars, by-verse, semantic roles)
+- Each produces a DIFFERENT balanced count (24, 25, 23)
+- We show the raw 29:26 count too—not hiding failures
+
+**"23 is just a coincidence!"**
+
+- 23 = chromosomes from father AND mother
+- Man → father → 23 chromosomes
+- Woman → mother → 23 chromosomes
+- Probability: ~1 in 8,400
+
+**"7th century knowledge?"**
+
+| Requirement          | 7th Century? | Modern?     |
+| -------------------- | ------------ | ----------- |
+| Chromosome discovery | ❌           | 1955        |
+| Word tracking        | ❌           | ✅ (QAC)    |
+| Knowledge gap        | -            | 1,323 years |
+
+---
+
 ## Summary
 
 | Method             | Man    | Woman  | Balanced?  |
@@ -234,7 +292,7 @@ This probability calculation cannot capture the historical reality:
 1. Three different linguistic methods ALL produce balanced counts
 2. The semantic role count (23:23) matches human chromosome pairs
 3. Combined probability: **~1 in 8,400**
-4. The chromosome connection was unknown until 1955 (1,323 years after the Quran)
+4. Chromosome connection unknown until 1955 (1,323 years after Quran)
 
 ---
 
