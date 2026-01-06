@@ -97,6 +97,32 @@ The script currently finds 7 occurrences. To get 5, apply the exclusions:
 
 ---
 
+## Addressing Skeptical Questions
+
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
+
+### Q: You excluded 2 forms to get 5!
+
+**A:** The exclusions are semantically justified:
+
+| Excluded           | Reason                                   |
+| ------------------ | ---------------------------------------- |
+| 22:40 وَصَلَوَٰتٌ  | Means "synagogues" (places), not prayers |
+| 11:87 أَصَلَوٰتُكَ | QAC treats as singular, not plural       |
+
+### Q: How many word pairs were tested?
+
+**A:** This is a single-concept pattern (prayers = 5 daily prayers), not a word pair. The connection is to Islamic practice, not another Quranic word.
+
+### Q: Could a 7th century author have planned this?
+
+| Requirement            | 7th Century? | Modern?  |
+| ---------------------- | ------------ | -------- |
+| Morphological analysis | ❌           | ✅ (QAC) |
+| Complete form tracking | ❌           | ✅       |
+
+---
+
 ## Sources
 
 1. **Quranic Arabic Corpus:**

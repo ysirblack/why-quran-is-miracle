@@ -12,10 +12,10 @@ Analysis of numerical patterns in the Quran's 114-chapter structure.
 
 **The finding**: The 57 even-sum chapters contain exactly **6,236 verses** - the total verses in the Quran.
 
-| Group | Count | Total verses |
-|-------|-------|--------------|
-| Even-sum chapters | 57 | 6,236 (= total Quran verses) |
-| Odd-sum chapters | 57 | 6,555 |
+| Group             | Count | Total verses                 |
+| ----------------- | ----- | ---------------------------- |
+| Even-sum chapters | 57    | 6,236 (= total Quran verses) |
+| Odd-sum chapters  | 57    | 6,555                        |
 
 **Probability**: ~1 in 833 (0.12%) | **Passes**: Yes
 
@@ -67,6 +67,59 @@ Analysis of numerical patterns in the Quran's 114-chapter structure.
 
 ---
 
+## Addressing Skeptical Questions
+
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
+
+### Q: Some patterns don't pass p < 0.05. Why include them?
+
+**A:** Full transparency. We show ALL patterns, not just significant ones:
+
+| Pattern      | p-value | Significant? | Shown?  |
+| ------------ | ------- | ------------ | ------- |
+| Even-Sum     | 0.12%   | YES          | YES     |
+| Six-Block    | 0.0034% | YES          | YES     |
+| Verse-Mirror | 0.23%   | YES          | YES     |
+| Core 2x2     | 14.9%   | NO           | **YES** |
+| Long/Short   | 12.7%   | NO           | **YES** |
+
+Cherry-picking would mean HIDING the non-significant patterns.
+
+### Q: Are these patterns independent?
+
+**A:** No, and we acknowledge this:
+
+- Patterns 2, 4, 5 share the same 2x2 parity grid structure
+- We test them JOINTLY via permutation (shuffle once, check all)
+- Combined probability accounts for dependencies
+
+### Q: Why divide into 6 blocks of 19?
+
+**A:** 19 is significant in Quranic numerology (mentioned in 74:30). But the pattern works because:
+
+- 114 = 6 × 19 (perfect division)
+- The alternating patterns emerge across ALL 6 blocks
+- This isn't arbitrary - it's testing for structure at the surah level
+
+### Q: Could someone have designed this?
+
+| Requirement                         | 7th Century? | Modern? |
+| ----------------------------------- | ------------ | ------- |
+| Permutation testing                 | ❌           | ✅      |
+| Statistical analysis                | ❌           | ✅      |
+| Track all 114 surahs simultaneously | Impractical  | ✅      |
+| Knowledge of probability theory     | ❌           | ✅      |
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                            |
+| ------------------ | ------------------------------------- |
+| Pure coincidence   | Combined p < 1 in 1,000,000           |
+| Human design       | Requires modern statistical awareness |
+| Post-hoc selection | We show non-significant patterns too  |
+
+---
+
 ## Methodology
 
 - **Data**: Tanzil Ḥafṣ/Uthmānī text
@@ -79,10 +132,10 @@ All scripts load real data and compute dynamically. No hardcoded outputs.
 
 ## Files
 
-| Folder | Pattern |
-|--------|---------|
-| `even_sum_surahs/` | Pattern 1 |
-| `new_data_slices/` | Pattern 2 |
+| Folder                       | Pattern   |
+| ---------------------------- | --------- |
+| `even_sum_surahs/`           | Pattern 1 |
+| `new_data_slices/`           | Pattern 2 |
 | `verse_greater_than_number/` | Pattern 3 |
-| `core_2x2_parity_grouping/` | Pattern 4 |
-| `long_short_parity/` | Pattern 5 |
+| `core_2x2_parity_grouping/`  | Pattern 4 |
+| `long_short_parity/`         | Pattern 5 |

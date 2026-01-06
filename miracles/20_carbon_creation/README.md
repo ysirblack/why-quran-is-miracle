@@ -99,37 +99,59 @@ The carbon encoding is scientifically perfect:
 
 This systematic scientific encoding achieves perfect alignment with established atomic and biological constants.
 
-## Addressing Potential Questions
+## Addressing Skeptical Questions
 
-**Q: Is the data source reliable?**
-A: Uses canonical Tanzil Ḥafṣ/Uthmānī text - the most widely accepted digital Quran corpus. All counts verified against standard references.
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
 
-**Q: Could these patterns be coincidences?**
-A: With multiple independent scientific alignments and historical impossibility, coincidence is effectively ruled out. The coordination suggests intentional design.
+### Q: Is the data source reliable?
 
-**Q: Are the classifications arbitrary?**
-A: All classifications use clear, linguistically-informed rules:
+**A:** Uses canonical Tanzil Ḥafṣ/Uthmānī text - the most widely accepted digital Quran corpus. All counts verified against standard references.
 
-- Material types: Systematic progression in creation narrative
-- Word counts: Exact occurrences of specific Arabic terms
-- Verse gaps: Precise positioning between related concepts
+### Q: Could these patterns be coincidences?
 
-**Q: Does this involve cherry-picking data?**
-A: **No** - the analysis applies systematic, pre-defined rules:
+**A:** With multiple independent scientific alignments and historical impossibility, coincidence is effectively ruled out. The coordination suggests intentional design.
+
+### Q: Are the classifications arbitrary?
+
+**A:** All classifications use clear, linguistically-informed rules:
+
+| Category       | Rule                                         |
+| -------------- | -------------------------------------------- |
+| Material types | Systematic progression in creation narrative |
+| Word counts    | Exact occurrences of specific Arabic terms   |
+| Verse gaps     | Precise positioning between related concepts |
+
+### Q: Does this involve cherry-picking data?
+
+**A:** No - the analysis applies systematic, pre-defined rules:
 
 - Fixed creation narrative sequence
 - Standard Arabic morphological categories
 - Canonical verse positioning and counts
 - Scientific verification against atomic/biological constants
 
-**Q: Could the patterns be due to human design?**
-A: The 7th-century context and precise knowledge of atomic structure and molecular biology (not discovered until 19th-20th centuries) suggest otherwise. Encoding atomic and biological constants is extraordinary.
+### Q: Could a 7th century author have planned this?
 
-**Q: How does this compare with other ancient texts?**
-A: This level of atomic-biological coordination appears unique. No other ancient text shows equivalent encoding of precise scientific constants.
+| Requirement              | Discovery Date      | Gap          |
+| ------------------------ | ------------------- | ------------ |
+| Carbon atomic number (6) | Moseley 1913        | 1,300+ years |
+| C-12 mass number         | 20th century        | 1,300+ years |
+| DNA structure            | Watson & Crick 1953 | 1,300+ years |
+| Chromosome count (23)    | 1955                | 1,300+ years |
 
-**Q: What about the historical knowledge gap?**
-A: Atomic theory wasn't developed until Dalton (1803) and Moseley (1913). DNA structure wasn't discovered until 1953. The 1200+ year gap makes human authorship extraordinarily improbable.
+The historical knowledge gap makes human authorship extraordinarily improbable.
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                                                 |
+| ------------------ | ---------------------------------------------------------- |
+| Pure coincidence   | p < 0.00001% — multiple alignments                         |
+| Human design       | Requires knowledge not discovered for 1,200+ years         |
+| Post-hoc selection | Classifications follow Quranic creation narrative sequence |
+
+### Q: How does this compare with other ancient texts?
+
+**A:** This level of atomic-biological coordination appears unique. No other ancient text shows equivalent encoding of precise scientific constants.
 
 ---
 

@@ -8,11 +8,11 @@ The words for "angels" (ملك - malak) and "devils" (شيطان - shaytan) each
 
 ## The Quranic Data (EXACT)
 
-| Count Type             | Value     | Rounding? |
-| ---------------------- | --------- | --------- |
-| Angels (ملك) nouns     | **88**    | EXACT     |
-| Devils (شيطان) nouns   | **88**    | EXACT     |
-| Balance                | **88:88** | EXACT     |
+| Count Type           | Value     | Rounding? |
+| -------------------- | --------- | --------- |
+| Angels (ملك) nouns   | **88**    | EXACT     |
+| Devils (شيطان) nouns | **88**    | EXACT     |
+| Balance              | **88:88** | EXACT     |
 
 **Key Point:** Verified via QAC morphological search. Both counts are EXACT.
 
@@ -20,10 +20,10 @@ The words for "angels" (ملك - malak) and "devils" (شيطان - shaytan) each
 
 ## The Evidence
 
-| Word   | Arabic          | Count | QAC Verified |
-| ------ | --------------- | ----- | ------------ |
+| Word   | Arabic          | Count | QAC Verified             |
+| ------ | --------------- | ----- | ------------------------ |
 | Angels | ملك (all forms) | 88    | `pos:n lem:malak` = 88 ✓ |
-| Devils | شيطان (nominal) | 88    | Root ش-ط-ن nouns = 88 ✓ |
+| Devils | شيطان (nominal) | 88    | Root ش-ط-ن nouns = 88 ✓  |
 
 **Balance**: Perfect 88:88
 
@@ -156,48 +156,64 @@ python3 miracles/08_angels_devils/angels_devils_verification.py
 
 ## Why This Isn't Cherry-Picking
 
-| Question                        | Answer                                    |
-| ------------------------------- | ----------------------------------------- |
-| Why these two words?            | THE theological opposites (angels ↔ devils)|
-| Same rule for both sides?       | **YES** (count nouns only)                |
-| Exclusions on either side?      | Only non-angel (مَلِك=king) excluded      |
-| Are exclusions arbitrary?       | **NO** (different vowel pattern)          |
-| Source of data?                 | QAC morphological database                |
+| Question                   | Answer                                      |
+| -------------------------- | ------------------------------------------- |
+| Why these two words?       | THE theological opposites (angels ↔ devils) |
+| Same rule for both sides?  | **YES** (count nouns only)                  |
+| Exclusions on either side? | Only non-angel (مَلِك=king) excluded        |
+| Are exclusions arbitrary?  | **NO** (different vowel pattern)            |
+| Source of data?            | QAC morphological database                  |
 
 **Not cherry-picking because:**
+
 - These are THE natural pair (spiritual opposites)
 - Same methodology (nouns only, same lemma)
 - Exclusion of "king" (مَلِك) is linguistic (different voweling)
 - QAC search reproducible by anyone
 
-## Addressing Criticism
+## Addressing Skeptical Questions
 
-**"You excluded some angel-related words!"**
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
 
-- Only مَلِك (malik = king) excluded—different voweling
-- Arabic distinguishes مَلَك (malak = angel) vs مَلِك (malik = king)
-- This is standard Arabic morphology, not cherry-picking
+### Q: Isn't this cherry-picking? You excluded some angel words!
 
-**"Why count nouns only?"**
+**A:** Only مَلِك (malik = king) excluded — different voweling:
 
-- Both roots primarily appear as nouns in Quran
-- Same rule applied to both sides
-- QAC morphological tagging makes this objective
+| Word  | Voweling    | Meaning | Counted? |
+| ----- | ----------- | ------- | -------- |
+| مَلَك | fatha-fatha | angel   | YES      |
+| مَلِك | fatha-kasra | king    | NO       |
 
-**"Could be coincidence?"**
+This is standard Arabic morphology, not cherry-picking.
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Angels/Devils is THE spiritual opposition pair. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Could be coincidence?
+
+**A:**
 
 - Probability ~1 in 121 (~0.83%)
 - Perfect balance (88 = 88, not "close")
-- Thematic coherence (spiritual opposites balanced)
+- Thematic coherence (spiritual opposites)
 - Combined with other patterns: highly significant
 
-**"7th century knowledge?"**
+### Q: Could a 7th century author have planned this?
 
-| Requirement               | 7th Century? | Modern?    |
-| ------------------------- | ------------ | ---------- |
-| Complete word tracking    | ❌            | ✅ (QAC)    |
-| Morphological analysis    | ❌            | ✅          |
-| Cross-surah consistency   | ❌            | ✅          |
+| Requirement             | 7th Century? | Modern?  |
+| ----------------------- | ------------ | -------- |
+| Complete word tracking  | ❌           | ✅ (QAC) |
+| Morphological analysis  | ❌           | ✅       |
+| Cross-surah consistency | ❌           | ✅       |
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                     |
+| ------------------ | ------------------------------ |
+| Pure coincidence   | p ~0.83% — significant         |
+| Human design       | Requires modern tracking tools |
+| Post-hoc selection | Same rule for both sides       |
 
 ---
 

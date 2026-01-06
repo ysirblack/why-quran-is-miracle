@@ -216,37 +216,49 @@ The Quran explicitly pairs life and death as divine creations. The 105:105 numer
 - Life exclusions have clear semantic justification
 - Anyone can verify using QAC links provided
 
-## Addressing Criticism
+## Addressing Skeptical Questions
 
-**"You excluded 8 forms to make it work!"**
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
 
-- Those 8 forms DON'T mean "life" - they mean snake/greeting/shyness
-- Same root doesn't mean same meaning (Arabic morphology)
-- Death side needed ZERO exclusions—all 105 mean death
-- We're being MORE conservative, not less
+### Q: You excluded 8 forms to make it work!
 
-**"Why count nouns only?"**
+**A:** Those 8 forms DON'T mean "life" - they have different meanings:
+
+| Excluded Form | Meaning  | Why Excluded               |
+| ------------- | -------- | -------------------------- |
+| حَيَّة        | Snake    | Animal, not life concept   |
+| تَحِيَّة (×6) | Greeting | Salutation, not about life |
+| ٱسْتِحْيَآء   | Shyness  | Emotion, not about life    |
+
+Death side needed ZERO exclusions—all 105 mean death.
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Life/Death is THE fundamental duality (Quran 67:2). See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Why count nouns only?
+
+**A:**
 
 - Nouns = concepts (what life/death IS)
 - Verbs = actions (to live, to die)
 - Quran pairs them as concepts: "He created death and life" (67:2)
-- Linguistically sound distinction
 
-**"Could be coincidence?"**
+### Q: Could a 7th century author have planned this?
 
-- Probability < 0.1% (less than 1 in 1,000)
-- Thematic coherence (life ↔ death pairing)
-- Same methodology, symmetric result
-- Perfect balance (105 = 105, not close)
+| Requirement             | 7th Century? | Modern?  |
+| ----------------------- | ------------ | -------- |
+| Complete concordance    | ❌           | ✅ (QAC) |
+| Morphological databases | ❌           | ✅       |
+| Track 184+165 forms     | ❌           | ✅       |
 
-**"7th century Arabs could count this?"**
+### Q: What alternative explanations exist?
 
-| Requirement               | 7th Century? | Modern?  |
-| ------------------------- | ------------ | -------- |
-| Complete concordance      | ❌           | ✅ (QAC) |
-| Morphological databases   | ❌           | ✅       |
-| Track 184+165 forms       | ❌           | ✅       |
-| Control vocabulary 23 yrs | Impossible   | Verified |
+| Explanation         | Assessment                             |
+| ------------------- | -------------------------------------- |
+| Pure coincidence    | p < 0.1% — highly significant          |
+| Human design        | Requires modern tracking tools         |
+| Post-hoc exclusions | Exclusions are semantic, not arbitrary |
 
 ---
 

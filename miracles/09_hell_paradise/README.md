@@ -2,12 +2,12 @@
 
 ## The Quranic Data (EXACT)
 
-| Count Type                  | Value     | Rounding? |
-| --------------------------- | --------- | --------- |
-| Hell (جهنم) occurrences     | **77**    | EXACT     |
-| Paradise (الجنة+) occurrences| **78**   | EXACT     |
-| Ratio                       | **77:78** | EXACT     |
-| Gates parallel              | **7:8**   | Quranic/Hadith |
+| Count Type                    | Value     | Rounding?      |
+| ----------------------------- | --------- | -------------- |
+| Hell (جهنم) occurrences       | **77**    | EXACT          |
+| Paradise (الجنة+) occurrences | **78**    | EXACT          |
+| Ratio                         | **77:78** | EXACT          |
+| Gates parallel                | **7:8**   | Quranic/Hadith |
 
 **Key Point:** These are countable facts from Tanzil text. The counts are EXACT.
 
@@ -236,7 +236,13 @@ TOTAL: 78 ✓
 
 ---
 
-## Addressing Potential Criticism
+## Addressing Skeptical Questions
+
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Hell/Paradise is THE afterlife contrast. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
 
 ### "Why not include other Hell names like Saqar, Ladha, Sa'ir?"
 

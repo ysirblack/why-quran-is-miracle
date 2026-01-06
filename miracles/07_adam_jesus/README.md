@@ -226,33 +226,52 @@ python3 miracles/07_adam_jesus/adam_jesus_verification.py
 - Other prophet pairs don't match (Moses 136, Abraham 69, Noah 43)
 - This is the ONLY fatherless-creation pair in Islamic theology
 
-## Addressing Criticism
+## Addressing Skeptical Questions
 
-**"You could find any matching pair!"**
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
 
-- Actually no. Moses (136), Abraham (69), Noah (43), Muhammad (4)
-- Only Adam and Jesus match at 25:25
-- AND they're the only pair the Quran explicitly compares (3:59)
+### Q: Isn't this cherry-picking? You could find any matching pair!
 
-**"Why not count titles like المسيح?"**
+**A:** No. We checked THE explicit pair:
 
-- We count NAMES, not titles
+| Prophet   | Count  | Match?  |
+| --------- | ------ | ------- |
+| Moses     | 136    | -       |
+| Abraham   | 69     | -       |
+| Noah      | 43     | -       |
+| Muhammad  | 4      | -       |
+| **Adam**  | **25** | **YES** |
+| **Jesus** | **25** | **YES** |
+
+Only Adam and Jesus match. AND they're the ONLY pair the Quran explicitly compares (3:59).
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Adam/Jesus is special - the Quran ITSELF pairs them in 3:59 as sharing fatherless creation. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Why not count titles like المسيح (The Messiah)?
+
+**A:** We count NAMES, not titles:
+
 - Same rule for both: proper name only (آدم, عيسى)
-- If we counted titles, we'd include them for BOTH (fair comparison)
+- If we counted titles, we'd include them for BOTH (symmetric)
+- Titles would add different numbers anyway
 
-**"Could be coincidence?"**
-
-- Probability ~1 in 137 for exact match
-- But: they're the ONLY explicit pair in the Quran (3:59)
-- Combined significance much higher
-
-**"7th century knowledge?"**
+### Q: Could a 7th century author have planned this?
 
 | Requirement             | 7th Century? | Modern?  |
 | ----------------------- | ------------ | -------- |
 | Complete name tracking  | ❌           | ✅ (QAC) |
 | Cross-surah consistency | ❌           | ✅       |
 | Precise count awareness | ❌           | ✅       |
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                                                   |
+| ------------------ | ------------------------------------------------------------ |
+| Pure coincidence   | p ~1 in 137 — but combined with explicit pairing, much lower |
+| Human design       | Requires modern tracking tools                               |
+| Post-hoc selection | Quran ITSELF pairs them in 3:59                              |
 
 ---
 

@@ -253,28 +253,74 @@ This probability calculation cannot capture the historical reality:
 - 23:23 wasn't our target—we discovered it
 - Chromosomes unknown until 1955
 
-## Addressing Criticism
+## Addressing Skeptical Questions
 
-**"Three methods = trying until something works!"**
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
 
-- All three are linguistically valid (singulars, by-verse, semantic roles)
-- Each produces a DIFFERENT balanced count (24, 25, 23)
-- We show the raw 29:26 count too—not hiding failures
+### Q: Isn't this cherry-picking? You tried three methods until one worked!
 
-**"23 is just a coincidence!"**
+**A: No. All three methods are linguistically valid, and we show ALL results:**
 
-- 23 = chromosomes from father AND mother
-- Man → father → 23 chromosomes
-- Woman → mother → 23 chromosomes
-- Probability: ~1 in 8,400
+| Method          | Result | Balanced? | Hidden?   |
+| --------------- | ------ | --------- | --------- |
+| All occurrences | 29:26  | NO        | **Shown** |
+| Singulars only  | 24:24  | YES       | Shown     |
+| By verse        | 25:25  | YES       | Shown     |
+| Semantic roles  | 23:23  | YES       | Shown     |
 
-**"7th century knowledge?"**
+We report the UNBALANCED count (29:26) too. Cherry-picking would mean hiding failures.
 
-| Requirement          | 7th Century? | Modern?     |
-| -------------------- | ------------ | ----------- |
-| Chromosome discovery | ❌           | 1955        |
-| Word tracking        | ❌           | ✅ (QAC)    |
-| Knowledge gap        | -            | 1,323 years |
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Man/Woman is THE natural gendered pair - not randomly selected from a dictionary. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Why does 23:23 matter? Could be coincidence!
+
+**A:** The probability of hitting exactly 23 (the human chromosome count from each parent) is ~1 in 8,400. But the deeper point:
+
+| Fact                    | Value           |
+| ----------------------- | --------------- |
+| Man semantic roles      | 23              |
+| Woman semantic roles    | 23              |
+| Chromosomes from father | 23              |
+| Chromosomes from mother | 23              |
+| Chromosome discovery    | 1955            |
+| Quran revelation        | 610-632 CE      |
+| **Knowledge gap**       | **1,323 years** |
+
+There was no TARGET to aim for. Chromosomes were unknown.
+
+### Q: Isn't the "semantic role" counting subjective?
+
+**A:** No. The rules are documented and reproducible:
+
+| Verse | Raw Count | Semantic Analysis                 | Roles |
+| ----- | --------- | --------------------------------- | ----- |
+| 39:29 | 3 men     | 2 slaves (same concept) + 1 owner | 2     |
+| 66:10 | 2 women   | 2 wives (parallel examples)       | 1     |
+
+**The rule**: "Multiple occurrences serving SAME conceptual role = count once"
+
+This is standard linguistic analysis. Anyone can apply the same rule and get the same result.
+
+### Q: Could a 7th century author have planned this?
+
+| Requirement                   | 7th Century? | Modern?  |
+| ----------------------------- | ------------ | -------- |
+| Chromosome count knowledge    | ❌           | 1955     |
+| Word tracking across 23 years | ❌           | ✅ (QAC) |
+| Morphological databases       | ❌           | ✅       |
+| Statistical awareness         | ❌           | ✅       |
+
+**Conclusion**: Impossible to plan, only verifiable with modern tools.
+
+### Q: What alternative explanations exist?
+
+| Explanation           | Assessment                         |
+| --------------------- | ---------------------------------- |
+| Pure coincidence      | p ~0.012% — statistically rejected |
+| Human design          | Requires 1955 chromosome knowledge |
+| Post-hoc manipulation | Text frozen for 1,400 years        |
 
 ---
 

@@ -250,43 +250,49 @@ The Quran consistently pairs الدنيا (temporal world) and الآخرة (ete
 - Exclusions are only other root meanings (not الدنيا/الآخرة)
 - Anyone can verify by searching the text
 
-## Addressing Criticism
+## Addressing Skeptical Questions
 
-**"You only counted specific forms!"**
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. World/Hereafter is THE core Quranic duality. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: You only counted specific forms!
+
+**A:**
 
 - الدنيا means "the worldly life" specifically
 - الآخرة means "the hereafter" specifically
 - Other root forms have different meanings (verb: to approach, adj: nearer)
-- We counted the theological concepts, not every root instance
+- We counted theological concepts, not every root instance
 
-**"Different roots have different frequencies!"**
+### Q: Different roots have different frequencies!
 
-- True: د-ن-و has 133 total, أ-خ-ر has 250 total
-- But the SPECIFIC words (الدنيا and الآخرة) both appear 115 times
-- This makes the balance even more remarkable
+**A:** True, but this makes the balance MORE remarkable:
 
-**"Could be coincidence?"**
+| Root  | Total occurrences | Specific word count |
+| ----- | ----------------- | ------------------- |
+| د-ن-و | 133               | الدنيا = 115        |
+| أ-خ-ر | 250               | الآخرة = 115        |
 
-- Probability < 1%
-- Thematic coherence (world ↔ hereafter is THE Quranic duality)
-- Perfect balance despite different root frequencies
-- 115 = 115 exactly, not "close to"
+Despite vastly different root frequencies, the specific words match exactly.
 
-**"Why include clitic prefixes?"**
-
-- Arabic clitics (و، ب، ل) don't change the word's meaning
-- بالدنيا = "in the world" (still الدنيا)
-- Same rule applied to both sides
-- Symmetric methodology
-
-**"7th century Arabs could track this?"**
+### Q: Could a 7th century author have planned this?
 
 | Requirement                | 7th Century? | Modern?  |
 | -------------------------- | ------------ | -------- |
 | Word frequency tracking    | ❌           | ✅ (QAC) |
 | 23-year vocabulary control | Impossible   | Verified |
-| Exact count awareness      | ❌           | ✅       |
 | Cross-surah consistency    | ❌           | ✅       |
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                     |
+| ------------------ | ------------------------------ |
+| Pure coincidence   | p < 1% — significant           |
+| Human design       | Requires modern tracking tools |
+| Post-hoc selection | Same rule for both sides       |
 
 ---
 

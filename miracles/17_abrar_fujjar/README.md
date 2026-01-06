@@ -133,6 +133,53 @@ Righteous (6) are EXACTLY DOUBLE Wicked (3)
 
 ---
 
+## Addressing Skeptical Questions
+
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
+
+### Q: Why only count الأبرار and الفجار? Isn't this cherry-picking?
+
+**A:** We count these specific definite plural forms because:
+
+| Form                      | Counted? | Reason                                          |
+| ------------------------- | -------- | ----------------------------------------------- |
+| الأبرار (the righteous)   | YES      | Definite plural - refers to THE class of people |
+| الفجار (the wicked)       | YES      | Definite plural - refers to THE class of people |
+| برّ (piety/righteousness) | NO       | Abstract concept, not a group of people         |
+| فجر (dawn/explosion)      | NO       | Different meaning entirely                      |
+
+Same rule for both sides: count only the definite plural designation for the group.
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Righteous/Wicked is THE moral categories contrast. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Why is a 2:1 ratio significant rather than 1:1?
+
+**A:** Not all patterns are about equality:
+
+- **Equal pairs** (Life/Death 105:105) - cosmic balance
+- **Proportional pairs** (Righteous/Wicked 6:3) - good outweighs evil
+- Both show mathematical precision, just different theological messages
+
+### Q: Could a 7th century author have planned this?
+
+| Requirement             | 7th Century? | Modern?  |
+| ----------------------- | ------------ | -------- |
+| Complete word tracking  | ❌           | ✅ (QAC) |
+| Cross-surah consistency | ❌           | ✅       |
+| Precise count awareness | ❌           | ✅       |
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                     |
+| ------------------ | ------------------------------ |
+| Pure coincidence   | p ~0.5% — significant          |
+| Human design       | Requires modern tracking tools |
+| Post-hoc selection | Same rule for both sides       |
+
+---
+
 ## Summary
 
 | Metric          | Value     |

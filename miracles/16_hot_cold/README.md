@@ -107,27 +107,20 @@ Hail excluded as precipitation phenomenon, not pure temperature.
 
 ---
 
-## Responding to Critics: "Cherry-Picking?"
+## Addressing Skeptical Questions
 
-### Potential Criticism
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
 
-**"You excluded hail just to force a 4:4 pattern! This is arbitrary."**
+### Q: Isn't excluding hail just cherry-picking to force a 4:4 pattern?
 
-### Our Response
+**A:** No. The Quran itself distinguishes these categories:
 
-**1. The Quran's own usage distinguishes these categories:**
+| Word             | Context       | Usage                                          |
+| ---------------- | ------------- | ---------------------------------------------- |
+| بَرْد (coolness) | Temperature   | "Fire, be **coolness**" (21:69)                |
+| بَرَد (hail)     | Precipitation | "clouds...rain...**hail**...lightning" (24:43) |
 
-- بَرْد (coolness): Appears in temperature contexts (fire becoming cool)
-- بَرَد (hail): Appears in weather contexts (clouds, rain, lightning)
-
-**2. Not unique to our analysis:**
-
-Arabic linguists and Quranic scholars recognize different semantic domains:
-
-- Temperature qualities (حَرّ hot, بَرْد cold)
-- Weather phenomena (مَطَر rain, بَرَد hail, ثَلْج snow)
-
-**3. The analogy is clear:**
+**The analogy is clear:**
 
 Comparing "heat" with "hail" is like comparing "wetness" with "rain":
 
@@ -135,14 +128,35 @@ Comparing "heat" with "hail" is like comparing "wetness" with "rain":
 - But "wetness" and "rain" are different semantic categories
 - One is a quality, the other is a phenomenon
 
-**4. Transparent methodology:**
+Arabic linguists recognize these as different semantic domains:
 
-We document ALL forms from both roots:
+- Temperature qualities (حَرّ hot, بَرْد cold)
+- Weather phenomena (مَطَر rain, بَرَد hail, ثَلْج snow)
+
+### Q: How many word pairs were tested? (Multiple Comparisons)
+
+**A:** We tested ~10-15 theologically meaningful pairs. Hot/Cold is THE temperature contrast. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Could a 7th century author have planned this?
+
+| Requirement             | 7th Century? | Modern?  |
+| ----------------------- | ------------ | -------- |
+| Complete word tracking  | ❌           | ✅ (QAC) |
+| Semantic categorization | Limited      | ✅       |
+| Cross-surah consistency | ❌           | ✅       |
+
+### Q: What alternative explanations exist?
+
+| Explanation        | Assessment                                  |
+| ------------------ | ------------------------------------------- |
+| Pure coincidence   | p ~10-15% — borderline                      |
+| Human design       | Requires modern tracking tools              |
+| Post-hoc selection | Categorization is linguistic, not arbitrary |
+
+**Transparent methodology:** We document ALL forms from both roots:
 
 - Hot root (ح-ر-ر): 15 total (4 heat + 11 other meanings)
 - Cold root (ب-ر-د): 5 total (4 temperature + 1 precipitation)
-
-Nothing is hidden. The categorization is linguistically sound, not numerically motivated.
 
 ---
 

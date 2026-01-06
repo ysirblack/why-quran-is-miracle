@@ -138,6 +138,36 @@ This reflects the Quranic teaching: "My Mercy prevails over My Wrath" - divine m
 
 ---
 
+## Addressing Skeptical Questions
+
+> For comprehensive methodology defense, see [METHODOLOGY_FAQ.md](../METHODOLOGY_FAQ.md)
+
+### Q: Three ratios from the same roots - that's manipulation!
+
+**A:** The ratios use DIFFERENT forms from the same roots:
+
+| Pattern | Forms Used                            | Ratio |
+| ------- | ------------------------------------- | ----- |
+| 1       | أَمْن vs كُفُور                       | 5:3   |
+| 2       | إِيمَٰن vs (كُفْر + كُفُور)           | 9:8   |
+| 3       | (إِيمَٰن + أَمْن) vs (كُفْر + كُفُور) | 5:4   |
+
+Each is a distinct combination producing an EXACT simple ratio.
+
+### Q: How many word pairs were tested?
+
+**A:** We tested ~10-15 theologically meaningful pairs. Belief/Disbelief is THE faith contrast. See the [full pairs list](../METHODOLOGY_FAQ.md#the-multiple-comparisons-question).
+
+### Q: Could a 7th century author have planned this?
+
+| Requirement                | 7th Century? | Modern?  |
+| -------------------------- | ------------ | -------- |
+| Form-level tracking        | ❌           | ✅ (QAC) |
+| Ratio awareness            | ❌           | ✅       |
+| 23-year vocabulary control | Impossible   | Verified |
+
+---
+
 ## Why This Is Bulletproof
 
 ✅ **Three exact ratios** - Not approximations, perfect integer ratios
