@@ -38,7 +38,6 @@ Sıra numarası asal, âyet sayısı asal olan sûreler kümesi .........118
 Sıra numarası da âyet sayısı da asal olmayan sûreler kümesi .........118
 Sıra numarası asal, âyet sayısı asal olmayan sûreler kümesi .........120
 Sıra numarası asal değil, âyet sayısı asal olan sûreler kümesi .........120
-İÇİNDEKİLER DEVAMI:
 
 Asal olmak bakımından türdeş olan sûrelerden teklik-çiftlik bakımından türdeş olanlar .........124
 Asal olmak bakımından türdeş olan sûrelerden teklik-çiftlik bakımından türdeş olmayanlar .........125
@@ -154,10 +153,11 @@ Sıra numarası ve âyet sayısı zengin olmak bakımından türdeş olmayan sû
 Âyet sayısı kıt olmayan sûrelerden sıra numarası tek olanlar .........276
 Âyet sayısı kıt olmayan sûrelerden sıra numarası çift olanlar .........277
 Sıra numarası ve âyet sayısı kıt olmak bakımından türdeş olan sûreler kümesi .........279
-
 Sıra numarası ve âyet sayısı kut olmak bakımından türdeş olmayan
 süreler kümesi .................................................................................. 281
-Âyet Sayıları Aritmetik Ortalaması........................................289
+
+14. Âyet Sayıları Aritmetik Ortalaması........................................289
+
 Âyet sayısı ortalamanın üstünde olan süreler .................................... 291
 Âyet sayısı ortalamanın altında kalan süreler .................................. 292
 Ortalamaya göre âyet sayılarının durumu ile konumları örtüşen
@@ -172,7 +172,9 @@ Ortalamaya göre âyet sayılarının durumu ile konumları örtüşmeyen
 sürelerden türdeş olanlar ............................................................. 302
 Ortalamaya göre âyet sayılarının durumu ile konumları örtüşmeyen
 süreler türdeş olmayanlar ............................................................. 303
-Uzun Sûreler ve Kısa Sûreler ...................................................305
+
+15. Uzun Sûreler ve Kısa Sûreler ...................................................305
+
 Uzun sûreler kümesi......................................................................... 307
 Kısa sûreler kümesi.......................................................................... 308
 Uzun sürelerden Kur'ân-ı Kerîm'in ilk yarısında yer alanlar .......... 309
@@ -194,9 +196,12 @@ Uzunlukları ve konumları bakımından örtüşmeyen sürelerden türdeş
 olanlar .......................................................................................... 324
 Uzunlukları ve konumları bakımından örtüşmeyen sürelerden türdeş
 olmayanlar................................................................................... 325
-Âyet Sayıları Aritmetik Ortalamasının Altında ve Üstünde Kalan Sûrelerle Uzun ve Kısa Sûrelerin Karşılaştırılması
-...........................................................................................................327
-Bölen Kümesi Eleman Sayısı=2 Olan Sayılar.....................337
+
+16. Âyet Sayıları Aritmetik Ortalamasının Altında ve Üstünde Kalan Sûrelerle Uzun ve Kısa Sûrelerin Karşılaştırılması
+    ...........................................................................................................327
+
+17. Bölen Kümesi Eleman Sayısı=2 Olan Sayılar.....................337
+
 Sıra numarası ve âyet sayısı türdeş olan süreler............................... 341
 Sıra numarası ve âyet sayısı türdeş olan sürelerden Kur'ân-ı
 Kerîm'in üst yarısında yer alanlar .............................................. 342
@@ -207,16 +212,22 @@ Sıra numarası ve âyet sayısı türdeş olmayan sürelerden Kur'ân-ı
 Kerîm'in üst yarısında yer alanlar ............................................... 346
 Sıra numarası ve âyet sayısı türdeş olmayan sürelerden Kur'ân-ı
 Kerîm'in alt yarısında yer alanlar................................................ 347
-6236.............................................................................................351
+
+18. 6236.............................................................................................351
+
 6236 benzeri sayılar......................................................................... 353
 6236 sayısının konumu ..................................................................... 354
-Altın Oran....................................................................................361
+
+19. Altın Oran....................................................................................361
+
 Sıra numaraları ve âyet sayıları toplamı dizisi ................................. 363
 Sıra numaraları ve âyet sayıları toplamları mükerrer olan süreler
 kümesi ............................................................................................. 365
 Sıra numaraları ve âyet sayıları toplamları mükerrer olmayan süreler
 kümesi ............................................................................................. 367
-Bölen Kümesinde İki Asal Bulunan Sayılar.........................369
+
+20. Bölen Kümesinde İki Asal Bulunan Sayılar.........................369
+
 Sıra numarası ve âyet sayısı türdeş olan süreler............................... 374
 Sıra numarası ve âyet sayısı türdeş olan sürelerden Kur'ân-ı
 Kerîm'in üst yarısında yer alanlar ............................................... 375
@@ -228,7 +239,8 @@ Sıra numarası ve âyet sayısı türdeş olmayan sûreler .........377
 Sıra numarası ve âyet sayısı türdeş olmayan sûrelerden Kur'ân-ı Kerîm'in üst yarısında yer alanlar .........378
 Sıra numarası ve âyet sayısı türdeş olmayan sûrelerden Kur'ân-ı Kerîm'in alt yarısında yer alanlar .........379
 
-Bölen Kümesinde Üç Asal Bulunan Sayılar .........383
+21. Bölen Kümesinde Üç Asal Bulunan Sayılar .........383
+
 Sıra numarası ve âyet sayısı türdeş olan sûreler .........388
 
 Sıra numarası ve âyet sayısı türdeş olan sûrelerden Kur'ân-ı Kerîm'in üst yarısında yer alanlar .........389
@@ -239,7 +251,7 @@ Sıra numarası ve âyet sayısı türdeş olmayan sûreler .........391
 Sıra numarası ve âyet sayısı türdeş olmayan sûrelerden Kur'ân-ı Kerîm'in üst yarısında yer alanlar .........392
 Sıra numarası ve âyet sayısı türdeş olmayan sûrelerden Kur'ân-ı Kerîm'in alt yarısında yer alanlar .........393
 
-19'lu Gruplar Halinde Sûrelerin Âyet Sayıları .........397
+22. 19'lu Gruplar Halinde Sûrelerin Âyet Sayıları .........397
 
 İlk 19 sûrede tekler ve çiftler .........399
 İkinci 19 sûrede tekler ve çiftler .........400
@@ -255,35 +267,37 @@ Altıncı 19 sûrede tekler ve çiftler .........404
 Üçüncü 19 sûrede sıra numarası tek, âyet sayısı tek olan sûreler .........413
 Dördüncü 19 sûrede sıra numarası tek, âyet sayısı tek olan sûreler .........414
 Beşinci 19 sûrede sıra numarası tek, âyet sayısı tek olan sûreler .........415
-
 Altıncı 19 sûrede sıra numarası tek, âyet sayısı tek olan sûreler .........416
+
 İlk 19 sûrede sıra numarası çift, âyet sayısı tek olan sûreler .........420
 İkinci 19 sûrede sıra numarası çift, âyet sayısı tek olan sûreler .........421
 Üçüncü 19 sûrede sıra numarası çift, âyet sayısı tek olan sûreler .........422
 Dördüncü 19 sûrede sıra numarası çift, âyet sayısı tek olan sûreler .........423
 Beşinci 19 sûrede sıra numarası çift, âyet sayısı tek olan sûreler .........424
 Altıncı 19 sûrede sıra numarası çift, âyet sayısı tek olan sûreler .........425
+
 İlk 19 sûrede sıra numarası çift, âyet sayısı çift olan sûreler .........432
 İkinci 19 sûrede sıra numarası çift, âyet sayısı çift olan sûreler .........433
 Üçüncü 19 sûrede sıra numarası çift, âyet sayısı çift olan sûreler .........434
 Dördüncü 19 sûrede sıra numarası çift, âyet sayısı çift olan sûreler .........435
 Beşinci 19 sûrede sıra numarası çift, âyet sayısı çift olan sûreler .........436
 Altıncı 19 sûrede sıra numarası çift, âyet sayısı çift olan sûreler .........437
+
 İlk 19 sûrede sıra numarası tek, âyet sayısı çift olan sûreler .........441
 İkinci 19 sûrede sıra numarası tek, âyet sayısı çift olan sûreler .........442
 Üçüncü 19 sûrede sıra numarası tek, âyet sayısı çift olan sûreler .........443
 Dördüncü 19 sûrede sıra numarası tek, âyet sayısı çift olan sûreler .........444
 Beşinci 19 sûrede sıra numarası tek, âyet sayısı çift olan sûreler .........445
 Altıncı 19 sûrede sıra numarası tek, âyet sayısı çift olan sûreler .........446
+
 İlk 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından türdeş olan sûreler .........453
 İkinci 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından türdeş olan sûreler .........454
 Üçüncü 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından türdeş olan sûreler .........454
 Dördüncü 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından türdeş olan sûreler .........455
 Beşinci 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından türdeş olan sûreler .........456
-
-Simetrik Kitap: Kur'an
 Altıncı 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından
 türdeş olan süreler ........................................................................... 457
+
 İlk 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından
 türdeş olmayan süreler...................................................................... 461
 İkinci 19 sûrede sıra numarası ve âyet sayısı teklik-çiftlik bakımından
