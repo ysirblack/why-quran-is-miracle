@@ -96,6 +96,33 @@ This is a critical distinction:
 
 ---
 
+## Statistical Power & Simulation Adequacy
+
+**Q: Is 1 million simulations enough? What about bootstrap variability?**
+
+**A: Yes, 1M trials provides excellent precision:**
+
+| p-value   | Margin of Error | Confidence |
+| --------- | --------------- | ---------- |
+| p = 0.001 | ±0.0001         | Very tight |
+| p = 0.01  | ±0.0003         | Tight      |
+| p = 0.05  | ±0.0007         | Tight      |
+
+**Bootstrap variability:**
+
+- We acknowledge bootstrap has randomness
+- Multiple runs give slightly different results
+- We report RANGES where applicable (e.g., "~1 in 2,500 to 7,000")
+- Results are reproducible within stated ranges
+
+**Verification:**
+
+- Run any script multiple times
+- Results should be consistent within margins
+- All scripts use seeded randomization for reproducibility
+
+---
+
 ## The "Post-Hoc Selection" Objection
 
 **Q: Didn't you select parameters to make the patterns work?**
