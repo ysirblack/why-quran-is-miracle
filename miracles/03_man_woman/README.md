@@ -322,6 +322,18 @@ This is standard linguistic analysis. Anyone can apply the same rule and get the
 | Human design          | Requires 1955 chromosome knowledge |
 | Post-hoc manipulation | Text frozen for 1,400 years        |
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                            |
+| ---------------------------- | ----------------------------------------------------------------------------------------- |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.                     |
+| "Why these rules?"           | Rules DESCRIBE data (Arabic grammar), don't filter for results.                           |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.                |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.                      |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. Patterns have MEANING (chromosomes discovered 1955). |
+
 ---
 
 ## Summary

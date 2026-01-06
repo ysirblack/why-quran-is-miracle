@@ -166,6 +166,18 @@ Each is a distinct combination producing an EXACT simple ratio.
 | Ratio awareness            | ❌           | ✅       |
 | 23-year vocabulary control | Impossible   | Verified |
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                                |
+| ---------------------------- | --------------------------------------------------------------------------------------------- |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.                         |
+| "Why these rules?"           | Rules DESCRIBE data (specific noun forms), don't filter for results.                          |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.                    |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.                          |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. THREE exact ratios (5:3, 9:8, 5:4) from belief concepts. |
+
 ---
 
 ## Why This Is Bulletproof

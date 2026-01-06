@@ -260,6 +260,18 @@ Death side needed ZERO exclusions—all 105 mean death.
 | Human design        | Requires modern tracking tools         |
 | Post-hoc exclusions | Exclusions are semantic, not arbitrary |
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                               |
+| ---------------------------- | ---------------------------------------------------------------------------- |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.        |
+| "Why these rules?"           | Rules DESCRIBE data (nouns = concepts), don't filter for results.            |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.   |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.         |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. Quran 67:2 pairs life/death explicitly. |
+
 ---
 
 ## Summary

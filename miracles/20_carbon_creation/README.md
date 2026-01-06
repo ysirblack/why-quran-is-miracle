@@ -153,6 +153,18 @@ The historical knowledge gap makes human authorship extraordinarily improbable.
 
 **A:** This level of atomic-biological coordination appears unique. No other ancient text shows equivalent encoding of precise scientific constants.
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                                |
+| ---------------------------- | --------------------------------------------------------------------------------------------- |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.                         |
+| "Why these rules?"           | Rules DESCRIBE data (creation narrative progression), don't filter for results.               |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.                    |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.                          |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. Carbon atomic (6) + isotope (12) + biological constants. |
+
 ---
 
 _This carbon creation pattern demonstrates that the Quran's linguistic structure encodes precise scientific knowledge, suggesting awareness of atomic physics and molecular biology embedded in the text's numerical architecture within the creation narrative._

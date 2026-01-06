@@ -271,10 +271,59 @@ If each pattern has p < 0.05:
 
 ### Illegitimate Objections (Based on Misunderstanding)
 
-- "Post-hoc selection" → The text is 1,400 years old
-- "Why these parameters?" → Parameters describe data, not filter it
-- "Semantic is subjective" → Rules are documented and reproducible
-- "No pre-registration" → Impossible for fixed historical corpus
+These objections SOUND scientific but fundamentally misunderstand the nature of analyzing a fixed historical corpus:
+
+#### 1. "This is post-hoc selection / cherry-picking!"
+
+**Why it's illegitimate:**
+
+- **Post-hoc selection** means adjusting data AFTER seeing results to get desired outcome
+- The Quran text has been **frozen for 1,400 years** - we cannot change it
+- We DISCOVER patterns in fixed data, we cannot DESIGN outcomes
+- The word البحر (sea) appears 32 times whether we like it or not
+- **Analogy:** Accusing astronomers of "cherry-picking" when they discover a new planet. The planet was always there - they just found it.
+
+#### 2. "Why these specific parameters / counting rules?"
+
+**Why it's illegitimate:**
+
+- Parameters DESCRIBE the data, they don't FILTER for desired results
+- "≤5 characters" = linguistic category (base + single modification)
+- "Definite singular only" = standard Arabic grammar distinction
+- We document ALL rules transparently - anyone can verify
+- **Analogy:** Asking a biologist "why count only red blood cells?" The category is meaningful, not arbitrary.
+
+#### 3. "Semantic interpretation is subjective!"
+
+**Why it's illegitimate:**
+
+- Our rules are **documented, reproducible, and verifiable**
+- Arabic morphology has clear categories (noun vs verb, definite vs indefinite)
+- Context determines meaning (البر = land in geographic context, righteousness in moral context)
+- Same rules applied to BOTH sides of each pair (symmetric)
+- **Test it:** Use Quranic Arabic Corpus, apply our rules, get the same counts
+
+#### 4. "This wasn't pre-registered!"
+
+**Why it's illegitimate:**
+
+- Pre-registration prevents manipulating data collection
+- Our "data" (the Quran text) was "collected" 1,400 years ago
+- We cannot manipulate what's already fixed
+- Pre-registration is for **prospective** studies, not **retrospective** analysis of fixed corpora
+- **Analogy:** Demanding pre-registration for analyzing Shakespeare's word frequencies. The text is fixed - there's nothing to manipulate.
+
+#### 5. "You could find patterns in any text!"
+
+**Why it's illegitimate:**
+
+- **Challenge accepted:** Try to find these patterns in the Bible, Torah, or any ancient text
+- We're not finding "any patterns" - we're finding **thematically coherent** patterns
+- Man/Woman balance aligning with chromosome count (discovered 1955)
+- Land/Sea ratio matching Earth's surface (measured by satellites)
+- The patterns have **meaning** that connects to scientific facts unknown in the 7th century
+
+**The key insight:** These objections assume we have control over the data. We don't. The text is fixed, the patterns either exist or they don't, and we're simply reporting what we find.
 
 ---
 

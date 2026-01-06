@@ -132,6 +132,18 @@ The text determines the boundaries, not arbitrary selection.
 | Human design       | Requires knowledge not discovered for 1,200+ years |
 | Post-hoc selection | Verse boundaries follow thematic content           |
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.                      |
+| "Why these rules?"           | Rules DESCRIBE data (thematic verse connections), don't filter for results.                |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.                 |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.                       |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. Multiple scientific constants (962°C, 5778K, 1538°C). |
+
 ---
 
 ## Verification

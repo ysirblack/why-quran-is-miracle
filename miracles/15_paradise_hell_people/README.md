@@ -149,6 +149,18 @@ Nothing hidden. Every occurrence counted. Verify yourself.
 
 The probability that all these factors align by chance is much lower than 2-5%.
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------ |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.                |
+| "Why these rules?"           | Rules DESCRIBE data (أصحاب construct), don't filter for results.                     |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.           |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.                 |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. Perfect 1:2 ratio matching Quranic eschatology. |
+
 ## Verification (Fully Reproducible)
 
 ```bash

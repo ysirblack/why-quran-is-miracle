@@ -168,6 +168,18 @@ python miracles/18_rasul_prophets/prophet_names_counter.py
 | Human design       | Requires modern linguistic tracking                  |
 | Post-hoc selection | NOUN-to-NOUN is grammatically correct, not arbitrary |
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                |
+| ---------------------------- | ----------------------------------------------------------------------------- |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.         |
+| "Why these rules?"           | Rules DESCRIBE data (NOUN-to-NOUN comparison), don't filter for results.      |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.    |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.          |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. 510 messenger nouns = 510 prophet names. |
+
 ---
 
 **Last Updated**: 2025-01-10  

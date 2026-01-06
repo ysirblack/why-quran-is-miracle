@@ -153,6 +153,18 @@ Arabic linguists recognize these as different semantic domains:
 | Human design       | Requires modern tracking tools              |
 | Post-hoc selection | Categorization is linguistic, not arbitrary |
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------ |
+| "Cherry-picking!"            | Text frozen 1,400 years. We DISCOVER patterns, can't DESIGN outcomes.                |
+| "Why these rules?"           | Rules DESCRIBE data (temperature vs precipitation), don't filter for results.        |
+| "Subjective interpretation!" | Rules documented, reproducible. Same rules = same counts. Verify yourself.           |
+| "No pre-registration!"       | Pre-reg is for prospective studies. This is fixed historical corpus.                 |
+| "Find this in any text!"     | Challenge accepted. Try Bible/Torah. Perfect 4:4 balance for pure temperature terms. |
+
 **Transparent methodology:** We document ALL forms from both roots:
 
 - Hot root (ح-ر-ر): 15 total (4 heat + 11 other meanings)

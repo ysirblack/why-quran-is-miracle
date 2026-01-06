@@ -162,6 +162,18 @@ The verse 13:13 **specifically describes thunderbolts striking people** - this i
 
 There's no interpretation involved - these are objective facts.
 
+### Common Misconceptions (Why These Objections Don't Apply)
+
+> For detailed explanations, see [METHODOLOGY_FAQ.md - Illegitimate Objections](../METHODOLOGY_FAQ.md#illegitimate-objections-based-on-misunderstanding)
+
+| Misconception                | Why It's Wrong                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| "Cherry-picking!"            | Real-world event with 5 independent factors, not textual manipulation.                     |
+| "Why these rules?"           | No rules applied - pure objective facts (date, time, age, verse content).                  |
+| "Subjective interpretation!" | All factors independently verifiable via news sources and medical records.                 |
+| "No pre-registration!"       | This is an observed event, not a prospective study.                                        |
+| "Find this in any text!"     | Challenge accepted. Find 5 independent "13"s matching a verse about that exact phenomenon. |
+
 ---
 
 ## Significance
