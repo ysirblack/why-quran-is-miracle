@@ -7,6 +7,8 @@ Divide all 114 chapters into two groups:
 - **Long chapters**: 40 or more verses
 - **Short chapters**: less than 40 verses
 
+(There is no surah 39 verses long)
+
 This gives exactly **57 long** and **57 short** chapters.
 
 Now look at how odd/even positioned chapters distribute in each group:
