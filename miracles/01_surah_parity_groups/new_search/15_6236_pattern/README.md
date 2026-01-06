@@ -89,6 +89,10 @@ python3 verify.py
 
 ## Statistics
 
-**Status:** Not yet tested
+- **Method:** Monte Carlo simulation (100,000 trials, range 4000-8000)
+- **p-value:** 0.00029 (for hitting exact value 6236)
+- **Significant (p<0.05):** Yes
+- **Passes Bonferroni correction (p<0.00278):** Yes
 
-p-value to be calculated
+### Methodological Note:
+This is a mathematical curiosity about the number 6236. The "6236-like property" was defined after observing the total. The test asks: "What's the probability that a random verse total in the range 4000-8000 would be 6236?" This is significant but should be interpreted carefully as numerological rather than structural.

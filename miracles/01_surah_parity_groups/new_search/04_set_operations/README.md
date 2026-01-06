@@ -111,6 +111,8 @@ python3 verify.py
 
 ## Statistics
 
-**Status:** Not yet tested
+- **Method:** Bootstrap test (100,000 trials, uniform 3-286)
+- **p-value:** 0.081
+- **Significant (p<0.05):** No
 
-p-value to be calculated
+Note: Bootstrap used because set operations on unique verse values don't change with permutation.

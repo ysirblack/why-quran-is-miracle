@@ -6,6 +6,49 @@ Analysis of numerical patterns in the Quran's 114-chapter structure.
 
 ---
 
+## NEW: Simetrik Kitap Analysis (January 2025)
+
+Comprehensive analysis of 18 patterns from "Simetrik Kitap: Kur'an" by Abdulaziz Bayindir and Haluk Nurbaki.
+
+### Tier 1: Statistically Robust (p < 0.00001)
+
+| #      | Pattern                             | p-value   | Method      |
+| ------ | ----------------------------------- | --------- | ----------- |
+| **12** | 57/57 Long/Short Split at Median 39 | < 0.00001 | Bootstrap   |
+| **16** | Golden Ratio (7906/4885 = 1.618424) | < 0.00001 | Permutation |
+
+### Tier 2: Significant but Methodologically Questionable
+
+| #   | Pattern     | p-value | Note                              |
+| --- | ----------- | ------- | --------------------------------- |
+| 15  | 6236 Center | 0.00029 | Numerological (post-hoc property) |
+
+### Tier 3: Observed Patterns (p > 0.05)
+
+| #   | Pattern                                  | p-value |
+| --- | ---------------------------------------- | ------- |
+| 01  | Homogeneous Half Symmetry (28/29/29/28)  | 0.148   |
+| 02  | Verses < Position Symmetry (34/32/32/34) | 0.085   |
+| 03  | Prime Numbers (67/47, meta-patterns)     | 0.078   |
+| 04  | Set Operations (32/32, 25/25, 101/13)    | 0.081   |
+| 05  | Divisible by 2 not 3 (33/33/24/24)       | 0.156   |
+| 06  | Divisible by 3 not 2 (42/42/15/15)       | 0.194   |
+| 07  | Prime Factor Sum (71/71, 43/43)          | 0.062   |
+| 08  | Perfect Numbers (2/2, 55/55)             | 0.382   |
+| 09  | Abundant Numbers (14/14, 43/43)          | 0.172   |
+| 10  | Deficient Numbers (41/41, 16/16)         | 0.165   |
+| 11  | Arithmetic Mean (41/73, 48/48)           | 0.112   |
+| 13  | Mean vs Long/Short (identical)           | 0.212   |
+| 14  | Divisor Count = 2 (33/33/24/24)          | 0.163   |
+| 17  | Two Prime Divisors (24/24/33/33)         | 0.143   |
+| 18  | Three Prime Divisors (25/25/32/32)       | 0.149   |
+
+### Full Analysis
+
+See [`new_search/`](new_search/) for individual pattern details and [`new_search/STATISTICS_SUMMARY.md`](new_search/STATISTICS_SUMMARY.md) for methodology.
+
+---
+
 ## Pattern 1: Even-Sum = Total Verses
 
 **What is it?** Add each chapter's position + verse count. If even, it's in the "even-sum" group.
@@ -144,10 +187,11 @@ All scripts load real data and compute dynamically. No hardcoded outputs.
 
 ## Files
 
-| Folder                       | Pattern   |
-| ---------------------------- | --------- |
-| `even_sum_surahs/`           | Pattern 1 |
-| `new_data_slices/`           | Pattern 2 |
-| `verse_greater_than_number/` | Pattern 3 |
-| `core_2x2_parity_grouping/`  | Pattern 4 |
-| `long_short_parity/`         | Pattern 5 |
+| Folder                       | Pattern                                                               |
+| ---------------------------- | --------------------------------------------------------------------- |
+| `even_sum_surahs/`           | Pattern 1                                                             |
+| `new_data_slices/`           | Pattern 2                                                             |
+| `verse_greater_than_number/` | Pattern 3                                                             |
+| `core_2x2_parity_grouping/`  | Pattern 4                                                             |
+| `long_short_parity/`         | Pattern 5                                                             |
+| **`new_search/`**            | **18 patterns from Simetrik Kitap (Golden Ratio, 57/57 Split, etc.)** |

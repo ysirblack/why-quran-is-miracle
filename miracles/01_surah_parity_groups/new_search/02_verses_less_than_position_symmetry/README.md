@@ -55,6 +55,8 @@ python3 verify.py
 
 ## Statistics
 
-**Status:** Not yet tested
+- **Method:** Permutation test (100,000 trials)
+- **p-value:** 0.085
+- **Significant (p<0.05):** No
 
-p-value to be calculated
+The observed 34/32/32/34 symmetry occurs with reasonable frequency in random arrangements of the same data.
