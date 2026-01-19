@@ -1,0 +1,6 @@
+# Book folder (contains source, generator, and generated files)
+book/
+
+# Python cache
+__pycache__/
+*.pyc
