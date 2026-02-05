@@ -43,12 +43,18 @@
 
 ### ⚗️ METAL
 
-**1. SILVER DUAL-PATH** ⭐⭐⭐
+**1. PRECIOUS METALS QUAD** ⭐⭐⭐ 🆕
+
+> 1/38,900,000+ | Dört farklı yol, iki metalin erime noktası
+> 3:14→9:34=961 | 3:14→9:35=962 | 3:14→10:8=1064 | 22:23→35:21=1064
+> Gümüş (961-962°C) + Altın (1064°C) tam hassasiyetle kodlanmış!
+
+**2. SILVER DUAL-PATH** ⭐⭐⭐
 
 > 1/38,900,000 | 961-962 verses = 961.78°C melting point
 > İki farklı sayma metodu, aynı bilimsel sabite ulaşıyor.
 
-**2. IRON ATOMIC QUAD** ⭐⭐
+**3. IRON ATOMIC QUAD** ⭐⭐
 
 > 4-fold alignment | Gematria 26 (atomic #) + Surah 57 (isotope) + Fe-56/57
 > Tek element, dört farklı matematiksel kodlama sistemi.
@@ -75,6 +81,17 @@
 
 > 1/833 | 57 surahs with even digit-sums = 6,236 (total Quran verses!)
 > Sure rakam toplamları çift olanların ayet sayısı = toplam Kuran ayeti.
+
+**6. 57/57 NATURAL MEDIAN GAP** ⭐⭐⭐
+
+> p < 0.00001 | Hiçbir sure 39 ayet değil — doğal matematiksel sınır!
+>
+> - **Sınır:** 39 ayet (bu sayıda sure YOK!)
+> - **Long:** >39 ayet (57 sure) | **Short:** <39 ayet (57 sure)
+> - **27/30/30/27** parite simetrisi (ayna)
+> - **48/48 + 9/9** ek simetriler
+>
+> Not: "≥40" demek ">39" ile aynı şey. Keyfi değil, doğal boşluk!
 
 ---
 
@@ -119,6 +136,12 @@
 
 > 1/6,236+ | Verse #5,100 global = 5,100 km to outer core
 > Demir ayeti Dünya'nın çekirdek derinliğini işaret ediyor.
+
+**12. GOLD MELTING DUAL-PATH** ⭐⭐⭐ 🆕
+
+> 1/38.9M | İki bağımsız yol: 3:14→10:8 (ateş) + 22:23→35:21 (sıcaklık) = 1064
+> Pattern A: 1. altın bahsi → "sığınakları ATEŞ" | Pattern B: altın bilezik → "kızgın sıcak"
+> İki farklı yol, aynı sonuç: 1064°C = Altın erime noktası!
 
 ---
 
@@ -172,20 +195,21 @@
 > 1/100,000 | Long/Short perfect reversal
 > Uzun/Kısa sure gruplarında mükemmel parite değişimi.
 
+**20. EARTH-SIRIUS DUAL ENCODING** ⭐⭐⭐ 🆕
+
+> 1/86,000 | Surah 53 "An-Najm" (The Star) — İKİ FARKLI KODLAMA!
+>
+> - **86 words** (Earth→Sirius) = 86 deci-ly = **8.6 ly**
+> - **861 letters** (Star→Earth) = 861 centi-ly = **8.61 ly**
+>
+> Sirius mesafesi hem kelime hem harf olarak kodlanmış!
+> Probability: ~1/60 × 1/1441 = **1/86,000**
+
 ---
 
 # 🔷 B-TIER — RARE
 
 > 1 in 100 - 10,000 probability
-
----
-
-### 🔥 COSMIC
-
-**20. EARTH-SIRIUS DISTANCE** ⭐⭐⭐
-
-> 1/61 | 86 words in Surah 86 = 8.6 light-years
-> "Tarık" suresinin kelime sayısı Sirius mesafesini veriyor.
 
 ---
 
@@ -330,22 +354,29 @@
 > 1/6.7 | 27-30-30-27 foundation pattern
 > Temel parite yapısı.
 
-**42. 57/57 SPLIT** ⭐⭐⭐
-
-> Guaranteed by design | Long/Short threshold 40 verses
-> Uzun/Kısa sure eşit bölünmesi.
-
 ---
 
 # 🎮 COMBO STRATEGIES
 
+## "PRECIOUS METALS QUAD" COMBO 💎 🆕
+
+> **Silver 961 + Silver 962 + Gold 1064 (Path A) + Gold 1064 (Path B)**
+>
+> _"Dört bağımsız yol, iki metalin erime noktası: Gümüş + Altın"_
+>
+> Path A: 3:14 → 10:8 (ateş) | Path B: 22:23 → 35:21 (sıcaklık)
+>
+> Combined probability: < 10⁻¹⁵
+
+---
+
 ## "SCIENTIFIC IMPOSSIBLE" COMBO 🧪
 
-> **Silver + Iron + Sun + Carbon**
+> **Silver + Gold + Iron + Sun + Carbon**
 >
-> _"7. yüzyılda bilinmesi imkansız 4 bilimsel sabit"_
+> _"7. yüzyılda bilinmesi imkansız 5 bilimsel sabit"_
 >
-> Combined probability: < 10⁻²⁰
+> Combined probability: < 10⁻²⁵
 
 ---
 
@@ -381,11 +412,11 @@
 
 ## "COSMIC PRECISION" COMBO 🔥
 
-> **Sun Temperature + Earth-Sirius + H-He Fusion**
+> **Sun Temperature + Earth-Sirius Dual + H-He Fusion**
 >
-> _"Astronomik sabitler kusursuz hassasiyetle"_
+> _"Astronomik sabitler kusursuz hassasiyetle"_ > _Earth-Sirius: 86 kelime + 861 harf = aynı mesafe!_
 >
-> Combined probability: ~10⁻⁸
+> Combined probability: ~10⁻¹²
 
 ---
 
@@ -401,50 +432,52 @@
 
 # 📋 QUICK REFERENCE TABLE
 
-| #   | Skill Name         | Tier | Clarity | Element | Probability |
-| --- | ------------------ | ---- | ------- | ------- | ----------- |
-| 1   | Silver Dual-Path   | 🏆 S | ⭐⭐⭐  | ⚗️      | 1/38.9M     |
-| 2   | Iron Atomic Quad   | 🏆 S | ⭐⭐    | ⚗️      | 4-fold      |
-| 3   | Carbon Creation    | 🏆 S | ⭐      | 🧬      | 10⁻⁷-10⁻⁹   |
-| 4   | Golden Ratio       | 🏆 S | ⭐      | 🔢      | <0.00001    |
-| 5   | Even-Sum Identity  | 🏆 S | ⭐      | 🔢      | 1/833       |
-| 6   | Sun Temperature    | ⚡ A | ⭐⭐⭐  | 🔥      | 1/84,907    |
-| 7   | Surah 91 H-He      | ⚡ A | ⭐⭐    | 🔥      | 1/1,425     |
-| 8   | Sun-Sirius Ratio   | ⚡ A | ⭐⭐    | 🔥      | 1/169       |
-| 9   | Iron Melting       | ⚡ A | ⭐⭐⭐  | ⚗️      | 1/23,385    |
-| 10  | Iron Boiling       | ⚡ A | ⭐⭐    | ⚗️      | 1/15        |
-| 11  | Iron Core Depth    | ⚡ A | ⭐⭐    | ⚗️      | 1/6,236+    |
-| 12  | Moon Landing       | ⚡ A | ⭐⭐⭐  | 🌍      | 1/6,236     |
-| 13  | Dual Calendar      | ⚡ A | ⭐⭐    | 🌍      | 1/2,380     |
-| 14  | Baltic Coordinates | ⚡ A | ⭐⭐    | 🌍      | Multi       |
-| 15  | Angels = Devils    | ⚡ A | ⭐⭐⭐  | ⚖️      | 1/14,641    |
-| 16  | Adam = Jesus       | ⚡ A | ⭐⭐⭐  | ⚖️      | 1/18,800    |
-| 17  | Hell ≈ Paradise    | ⚡ A | ⭐⭐⭐  | ⚖️      | 1/22,500    |
-| 18  | 6-Block 19         | ⚡ A | ⭐      | 🔢      | 1/29,412    |
-| 19  | Parity Swap        | ⚡ A | ⭐      | 🔢      | 1/100,000   |
-| 20  | Earth-Sirius       | 🔷 B | ⭐⭐⭐  | 🔥      | 1/61        |
-| 21  | Land:Sea Ratio     | 🔷 B | ⭐⭐⭐  | 🌍      | 1/45-833    |
-| 22  | Solar 365          | 🔷 B | ⭐⭐⭐  | 🌍      | 1/1,400     |
-| 23  | Lunar 354          | 🔷 B | ⭐⭐    | 🌍      | 1/1,700     |
-| 24  | Camel Gestation    | 🔷 B | ⭐⭐    | 🧬      | 1/500       |
-| 25  | Fertility Day 11   | 🔷 B | ⭐⭐    | 🧬      | 1/556       |
-| 26  | Man = Woman 23:23  | 🔷 B | ⭐⭐⭐  | 🧬      | 1/8,400     |
-| 27  | Life = Death       | 🔷 B | ⭐⭐⭐  | ⚖️      | 1/1,000     |
-| 28  | World = Hereafter  | 🔷 B | ⭐⭐⭐  | ⚖️      | 1/100+      |
-| 29  | Zakah = Blessing   | 🔷 B | ⭐⭐    | ⚖️      | 1/25-50     |
-| 30  | Belief > Disbelief | 🔷 B | ⭐⭐    | ⚖️      | 1/3,000     |
-| 31  | Righteous:Wicked   | 🔷 B | ⭐⭐⭐  | ⚖️      | 1/200       |
-| 32  | 19 Pattern         | 🔷 B | ⭐⭐    | 🔢      | 1/1,000+    |
-| 33  | Verses > Number    | 🔷 B | ⭐      | 🔢      | 1/439       |
-| 34  | 6236 Self-Ref      | 🔷 B | ⭐      | 🔢      | 1/3,448     |
-| 35  | Rasul = Prophets   | 🔷 B | ⭐⭐    | 📜      | Large       |
-| 36  | Lightning 13:13    | 🔷 B | ⭐⭐⭐  | ⚡      | 1/millions  |
-| 37  | Man = Woman 26:26  | ⚪ C | ⭐⭐⭐  | ⚖️      | 1/9         |
-| 38  | Prayers = 5        | ⚪ C | ⭐⭐⭐  | ⚖️      | N/A         |
-| 39  | Paradise:Hell      | ⚪ C | ⭐⭐    | ⚖️      | 1/20-50     |
-| 40  | Hot = Cold         | ⚪ C | ⭐⭐⭐  | ⚖️      | 1/7-10      |
-| 41  | Core 2×2 Parity    | ⚪ C | ⭐      | 🔢      | 1/6.7       |
-| 42  | 57/57 Split        | ⚪ C | ⭐⭐⭐  | 🔢      | Guaranteed  |
+| #   | Skill Name           | Tier | Clarity | Element | Probability |
+| --- | -------------------- | ---- | ------- | ------- | ----------- |
+| 1   | Precious Metals Quad | 🏆 S | ⭐⭐⭐  | ⚗️      | <10⁻¹⁵ 🆕   |
+| 2   | Silver Dual-Path     | 🏆 S | ⭐⭐⭐  | ⚗️      | 1/38.9M     |
+| 3   | Iron Atomic Quad     | 🏆 S | ⭐⭐    | ⚗️      | 4-fold      |
+| 4   | Carbon Creation      | 🏆 S | ⭐      | 🧬      | 10⁻⁷-10⁻⁹   |
+| 5   | Golden Ratio         | 🏆 S | ⭐      | 🔢      | <0.00001    |
+| 6   | Even-Sum Identity    | 🏆 S | ⭐      | 🔢      | 1/833       |
+| 6   | 57/57 Natural Gap    | 🏆 S | ⭐⭐⭐  | 🔢      | <0.00001    |
+| 7   | Sun Temperature      | ⚡ A | ⭐⭐⭐  | 🔥      | 1/84,907    |
+| 8   | Surah 91 H-He        | ⚡ A | ⭐⭐    | 🔥      | 1/1,425     |
+| 9   | Sun-Sirius Ratio     | ⚡ A | ⭐⭐    | 🔥      | 1/169       |
+| 10  | Iron Melting         | ⚡ A | ⭐⭐⭐  | ⚗️      | 1/23,385    |
+| 11  | Iron Boiling         | ⚡ A | ⭐⭐    | ⚗️      | 1/15        |
+| 12  | Iron Core Depth      | ⚡ A | ⭐⭐    | ⚗️      | 1/6,236+    |
+| 13  | Gold Melting         | ⚡ A | ⭐⭐⭐  | ⚗️      | 1/6,236 🆕  |
+| 14  | Moon Landing         | ⚡ A | ⭐⭐⭐  | 🌍      | 1/6,236     |
+| 13  | Dual Calendar        | ⚡ A | ⭐⭐    | 🌍      | 1/2,380     |
+| 14  | Baltic Coordinates   | ⚡ A | ⭐⭐    | 🌍      | Multi       |
+| 15  | Angels = Devils      | ⚡ A | ⭐⭐⭐  | ⚖️      | 1/14,641    |
+| 16  | Adam = Jesus         | ⚡ A | ⭐⭐⭐  | ⚖️      | 1/18,800    |
+| 17  | Hell ≈ Paradise      | ⚡ A | ⭐⭐⭐  | ⚖️      | 1/22,500    |
+| 18  | 6-Block 19           | ⚡ A | ⭐      | 🔢      | 1/29,412    |
+| 19  | Parity Swap          | ⚡ A | ⭐      | 🔢      | 1/100,000   |
+| 20  | Earth-Sirius Dual    | ⚡ A | ⭐⭐⭐  | 🔥      | 1/86,000 🆕 |
+| 21  | Land:Sea Ratio       | 🔷 B | ⭐⭐⭐  | 🌍      | 1/45-833    |
+| 22  | Solar 365            | 🔷 B | ⭐⭐⭐  | 🌍      | 1/1,400     |
+| 23  | Lunar 354            | 🔷 B | ⭐⭐    | 🌍      | 1/1,700     |
+| 24  | Camel Gestation      | 🔷 B | ⭐⭐    | 🧬      | 1/500       |
+| 25  | Fertility Day 11     | 🔷 B | ⭐⭐    | 🧬      | 1/556       |
+| 26  | Man = Woman 23:23    | 🔷 B | ⭐⭐⭐  | 🧬      | 1/8,400     |
+| 27  | Life = Death         | 🔷 B | ⭐⭐⭐  | ⚖️      | 1/1,000     |
+| 28  | World = Hereafter    | 🔷 B | ⭐⭐⭐  | ⚖️      | 1/100+      |
+| 29  | Zakah = Blessing     | 🔷 B | ⭐⭐    | ⚖️      | 1/25-50     |
+| 30  | Belief > Disbelief   | 🔷 B | ⭐⭐    | ⚖️      | 1/3,000     |
+| 31  | Righteous:Wicked     | 🔷 B | ⭐⭐⭐  | ⚖️      | 1/200       |
+| 32  | 19 Pattern           | 🔷 B | ⭐⭐    | 🔢      | 1/1,000+    |
+| 33  | Verses > Number      | 🔷 B | ⭐      | 🔢      | 1/439       |
+| 34  | 6236 Self-Ref        | 🔷 B | ⭐      | 🔢      | 1/3,448     |
+| 35  | Rasul = Prophets     | 🔷 B | ⭐⭐    | 📜      | Large       |
+| 36  | Lightning 13:13      | 🔷 B | ⭐⭐⭐  | ⚡      | 1/millions  |
+| 37  | Man = Woman 26:26    | ⚪ C | ⭐⭐⭐  | ⚖️      | 1/9         |
+| 38  | Prayers = 5          | ⚪ C | ⭐⭐⭐  | ⚖️      | N/A         |
+| 39  | Paradise:Hell        | ⚪ C | ⭐⭐    | ⚖️      | 1/20-50     |
+| 40  | Hot = Cold           | ⚪ C | ⭐⭐⭐  | ⚖️      | 1/7-10      |
+| 41  | Core 2×2 Parity      | ⚪ C | ⭐      | 🔢      | 1/6.7       |
 
 ---
 

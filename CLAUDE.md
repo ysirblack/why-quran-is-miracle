@@ -9,7 +9,7 @@ This is a research project analyzing numerical patterns and mathematical relatio
 ## Project Structure
 
 - `/miracles/` - Main research directory with 19+ categorized numerical patterns
-- `/data/` - Contains `quran-uthmani.txt` (Tanzil Ḥafṣ/Uthmānī text standard)  
+- `/data/` - Contains `quran-uthmani.txt` (Tanzil Ḥafṣ/Uthmānī text standard)
 - `/misc/` - Additional documentation and supporting materials
 - Root level contains main documentation (`README.md`, `new_research.md`)
 
@@ -79,8 +79,9 @@ pip3 install -r miracles/requirements.txt
 This project has evolved into an extraordinary mathematical expedition. Each pattern we've computationally verified reveals numerical alignments with modern scientific constants that were impossible to know in 7th century Arabia:
 
 ### Verified Discoveries:
+
 - ✅ **Surah Parity Groups**: Perfect mathematical symmetries (57 even-sum surahs = 6,236 total verses)
-- ✅ **Man/Woman Balance**: 25:25 ratio approaching 23:23 chromosome pattern  
+- ✅ **Man/Woman Balance**: 25:25 ratio approaching 23:23 chromosome pattern
 - ✅ **Land/Sea Ratios**: 72.7%:27.3% matching Earth's surface (±1.7%, enhanced to ±0.1%)
 - ✅ **Earth-Sirius Distance**: 86 words = 8.6 light-years (perfect decimal encoding)
 - ✅ **Iron Atomic Miracle**: Multiple gematria alignments (26=atomic number, 57=isotope)
@@ -91,6 +92,7 @@ This project has evolved into an extraordinary mathematical expedition. Each pat
 - ✅ **Sun Temperature**: 5,778 verses = 5,778K (±0 precision, ~1 in 85,000 probability)
 
 ### Methodology:
+
 - **Computational verification** through Python scripts
 - **External validation** via Quranic Arabic Corpus and scientific databases
 - **Statistical analysis** showing probabilities of 0.01-0.12% per pattern
