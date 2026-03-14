@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Statistical test for pattern 16: Golden Ratio 7906/4885 ≈ φ"""
+"""Statistical test for pattern 16: Golden Ratio 7906/4885 ≈ φ
+
+Optimized with multiprocessing (all CPU cores). No external dependencies.
+"""
 import random
 from pathlib import Path
 from collections import Counter
+from multiprocessing import Pool, cpu_count
 
-N_TRIALS = 100_000
+N_TRIALS = 100_000_000  # 100M trials — statistically robust, finishes in minutes
 PHI = 1.6180339887
 
 def load_quran_data():
@@ -36,27 +40,59 @@ def calc_score(positions, verses):
     ratio = sum_repeated / sum_unique
     return abs(ratio - PHI)
 
+# Precomputed as module-level for workers (set in main, read by workers)
+_positions = None
+_verses = None
+_observed = None
+
+def _init_worker(positions, verses, observed):
+    global _positions, _verses, _observed
+    _positions = positions
+    _verses = verses
+    _observed = observed
+
+def worker(args):
+    """Worker function: run n_trials shuffles and count hits."""
+    n_trials, seed = args
+    rng = random.Random(seed)
+    count = 0
+    verses = list(_verses)
+    positions = _positions
+    for _ in range(n_trials):
+        rng.shuffle(verses)
+        if calc_score(positions, verses) <= _observed:
+            count += 1
+    return count
+
 def main():
     vc = load_quran_data()
     positions = list(range(1, 115))
     verses = [vc[s] for s in positions]
-    
+
     observed = calc_score(positions, verses)
-    print(f"Observed deviation from φ: {observed:.6f}")
-    
-    count = 0
-    for i in range(N_TRIALS):
-        shuffled = verses.copy()
-        random.shuffle(shuffled)
-        if calc_score(positions, shuffled) <= observed:
-            count += 1
-        if (i+1) % 10000 == 0:
-            print(f"  {i+1:,} trials done...")
-    
-    p = count / N_TRIALS
-    print(f"\np-value: {p:.6f}")
+    print(f"Observed deviation from φ: {observed:.10f}")
+
+    n_cores = cpu_count()
+    print(f"Using {n_cores} CPU cores, {N_TRIALS:,} total trials")
+
+    # Split trials across cores
+    trials_per_core = N_TRIALS // n_cores
+    remainder = N_TRIALS % n_cores
+    tasks = []
+    for i in range(n_cores):
+        n = trials_per_core + (1 if i < remainder else 0)
+        tasks.append((n, 42 + i))
+
+    with Pool(n_cores, initializer=_init_worker,
+              initargs=(positions, verses, observed)) as pool:
+        results = pool.map(worker, tasks)
+
+    total_count = sum(results)
+    p = total_count / N_TRIALS
+    print(f"\nTrials: {N_TRIALS:,}")
+    print(f"Matches: {total_count:,}")
+    print(f"p-value: {p:.8f}")
     print(f"Significant (p<0.05): {'YES' if p < 0.05 else 'NO'}")
 
 if __name__ == "__main__":
-    random.seed(42)
     main()

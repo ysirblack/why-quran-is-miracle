@@ -129,8 +129,8 @@ The numbers swap: 23/25 becomes 25/23.
 | --------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **Observation** | Ratio of repeated-sum to unique-sum verse totals = **1.618424** (Golden Ratio = 1.618034)                                 |
 | **Calculation** | For each surah, calculate sum = position + verse_count. Classify sums as "repeated" or "unique". Sum verses in each group |
-| **Test**        | Permutation (100,000 trials)                                                                                              |
-| **p-value**     | < 0.00001                                                                                                                 |
+| **Test**        | Permutation (100,000,000 trials)                                                                                          |
+| **p-value**     | 0.00000008 (~1 in 12,500,000)                                                                                             |
 | **Significant** | Yes (passes Bonferroni correction)                                                                                        |
 
 **Details:**

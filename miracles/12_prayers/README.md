@@ -78,7 +78,6 @@ The script currently finds 7 occurrences. To get 5, apply the exclusions:
 ### Why These Exclusions:
 
 1. **22:40** - وَصَلَوَٰتٌ means "**synagogues**"
-
    - Context: Lists buildings - "monasteries, churches, synagogues, mosques"
    - This refers to PLACES of worship, not the act of prayer
    - Different semantic category
@@ -138,7 +137,6 @@ The script currently finds 7 occurrences. To get 5, apply the exclusions:
 ## Sources
 
 1. **Quranic Arabic Corpus:**
-
    - Root ص-ل-و: https://corpus.quran.com/qurandictionary.jsp?q=Slw
    - Total: 99 occurrences across 4 forms
 

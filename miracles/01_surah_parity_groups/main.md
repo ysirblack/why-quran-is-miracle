@@ -15,7 +15,7 @@ Analysis of numerical patterns in the Quran's 114-chapter structure.
 | #      | Pattern                             | p-value   | Method      |
 | ------ | ----------------------------------- | --------- | ----------- |
 | **12** | 57/57 Long/Short Split at Median 39 | < 0.00001 | Bootstrap   |
-| **16** | Golden Ratio (7906/4885 = 1.618424) | < 0.00001 | Permutation |
+| **16** | Golden Ratio (7906/4885 = 1.618424) | 0.00000008 | Permutation |
 
 ### Tier 2: Significant but Methodologically Questionable
 

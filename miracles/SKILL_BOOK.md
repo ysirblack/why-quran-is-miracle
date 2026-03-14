@@ -74,7 +74,7 @@
 
 **4. GOLDEN RATIO** ⭐
 
-> p < 0.00001 | 7906/4885 = 1.618424 ≈ φ (1.618034)
+> 1/12,500,000 | 7906/4885 = 1.618424 ≈ φ (1.618034)
 > Kuran'ın yapısal oranları altın orana yakınsıyor.
 
 **5. EVEN-SUM IDENTITY** ⭐
@@ -438,7 +438,7 @@
 | 2   | Silver Dual-Path     | 🏆 S | ⭐⭐⭐  | ⚗️      | 1/38.9M     |
 | 3   | Iron Atomic Quad     | 🏆 S | ⭐⭐    | ⚗️      | 4-fold      |
 | 4   | Carbon Creation      | 🏆 S | ⭐      | 🧬      | 10⁻⁷-10⁻⁹   |
-| 5   | Golden Ratio         | 🏆 S | ⭐      | 🔢      | <0.00001    |
+| 5   | Golden Ratio         | 🏆 S | ⭐      | 🔢      | 1/12.5M     |
 | 6   | Even-Sum Identity    | 🏆 S | ⭐      | 🔢      | 1/833       |
 | 6   | 57/57 Natural Gap    | 🏆 S | ⭐⭐⭐  | 🔢      | <0.00001    |
 | 7   | Sun Temperature      | ⚡ A | ⭐⭐⭐  | 🔥      | 1/84,907    |

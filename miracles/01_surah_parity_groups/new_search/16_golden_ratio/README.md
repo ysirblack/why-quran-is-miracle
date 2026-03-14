@@ -51,11 +51,11 @@ python3 verify.py
 
 ## Statistics
 
-- **Method:** Permutation test (100,000 trials)
+- **Method:** Permutation test (100,000,000 trials, multiprocessing)
 - **Observed ratio:** 7906/4885 = 1.618424
 - **Golden Ratio φ:** 1.618034
 - **Deviation:** 0.00039
-- **p-value:** < 0.00001
+- **p-value:** 0.00000008 (8 matches in 100M trials → ~1 in 12,500,000)
 - **Significant (p<0.05):** Yes
 - **Passes Bonferroni correction (p<0.00278):** Yes
 

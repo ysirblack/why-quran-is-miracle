@@ -10,7 +10,7 @@ This document summarizes statistical testing of 18 numerical patterns found in t
 
 **Methodology:**
 
-- 100,000 trials per pattern
+- 100,000 trials per pattern (Golden Ratio: 100,000,000 trials)
 - Permutation tests for arrangement-dependent patterns
 - Bootstrap tests for property-dependent patterns
 - Bonferroni correction for multiple testing: α = 0.05/18 = 0.00278
@@ -24,7 +24,7 @@ This document summarizes statistical testing of 18 numerical patterns found in t
 | #      | Pattern                | p-value   | Method      | Notes                                      |
 | ------ | ---------------------- | --------- | ----------- | ------------------------------------------ |
 | **12** | Long/Short 57/57 Split | < 0.00001 | Bootstrap   | Median boundary (39), no surah at boundary |
-| **16** | Golden Ratio           | < 0.00001 | Permutation | Deviation only 0.00039 from φ              |
+| **16** | Golden Ratio           | 0.00000008 | Permutation | Deviation 0.00039 from φ (~1 in 12.5M)    |
 
 ### Tier 2: Significant But Methodologically Questionable (1 pattern)
 
@@ -85,7 +85,7 @@ The ratio of repeated-sum verse totals to unique-sum verse totals:
 - **Golden Ratio φ = 1.618034**
 - **Deviation: 0.00039**
 
-This is the strongest finding. The permutation test correctly shuffles actual data.
+This is the strongest finding. 100M-trial permutation test: p = 0.00000008 (~1 in 12,500,000).
 
 ### 2. 57/57 Split at Median (Pattern 12) - Robust
 
