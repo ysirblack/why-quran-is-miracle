@@ -24,8 +24,8 @@ const markdownTables = [];
 for (let i = 0; i < lines.length; i++) {
   const t = lines[i].trim();
 
-  // Question IDs: Q1, Q23A, Q49B, Q155a, F1, FA1, M1, etc.
-  const qMatches = t.matchAll(/\b(Q\d+[A-Za-z]?|F\d+|FA\d+|M\d+)\b/g);
+  // Question IDs: Q1, Q23A, Q49B, Q155a, F1, FA1, M1, QW1, QX1, etc.
+  const qMatches = t.matchAll(/\b(Q\d+[A-Za-z]?|QW\d+|QX\d+|F\d+|FA\d+|M\d+)\b/g);
   for (const m of qMatches) {
     // Only count if it looks like a question definition (in a box header or bold line)
     if (t.startsWith('|') || t.startsWith('**')) {
@@ -206,9 +206,9 @@ while (idx < lines.length) {
     // Extract question IDs from this block
     for (const tl of tableLines) {
       const content = tl.replace(/^\|/, '').replace(/\|$/, '').trim();
-      const qm = content.matchAll(/\b(Q\d+[A-Za-z]?|F\d+|FA\d+|M\d+)\b/g);
+      const qm = content.matchAll(/\b(Q\d+[A-Za-z]?|QW\d+|QX\d+|F\d+|FA\d+|M\d+)\b/g);
       for (const m of qm) {
-        if (content.includes('**') || /^(Q\d|F\d|FA\d|M\d)/.test(content)) {
+        if (content.includes('**') || /^(Q\d|QW\d|QX\d|F\d|FA\d|M\d)/.test(content)) {
           questionBoxIds.add(m[1]);
         }
       }

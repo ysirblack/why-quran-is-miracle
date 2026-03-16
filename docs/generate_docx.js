@@ -342,7 +342,7 @@ function buildDocument() {
     new Paragraph({
       alignment: AlignmentType.CENTER,
       spacing: { after: 150 },
-      children: [new TextRun({ text: '212 Questions  |  5-Point Scale + UNKNOWN  |  Evidence Provided', font: 'Georgia', size: 22, color: COLORS.secondary })]
+      children: [new TextRun({ text: '241 Questions  |  5-Point Scale + UNKNOWN  |  Evidence Provided', font: 'Georgia', size: 22, color: COLORS.secondary })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER,
@@ -386,7 +386,7 @@ function buildDocument() {
     } else if (/^\*\*Section\s+[A-Z][-\d]*/.test(tl)) {
       tocText = tl.replace(/\*\*/g, '').replace(/\\/g, '');
       indent = 360; tocSize = 22; tocBold = true;
-    } else if (/^\*\*APPENDIX\s+[A-F]/i.test(tl)) {
+    } else if (/^\*\*APPENDIX\s+[A-I]/i.test(tl)) {
       tocText = tl.replace(/\*\*/g, '').replace(/\\/g, '');
       indent = 0; tocSize = 22; tocBold = true;
     } else if (tl.startsWith('### ')) {
@@ -477,7 +477,7 @@ function buildDocument() {
     }
 
     // Appendix headers
-    if (/^\*\*APPENDIX\s+[A-F]/i.test(trimmed)) {
+    if (/^\*\*APPENDIX\s+[A-I]/i.test(trimmed)) {
       const text = trimmed.replace(/\*\*/g, '').replace(/\\/g, '');
       children.push(new Paragraph({
         heading: HeadingLevel.HEADING_1,
