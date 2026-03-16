@@ -4,3 +4,6 @@ book/
 # Python cache
 __pycache__/
 *.pyc
+*/node_modules
+node_modules/
+node_modules
