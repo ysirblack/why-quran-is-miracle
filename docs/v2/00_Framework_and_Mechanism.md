@@ -49,6 +49,45 @@ The testing burden falls on BOTH sides, but in different ways:
 
 **The evaluation is yours. The result is yours. We built the system. You walk through it. Wherever the evidence leads you — that is your answer.**
 
+## § 1.5 Protocol Self-Validation Principle
+
+A well-designed test must work in BOTH directions:
+
+- If Model A is true → honest answers naturally produce results consistent with Model A
+- If Model A is false → the test's falsification mechanisms expose the failure
+
+This protocol applies this principle to BOTH competing models:
+
+**If the divine-origin model is TRUE:**
+- Literary excellence, preservation, mathematical structure, scientific foreknowledge, and carrier profile are all EXPECTED outcomes of a divine source
+- The DC-1 through DC-15 falsification tests should be DIFFICULT to answer YES to — because the text genuinely has no contradictions, errors, or met challenges
+- The protocol naturally produces a result consistent with divine origin
+
+**If the divine-origin model is FALSE:**
+- DC-1 through DC-15 should be EASY to answer YES to
+- "Can you NAME a verified scientific error?" — you should be able to name one
+- "Can you NAME an internal contradiction?" — you should be able to cite one
+- "Can you PRODUCE a met literary challenge?" — you should be able to produce one
+- The mathematical patterns should be explicable by cherry-picking
+- A source or teacher should be identifiable
+- The protocol naturally produces a result that eliminates the divine model
+
+**If human-authorship models are TRUE:**
+- The ~50 critical questions testing human models should be answerable
+- A teacher, source, or mechanism should be nameable
+- Mathematical patterns should appear in comparison texts (Bible, Mahabharata)
+- The protocol naturally produces a result consistent with human authorship
+
+**If human-authorship models are FALSE:**
+- The ~50 critical NAME/PRODUCE/CITE questions should be unanswerable
+- No teacher, source, or mechanism should be documentable
+- Cross-text tests should produce zero comparable patterns
+- The protocol naturally produces a result that eliminates human models
+
+**The principle:** This protocol does not pre-assign the result. It exposes whether your own answers are consistent with the model you prefer — or whether your answers lead somewhere your preferences did not expect. The protocol's only function is to ensure CONSISTENCY: that you do not accept a fact in one question and ignore its implications in the next.
+
+**The test of this principle:** If the divine-origin model is false, DC-1 through DC-15 should be answerable with real examples. If human-authorship models are true, the protocol's ~50 critical NAME/PRODUCE/CITE questions should not remain unanswered. If neither set yields the expected answers — that is data about reality, not about protocol design. See DC-1 through DC-15 in Part 9C and FA1-FA20 in Part 10C.
+
 ## § 2. What Changed from V1 — And Why
 
 | V1 Problem                                              | V2 Solution                                                                                                                  |

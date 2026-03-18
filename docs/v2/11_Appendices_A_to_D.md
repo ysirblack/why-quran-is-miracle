@@ -128,6 +128,14 @@ If you believe the protocol is biased, the fairness audit gives you 20 structure
 
 ---
 
+### FAQ-12b. How do I know this protocol isn't engineered to reach a predetermined conclusion?
+
+Because the protocol provides genuine falsification tests for BOTH sides. If the divine model is false, DC-1 through DC-15 give you 15 opportunities to kill it — name an error, cite a contradiction, produce a met challenge. If human models are true, ~50 critical NAME/PRODUCE/CITE questions give you opportunities to defend them — name a teacher, cite a source, produce a comparable text.
+
+The protocol does not control which answers you give. It controls only one thing: that your answers remain consistent with each other. The test of fairness is not "does it reach the conclusion I expected?" — it is "does it reach the conclusion my own honest answers support?" See § 1.5 (Protocol Self-Validation Principle) and Part 10C (FA1-FA20).
+
+---
+
 ### FAQ-13. What if my conclusion contradicts my tally?
 
 This is governed by **LRP-13** (Conclusion must match tally). If your weighted tally shows the human model deeply negative and the divine model strongly positive, but you choose conclusion (a) ("Ordinary human authorship sufficiently explains the data"), you have a logical contradiction between your recorded answers and your stated conclusion.

@@ -1085,6 +1085,12 @@ _If the divine model has real weaknesses, these questions will expose them. If t
 
 _Answer honestly. If any test produces a genuine failure for the divine model, score it accordingly. The protocol's credibility depends on these tests being real._
 
+**Self-Validation Check — Read Before Answering DC-1:**
+
+If the divine model were false, several of the questions below should be answerable with specific, documented evidence. A text claiming divine origin that actually contains scientific errors, internal contradictions, or has had its literary challenge met — these failures should be FINDABLE. They should be nameable. They should be citable.
+
+If your actual answer is repeatedly NO across DC-1 through DC-15, that is not a protocol malfunction. That is evidential output. The protocol invited you to kill the divine model. If you cannot — with honest effort and 1,400 years of adversarial scholarship behind you — examine what that means.
+
 ---
 
 ### DC-1. [CRITICAL] [REVERSE-NAME] [T1-KO]
