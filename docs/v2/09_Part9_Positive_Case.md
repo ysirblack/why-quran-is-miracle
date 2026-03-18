@@ -36,7 +36,7 @@ _This sub-section tests whether the divine-origin hypothesis is merely a fallbac
 
 ---
 
-### P9A-1. [ISR-LINKED]
+### P9A-1. [ISR-LINKED] [T2-S]
 
 **The Prediction Checklist**
 
@@ -66,7 +66,7 @@ Evaluate each of the seven predictions independently. For each: is the predictio
 
 ---
 
-### P9A-2. [ISR-LINKED]
+### P9A-2. [ISR-LINKED] [T2-S]
 
 **The Messenger Optimization Test**
 
@@ -98,7 +98,7 @@ If you were designing the optimal carrier profile — one that maximizes credibi
 
 ---
 
-### P9A-3. [CRITICAL] [ISR-LINKED]
+### P9A-3. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **Occam's Razor — Assumption Count**
 
@@ -165,7 +165,7 @@ Which model satisfies Occam's Razor? If you believe the human model is simpler d
 
 ---
 
-### P9A-4. [ISR-LINKED]
+### P9A-4. [ISR-LINKED] [T2-S]
 
 **Structural Coherence — One Premise vs. Ten Ad Hoc Explanations**
 
@@ -215,7 +215,7 @@ Which model has greater explanatory coherence — the one that explains ten feat
 
 ---
 
-### P9A-5. [ISR-LINKED]
+### P9A-5. [ISR-LINKED] [T2-S]
 
 **The Environmental Control Test**
 
@@ -241,7 +241,7 @@ If the Qur'an is a human product, the culture that produced it — and cultures 
 
 ---
 
-### P9A-6. [CRITICAL] [ISR-LINKED]
+### P9A-6. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **Self-Verifying Predictions**
 
@@ -272,7 +272,7 @@ The Qur'an makes specific, falsifiable predictions about its own preservation, i
 
 ---
 
-### P9A-7. [ISR-LINKED]
+### P9A-7. [ISR-LINKED] [T2-S]
 
 **The Design Specification Test**
 
@@ -298,7 +298,38 @@ If you were designing a message that satisfies all five specifications simultane
 
 ---
 
-### P9A-8. [CRITICAL] [ISR-LINKED]
+### P9A-7A. [ISR-LINKED] [T2-S]
+
+**The Layered-Sign Expectation**
+
+**Context and Principle:**
+
+If divine origin is true, we should NOT expect every authenticating sign to function as an irresistible standalone proof. A final revelation meant for moral testing should preserve the possibility of disbelief while remaining discoverable to honest investigation.
+
+That means its evidences may appear as layered signs:
+
+- some immediately accessible
+- some historically unfolding
+- some structurally discoverable only with later analytical tools
+- some weak alone but meaningful in cumulative convergence
+
+This is especially relevant to cluster-pattern evidence. A cluster pattern is not expected to coerce belief in isolation. Under the divine-design model, it is expected to function as a non-coercive, progressively discoverable sign.
+
+**The Question:**
+
+If a text were genuinely from God, would we expect its internal signs to be:
+
+1. universally coercive at first glance,
+2. entirely absent,
+3. or layered, cumulative, and progressively discoverable across eras without destroying freedom of disbelief?
+
+Which of these three best fits the actual profile of the Qur'an?
+
+**What this tests:** Whether cluster-pattern evidence fits a plausible divine communication model, or whether it looks ad hoc and methodologically artificial.
+
+---
+
+### P9A-8. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Ultimate Comparative**
 
@@ -351,7 +382,7 @@ _A note on method: These questions compare Islam's worship architecture with oth
 
 ---
 
-### QW-1. [ISR-LINKED]
+### QW-1. [ISR-LINKED] [T2-S]
 
 **God-Consciousness Density: Center vs. Periphery**
 
@@ -377,7 +408,7 @@ Among all religious traditions, which places God (or the ultimate reality) at th
 
 ---
 
-### QW-2. [ISR-LINKED]
+### QW-2. [ISR-LINKED] [T2-S]
 
 **Tawhid vs. Anthropomorphism: Logical Coherence of the God-Concept**
 
@@ -401,7 +432,7 @@ Compare the logical coherence of Tawhid (absolute unity, no anthropomorphism, 99
 
 ---
 
-### QW-3. [ISR-LINKED]
+### QW-3. [ISR-LINKED] [T2-S]
 
 **The 99-Attribute Architecture**
 
@@ -425,7 +456,7 @@ Can you NAME a comparable divine-attribute architecture in any other religious t
 
 ---
 
-### QW-4. [CRITICAL] [ISR-LINKED]
+### QW-4. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Counterfeit Paradox**
 
@@ -447,7 +478,7 @@ If the Qur'an's theology is fabricated — copied from Jewish and Christian sour
 
 ---
 
-### QW-5. [ISR-LINKED]
+### QW-5. [ISR-LINKED] [T2-S]
 
 **One Sentence, Civilization-Scale Output**
 
@@ -478,7 +509,7 @@ Can you NAME another single sentence — from any tradition, any era, any langua
 
 ---
 
-### QW-6. [ISR-LINKED]
+### QW-6. [ISR-LINKED] [T2-S]
 
 **Worship Intensity Comparison**
 
@@ -515,7 +546,7 @@ Does Islam produce the most intensive lived God-consciousness of any major relig
 
 ---
 
-### QW-7. [ISR-LINKED]
+### QW-7. [ISR-LINKED] [T2-S]
 
 **The Identification-to-Practice Ratio**
 
@@ -549,7 +580,7 @@ What explains the dramatic disparity in identification-to-practice ratios betwee
 
 ---
 
-### QW-8. [CRITICAL] [ISR-LINKED]
+### QW-8. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Worship Output Paradox**
 
@@ -571,7 +602,7 @@ If worship output correlates with theological truth — if the true God's worshi
 
 ---
 
-### QW-9. [CRITICAL] [ISR-LINKED]
+### QW-9. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Explanatory Inversion**
 
@@ -601,7 +632,7 @@ If Islam is a fabrication, explain how the counterfeit outperforms every other t
 
 ---
 
-### QW-10. [ISR-LINKED]
+### QW-10. [ISR-LINKED] [T2-S]
 
 **The Fabricator's Self-Deification Pattern**
 
@@ -637,7 +668,7 @@ If Muhammad fits the pattern, name the specific elements that match. If he does 
 
 ---
 
-### QW-11. [ISR-LINKED]
+### QW-11. [ISR-LINKED] [T2-S]
 
 **Worship Flow Architecture: Carrier as Conduit, Not Destination**
 
@@ -665,7 +696,7 @@ The architectural pattern is unambiguous: ALL worship flows TO Allah, THROUGH th
 
 ---
 
-### QW-12. [CRITICAL] [ISR-LINKED]
+### QW-12. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The 1.9-Billion Prostration Test**
 
@@ -697,7 +728,7 @@ Muhammad produced a system where 45 billion daily acts of the most profound phys
 
 ---
 
-### QW-13. [ISR-LINKED]
+### QW-13. [ISR-LINKED] [T2-S]
 
 **Cross-Era, Cross-Literacy Scalability**
 
@@ -721,7 +752,7 @@ How does the same worship architecture serve an illiterate Bedouin nomad and a 2
 
 ---
 
-### QW-14. [ISR-LINKED]
+### QW-14. [ISR-LINKED] [T2-S]
 
 **Decentralized Self-Replication**
 
@@ -741,7 +772,7 @@ Can you NAME another system — religious, political, legal, or technological �
 
 ---
 
-### QW-15. [CRITICAL] [ISR-LINKED]
+### QW-15. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **Version 1.0, Zero Patches, 1,400 Years**
 
@@ -769,7 +800,7 @@ Technology companies with billions in behavioral research, real-time data, const
 
 ---
 
-### QW-16. [CRITICAL] [ISR-LINKED]
+### QW-16. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Combined System Engineering Test**
 
@@ -800,7 +831,7 @@ NAME a human-designed system — religious, political, technological, legal, or 
 
 ---
 
-### QW-17. [ISR-LINKED]
+### QW-17. [ISR-LINKED] [T2-S]
 
 **The Fitrah Hack**
 
@@ -820,7 +851,7 @@ Can a human "hack" fitrah — the innate human disposition — deeply enough to 
 
 ---
 
-### QW-18. [ISR-LINKED]
+### QW-18. [ISR-LINKED] [T2-S]
 
 **Source-Generation Willingness to Die**
 
@@ -852,7 +883,7 @@ Can a fabrication produce first-generation followers who endure torture and deat
 
 ---
 
-### QW-19. [CRITICAL] [ISR-LINKED]
+### QW-19. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Clinical Delusion Test**
 
@@ -880,7 +911,7 @@ Can a clinical delusion — any documented psychiatric condition — produce a s
 
 ---
 
-### QW-20. [ISR-LINKED]
+### QW-20. [ISR-LINKED] [T2-S]
 
 **The Balance Architecture**
 
@@ -920,7 +951,7 @@ This multi-dimensional balance has maintained itself without overcorrection for 
 
 ---
 
-### QW-21. [ISR-LINKED]
+### QW-21. [ISR-LINKED] [T2-S]
 
 **Differential Generational Retention**
 
@@ -947,7 +978,7 @@ If fitrah-alignment is real — if Islam's worship architecture resonates with i
 
 ---
 
-### QW-22. [ISR-LINKED]
+### QW-22. [ISR-LINKED] [T2-S]
 
 **Cross-Cultural Conversion Consistency**
 
@@ -984,7 +1015,7 @@ Cross-cultural conversion consistency — people from radically different backgr
 
 ---
 
-### QW-23. [CRITICAL] [ISR-LINKED]
+### QW-23. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Total Architecture Test**
 
@@ -1011,7 +1042,7 @@ Is this total worship-architecture package — items 1 through 10 simultaneously
 
 ---
 
-### QW-24. [CRITICAL] [ISR-LINKED]
+### QW-24. [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Final Worship-Architecture Verdict**
 
@@ -1056,7 +1087,7 @@ _Answer honestly. If any test produces a genuine failure for the divine model, s
 
 ---
 
-### DC-1. [CRITICAL] [REVERSE-NAME]
+### DC-1. [CRITICAL] [REVERSE-NAME] [T1-KO]
 
 **Internal Contradiction Test**
 
@@ -1084,7 +1115,7 @@ After 1,400 years of adversarial review — by native Arabic speakers with maxim
 
 ---
 
-### DC-2. [CRITICAL] [REVERSE-NAME]
+### DC-2. [CRITICAL] [REVERSE-NAME] [T1-C]
 
 **Self-Serving Content Test**
 
@@ -1122,7 +1153,7 @@ Evaluate the balance of evidence: does the Qur'an's content SYSTEMATICALLY serve
 
 ---
 
-### DC-3. [CRITICAL] [REVERSE-NAME]
+### DC-3. [CRITICAL] [REVERSE-NAME] [T1-KO]
 
 **Preservation Prediction Test**
 
@@ -1159,7 +1190,7 @@ Has the Qur'an's self-prediction of preservation (15:9) FAILED — at the level 
 
 ---
 
-### DC-4. [CRITICAL] [REVERSE-NAME]
+### DC-4. [CRITICAL] [REVERSE-NAME] [T1-KO]
 
 **Challenge Prediction Test**
 
@@ -1191,7 +1222,7 @@ Has the literary challenge (17:88) been met in 1,400 years — by ANY source, ac
 
 ---
 
-### DC-5. [CRITICAL] [REVERSE-NAME]
+### DC-5. [CRITICAL] [REVERSE-NAME] [T1-C]
 
 **Hostile-Source Content Test**
 
@@ -1219,7 +1250,7 @@ Does the Qur'an's moral content exhibit a systematically exploitative, corruptiv
 
 ---
 
-### DC-6. [CRITICAL] [REVERSE-NAME]
+### DC-6. [CRITICAL] [REVERSE-NAME] [T1-KO]
 
 **Scientific Error Test**
 
@@ -1247,7 +1278,7 @@ Can you NAME a verified, unambiguous scientific error in the Qur'an? Apply the f
 
 ---
 
-### DC-7. [CRITICAL] [REVERSE-NAME]
+### DC-7. [CRITICAL] [REVERSE-NAME] [T1-KO]
 
 **Historical Error Test**
 
@@ -1273,7 +1304,7 @@ Can you NAME a verified historical error in the Qur'an — a factual claim about
 
 ---
 
-### DC-8. [CRITICAL]
+### DC-8. [CRITICAL] [T2-S]
 
 **Moral Degradation Test**
 
@@ -1303,7 +1334,7 @@ Has the Qur'anic moral framework — when followed AS WRITTEN, not when distorte
 
 ---
 
-### DC-9. [CRITICAL]
+### DC-9. [CRITICAL] [T1-C]
 
 **Theological Coherence Test**
 
@@ -1329,7 +1360,7 @@ Does the Qur'an's God-concept contain INTERNAL logical contradictions — not te
 
 ---
 
-### DC-10. [CRITICAL] [REVERSE-NAME]
+### DC-10. [CRITICAL] [REVERSE-NAME] [T1-C]
 
 **Uniqueness Prediction Test**
 
@@ -1360,7 +1391,7 @@ Can you NAME a text — from any tradition, any era, any language — that match
 
 ---
 
-### DC-11. [CRITICAL]
+### DC-11. [CRITICAL] [T2-S]
 
 **Conversion Under Knowledge Test**
 
@@ -1390,7 +1421,7 @@ Does scholarly study of the Qur'an historically produce MORE doubt or MORE convi
 
 ---
 
-### DC-12. [CRITICAL]
+### DC-12. [CRITICAL] [T2-S]
 
 **Cross-Century Relevance Test**
 
@@ -1422,7 +1453,7 @@ A human product should become increasingly outdated as centuries pass and knowle
 
 ---
 
-### DC-13. [CODE-DEPENDENT]
+### DC-13. [CODE-DEPENDENT] [T2-S]
 
 **Robustness Test: Remove the Three Weakest Patterns**
 
@@ -1451,7 +1482,7 @@ Choose the THREE patterns from the list above that you consider weakest — the 
 
 ---
 
-### DC-14.
+### DC-14. [PROC]
 
 **Sensitivity Test: Change Five Answers**
 
@@ -1481,7 +1512,7 @@ If YES (the conclusion changes with just 5 revisions), the conclusion is fragile
 
 ---
 
-### DC-15. [CRITICAL]
+### DC-15. [CRITICAL] [T1-C]
 
 **The Ultimate Test: Falsification Conditions**
 

@@ -268,14 +268,14 @@ If your numbers differ, investigate the cause. Common sources of discrepancy inc
 
 The Dominance Scale (D0 through D5) **standardizes how cumulative results are described** at checkpoints and at the final verdict. It prevents vague wording from understating or overstating the actual result.
 
-| Band | Label                      | Criteria                              |
-| ---- | -------------------------- | ------------------------------------- |
-| D0   | Indeterminate              | WS < 20 AND CA < 3                    |
-| D1   | Mild directional lean      | WS 20-60 OR CA 3-6                    |
-| D2   | Moderate dominance         | WS 60-120 AND CA 6-12                 |
-| D3   | Strong dominance           | WS 120-200 AND CA 12-20               |
-| D4   | Overwhelming dominance     | WS 200-350 AND CA > 20                |
-| D5   | Total explanatory collapse | WS > 350 OR one side model-eliminated |
+| Band | Label                      | Criteria                             |
+| ---- | -------------------------- | ------------------------------------ |
+| D0   | Indeterminate              | WS < 50 AND CA < 5                   |
+| D1   | Mild directional lean      | WS 50-150 OR CA 5-15                 |
+| D2   | Strong asymmetry                | WS 150-300 AND CA 15-30              |
+| D3   | Dominant surviving model        | WS 300-500 AND CA 30-50              |
+| D4   | Cumulative explanatory collapse | WS 500-800 AND CA > 50               |
+| D5   | Decisive explanatory dominance  | WS > 800 AND all opposing eliminated |
 
 The metrics are: HC (Human Collapse Score) = absolute value of human model tally; DS (Divine Support Score) = divine model tally; WS (Weighted Spread) = DS + HC; CA (Critical Asymmetry) = human critical hits minus divine critical hits. These are computed mechanically from the running tally, removing subjective judgment from the characterization of results.
 

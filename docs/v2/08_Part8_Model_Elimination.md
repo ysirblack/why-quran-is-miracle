@@ -55,7 +55,7 @@ This is the strongest naturalistic model because:
 
 ---
 
-**P8-1.** [CRITICAL]
+**P8-1.** [CRITICAL] [NC-C]
 
 **Evidence under test: E1 — Literary excellence + no predecessor/successor**
 
@@ -71,7 +71,7 @@ The Qur'an's literary output has no predecessor in Arabic literature and no succ
 
 ---
 
-**P8-2.** [CRITICAL]
+**P8-2.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical/structural patterns**
 
@@ -87,7 +87,7 @@ The Qur'an contains computationally precise mathematical patterns verified in Pa
 
 ---
 
-**P8-3.** [CRITICAL]
+**P8-3.** [CRITICAL] [NC-C]
 
 **Evidence under test: E5 — Illiterate carrier + E9 — No revision/drafts**
 
@@ -103,7 +103,7 @@ Muhammad was illiterate (confirmed by Qur'anic self-reference, hadith, and — c
 
 ---
 
-**P8-4.** [CRITICAL]
+**P8-4.** [CRITICAL] [NC-C]
 
 **Evidence under test: E10 — Scientific foreknowledge**
 
@@ -119,7 +119,7 @@ The Qur'an contains information that was scientifically impossible for ANY human
 
 ---
 
-**P8-5.** [CRITICAL]
+**P8-5.** [CRITICAL] [NC-C]
 
 **Evidence under test: E3 — Unmet challenge for 1,400 years + E11 — Comparative uniqueness**
 
@@ -135,7 +135,7 @@ The Qur'an's challenge (produce a single surah of comparable quality) has remain
 
 ---
 
-**P8-6.** [CRITICAL] [ISR-LINKED]
+**P8-6.** [CRITICAL] [ISR-LINKED] [NC-C]
 
 **Evidence under test: ALL 12 categories simultaneously**
 
@@ -151,7 +151,7 @@ The Genius model must explain ALL of the following simultaneously: literary supr
 
 ---
 
-**P8-7.** [CRITICAL]
+**P8-7.** [CRITICAL] [NC-C]
 
 **Evidence under test: E7 — Behavioral incompatibility with fraud + E6 — No teacher/co-author**
 
@@ -202,7 +202,7 @@ This model's strength is that it provides a mechanism for knowledge acquisition:
 
 ---
 
-**P8-8.** [CRITICAL]
+**P8-8.** [CRITICAL] [NC-C]
 
 **Evidence under test: E5 — Illiterate carrier**
 
@@ -218,7 +218,7 @@ Muhammad's illiteracy is attested by: (a) the Qur'an itself (7:157-158, calling 
 
 ---
 
-**P8-9.** [CRITICAL]
+**P8-9.** [CRITICAL] [NC-C]
 
 **Evidence under test: E6 — No teacher/co-author documented**
 
@@ -234,7 +234,7 @@ The 40-Year Learning model requires a teacher or multiple teachers who instructe
 
 ---
 
-**P8-10.** [CRITICAL]
+**P8-10.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical encoding + E10 — Scientific foreknowledge**
 
@@ -250,7 +250,7 @@ Even if Muhammad had somehow studied for 40 years, the knowledge required for th
 
 ---
 
-**P8-11.** [CRITICAL]
+**P8-11.** [CRITICAL] [NC-C]
 
 **Evidence under test: E1 — Literary excellence, no learning curve**
 
@@ -266,7 +266,7 @@ If Muhammad studied for 40 years, his output should show a developmental traject
 
 ---
 
-**P8-12.** [CRITICAL]
+**P8-12.** [CRITICAL] [NC-C]
 
 **Evidence under test: E8 — No source access**
 
@@ -282,7 +282,7 @@ The 40-Year Learning model requires access to Jewish, Christian, Zoroastrian, an
 
 ---
 
-**P8-13.**
+**P8-13.** [T2-S]
 
 **Evidence under test: E9 — No revision/drafts**
 
@@ -329,7 +329,7 @@ This model's strength is that the Qur'an does share narrative material with the 
 
 ---
 
-**P8-14.** [CRITICAL]
+**P8-14.** [CRITICAL] [NC-C]
 
 **Evidence under test: E8 — No source access + E10 — Scientific foreknowledge**
 
@@ -345,7 +345,7 @@ The Qur'an does not merely retell biblical narratives — it systematically CORR
 
 ---
 
-**P8-15.** [CRITICAL]
+**P8-15.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical encoding**
 
@@ -361,7 +361,7 @@ Creative reworking explains narrative content, not mathematical structure. The g
 
 ---
 
-**P8-16.** [CRITICAL]
+**P8-16.** [CRITICAL] [NC-C]
 
 **Evidence under test: E10 — Scientific foreknowledge**
 
@@ -377,7 +377,7 @@ The Qur'an contains scientific information absent from ALL known source traditio
 
 ---
 
-**P8-17.** [CRITICAL]
+**P8-17.** [CRITICAL] [NC-C]
 
 **Evidence under test: E3 — Unmet challenge + E11 — Comparative uniqueness**
 
@@ -389,7 +389,7 @@ If the Qur'an is creative reworking, others in the same culture with access to t
 
 ---
 
-**P8-18.** [CRITICAL]
+**P8-18.** [CRITICAL] [NC-C]
 
 **Evidence under test: E8 — No source access (Christological editing)**
 
@@ -401,7 +401,7 @@ The Qur'an's treatment of Jesus follows a precise, systematic theological editin
 
 ---
 
-**P8-19.**
+**P8-19.** [T2-S]
 
 **Evidence under test: E9 — No revision/drafts**
 
@@ -448,7 +448,7 @@ This model's strength is that it acknowledges the reality of the patterns while 
 
 ---
 
-**P8-20.** [CRITICAL]
+**P8-20.** [CRITICAL] [NC-C]
 
 **Evidence under test: E2 — Preservation + huffaz network**
 
@@ -464,7 +464,7 @@ The Qur'an was memorized in its entirety by thousands of companions (huffaz) dur
 
 ---
 
-**P8-21.** [CRITICAL]
+**P8-21.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical encoding**
 
@@ -480,7 +480,7 @@ The mathematical patterns in the Qur'an require computational tools for their di
 
 ---
 
-**P8-22.** [CRITICAL]
+**P8-22.** [CRITICAL] [NC-C]
 
 **Evidence under test: E2 — Preservation (manuscript evidence)**
 
@@ -496,7 +496,7 @@ The Sana'a palimpsest, analyzed by Sadeghi and Bergmann (2010), is the earliest 
 
 ---
 
-**P8-23.** [CRITICAL]
+**P8-23.** [CRITICAL] [NC-C]
 
 **Evidence under test: E7 — Behavioral incompatibility + E3 — Unmet challenge**
 
@@ -508,7 +508,7 @@ The post-hoc editing model requires a conspiracy: editors who deliberately alter
 
 ---
 
-**P8-24.** [CRITICAL]
+**P8-24.** [CRITICAL] [NC-C]
 
 **Evidence under test: E10 — Scientific foreknowledge**
 
@@ -524,7 +524,7 @@ The post-hoc editing model places the editing window in the 7th century (during 
 
 ---
 
-**P8-25.**
+**P8-25.** [T2-S]
 
 **Evidence under test: E1 — Literary excellence**
 
@@ -571,7 +571,7 @@ This model's strength is that it distributes the explanatory burden across multi
 
 ---
 
-**P8-26.** [CRITICAL]
+**P8-26.** [CRITICAL] [NC-C]
 
 **Evidence under test: E6 — No teacher/co-author documented**
 
@@ -587,7 +587,7 @@ The Qur'an itself records the accusation that Muhammad had human helpers (25:4-5
 
 ---
 
-**P8-27.** [CRITICAL]
+**P8-27.** [CRITICAL] [NC-C]
 
 **Evidence under test: E7 — Behavioral incompatibility with fraud**
 
@@ -599,7 +599,7 @@ Muhammad was under continuous observation by both followers and enemies. His fol
 
 ---
 
-**P8-28.** [CRITICAL]
+**P8-28.** [CRITICAL] [NC-C]
 
 **Evidence under test: E7 — Behavioral incompatibility (civil war test)**
 
@@ -615,7 +615,7 @@ The Muslim community fractured into hostile factions within decades of Muhammad'
 
 ---
 
-**P8-29.** [CRITICAL]
+**P8-29.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical encoding + E10 — Scientific foreknowledge**
 
@@ -631,7 +631,7 @@ The collaboration model distributes expertise across multiple individuals. But t
 
 ---
 
-**P8-30.** [CRITICAL]
+**P8-30.** [CRITICAL] [NC-C]
 
 **Evidence under test: E3 — Unmet challenge + E11 — Comparative uniqueness**
 
@@ -643,7 +643,7 @@ If collaboration could produce the Qur'an, other collaborative efforts should be
 
 ---
 
-**P8-31.**
+**P8-31.** [T2-S]
 
 **Evidence under test: E1 — Literary excellence (stylistic unity)**
 
@@ -690,7 +690,7 @@ This model's strength is that it requires no conspiracy, no secret study, and no
 
 ---
 
-**P8-32.** [CRITICAL]
+**P8-32.** [CRITICAL] [NC-C]
 
 **Evidence under test: E3 — Unmet challenge + E11 — Comparative uniqueness**
 
@@ -706,7 +706,7 @@ If the Qur'an's content was available through cultural osmosis, everyone in the 
 
 ---
 
-**P8-33.** [CRITICAL]
+**P8-33.** [CRITICAL] [NC-C]
 
 **Evidence under test: E10 — Scientific foreknowledge**
 
@@ -722,7 +722,7 @@ Osmosis spreads common knowledge — information that is widely held and frequen
 
 ---
 
-**P8-34.** [CRITICAL]
+**P8-34.** [CRITICAL] [NC-C]
 
 **Evidence under test: E8 — No source access (correction pattern)**
 
@@ -734,7 +734,7 @@ Osmosis spreads information passively — it does not edit, correct, or systemat
 
 ---
 
-**P8-35.** [CRITICAL]
+**P8-35.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical encoding**
 
@@ -750,7 +750,7 @@ Cultural osmosis transmits content (stories, ideas, beliefs). It does not transm
 
 ---
 
-**P8-36.**
+**P8-36.** [T2-S]
 
 **Evidence under test: E1 — Literary excellence + E5 — Illiterate carrier**
 
@@ -762,7 +762,7 @@ Osmosis produces familiarity with cultural materials, not mastery over them. A p
 
 ---
 
-**P8-37.**
+**P8-37.** [T2-S]
 
 **Evidence under test: E9 — No revision/drafts**
 
@@ -818,7 +818,7 @@ This is the STRONGEST composite. It concedes nothing unnecessarily and explains 
 
 ---
 
-**P8-38.** [CRITICAL]
+**P8-38.** [CRITICAL] [NC-C]
 
 **Constructing the composite:**
 
@@ -843,7 +843,7 @@ This is the STRONGEST composite. It concedes nothing unnecessarily and explains 
 
 ---
 
-**P8-39.** [CRITICAL]
+**P8-39.** [CRITICAL] [NC-C]
 
 **Evidence under test: E4 — Mathematical encoding (the composite's hardest test)**
 
@@ -855,7 +855,7 @@ The composite model's strongest move against mathematical encoding is to claim c
 
 ---
 
-**P8-40.** [CRITICAL]
+**P8-40.** [CRITICAL] [NC-C]
 
 **Evidence under test: E10 — Scientific foreknowledge (the composite's second-hardest test)**
 
@@ -867,7 +867,7 @@ The composite's strongest move against scientific foreknowledge is to claim "pos
 
 ---
 
-**P8-41.** [CRITICAL]
+**P8-41.** [CRITICAL] [NC-C]
 
 **Assumption count:**
 
@@ -909,7 +909,7 @@ Step 14: **11 unsupported assumptions vs. 1.** Which model is more parsimonious?
 
 ---
 
-**P8-42.** [CRITICAL] [ISR-LINKED]
+**P8-42.** [CRITICAL] [ISR-LINKED] [NC-C]
 
 **Internal coherence test:**
 
@@ -931,7 +931,7 @@ This is not a unified explanation — it is a collection of independent, often i
 
 ---
 
-**P8-43.** [CRITICAL]
+**P8-43.** [CRITICAL] [NC-C]
 
 **Falsifiability test:**
 
@@ -941,7 +941,7 @@ This is not a unified explanation — it is a collection of independent, often i
 
 ---
 
-**P8-44.** [CRITICAL]
+**P8-44.** [CRITICAL] [NC-C]
 
 **Walk-through test — ALL 12 evidence categories:**
 
@@ -968,7 +968,7 @@ This is not a unified explanation — it is a collection of independent, often i
 
 ---
 
-**P8-45.** [CRITICAL] [ISR-LINKED]
+**P8-45.** [CRITICAL] [ISR-LINKED] [NC-C]
 
 **Parsimony comparison — final:**
 
@@ -1008,7 +1008,7 @@ All seven models have been tested. The arena now conducts the final elimination.
 
 ---
 
-**P8-46.** [CRITICAL] [PROCEDURAL]
+**P8-46.** [CRITICAL] [PROCEDURAL] [PROC]
 
 **Survival matrix — all models:**
 
@@ -1033,7 +1033,7 @@ All seven models have been tested. The arena now conducts the final elimination.
 
 ---
 
-**P8-47.** [CRITICAL]
+**P8-47.** [CRITICAL] [NC-C]
 
 **Individual verdicts:**
 
@@ -1051,7 +1051,7 @@ All seven models have been tested. The arena now conducts the final elimination.
 
 ---
 
-**P8-48.** [CRITICAL]
+**P8-48.** [CRITICAL] [NC-C]
 
 **Which model walks out alive?**
 
@@ -1061,7 +1061,7 @@ All seven models have been tested. The arena now conducts the final elimination.
 
 ---
 
-**P8-49.** [CRITICAL] [ISR-LINKED]
+**P8-49.** [CRITICAL] [ISR-LINKED] [NC-C]
 
 **Parsimony final comparison:**
 
@@ -1071,7 +1071,7 @@ All seven models have been tested. The arena now conducts the final elimination.
 
 ---
 
-**P8-50.** [CRITICAL]
+**P8-50.** [CRITICAL] [PROC]
 
 **Consistency cross-check:**
 
@@ -1081,7 +1081,7 @@ All seven models have been tested. The arena now conducts the final elimination.
 
 ---
 
-**P8-51.** [CRITICAL] [ISR-LINKED]
+**P8-51.** [CRITICAL] [ISR-LINKED] [NC-C]
 
 **The Structural Paradox**
 

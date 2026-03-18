@@ -411,6 +411,30 @@ If your results differ from those reported in this protocol:
 
 ---
 
+## I-7: Per-Claim Verification Checklist
+
+Every scientific or mathematical claim in this protocol should be evaluated against these 5 checkpoints:
+
+| #   | Checkpoint             | What It Means                                                                                                                              |
+| --- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | **Pre-specification**  | Was the claim's wording and target defined BEFORE searching for a match? Or was the match found first and the claim constructed around it? |
+| 2   | **Target uniqueness**  | Is the target number/value the ONLY reasonable match? Or could multiple scientific values have been declared a "hit"?                      |
+| 3   | **Counting stability** | Does the result survive under alternative counting conventions (Kufan vs Basri vs Makki verse counts, alternative morphological filters)?  |
+| 4   | **Comparison space**   | Is the space of possible matches defined? How many verse-gaps exist that do NOT match a scientific constant?                               |
+| 5   | **Rival reading**      | Is there an equally plausible non-scientific reading of the same verse/pattern?                                                            |
+
+**Scoring → Evidence Band (Eₓ) assignment:**
+
+- 5/5 → E₅ (Foundational Lock)
+- 4/5 → E₄ (Core Evidence)
+- 3/5 → E₃ (Strong Support)
+- 2/5 → E₂ (Auxiliary)
+- 0-1/5 → E₁ (Curiosity)
+
+This checklist should be applied retroactively to every major claim in the protocol.
+
+---
+
 ---
 
 # APPENDIX J: FREQUENTLY RAISED OBJECTIONS — EXTENDED TREATMENT
@@ -1200,6 +1224,28 @@ One of the protocol's strongest arguments is that the same methodology applied t
 3. **Expected result:** No word pair will show the systematic balance observed in the Qur'an. This is because the Bible was compiled from dozens of authors over approximately 1,500 years (compared to the Qur'an's single source over 23 years), and there was no mechanism to control word frequencies across independently authored books.
 
 4. **Report your results.** If you find comparable word-pair balances in the Bible or any other text, this constitutes a significant challenge to the protocol's uniqueness claim. Document and submit.
+
+---
+
+## DEMOTED CLAIMS (Transparency Archive)
+
+The following claims were investigated and found insufficient for the core protocol. They are documented here per protocol principle: "demote transparently, don't remove silently."
+
+### Iron Core Depth (5,100 km) [E₁ / APP-P]
+
+**Claim:** The 5,100th verse of the Qur'an is 57:25 (Surah Al-Hadid). Earth's outer core begins at approximately 5,100 km depth. Iron is the primary component of Earth's core.
+
+**Demotion reason:** Positional pattern with weak thematic coherence. Sequential verse counting is the weakest methodology type — it depends entirely on verse-ordering convention and has no structural or linguistic basis comparable to verse-gap or morphological patterns. Verse 57:25 already appears in four other iron sublayers (nucleosynthesis, gematria, boiling point, counting layers), creating heavy dependency. The thematic link (iron surah = iron core) is suggestive but the mechanism (positional counting) is not comparable to the verse-gap methodology used for the core evidence family (Sun 5778, Silver 962, Iron 1538). See Part 5B, Iron Evidence Cluster.
+
+**Cross-reference:** `miracles/06_verse_gap_alignments/iron_1538/iron_core_depth/`
+
+### Surah al-Shams Solar Encoding — Reclassification Note
+
+**Original status:** E₁ / APP-P (demoted due to phonetic layer weakness).
+
+**Reclassified to:** T2-S / E₂. P5-13 now contains a 12-step logic chain that separates the phonetic layer (weakest — Arabic "hā" ≠ Latin "H") from the non-phonetic layers (surah name, 15 verses matching three independent solar "15" constants with rounding logic, surah 91 = ~91% hydrogen, uniform rhyme). The logic chain explicitly flags the phonetic objection and tests whether the case survives without it. The non-phonetic layers use only numerical and structural observations with documented scientific ranges and sources.
+
+**Cross-reference:** P5-13; `miracles/06_verse_gap_alignments/surah_al_shams/`
 
 ---
 

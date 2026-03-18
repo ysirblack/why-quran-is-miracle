@@ -15,7 +15,7 @@ _This sub-section examines whether the Qur'an's physical manuscript record, oral
 
 ---
 
-### P1-1. The Birmingham Manuscript: Radiocarbon Evidence [ISR-LINKED]
+### P1-1. The Birmingham Manuscript: Radiocarbon Evidence [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -31,7 +31,7 @@ A manuscript radiocarbon-dated to the lifetime of the Prophet or within one gene
 
 ---
 
-### P1-2. The Sana'a Palimpsest: Even the Lower Text [ISR-LINKED]
+### P1-2. The Sana'a Palimpsest: Even the Lower Text [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -54,7 +54,7 @@ The most hostile manuscript evidence available — a palimpsest preserving an er
 
 ---
 
-### P1-3. Digital Cross-Verification: Global Consistency [ISR-LINKED]
+### P1-3. Digital Cross-Verification: Global Consistency [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -83,7 +83,7 @@ Copies of the Qur'an produced independently in Cairo, Istanbul, Medina, Jakarta,
 
 ---
 
-### P1-4. The Huffaz Network: Living Memory Architecture [ISR-LINKED]
+### P1-4. The Huffaz Network: Living Memory Architecture [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -106,7 +106,7 @@ An estimated 10+ million living humans carry the complete Qur'an in memory, word
 
 ---
 
-### P1-5. The Destruction Test: Reconstructibility [ISR-LINKED]
+### P1-5. The Destruction Test: Reconstructibility [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -130,7 +130,7 @@ If every written copy of the Qur'an were destroyed today, it could be reconstruc
 
 ---
 
-### P1-6. Enemy Testimony: The Argument from Hostile Silence [ISR-LINKED]
+### P1-6. Enemy Testimony: The Argument from Hostile Silence [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -158,7 +158,7 @@ _This sub-section examines the Qur'an's standing within the Arabic literary trad
 
 ---
 
-### P1-7. Arabic Grammar Was Derived FROM the Qur'an [CRITICAL] [ISR-LINKED]
+### P1-7. Arabic Grammar Was Derived FROM the Qur'an [CRITICAL] [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -192,7 +192,7 @@ Arabic grammar was DERIVED FROM the Qur'an — Sibawayh and the early grammarian
 
 ---
 
-### P1-8. Genre Without Predecessor or Successor [ISR-LINKED]
+### P1-8. Genre Without Predecessor or Successor [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -222,7 +222,7 @@ The Qur'an's discourse type is not poetry, not prose, not saj', not oration — 
 
 ---
 
-### P1-9. Emotional Triple-Register: Legal + Poetic + Rhetorical [ISR-LINKED]
+### P1-9. Emotional Triple-Register: Legal + Poetic + Rhetorical [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -251,7 +251,7 @@ The Qur'an sustains legal precision, poetic beauty, and rhetorical power simulta
 
 ---
 
-### P1-10. The "Qul" (Say:) Format: Third-Person Self-Reference [ISR-LINKED]
+### P1-10. The "Qul" (Say:) Format: Third-Person Self-Reference [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -281,7 +281,7 @@ Muhammad is addressed in the third person throughout the Qur'an for 23 years, in
 
 ---
 
-### P1-11. Ring Composition: Large-Scale Structural Symmetry
+### P1-11. Ring Composition: Large-Scale Structural Symmetry [T2-S]
 
 **Context and Evidence:**
 
@@ -303,7 +303,7 @@ Modern scholars (Farrin, Cuypers, Mir) have documented ring composition in the Q
 
 ---
 
-### P1-12. Semantic Density: Information Per Word
+### P1-12. Semantic Density: Information Per Word [T2-S]
 
 **Context and Evidence:**
 
@@ -342,7 +342,7 @@ _This sub-section examines the Qur'an's explicit challenge to produce a text "li
 
 ---
 
-### P1-13. The Challenge Verses: 2:23-24 and 17:88 [CRITICAL]
+### P1-13. The Challenge Verses: 2:23-24 and 17:88 [CRITICAL] [T2-S]
 
 **Context and Evidence:**
 
@@ -378,7 +378,7 @@ The Qur'an issues an explicit, testable challenge: produce a single surah like i
 
 ---
 
-### P1-14. Musaylimah: The Contemporary Attempt [ISR-LINKED]
+### P1-14. Musaylimah: The Contemporary Attempt [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -401,7 +401,7 @@ Musaylimah attempted to produce rival "revelations" during Muhammad's own lifeti
 
 ---
 
-### P1-15. Abu al-'Ala al-Ma'arri: A Later Attempt
+### P1-15. Abu al-'Ala al-Ma'arri: A Later Attempt [T2-S]
 
 **Context and Evidence:**
 
@@ -428,7 +428,7 @@ Abu al-'Ala al-Ma'arri's _al-Fusul wal-Ghayat_ is sometimes cited as an attempte
 
 ---
 
-### P1-16. Modern AI and the Challenge [ISR-LINKED]
+### P1-16. Modern AI and the Challenge [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -455,7 +455,7 @@ Modern AI systems can generate Arabic text at unprecedented scale and sophistica
 
 ---
 
-### P1-17. The Minimum Bar: Three Verses [ISR-LINKED]
+### P1-17. The Minimum Bar: Three Verses [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -483,7 +483,7 @@ The shortest surah is 3 verses (10 Arabic words). The challenge asks for "a sura
 
 ---
 
-### P1-18. Defining "Like It": Is the Challenge Practically Intelligible? [CRITICAL] [LOGIC-CHAIN]
+### P1-18. Defining "Like It": Is the Challenge Practically Intelligible? [CRITICAL] [LOGIC-CHAIN] [T2-S]
 
 **Context and Evidence:**
 
@@ -571,7 +571,7 @@ _This sub-section examines the Qur'an's internal consistency — across its 23-y
 
 ---
 
-### P1-19. Meccan/Medinan Consistency: No Quality Gradient
+### P1-19. Meccan/Medinan Consistency: No Quality Gradient [T2-S]
 
 **Context and Evidence:**
 
@@ -602,7 +602,7 @@ Over 23 years, under radically different circumstances (persecution in Mecca vs.
 
 ---
 
-### P1-20. Cross-Referential Coherence: Tasrif
+### P1-20. Cross-Referential Coherence: Tasrif [T2-S]
 
 **Context and Evidence:**
 
@@ -631,7 +631,7 @@ The Qur'an returns to the same themes across dozens of surahs (tasrif), adding d
 
 ---
 
-### P1-21. Non-Sequential Assembly Producing a Unified Whole
+### P1-21. Non-Sequential Assembly Producing a Unified Whole [T2-S]
 
 **Context and Evidence:**
 
@@ -660,7 +660,7 @@ The Qur'an was assembled non-sequentially — passages revealed years apart were
 
 ---
 
-### P1-22. Zero Self-Contradiction Across 23 Years of Oral Delivery [ISR-LINKED]
+### P1-22. Zero Self-Contradiction Across 23 Years of Oral Delivery [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -692,7 +692,7 @@ Approximately 6,236 verses delivered orally over 23 years under radically varyin
 
 ---
 
-### P1-23. Inheritance Mathematics: Oral Legal Precision
+### P1-23. Inheritance Mathematics: Oral Legal Precision [T2-S]
 
 **Context and Evidence:**
 
@@ -724,7 +724,7 @@ _This sub-section examines the Qur'an's transmission history — the qira'at (va
 
 ---
 
-### P1-24. Qira'at: Authorized Variation, Not Hostile Discovery
+### P1-24. Qira'at: Authorized Variation, Not Hostile Discovery [T2-S]
 
 **Context and Evidence:**
 
@@ -755,7 +755,7 @@ The qira'at (variant readings) are part of the Qur'an's own transmission traditi
 
 ---
 
-### P1-25. Scribal vs. Authorial: A Critical Distinction [FOUNDATIONAL]
+### P1-25. Scribal vs. Authorial: A Critical Distinction [FOUNDATIONAL] [T2-S]
 
 **Context and Evidence:**
 
@@ -788,7 +788,7 @@ Uthman's standardization (~650 CE) was a scribal activity (collecting, copying, 
 
 ---
 
-### P1-26. No Drafting Evidence [FOUNDATIONAL]
+### P1-26. No Drafting Evidence [FOUNDATIONAL] [T2-S]
 
 **Context and Evidence:**
 
@@ -823,7 +823,7 @@ Has any manuscript, historical report, or archaeological evidence demonstrated a
 
 ---
 
-### P1-27. Oral-Formulaic Absence
+### P1-27. Oral-Formulaic Absence [T2-S]
 
 **Context and Evidence:**
 
@@ -857,7 +857,7 @@ _The following questions are the highest-stakes questions in Part 1. They are ta
 
 ---
 
-### P1-28. Can You NAME the Literary Predecessor/Successor?
+### P1-28. Can You NAME the Literary Predecessor/Successor? [T2-S]
 
 **Context and Evidence:**
 
@@ -886,7 +886,7 @@ Can you NAME the literary predecessor of the Qur'anic form — a text or genre f
 
 ---
 
-### P1-29. Can You NAME a Recognized Response to the Challenge? [CRITICAL] [REVERSE-NAME]
+### P1-29. Can You NAME a Recognized Response to the Challenge? [CRITICAL] [REVERSE-NAME] [T1-C]
 
 **Context and Evidence:**
 
@@ -911,7 +911,7 @@ Can you PRODUCE or NAME a recognized, successful response to the Qur'anic litera
 
 ---
 
-### P1-30. Has Any Manuscript Demonstrated an Authorial Drafting Process? [CRITICAL] [FOUNDATIONAL]
+### P1-30. Has Any Manuscript Demonstrated an Authorial Drafting Process? [CRITICAL] [FOUNDATIONAL] [NC-C]
 
 **Context and Evidence:**
 
@@ -931,7 +931,7 @@ Has any manuscript, archaeological find, or historical document demonstrated an 
 
 ---
 
-### P1-31. Can You NAME Another Text with Combined Preservation + Literary Supremacy?
+### P1-31. Can You NAME Another Text with Combined Preservation + Literary Supremacy? [T2-S]
 
 **Context and Evidence:**
 
@@ -956,7 +956,7 @@ Can you NAME another text in human history that combines (a) manuscript evidence
 
 ---
 
-### P1-32. Does Limited Manuscript Variation Constitute Evidence of Ordinary Human Drafting?
+### P1-32. Does Limited Manuscript Variation Constitute Evidence of Ordinary Human Drafting? [T2-S]
 
 **Context and Evidence:**
 
@@ -982,7 +982,7 @@ Does the limited manuscript variation in the Qur'anic tradition (Sana'a palimpse
 
 ---
 
-### P1-33. Can You NAME a Verified Failure of the Preservation Claim (15:9)? [REVERSE-NAME] [CRITICAL]
+### P1-33. Can You NAME a Verified Failure of the Preservation Claim (15:9)? [REVERSE-NAME] [CRITICAL] [T1-KO]
 
 **Context and Evidence:**
 
@@ -1004,7 +1004,7 @@ The Qur'an claims divine preservation (15:9): "Indeed, We will be its guardian."
 
 ---
 
-### P1-34. Can You PRODUCE a Recognized Successful Response to the Challenge? [REVERSE-NAME]
+### P1-34. Can You PRODUCE a Recognized Successful Response to the Challenge? [REVERSE-NAME] [T1-KO]
 
 **Context and Evidence:**
 
@@ -1024,7 +1024,7 @@ The divine model claims the Qur'an is inimitable (17:88). Can you PRODUCE a text
 
 ---
 
-### P1-35. Testable Self-Referential Claims [CRITICAL] [ISR-LINKED]
+### P1-35. Testable Self-Referential Claims [CRITICAL] [ISR-LINKED] [NC-C]
 
 **Context and Evidence:**
 
@@ -1052,7 +1052,7 @@ The Qur'an makes testable claims about ITSELF: preservation (15:9), inimitabilit
 
 ---
 
-### P1-36. No Chronological Self-Reference Errors
+### P1-36. No Chronological Self-Reference Errors [T2-S]
 
 **Context and Evidence:**
 
@@ -1075,7 +1075,7 @@ Despite non-sequential assembly and no editorial revision process, the Qur'an co
 
 ---
 
-### P1-37. The Qur'an Predicts Rejection Patterns [ISR-LINKED]
+### P1-37. The Qur'an Predicts Rejection Patterns [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -1105,7 +1105,7 @@ The Qur'an predicts that people will reject it not because the evidence is insuf
 
 ---
 
-### P1-38. Intra-Surah Coherence Across Temporal Gaps
+### P1-38. Intra-Surah Coherence Across Temporal Gaps [T2-S]
 
 **Context and Evidence:**
 
@@ -1138,7 +1138,7 @@ _These questions present the strongest challenges to the Qur'an's preservation a
 
 ---
 
-### P1-39. Qira'at Variants: Textual Instability or Authorized Transmission? [DEBATABLE]
+### P1-39. Qira'at Variants: Textual Instability or Authorized Transmission? [DEBATABLE] [T2-D]
 
 **Context and Evidence:**
 
@@ -1166,7 +1166,7 @@ Do the qira'at (variant readings) and physical corrections in early manuscripts 
 
 ---
 
-### P1-40. Sana'a Palimpsest Lower Text: Content Editing or Scribal Correction? [DEBATABLE]
+### P1-40. Sana'a Palimpsest Lower Text: Content Editing or Scribal Correction? [DEBATABLE] [T2-D]
 
 **Context and Evidence:**
 
@@ -1200,7 +1200,7 @@ The Sana'a palimpsest's lower text shows a non-standard arrangement of verses th
 
 ---
 
-### P1-41. "Uthman Compiled = Human-Edited": Standardization vs. Composition [DEBATABLE]
+### P1-41. "Uthman Compiled = Human-Edited": Standardization vs. Composition [DEBATABLE] [T2-D]
 
 **Context and Evidence:**
 
@@ -1234,7 +1234,7 @@ Uthman standardized the Qur'an, chose specific orthographic conventions, and ord
 
 ---
 
-### P1-42. "Oral Texts Always Evolve": Does the Huffaz Network Allow Undetected Evolution? [DEBATABLE]
+### P1-42. "Oral Texts Always Evolve": Does the Huffaz Network Allow Undetected Evolution? [DEBATABLE] [T2-D]
 
 **Context and Evidence:**
 
@@ -1274,7 +1274,7 @@ Oral tradition studies establish that oral texts typically evolve over time. Doe
 
 ---
 
-### P1-43. The Combined Profile: Extraordinary by Any Standard
+### P1-43. The Combined Profile: Extraordinary by Any Standard [T2-S]
 
 **Context and Evidence:**
 
@@ -1330,7 +1330,7 @@ Taking the full evidence of Part 1 together: manuscript evidence, global consist
 
 ---
 
-### P1-44. Stylometric Distinction [ISR-LINKED]
+### P1-44. Stylometric Distinction [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 
@@ -1352,7 +1352,7 @@ Computational stylometry — the statistical science of authorship attribution t
 
 ---
 
-### P1-45. Semantic Density: 77,000 Words → 300,000+ Volumes [ISR-LINKED]
+### P1-45. Semantic Density: 77,000 Words → 300,000+ Volumes [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 

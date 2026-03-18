@@ -77,44 +77,46 @@ Result:
 - `p ≈ 1.098935e-29`
 - `~ 1 in 9.099721e+28`
 
-### Scenario E — Full Stack
+### ~~Scenario E — Naive Full Stack~~ ⚠ NOT DEFENSIBLE
 
-If every verified pattern family is multiplied as independent:
+~~If every verified pattern family is multiplied as independent:~~
 
-- Golden ratio
-- Even-sum identity
-- Adam/Jesus
-- Life/Death
-- Angels/Devils
-- World/Hereafter
-- Calendar cluster
-- Sun `5778`
-- Silver `962`
-- Iron `1538`
-- Sirius `86`
-- Hadid `26`
-- Al-Hadid `57`
+**This scenario is WITHDRAWN.** Independence analysis shows that golden ratio and even-sum share the same underlying surah-number/verse-count data. Multiplying them as independent inflates the result. The raw number (10⁻⁴⁹) is mathematically correct IF independence holds — but independence does NOT hold. This scenario remains here for transparency but must NOT be cited as a defensible estimate.
 
-Result:
+~~Result: p ≈ 1.881300e-49~~
 
-- `p ≈ 1.881300e-49`
-- `~ 1 in 5.315475e+48`
+### Scenario E (CORRECTED) — Cluster-Independent Defensible Floor
+
+After proper dependency analysis — collapsing entangled patterns into clusters and multiplying ONLY independent clusters:
+
+- Structural cluster (golden ratio + even-sum = ONE package): `p ≈ 10⁻⁶` (from permutation test with Bonferroni correction)
+- Verse-gap cluster (Sun × Silver × Iron): `p ≈ 10⁻¹²` (with look-elsewhere ×50 = `10⁻¹⁰·³`)
+- Word-balance cluster (3+ perfect balances): `p ≈ 10⁻³`
+- Calendar cluster (365 + 354 triple alignment): `p ≈ 10⁻⁴`
+
+Result (independent clusters multiplied):
+
+- `p ≈ 10⁻²³`
+- `~ 1 in 10²³`
+
+**This is the defensible floor.** It is astronomically small — far below any standard significance threshold — but it is honestly computed with dependencies respected.
 
 ### Reading Rule
 
-- `Scenario A` = harsh minimum floor
+- `Scenario A` = harsh minimum floor (verse-gaps only)
 - `Scenario B` = skeptical but still cumulative
-- `Scenario D` = fairest cumulative estimate if dependency is taken seriously
-- `Scenario E` = maximum-force stack, but with the highest independence risk
+- `Scenario D` = generous cumulative estimate (slightly optimistic)
+- `Scenario E (corrected)` = **defensible floor with proper independence analysis (~10⁻²³)**
 
 **Checkpoint**
 
 Before answering Part 2's final probability questions, state clearly which scenario you accept:
 
-- `A. Ultra-Skeptik Floor`
-- `B. High Skeptik`
-- `C. Skeptik`
-- `D. Clustered Fair`
+- `A. Ultra-Skeptik Floor` (~10⁻¹²)
+- `B. High Skeptik` (~10⁻¹⁵)
+- `C. Skeptik Plus` (~10⁻¹⁸)
+- `D. Clustered Fair` (~10⁻²⁹ — slightly optimistic)
+- `E. Cluster-Independent Defensible Floor` (~10⁻²³ — **recommended**)
 - `E. Naive Full Stack`
 
 Do not switch standards mid-Part. If you reject one scenario as too generous, identify the exact dependency objection and move to the next more conservative scenario.
@@ -144,7 +146,7 @@ The Qur'an contains 114 surahs (chapters). Each surah has a fixed position numbe
 
 ---
 
-### P2-1 [CODE-DEPENDENT] [CRITICAL]
+### P2-1 [CODE-DEPENDENT] [CRITICAL] [NC-C]
 
 **Run the following code to compute the golden ratio partition of the Qur'an's surah structure.**
 
@@ -255,7 +257,7 @@ Percentage deviation:        0.0241%
 
 ---
 
-### P2-2 [CODE-DEPENDENT]
+### P2-2 [CODE-DEPENDENT] [T2-S]
 
 **Run a permutation test to determine how likely this ratio is to arise by chance.**
 
@@ -363,7 +365,7 @@ Upper bound on p-value: < 0.00000100
 
 ---
 
-### P2-3
+### P2-3 [T2-S]
 
 **Context and significance of the golden ratio result.**
 
@@ -377,7 +379,7 @@ State plainly: is this encoding plausible under any documented 7th-century human
 
 ---
 
-### P2-4
+### P2-4 [T2-S]
 
 **The total 12,791 is prime.**
 
@@ -391,7 +393,7 @@ Primality is a structural property: you cannot split 12,791 into equal integer s
 
 ---
 
-### P2-5
+### P2-5 [T2-S]
 
 **Robustness check: what happens if you change even one verse count?**
 
@@ -497,7 +499,7 @@ This would mean a single binary operation (even/odd classification) simultaneous
 
 ---
 
-### P2-6 [CODE-DEPENDENT] [CRITICAL]
+### P2-6 [CODE-DEPENDENT] [CRITICAL] [NC-C]
 
 **Run the following code to verify the even-sum identity.**
 
@@ -614,7 +616,7 @@ Also note: 12,791 = 7906 + 4885 from the golden ratio partition (P2-1). Same tot
 
 ---
 
-### P2-7
+### P2-7 [T2-S]
 
 **Analyze the structural meaning of this result.**
 
@@ -634,7 +636,7 @@ This means the Qur'an's chapter structure is a self-referential encoding: the te
 
 ---
 
-### P2-8
+### P2-8 [T2-S]
 
 **Probability analysis: how likely is the 57:57 split with dual encoding?**
 
@@ -737,7 +739,7 @@ Upper bound: p < 0.00000100
 
 ---
 
-### P2-9
+### P2-9 [T2-S]
 
 **Self-referential architecture: what does it mean for a text to describe its own structure?**
 
@@ -764,7 +766,7 @@ Beyond the golden ratio and even-sum identity, the Qur'an's 114-surah structure 
 
 ---
 
-### P2-10 [CODE-DEPENDENT]
+### P2-10 [CODE-DEPENDENT] [T2-S]
 
 **Run the following code to verify the 2x2 parity grouping and the 57/57 median split.**
 
@@ -903,7 +905,7 @@ SIX-BLOCK SYMPHONY (blocks of 19)
 
 ---
 
-### P2-11
+### P2-11 [T2-S]
 
 **The verse-number mirror.**
 
@@ -981,7 +983,7 @@ Verses <= Position: [count] surahs
 
 ---
 
-### P2-12
+### P2-12 [T2-S]
 
 **Multiple independent partitions converging on 57.**
 
@@ -999,7 +1001,7 @@ The number 57 is half of 114. The fact that 114 is even makes a 57:57 split stru
 
 ---
 
-### P2-13 [CODE-DEPENDENT]
+### P2-13 [CODE-DEPENDENT] [T2-S]
 
 **The six-block symphony: dividing 114 surahs into 6 blocks of 19.**
 
@@ -1090,7 +1092,7 @@ Expected (6236 + 6555): 12791
 
 ---
 
-### P2-14
+### P2-14 [T2-S]
 
 **Summary of structural symmetries: how many independent properties converge?**
 
@@ -1118,7 +1120,7 @@ The Qur'an contains thematic word pairs -- antonyms, complements, and theologica
 
 ---
 
-### P2-15 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-15 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Adam and Jesus: 25:25 name balance.**
 
@@ -1216,7 +1218,7 @@ Both created without human father -- miraculous origins.
 
 ---
 
-### P2-16 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-16 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Life and Death: documenting BOTH methodologies.**
 
@@ -1340,7 +1342,7 @@ Methodology B is more inclusive (all derivatives).
 
 ---
 
-### P2-17 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-17 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Angels and Devils: 88:88 balance.**
 
@@ -1426,7 +1428,7 @@ Target: 88:88
 
 ---
 
-### P2-18 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-18 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **World and Hereafter: 115:115 balance.**
 
@@ -1484,7 +1486,7 @@ Perfect match: True
 
 ---
 
-### P2-19 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-19 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Man and Woman: 23:23 chromosome alignment.**
 
@@ -1567,7 +1569,128 @@ from each parent, discovered 1,323 years after the Qur'an.]
 
 **Question:** Across four different counting methodologies, do man and woman always produce balanced counts? Does the semantic role method produce exactly 23:23, matching the human chromosome number from each parent? Is the semantic role methodology linguistically legitimate (i.e., is it a recognized method in computational linguistics, not an ad hoc adjustment)?
 
+**Transparency note:** The word balance itself (man/woman appearing in equal or near-equal counts) is a genuine, verifiable textual observation that survives across multiple counting methodologies. However, the specific mapping to chromosome count (23:23) is a POST-HOC observation — the connection to chromosomes was made AFTER the word count was known, not predicted beforehand. The word balance is E₃ (Strong Support); the chromosome mapping is E₂ (Auxiliary — post-hoc observation, not pre-specified prediction).
+
 **Tags:** [CODE-DEPENDENT] [ISR-LINKED]
+
+---
+
+### Additional Word Pairs (Noted, Not Scored)
+
+Several additional word pairs have been investigated. They are documented here for transparency but do NOT receive independent scored questions because they fail one or more I-7 checklist criteria:
+
+- **Hell/Paradise (77:78):** Jahannam=77, Jannah forms=78. Near-balance but NOT exact (77≠78). Plural construct filtering (proper names vs generic descriptions) involves subjective judgment. Noted as supporting context. [T2-D] [E₂]
+
+- **Prayers plural (5):** Salawat (صَلَوَات) appears exactly 5 times, matching 5 daily prayers. However, n=5 provides negligible statistical power — P(any specific count=5) is inherently high for small numbers. Semantic exclusions (22:40 = "synagogues") are context-dependent. [APP-P] [E₁]
+
+- **Belief/Disbelief (45:40):** Iman masdar (إِيمَٰن) = 45, Kufr+Kufur nouns (كُفْر + كُفُور) = 40. Diacritic-level morphological distinctions (كُفْر damma-sukun vs كَفُور fatha-damma) are microscopic and vary between corpora. Slight boundary shift could destroy the balance. Methodology-sensitive. [T2-D] [E₂]
+
+These pairs are part of the Word-Balance Family (dependency cluster). Their existence adds cumulative texture but cannot independently carry evidential weight. The five scored pairs (P2-15 through P2-19) represent the strongest and most methodology-stable members of this family.
+
+---
+
+## STATISTICAL ADDENDUM — CLUSTER ACCOUNTING FOR NEW MIRACLE CLAIMS
+
+This protocol does NOT allow cumulative inflation by counting dependent subclaims as though they were separate discoveries. A new miracle claim does not automatically become a new independent line of evidence. Before any newly introduced pattern affects the cumulative mathematical case, it must first pass cluster accounting.
+
+### Rule 1 — One Family, One Cluster
+
+If multiple claims arise from the same thematic family, same lexical anchor, same surah, same root, same local search space, or same underlying design logic, they are to be treated as **ONE dependent cluster** unless true independence is explicitly demonstrated.
+
+This rule applies even if the cluster contains multiple numerically impressive layers.
+
+**Example: Iron Cluster.** The following do NOT count as separate independent miracles: iron melting point, Surah 57 atomic-abjad layers, hadid=26, al-hadid=57, Surah 57=Fe-57, Allah-count=26, Fa-count=56, 5,100th verse=57:25, "We sent down iron" / stellar-origin layer. These belong to ONE iron-family cluster. Their convergence may deepen the significance of the iron case. It may NOT be multiplied as though each layer were statistically independent. (See Part 5B, Iron Evidence Cluster discipline note.)
+
+### Rule 2 — Internal Layers Do Not Multiply Freely
+
+A cluster may contain multiple layers. Those layers may be ranked. They may strengthen the cluster qualitatively. They do NOT automatically create separate multiplicative pressure.
+
+Each sublayer must be classified as:
+
+- **Primary** — enters the main cumulative probability calculation
+- **Supportive** — strengthens the cluster, not multiplied independently
+- **Auxiliary** — documented for transparency, does not enter probability architecture
+
+Only the strongest sublayers may contribute to the main case. Weaker sublayers remain documented but must not inflate the cumulative probability architecture.
+
+### Rule 3 — New Word-Balance Claims Require Standardized Control
+
+Any newly added word-balance claim must be tested under the same discipline already required for the established balance family. The claim must document:
+
+- exact filter and exact exclusions
+- counting stability (does the result survive alternative counting methods?)
+- semantic justification (why these morphological forms and not others?)
+- rival counting methods and their results
+- comparison space (how many word pairs were tested that did NOT produce balance?)
+- dependency relation to existing balance claims
+
+A new balance does NOT automatically become a new independent proof merely because it produces an exact ratio. If it is simply another instance of the same general balance phenomenon, it remains part of the same broader evidential family.
+
+### Rule 4 — Late-Added Claims Require Discovery-Context Transparency
+
+Late-added claims must fully document their discovery context. This does NOT reduce their final evidential weight if robustness is demonstrated — but it DOES require explicit transparency about the search process. Late discovery does NOT make a claim false. But undocumented search processes create legitimate concern about researcher degrees of freedom.
+
+Every late-added claim must document:
+
+- when it was identified
+- whether it was pre-specified or post-hoc
+- what search space produced it
+- how many failures existed in the same family
+- whether it survives alternative methods
+- whether it belongs in the main line or appendix
+
+### Rule 5 — Every New Claim Must Receive a Statistical Role
+
+Every newly integrated claim must be assigned ONE of the following:
+
+- **Independent Cluster** — a genuinely separate family with defensible independence. May affect cumulative multiplication directly.
+- **Dependent Cluster Layer** — a sublayer inside an already existing family. May strengthen convergence inside that family. May NOT be counted as a separate multiplied proof.
+- **Appendix Observation** — interesting but too weak, too post-hoc, too filter-sensitive, or too dependent for core cumulative force. Logged transparently, not counted as main statistical pressure.
+
+### Rule 6 — No Cumulative Inflation
+
+The cumulative case must not be strengthened by counting repeated themes as fresh miracles. A family with seven layers is still one family. A root with five exact balances is still one balance-family. A surah with several local encodings is still one localized design cluster unless independence is explicitly established.
+
+This protocol allows convergence. It forbids inflation.
+
+**Interpretive note:** Cluster patterns are not claimed as coercive proofs in isolation. Under the divine-design model, they are expected to function as layered, cross-era, progressively discoverable signs. Their role is cumulative authentication, not irresistible compulsion.
+
+### Rule 7 — Immediate Application
+
+This addendum applies immediately to: Iron Cluster, newly added word-balance patterns, newly added verse-gap patterns, newly added surah-structure patterns, and all future additions.
+
+No new item enters the cumulative architecture until its dependency category is declared.
+
+### Rule 8 — Intentional Asymmetry: No Relaxation for the Divine Model
+
+This protocol recognizes that symmetric cluster accounting would be the methodologically fair default. Under symmetric rules, objections from the same family (e.g., "alleged scientific errors": backbone/ribs, sun in spring, expanding universe, moon split) would be clustered as ONE objection family — just as iron sublayers are clustered as one evidence family.
+
+**This protocol deliberately does NOT apply that symmetry.**
+
+Cluster accounting applies ONLY to evidence supporting the divine model. Every objection against the divine model is scored as an independent hit at full weight — even when objections come from the same thematic family.
+
+**Why this asymmetry exists:**
+
+A claim of divine origin is a perfection claim. A text claiming to be from God must survive every individual challenge, not clustered challenges. If "backbone and ribs" is a real scientific error, it is a hit. If "sun in a muddy spring" is a real scientific error, it is a separate hit. They do not shield each other by being "from the same family." Each must be answered independently.
+
+Meanwhile, evidence FOR divine origin is held to cluster discipline — because the protocol will not allow its own case to be inflated by dependent repetition.
+
+The result: the divine model faces MAXIMUM attack pressure (every objection counts separately) while operating with MINIMUM evidence inflation (dependent evidence is clustered). This is the strictest possible evaluation framework for a divine-origin claim.
+
+**What this means in practice:**
+
+- Iron's 6 sublayers → ONE cluster (conservative count for the case)
+- 5 alleged scientific errors → FIVE separate hits (maximum pressure against the case)
+- Word-balance family → ONE cluster (conservative count for the case)
+- 4 moral objections → FOUR separate hits (maximum pressure against the case)
+
+**The strategic consequence:**
+
+If the divine model reaches D₅ under these conditions — with its own evidence clustered conservatively and every objection scoring at full independent weight — no critic can claim the protocol inflated the case or minimized objections. The protocol is harder on the divine model than on any alternative. If the result still lands at decisive dominance, that result was EARNED under the most demanding conditions the protocol could construct.
+
+This asymmetry is not an oversight. It is not unfairness. It is the natural consequence of what it means to claim divine origin: the standard is perfection, and perfection does not get the benefit of clustered attacks.
+
+**Operative principle:** One family, one cluster. Many layers may deepen a case. They do not become many independent miracles by repetition of theme. But every challenge to a perfection claim stands on its own.
 
 ---
 
@@ -1581,7 +1704,7 @@ This is one of the most scrutinized numerical claims because the filtering metho
 
 ---
 
-### P2-20 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-20 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Solar calendar: 365 days from root y-w-m.**
 
@@ -1716,7 +1839,7 @@ Match solar year:          True
 
 ---
 
-### P2-21 [CODE-DEPENDENT] [ISR-LINKED]
+### P2-21 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Hijri/Lunar calendar: 354 days from root y-w-m.**
 
@@ -1811,7 +1934,7 @@ Difference:       365 - 354  =  11  (actual: ~11 days)
 
 ---
 
-### P2-22
+### P2-22 [T2-S]
 
 **Why the morphological filters are NOT ad hoc.**
 
@@ -1835,7 +1958,7 @@ A common objection is: "You cherry-picked which forms to include until you got 3
 
 ---
 
-### P2-23
+### P2-23 [T2-S]
 
 **Calendar encoding: temporal impossibility assessment.**
 
@@ -1863,7 +1986,7 @@ This section applies the golden ratio test and even-sum identity to the King Jam
 
 ---
 
-### P2-24 [CODE-DEPENDENT] [CRITICAL]
+### P2-24 [CODE-DEPENDENT] [CRITICAL] [NC-C]
 
 **Apply the golden ratio test to the Bible (KJV).**
 
@@ -1975,7 +2098,7 @@ RESULT: Bible FAILS the golden ratio test.
 
 ---
 
-### P2-25 [CODE-DEPENDENT] [CRITICAL]
+### P2-25 [CODE-DEPENDENT] [CRITICAL] [NC-C]
 
 **Apply the even-sum identity to the Bible (KJV).**
 
@@ -2077,7 +2200,7 @@ COMPARISON:
 
 ---
 
-### P2-26 [CODE-DEPENDENT]
+### P2-26 [CODE-DEPENDENT] [T2-S]
 
 **Apply the word-balance test to other texts.**
 
@@ -2103,7 +2226,7 @@ The Qur'an produces multiple perfectly balanced word pairs (25:25, 105:105, 88:8
 
 ---
 
-### P2-27
+### P2-27 [T2-S]
 
 **Verse-gap scientific constant tests applied to other texts.**
 
@@ -2127,7 +2250,7 @@ This section tests and refutes this claim using the cross-text evidence from 2F.
 
 ---
 
-### P2-28 [CRITICAL]
+### P2-28 [CRITICAL] [NC-C]
 
 **The Ramsey Theory prediction vs. the observed data.**
 
@@ -2163,7 +2286,7 @@ Under Ramsey Theory, the Bible should produce AT LEAST comparable patterns, and 
 
 ---
 
-### P2-29 [CRITICAL]
+### P2-29 [CRITICAL] [NC-C]
 
 **The standing challenge: find these patterns in ANY other text.**
 
@@ -2184,7 +2307,7 @@ If numerical patterns can be found "in any book," then find them. This is a stan
 
 ---
 
-### P2-30
+### P2-30 [T2-S]
 
 **Why Ramsey Theory actually STRENGTHENS the Qur'an's case.**
 
@@ -2205,7 +2328,7 @@ This is not merely a failure of the Ramsey prediction. It is a REVERSAL. The sma
 
 ---
 
-### P2-31 [CODE-DEPENDENT] [CRITICAL] [FOUNDATIONAL]
+### P2-31 [CODE-DEPENDENT] [CRITICAL] [FOUNDATIONAL] [NC-C]
 
 **Probability scenarios -- choose your standard before concluding.**
 
@@ -2245,25 +2368,22 @@ Use the scenario frame at the top of this Part and record all four of the follow
    - `p ≈ 1.098935e-29`
    - `~ 1 in 9.099721e+28`
 
-4. `Naive Full Stack`
-   Multiply all verified pattern families as if independent:
-   - Golden ratio
-   - Even-sum
-   - Adam/Jesus
-   - Life/Death
-   - Angels/Devils
-   - World/Hereafter
-   - Calendar cluster
-   - Sun `5778`
-   - Silver `962`
-   - Iron `1538`
-   - Sirius `86`
-   - Hadid `26`
-   - Al-Hadid `57`
+4. ~~`Naive Full Stack`~~ ⚠ **WITHDRAWN — independence violated**
+   ~~Multiply all verified pattern families as if independent~~
+
+   ~~Result: p ≈ 1.881300e-49~~ — **NOT DEFENSIBLE** (see Scenario Frame warning above)
+
+5. `Cluster-Independent Defensible Floor` **(USE THIS)**
+   Collapse dependent families into clusters, multiply only independent clusters:
+   - Structural cluster (golden ratio + even-sum): `10⁻⁶`
+   - Verse-gap cluster (Sun × Silver × Iron): `10⁻¹⁰·³`
+   - Word-balance cluster: `10⁻³`
+   - Calendar cluster: `10⁻⁴`
 
    Result:
-   - `p ≈ 1.881300e-49`
-   - `~ 1 in 5.315475e+48`
+   - `p ≈ 10⁻²³`
+   - `~ 1 in 10²³`
+   - **Defensible, honestly computed, still astronomically small**
 
 **Required reporting format:**
 
@@ -2285,7 +2405,7 @@ Use the scenario frame at the top of this Part and record all four of the follow
 
 ---
 
-### P2-32 [CRITICAL]
+### P2-32 [CRITICAL] [NC-C]
 
 **What level of claim do these patterns justify?**
 
@@ -2349,7 +2469,7 @@ If you choose `YES` or `MOSTLY YES`, you are explicitly affirming that the cumul
 
 ---
 
-### P2-33 — GATE LOCK
+### P2-33 — GATE LOCK [PROC]
 
 **Part 2 Cascading Gate Statement:** "The Qur'an contains computationally precise structural patterns not found in other texts."
 

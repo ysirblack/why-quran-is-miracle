@@ -1010,6 +1010,24 @@ Response: This objection proves too much. If we cannot predict what a divine tex
 
 ---
 
+**Prediction Independence Audit:**
+
+Not all predictions used in the Bayesian analysis are equally legitimate. Some are genuinely derivable from the divine premise; others risk circularity:
+
+| Prediction             | Status              | Reasoning                                                                                                             |
+| ---------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Scientific accuracy    | GENUINELY DERIVABLE | If omniscient source → scientific accuracy is a natural prediction                                                    |
+| Literary excellence    | GENUINELY DERIVABLE | If divine speech → literary supremacy follows                                                                         |
+| Inimitability          | GENUINELY DERIVABLE | If divine → human inability to replicate follows                                                                      |
+| Mathematical structure | CIRCULAR RISK       | We observe the structure FIRST, then say "divine would predict this." The prediction was not made before observation. |
+| Illiterate carrier     | CIRCULAR RISK       | We know he was illiterate FIRST, then say "divine would choose this profile."                                         |
+| Preservation           | PROBLEMATIC         | 15:9 makes a testable claim, but the claim is internal to the text being evaluated — partial circularity.             |
+| Progressive discovery  | PROBLEMATIC         | Each era finding new meaning could reflect genuine depth OR interpretive creativity by scholars.                      |
+
+**Impact:** 3/7 predictions are genuinely derivable, 2/7 have circularity risk, 2/7 are problematic. The Bayesian case is REDUCED but not eliminated. The IBE (inference to best explanation) argument — which does NOT depend on prediction independence — remains unaffected.
+
+---
+
 ---
 
 # APPENDIX H: SUPPLEMENTARY THEISTIC CONTEXT

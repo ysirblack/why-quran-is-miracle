@@ -360,6 +360,29 @@ Every question contributes to a weighted Human/Divine score:
 
 At the Final Verdict (Part 10), the qualitative Gate chain AND the quantitative tally must agree. If they diverge, the respondent must identify which Gate or which score they are overriding and why.
 
+## Prediction Set — What Each Model EXPECTS
+
+The divine-origin model and human-authorship models make different predictions about what the text should look like. This table tests whether observed features MATCH the predictions:
+
+| Feature                                    | If from Allah, EXPECTED?             | If human-authored, EXPECTED?       | Observed?                 |
+| ------------------------------------------ | ------------------------------------ | ---------------------------------- | ------------------------- |
+| Literary excellence beyond human range     | Yes                                  | Possible but rare                  | Yes                       |
+| Preserved unchanged across 1,400 years     | Yes (15:9 promise)                   | Unusual but possible               | Yes                       |
+| Unmet literary challenge after 1,400 years | Yes (17:88 claim)                    | Very unusual                       | Yes                       |
+| Mathematical precision without tools       | Yes (divine design)                  | Extremely unlikely                 | Yes                       |
+| Scientific accuracy beyond era             | Yes (omniscient source)              | Impossible                         | Yes                       |
+| No internal contradictions                 | Yes (4:82 claim)                     | Virtually impossible over 23 years | Debated but none verified |
+| Carrier illiterate                         | Yes (maximizes credibility)          | Unusual for literary genius        | Yes                       |
+| No revision/drafting evidence              | Yes (divine speech needs no editing) | Unprecedented                      | Yes                       |
+| Self-rebukes of carrier in text            | Yes (divine authority over carrier)  | Unusual for fabrication            | Yes                       |
+| Internal contradictions                    | No                                   | Yes (expected over 23 years)       | None verified             |
+| Scientific errors                          | No                                   | Yes (7th-century knowledge)        | None verified             |
+| Self-serving content pattern               | No                                   | Yes (fabrication serves author)    | Opposite observed         |
+
+**Score:** How many predictions match the observations? Which model has higher prediction-observation alignment?
+
+This is NOT argument from elimination. This is positive model confirmation — testing whether the divine model PREDICTS what we observe, not just whether human models fail.
+
 ---
 
 # SCORING SYSTEM
@@ -466,14 +489,37 @@ The Dominance Scale standardizes how cumulative results are described at checkpo
 
 **Dominance Bands:**
 
-| Band | Label                      | Criteria                              |
-| ---- | -------------------------- | ------------------------------------- |
-| D₀   | Indeterminate              | WS < 20 AND CA < 3                    |
-| D₁   | Mild directional lean      | WS 20-60 OR CA 3-6                    |
-| D₂   | Moderate dominance         | WS 60-120 AND CA 6-12                 |
-| D₃   | Strong dominance           | WS 120-200 AND CA 12-20               |
-| D₄   | Overwhelming dominance     | WS 200-350 AND CA > 20                |
-| D₅   | Total explanatory collapse | WS > 350 OR one side model-eliminated |
+| Band | Label                           | WS      | CA    | Models Eliminated       | Permitted Language                                 |
+| ---- | ------------------------------- | ------- | ----- | ----------------------- | -------------------------------------------------- |
+| D₀   | Indeterminate                   | <50     | <5    | 0                       | "No directional result"                            |
+| D₁   | Mild directional lean           | 50-150  | 5-15  | 0                       | "Directional advantage visible"                    |
+| D₂   | Strong asymmetry                | 150-300 | 15-30 | 0-1 weakened            | "Serious explanatory pressure"                     |
+| D₃   | Dominant surviving model        | 300-500 | 30-50 | ≥1 eliminated           | "Dominant surviving explanation"                   |
+| D₄   | Cumulative explanatory collapse | 500-800 | >50   | ≥2 eliminated           | "Cumulative explanatory collapse of opposing side" |
+| D₅   | Decisive explanatory dominance  | >800    | >65   | all opposing eliminated | "Decisively dominant explanatory model"            |
+
+**Threshold Calibration Note (V2):** This protocol contains **527 questions** (113 CRITICAL at ×3 weight, 414 regular at ×1 weight). Maximum weighted score per side = 753. Theoretical WS ceiling ≈ 1,506. Thresholds are calibrated so that D₅ requires >53% of theoretical maximum — meaning ~80% of all scoring questions must go in one direction. This prevents inflated dominance from sheer question volume while remaining reachable if the evidence is genuinely decisive.
+
+**LRP-11 ↔ Dominance Band Mapping:**
+
+| Band | Compatible LRP-11 Conclusions                                   |
+| ---- | --------------------------------------------------------------- |
+| D₀   | (e) No conclusion possible                                      |
+| D₁   | (b) Human models explain some but not all — OR — (e)            |
+| D₂   | (b) or (c) No tested human model sufficiently explains          |
+| D₃   | (c) or (d) Divine origin is the strongest surviving explanation |
+| D₄   | (d) — the data supports this as the natural conclusion          |
+| D₅   | (d) — at maximum strength the protocol allows                   |
+
+**What D₅ means:**
+
+If the result reaches D₅ after 400+ questions — with both models genuinely tested, contested verses scored, Red Team corrections applied, false positives demoted, the divine model held to a STRICTER threshold than the human model — that result carries the full weight of the investigation. This is not a tentative suggestion. It is not "merely one perspective among many." It is the earned conclusion of a comprehensive, adversarial, self-correcting evaluation that tested every major objection at maximum strength and found them insufficient.
+
+D₅ means: every tested human-authorship model has undergone cumulative explanatory collapse. The divine-origin model has survived every falsification test thrown at it. The opposing side has lost load-bearing explanatory capacity across multiple independent evidence categories. If your own honest answers produced this result, that result deserves to be stated plainly — not softened, not hedged, not buried under qualifiers.
+
+**D₅ is a different level.**
+
+At D₅, the conversation changes. This is not a "maybe" or a "leaning." Every model has been tested. Every objection has been faced at full strength. Every contested verse has been scored. The protocol corrected its own false positives, demoted its own weak claims, and held the divine model to a stricter threshold than the human model — and the result still landed here. At this level, the remaining question is not "is the evidence sufficient?" — the evidence has spoken across 400+ questions. The remaining question is whether the respondent is willing to follow where their own answers led.
 
 ---
 
@@ -502,6 +548,209 @@ If the divine model were genuinely flawed, these questions would be EASY to answ
 The protocol does not prevent a YES answer. It invites it. If you CAN name a verified scientific error, a proven historical falsehood, or a recognized successful response to the literary challenge — do so, with specific evidence. The divine model takes a critical hit. That is how the test works.
 
 The question is not "why are these tests hard?" The question is "why, after 1,400 years of adversarial scholarship, has no one produced a clear YES?"
+
+---
+
+# THREE-TIER RISK ARCHITECTURE
+
+Questions are classified by their FUNCTION in the protocol:
+
+| Tier                                 | Label       | Function                                                                                                             | Examples                                                    |
+| ------------------------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Tier 1: Core Knockout Set**        | T1-KO, T1-C | Direct divine-model falsification tests. A YES answer here directly threatens divine model survival.                 | DC-1 through DC-7, P1-33, P1-34, P5-31, P5-32               |
+| **Tier 2: Extended Adversarial Set** | T2-S, T2-D  | Strongest academic objections, source-dependency tests, moral/comparative questions. Stress-testing zone.            | Part 7B debatable questions, Part 6D theological comparison |
+| **Tier 3: Open Challenge Window**    | T3          | Filtered new objections meeting admission standards: specific, evidence-based, capable of surviving expert scrutiny. | Part 7C open investigation                                  |
+
+**Additional labels:**
+
+- **NC-C** (Natural Collapse - Critical): Questions that test human-authorship models with model-viability force
+- **APP-P** (Appendix - Peripheral): Logged but not weighted in the core case
+- **PROC** (Procedural): Framework questions with no model effect
+- **FP-CLEARED**: Investigated for false positive, confirmed NOT false positive
+- **FP-DEMOTED**: Investigated for false positive, downgraded (evidence insufficient for core weight)
+- **RT-REFUTED**: Red Team attack researched and disproven (strengthens the protocol)
+
+**Knockout Hit vs Critical Hit:**
+
+- A **Knockout Hit (KO)** is a failure serious enough to DIRECTLY threaten divine model survival. Reserved for Tier 1 items only.
+- A **Critical Hit** seriously damages a model (×3 weight) but is not automatically a knockout.
+- NOT every [CRITICAL] question produces a knockout. Only T1-KO items can produce knockouts.
+
+**Clarification: [DEBATABLE] tag vs T2-D/T2-S tier label:**
+
+These are DIFFERENT systems operating on different layers:
+
+- **[DEBATABLE]** is a SCORING TAG — it means "both sides can gain or lose on this question." It affects HOW the answer is scored (×1 weight, bidirectional).
+- **T2-D** is a TIER LABEL — it means the question's FUNCTION is "debatable-level adversarial stress test."
+- **T2-S** is a TIER LABEL — it means the question's FUNCTION is "serious-level adversarial stress test."
+
+A question CAN be [DEBATABLE] (scoring) AND T2-S (tier) simultaneously. This means: "both sides can score on this question AND it is a serious stress test." Example: P7B-7 (Syriac Alexander Legend) is [DEBATABLE] because scholars genuinely disagree, but T2-S because it is one of the most important objections the protocol faces.
+
+The rule: [DEBATABLE] does NOT automatically mean T2-D. A debatable question that is especially important, evidentially heavy, or represents a major attack vector may be classified as T2-S despite being scored as [DEBATABLE].
+
+**Full question-level labels are documented in the Label Sheet (docs/v2/17_Protocol_V3_Label_Sheet.md).**
+
+---
+
+# EVIDENCE CLASSIFICATION: CORE vs AUXILIARY (Eₓ BAND SYSTEM)
+
+Not all evidence in this protocol carries equal weight. The protocol classifies evidence into 5 strength bands (Eₓ) — modeled on the Dominance Scale (Dₓ) but measuring a different dimension.
+
+**What Eₓ measures vs. what Tier labels measure:**
+
+The Tier system (T1-KO, NC-C, T2-S, T2-D, APP-P) classifies a question's **FUNCTION** — what role it plays in the protocol's structure. The Eₓ system classifies the **STRENGTH** of the evidence a question produces. These are different layers that work together:
+
+| Eₓ Band                | Typical Tier        | Meaning                                                              |
+| ---------------------- | ------------------- | -------------------------------------------------------------------- |
+| E₅ (Foundational Lock) | NC-C or T1-KO       | Strongest evidence either direction — can lock or break a Gate alone |
+| E₄ (Core Evidence)     | NC-C or strong T2-S | Robust evidence that carries the main case                           |
+| E₃ (Strong Support)    | T2-S                | Real pattern, strengthens but doesn't independently lock             |
+| E₂ (Auxiliary)         | T2-D                | Interesting, methodology-dependent or partially contested            |
+| E₁ (Curiosity)         | APP-P or APP-N      | Noted but not scored for weight                                      |
+
+**When used:** The Eₓ system is a RETROSPECTIVE evaluation tool, applied at the END of the protocol in Part 10 — after all questions are answered and all gates locked. The respondent sees all evidence first, then classifies. Band assignments listed below are STARTING POINTS — the respondent reclassifies based on their own answers throughout Parts 1-9.
+
+---
+
+## Eₓ Band Definitions
+
+| Band | Label                 | I-7 Checklist Score | Criteria                                                                               | Role in Protocol          |
+| ---- | --------------------- | ------------------- | -------------------------------------------------------------------------------------- | ------------------------- |
+| E₅   | **Foundational Lock** | 5/5                 | Survives all methodology variants, cross-text tested, independently decisive           | Can lock a Gate by itself |
+| E₄   | **Core Evidence**     | 4/5                 | Robust across most variants, strong cross-text contrast, high explanatory pressure     | Carries the main case     |
+| E₃   | **Strong Support**    | 3/5                 | Real pattern, some methodology sensitivity, strengthens but doesn't independently lock | Strengthens core case     |
+| E₂   | **Auxiliary**         | 2/5                 | Interesting alignment, methodology-dependent or partially contested                    | Adds weight, cannot carry |
+| E₁   | **Curiosity**         | 0-1/5               | Suggestive but fragile, easily dismissed or dependent on specific framing              | Noted but not scored      |
+
+---
+
+## Band Assignments (Initial — Bidirectional)
+
+E₅ evidence is BIDIRECTIONAL: it can exist for EITHER side.
+
+**E₅ (Foundational Lock) — currently weakening human model:**
+
+- Textual preservation (manuscript + huffaz + enemy testimony)
+- Carrier illiteracy (all sources including hostile confirm)
+- No documented teacher/co-author (1,400 years, zero claims)
+- Hieroglyphic lock (Pharaoh/King distinction — dead language, no possible 7th-century sender)
+
+**E₅ evidence that WOULD weaken divine model (if found):**
+
+- A verified, unambiguous scientific error (tested by DC-6)
+- A recognized successful response to the literary challenge (tested by DC-4)
+- A proven internal contradiction surviving adversarial review (tested by DC-1)
+- A documented drafting manuscript proving human composition (tested by DC-3)
+
+NOTE: The REVERSE-NAME questions (DC-1 through DC-7) are essentially searching for E₅ hits against the divine model. If ANY produces a YES with evidence, that is an E₅-level foundational hit — weighted ×3, potentially devastating. The protocol does not protect the divine model from E₅ hits. It INVITES them.
+
+**E₄ (Core Evidence):**
+
+- Literary uniqueness (no predecessor/successor, unmet challenge)
+- Source-access impossibility (Impossible Library, 7-language gap)
+- Composition constraints (no drafts, non-sequential, irrevocable)
+- Verse-gap scientific constants (Sun 5778, Silver 962, Iron 1538 [IEC cluster leader])
+- Carrier behavioral anti-fraud profile (refused power, self-rebukes, no dynasty)
+- Model elimination results (7 models tested)
+
+**E₃ (Strong Support):**
+
+- Word-pair balances (methodology-dependent but striking across multiple pairs)
+- Calendar encoding (filter-dependent but dual solar/lunar impressive)
+- Golden ratio / even-sum identity (cross-text verified, no Bible match)
+- Oral transmission failure (9/12 categories fail)
+- Verse Showcase STRONG tier entries
+
+**E₂ (Auxiliary):**
+
+- Verse Showcase MODERATE tier entries
+- Iron Evidence Cluster supporting layers (abjad gematria, boiling 2862±1, Allah/Fa counts) — scored within IEC, not independently
+- Some comparative Bible analysis (prophetic portraits)
+- Semantic density argument
+- Surah 91 solar encoding (15 verses + surah 91 = ~91% H + uniform rhyme — phonetic layer weak, non-phonetic layers survive; see P5-13 logic chain)
+
+**E₁ (Curiosity):**
+
+- Verse Showcase DEBATABLE/CONTESTED tier entries
+- Numerological observations without cross-text verification
+- Iron core depth 5,100 km positional claim
+
+---
+
+## THE RULE
+
+The protocol's conclusion must be DERIVABLE from E₅ + E₄ evidence alone. If you removed ALL E₃/E₂/E₁ evidence, the case should still produce explanatory pressure at Level 2+ (per P2-32). Lower bands STRENGTHEN but do not CARRY. This prevents weak claims from contaminating the core argument.
+
+**Respondent's right:** You may reclassify any claim's band with justification. If you believe an E₄ claim belongs in E₂, state which I-7 checklist checkpoint it fails and why. The classification is a starting point, not a decree.
+
+---
+
+## RESILIENCE CLAUSE — What Happens If Evidence Falls? (BOTH DIRECTIONS)
+
+**If an E₅ lock weakening the human model falls:**
+
+Example: a teacher is documented, or an editing trace is found.
+
+- This DAMAGES some arguments (complete isolation, zero external input)
+- But it does NOT automatically rebuild a full human-authorship model
+- The question SHIFTS: how did THAT teacher produce this text? Where did they get 7-language access? Why no co-author footprint from 23 years of public delivery?
+- The skeptic must still account for ALL remaining evidence across ALL bands
+- Claims emerging 1,400 years after the fact — after centuries of motivated searching — require extraordinarily strong evidence. Late ≠ false, but late = more caution.
+
+**If an E₅ hit lands AGAINST the divine model:**
+
+Example: a verified scientific error is found, or the literary challenge is met.
+
+- This is a CRITICAL HIT at ×3 weight against the divine model
+- The divine model has a 20% elimination threshold — only 4 hits needed
+- A perfection claim (divine origin) is LESS resilient to individual failures than a complexity claim (human authorship). This is by design.
+- We do NOT apply the "question just shifts" logic here equally. A text claiming divine perfection that contains a verified error has a MORE severe problem than a human-authorship model that loses one source candidate.
+- This asymmetry is FAIR: stronger claims carry stricter burdens. The divine model chose to claim perfection. That claim is testable. If it fails, it fails hard.
+
+**The principle:** Both sides can take E₅ hits. But the CONSEQUENCES are asymmetric because the CLAIMS are asymmetric. A human model failing one test is expected (humans are imperfect). A divine model failing one test contradicts its core premise (divine perfection). This asymmetry is not bias — it is the natural consequence of the models' own claims.
+
+**Cluster accounting extension:** This same asymmetry extends to how evidence families are counted. A fully symmetric cluster rule would collapse related objections into fewer anti-divine clusters — reducing the hit count against the divine model. This protocol deliberately does NOT take that easing step. Evidence supporting the divine model is cluster-disciplined (dependent sublayers counted as one family). Objections against the divine model are scored individually at full weight. If the claim is divine origin, it must survive maximum pressure. See Part 2 Statistical Addendum, Rule 8.
+
+---
+
+## BAND-LEVEL FOLLOW-UP QUESTIONS (BIDIRECTIONAL)
+
+Each evidence band has TWO follow-up questions — one for each direction. This ensures fairness: both models face the same "what if this falls?" test.
+
+**E₅ Follow-up (human-model direction):**
+"If a foundational lock weakening the human model were broken — a teacher documented, a drafting manuscript found — would that ALONE explain ALL features in Parts 1-9? Or would the question shift to: how did THAT source produce this text?"
+
+**E₅ Follow-up (divine-model direction):**
+"If a foundational hit against the divine model lands — a verified scientific error documented, the literary challenge met — how many E₅ divine-model hits have accumulated? Does the total reach the 4-hit elimination threshold (20%)? If YES, the divine model is eliminated. The protocol does not protect it."
+
+**E₄ Follow-up (human-model direction):**
+"If E₄ Core Evidence is explained by 'extraordinary genius,' name the specific mechanism for the SIMULTANEOUS presence of all features. Not a label — a mechanism."
+
+**E₄ Follow-up (divine-model direction):**
+"If the divine model's predictive power (Part 9A) is challenged — it doesn't PREDICT the features, it's just the last model standing — does the case reduce to argument from elimination? Is that sufficient or insufficient?"
+
+**E₃ Follow-up — CORE-ONLY SURVIVABILITY TEST (both directions):**
+"Remove ALL E₃ evidence. Does E₅+E₄ alone still produce Level 2+ pressure on human models? Does E₅+E₄ alone still leave the divine model surviving its falsification tests?"
+
+**E₂ Follow-up (stress test):**
+"Score ALL E₂ Auxiliary evidence AGAINST the divine model. Maximum damage scenario. Does the E₅+E₄+E₃ case still hold?"
+
+**E₁ Follow-up (ceiling test):**
+"If ALL E₁ Curiosities are used as evidence AGAINST divine — every DEBATABLE and CONTESTED verse counts as a divine-model failure — what is the maximum number of divine critical hits? Does it reach the 4-hit threshold?"
+
+---
+
+## DEPENDENCY CLUSTERS
+
+Evidence families containing internal dependencies are scored as single clusters, not as independent entries:
+
+1. **Iron Evidence Cluster (IEC)**: P5-3, P5-11, P5-12. Cluster leader: P5-3 (Melting 1538). All sublayers share element iron; verse 57:25 appears in multiple sublayers. Scored as one E₃ entry. See Part 5B cluster discipline note.
+
+2. **Word-Balance Family**: P2-15 through P2-19. Each pair is semi-independent (different roots, different domains) but shares the same text and counting methodology. Already treated as one cluster in the corrected probability framework.
+
+3. **Structural Symmetry Family**: P2-10 through P2-14. Golden ratio and even-sum identity share the same underlying surah data. Already corrected in Scenario E (independence violation noted).
+
+For the full cluster accounting rules, see Part 2 Statistical Addendum.
 
 ---
 
@@ -591,6 +840,18 @@ All V1 LRP rules are preserved with the following updates:
 **LRP-30 (NEW — Anti-Hedging):** MIXED gate verdicts require at least one sub-claim rated YES and at least one rated NO. If all sub-claims are YES, the gate is YES — regardless of the respondent's general comfort level. Hedging is not evaluation.
 
 **LRP-31 (NEW — Gate-Tally Consistency):** If a Part-level gate verdict contradicts the Part-local tally direction, the respondent must resolve the divergence before proceeding — either by revising specific answers or by revising the gate verdict. Unresolved gate-tally divergence is a hard stop.
+
+**LRP-32 (NEW — Do Not Overclaim):** A claim whose result depends on a specific methodology choice (morphological filter, verse-counting convention, or comparison-space definition) cannot serve as a standalone foundational lock. It must be presented WITH its methodology dependency documented. The respondent evaluates the claim UNDER the documented methodology — and is free to note that alternative methodologies would change the result. Claims that survive across MULTIPLE methodology choices are stronger than claims that depend on one.
+
+**LRP-33 (NEW — Positive Model Requirement):** A respondent who claims that a human-authorship model survives must provide a POSITIVE model — not just doubts. A surviving human model must include: (a) a named mechanism, (b) a documented teacher or transmission channel, (c) a timeline, (d) language access explanation, (e) revision method, (f) why no historical trace survives, (g) why no equivalent text exists. Bare doubt is not a model. A model that leaves these fields blank is labeled "underspecified" and cannot count as a working alternative.
+
+**LRP-34 (NEW — Underspecified Model Rule):** If a human-authorship model leaves required fields blank (mechanism, teacher, timeline, language access, revision method), it is labeled "underspecified." An underspecified model cannot serve as the basis for a conclusion. The respondent must either fill the missing fields or acknowledge the model is incomplete.
+
+**LRP-35 (NEW — Devil's Advocate Gate Rule):** Before locking any Gate, the respondent must write the 3 strongest arguments AGAINST locking that Gate at the proposed verdict. This forces genuine adversarial self-examination before each Gate Lock.
+
+**LRP-36 (NEW — Search Space Transparency):** Every mathematical claim must document: how many patterns were tested, how many failures were found, and the effective p-value after multiple-comparison correction. Reporting only the hits without the search space is incomplete.
+
+**LRP-37 (NEW — Hadith-Independence Declaration):** When presenting evidence, explicitly state whether it depends on hadith sources or derives from the text itself. Evidence from the TEXT (mathematical structure, verse-gaps, literary properties) is independent of hadith reliability debates. Evidence from BIOGRAPHY (illiteracy, sincerity, behavior) depends on hadith/sira sources.
 
 ---
 

@@ -231,12 +231,12 @@ From 3:14 (1st gold mention) to 3:97, there are exactly **79 Allah** occurrences
 
 ### Evaluation
 
-| Aspect          | Rating                                   |
-| --------------- | ---------------------------------------- |
-| Mathematical    | ✅ Exact match: 79 = Au atomic number    |
-| Thematic link   | ⚠️ Weak — Kabe verse, not about gold     |
-| Pattern type    | Allah count (not verse gap)              |
-| Overall         | **INTERESTING** but not primary evidence |
+| Aspect        | Rating                                   |
+| ------------- | ---------------------------------------- |
+| Mathematical  | ✅ Exact match: 79 = Au atomic number    |
+| Thematic link | ⚠️ Weak — Kabe verse, not about gold     |
+| Pattern type  | Allah count (not verse gap)              |
+| Overall       | **INTERESTING** but not primary evidence |
 
 ### Note
 

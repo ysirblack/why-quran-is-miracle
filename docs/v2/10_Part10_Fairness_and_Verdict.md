@@ -23,7 +23,7 @@ No question in this Part is decorative. The Fairness Audit (10C) is designed to 
 
 ---
 
-### P10A-1 [PROCEDURAL]
+### P10A-1 [PROCEDURAL] [PROC]
 
 **Report the complete weighted tally using the mandatory format below.**
 
@@ -71,7 +71,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10A-2 [PROCEDURAL]
+### P10A-2 [PROCEDURAL] [PROC]
 
 **Contradiction check: Do any of your individual answers across Parts 1-9 contradict each other?**
 
@@ -98,7 +98,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10A-3 [PROCEDURAL]
+### P10A-3 [PROCEDURAL] [PROC]
 
 **Gate chain report: List all 10 Gate verdicts and check for internal consistency.**
 
@@ -153,7 +153,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10B-1 [PROCEDURAL] [CODE-DEPENDENT]
+### P10B-1 [PROCEDURAL] [CODE-DEPENDENT] [PROC]
 
 **Remove the 3 patterns YOU consider weakest from the evidence set. Recompute the cumulative probability. Is it still below 10⁻⁵?**
 
@@ -206,7 +206,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10B-2 [PROCEDURAL]
+### P10B-2 [PROCEDURAL] [PROC]
 
 **If 5 of your answers throughout the entire protocol were different (choose any 5), would the OVERALL conclusion change?**
 
@@ -258,7 +258,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10B-3 [PROCEDURAL]
+### P10B-3 [PROCEDURAL] [PROC]
 
 **Independence check: How many genuinely independent evidential axes remain?**
 
@@ -302,7 +302,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10B-4 [PROCEDURAL]
+### P10B-4 [PROCEDURAL] [PROC]
 
 **What is the MINIMUM number of answers you would need to change to reach conclusion (a): "ordinary human authorship explains the data"?**
 
@@ -349,7 +349,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10B-5 [PROCEDURAL]
+### P10B-5 [PROCEDURAL] [PROC]
 
 **If you gave MAXIMUM benefit of the doubt to every [DEBATABLE] question — all scored against the divine model — would the overall conclusion change?**
 
@@ -398,7 +398,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-1 [PROCEDURAL]
+### FA-1 [PROCEDURAL] [PROC]
 
 **Did the protocol prevent you from identifying contradictions in the Qur'an? Were you blocked from citing specific verses you believe are contradictory?**
 
@@ -420,7 +420,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-2 [PROCEDURAL]
+### FA-2 [PROCEDURAL] [PROC]
 
 **Did the protocol block relevant criticism? Were you prevented from raising objections you consider important?**
 
@@ -442,7 +442,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-3 [PROCEDURAL]
+### FA-3 [PROCEDURAL] [PROC]
 
 **Did the protocol force answers that prevented honest uncertainty? Could you use UNKNOWN where genuinely uncertain?**
 
@@ -464,7 +464,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-4 [PROCEDURAL]
+### FA-4 [PROCEDURAL] [PROC]
 
 **Did the foundational-constraint system operate fairly? Did it create illegitimate inference chains, or did it maintain logical consistency?**
 
@@ -488,7 +488,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-5 [PROCEDURAL]
+### FA-5 [PROCEDURAL] [PROC]
 
 **Did the scoring system operate symmetrically? Could a pro-human answer score x3 the same as a pro-divine answer?**
 
@@ -510,7 +510,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-6 [PROCEDURAL]
+### FA-6 [PROCEDURAL] [PROC]
 
 **Was the divine model tested with genuine pressure? Were the 15 divine-critical questions (DC-1 to DC-15 in Part 9C) real tests or rubber stamps?**
 
@@ -532,7 +532,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-7 [PROCEDURAL]
+### FA-7 [PROCEDURAL] [PROC]
 
 **Were debatable questions handled fairly? Were both the objection AND the response presented at maximum strength?**
 
@@ -554,7 +554,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-8 [PROCEDURAL]
+### FA-8 [PROCEDURAL] [PROC]
 
 **Were the [REVERSE-NAME] questions genuine tests? Could a YES answer have damaged the divine model?**
 
@@ -578,7 +578,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-9 [PROCEDURAL]
+### FA-9 [PROCEDURAL] [PROC]
 
 **Did the Cascading Gate system unfairly constrain later Parts? Could a Gate have been locked against the evidence?**
 
@@ -602,7 +602,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-10 [PROCEDURAL]
+### FA-10 [PROCEDURAL] [PROC]
 
 **Did the [DEBATABLE] tag correctly identify contested ground? Were any questions tagged [DEBATABLE] that should have been tagged differently — or were any questions tagged as non-debatable that should have been [DEBATABLE]?**
 
@@ -624,7 +624,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-11 [PROCEDURAL]
+### FA-11 [PROCEDURAL] [PROC]
 
 **Did the [ISR-LINKED] tag apply fairly? Were there questions where ISR was applied but a third alternative was genuinely available?**
 
@@ -648,7 +648,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-12 [PROCEDURAL]
+### FA-12 [PROCEDURAL] [PROC]
 
 **Did the [DECISION-TREE] format force predetermined conclusions, or did each branch represent a genuine logical path?**
 
@@ -672,7 +672,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-13 [PROCEDURAL]
+### FA-13 [PROCEDURAL] [PROC]
 
 **Was the question distribution fair? Did the protocol ask enough questions testing the divine model?**
 
@@ -701,7 +701,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-14 [PROCEDURAL]
+### FA-14 [PROCEDURAL] [PROC]
 
 **Were the elimination thresholds (60% for human, 20% for divine) fair? Should they be adjusted?**
 
@@ -732,7 +732,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-15 [PROCEDURAL]
+### FA-15 [PROCEDURAL] [PROC]
 
 **Did the protocol present attacker arguments at genuine maximum strength? Or were they strawmanned?**
 
@@ -756,7 +756,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-16 [PROCEDURAL]
+### FA-16 [PROCEDURAL] [PROC]
 
 **Did the protocol allow you to score AGAINST the divine model where evidence warranted it?**
 
@@ -778,7 +778,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-17 [PROCEDURAL]
+### FA-17 [PROCEDURAL] [PROC]
 
 **Were the code blocks honest? Did any code block produce a misleading result?**
 
@@ -803,7 +803,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-18 [PROCEDURAL]
+### FA-18 [PROCEDURAL] [PROC]
 
 **Overall: did this protocol operate as a fair investigation or as a predetermined argument? Explain your assessment.**
 
@@ -826,7 +826,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-19 [PROCEDURAL]
+### FA-19 [PROCEDURAL] [PROC]
 
 **Did the Cascading Gate dependency system create an unfair cascading effect where one early judgment forced all subsequent judgments?**
 
@@ -855,7 +855,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### FA-20 [PROCEDURAL]
+### FA-20 [PROCEDURAL] [PROC]
 
 **Compare V2's balance with V1's: Is V2 MORE balanced, LESS balanced, or EQUALLY balanced? What specific improvements (if any) does V2 make?**
 
@@ -885,13 +885,34 @@ Divine-origin model: neutral (procedural)
 
 ---
 
+### FA-21 [NEW — Asymmetry Audit] [PROC]
+
+**Are the hardest questions asked of human models matched by equally serious questions asked of the divine model?**
+
+Context: The protocol tests human-authorship models with ~50 CRITICAL questions and the divine model with ~20 CRITICAL falsification tests. Critics may claim this is asymmetric.
+
+The response built into the protocol: (a) the divine model faces a STRICTER elimination threshold (20% vs 60%), (b) T1-KO questions can directly knock out the divine model, (c) the [REVERSE-NAME] questions apply the same "Can you NAME..." format in both directions, (d) the Eₓ band system classifies E₅ evidence bidirectionally.
+
+**The Question:** After completing the protocol, do you believe the divine model was tested with genuine, serious falsification pressure? Were the DC-1 through DC-15 questions real tests with real potential to damage the model? Or were they designed to be easily passed? If the latter, identify which specific DC question was a rubber stamp and explain why.
+
+What this tests: Whether the protocol's asymmetry is principled (stronger claims face stricter standards) or arbitrary (one side protected by design).
+
+```
+Answer: [Assessment of whether divine model testing was genuine or rubber-stamped]
+Tags: [PROCEDURAL]
+Human-authorship model: neutral (procedural)
+Divine-origin model: neutral (procedural)
+```
+
+---
+
 ## 10D — POST-RUN STABILITY RULES
 
 **Purpose:** Prevent post-hoc rationalization, conclusion drift, and bare retreats. These rules ensure that the conclusion matches the data and that any challenges to the result are specific, not vague.
 
 ---
 
-### P10D-1 [PROCEDURAL]
+### P10D-1 [PROCEDURAL] [PROC]
 
 **Post-run challenge: If you wish to challenge the result AFTER completing the protocol, you must identify a SPECIFIC rule, question, or mechanism failure.**
 
@@ -926,7 +947,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10D-2 [PROCEDURAL]
+### P10D-2 [PROCEDURAL] [PROC]
 
 **Revision pathway: If you wish to revise any answer, you may do so now.**
 
@@ -976,7 +997,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10D-3 [PROCEDURAL]
+### P10D-3 [PROCEDURAL] [PROC]
 
 **Bare retreat test: If your conclusion differs from your tally, you must identify which specific answers you are overriding.**
 
@@ -1015,11 +1036,11 @@ Divine-origin model: neutral (procedural)
 
 **Purpose:** State the final verdict. This is the end of the protocol. The conclusion must be one of five options (LRP-11), must be consistent with the tally and Gate chain, and must survive the convergence check.
 
-**Scoring:** P10E-1 is [CRITICAL] — this is the culminating answer of the entire protocol.
+**Scoring:** P10E-1 is [PROC] — this is the culminating verdict, not a scored evidence question. It does not add points to either model's tally; it IS the conclusion derived from the tally. The verdict's importance is procedural (binding), not evidential (weighted).
 
 ---
 
-### P10E-1 [CRITICAL]
+### P10E-1 [PROC]
 
 **Choose one (LRP-11):**
 
@@ -1055,7 +1076,7 @@ Running tally: Human=[final] | Divine=[final] | Critical hits: H=[count] D=[coun
 
 ---
 
-### P10E-2 [PROCEDURAL]
+### P10E-2 [PROCEDURAL] [PROC]
 
 **Convergence Check: Does your LRP-11 conclusion match BOTH the Gate chain AND the weighted tally?**
 
@@ -1092,7 +1113,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10E-3 [PROCEDURAL]
+### P10E-3 [PROCEDURAL] [PROC]
 
 **State your conclusion in one sentence.**
 
@@ -1117,7 +1138,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10E-4 [PROCEDURAL]
+### P10E-4 [PROCEDURAL] [PROC]
 
 **If your conclusion is (a) or (e), identify which specific evidence you believe the protocol mishandled or which specific answers you would change to support that conclusion.**
 
@@ -1148,7 +1169,7 @@ Divine-origin model: neutral (procedural)
 
 ---
 
-### P10E-5 [PROCEDURAL]
+### P10E-5 [PROCEDURAL] [PROC]
 
 **If your conclusion is (c) or (d), does this represent the conclusion your evidence supports, or are you being pushed by the protocol's structure?**
 
@@ -1160,7 +1181,7 @@ This is the protocol's final self-honesty test. Distinguish between two fundamen
 
 **"The protocol led me here":** You feel that the question selection, the tagging system, the Gate dependencies, the ISR, the foundational constraints, or the scoring weights pushed you toward this conclusion in ways that do not reflect the genuine balance of evidence. You would NOT reach this conclusion through an independent evaluation.
 
-State which situation describes your experience. If "the protocol led me here," identify the specific mechanisms that created the push and whether you raised them in the Fairness Audit (FA-1 through FA-20). If you identified protocol problems in the Fairness Audit but still reached conclusion (c) or (d), explain why the protocol problems were not sufficient to change the conclusion.
+State which situation describes your experience. If "the protocol led me here," identify the specific mechanisms that created the push and whether you raised them in the Fairness Audit (FA-1 through FA-21). If you identified protocol problems in the Fairness Audit but still reached conclusion (c) or (d), explain why the protocol problems were not sufficient to change the conclusion.
 
 ```
 Answer: ["My answers lead here" / "The protocol led me here" — with explanation]

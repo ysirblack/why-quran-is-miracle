@@ -16,7 +16,7 @@ _These questions establish the documented biographical baseline of the Qur'an's 
 
 ---
 
-### P3-1. [CRITICAL] [FOUNDATIONAL] Has ANY source -- allied, neutral, or hostile -- ever documented Muhammad as literate?
+### P3-1. [CRITICAL] [FOUNDATIONAL] [NC-C] Has ANY source -- allied, neutral, or hostile -- ever documented Muhammad as literate?
 
 **Context and Evidence:**
 
@@ -46,7 +46,7 @@ This self-description is remarkable for two reasons. First, it was publicly proc
 
 ---
 
-### P3-2. What was Muhammad's documented reputation BEFORE claiming prophethood?
+### P3-2. What was Muhammad's documented reputation BEFORE claiming prophethood? [T2-S]
 
 **Context and Evidence:**
 
@@ -72,7 +72,7 @@ Muhammad was known in Mecca by the title "Al-Amin" -- The Trustworthy. This is n
 
 ---
 
-### P3-3. How does Muhammad's biographical documentation density compare with other historical figures of the same era?
+### P3-3. How does Muhammad's biographical documentation density compare with other historical figures of the same era? [T2-S]
 
 **Context and Evidence:**
 
@@ -98,7 +98,7 @@ The question of documentation density is not about whether Muhammad's biography 
 
 ---
 
-### P3-4. [FOUNDATIONAL] What was Muhammad's documented educational background?
+### P3-4. [FOUNDATIONAL] What was Muhammad's documented educational background? [T2-S]
 
 **Context and Evidence:**
 
@@ -126,7 +126,7 @@ Human-authorship models that posit Muhammad as the Qur'an's actual author (wheth
 
 ---
 
-### P3-5. What was Muhammad's social position in Meccan society before prophethood?
+### P3-5. What was Muhammad's social position in Meccan society before prophethood? [T2-S]
 
 **Context and Evidence:**
 
@@ -152,7 +152,7 @@ The social position of the carrier matters because different authorship models r
 
 ---
 
-### P3-6. How does the Qur'an's self-description of its carrier's background compare with the external historical record?
+### P3-6. How does the Qur'an's self-description of its carrier's background compare with the external historical record? [T2-S]
 
 **Context and Evidence:**
 
@@ -181,7 +181,7 @@ A fabricated text tends to either inflate the credentials of its attributed auth
 
 ---
 
-### P3-7. What does the label "ummi" mean, and how is it attested?
+### P3-7. What does the label "ummi" mean, and how is it attested? [T2-S]
 
 **Context and Evidence:**
 
@@ -211,7 +211,7 @@ No interpretation of "ummi" provides Muhammad with the literary or scholarly cre
 
 ---
 
-### P3-8. How does Muhammad's pre-prophetic biography compare with the profiles of known literary frauds, cult founders, and religious innovators?
+### P3-8. How does Muhammad's pre-prophetic biography compare with the profiles of known literary frauds, cult founders, and religious innovators? [T2-S]
 
 **Context and Evidence:**
 
@@ -233,7 +233,7 @@ If Muhammad fabricated the Qur'an, he belongs in a category with other individua
 
 ---
 
-### P3-8b. The Orphan Paradox: Expected Risk Profile vs. Actual Historical Profile
+### P3-8b. The Orphan Paradox: Expected Risk Profile vs. Actual Historical Profile [T2-S]
 
 **Context and Evidence:**
 
@@ -249,12 +249,12 @@ Three primary attachment figures lost within 8 years. Developmental psychology a
 
 **Historical comparison — orphaned/parental-loss leaders:**
 
-| Leader | Early Loss | Adult Pattern |
-|--------|-----------|---------------|
-| Alexander the Great | Father assassinated | Conquered world, **declared himself divine**, demanded worship |
-| Genghis Khan | Father poisoned, tribe abandoned him | Conquered world, **built dynasty**, ruthless power accumulation |
-| Napoleon | Sent to foreign boarding school age 9 | Crowned **himself** Emperor, built dynasty, exile-and-return pattern |
-| Muhammad | Triple orphan by age 8 | Refused kingship, **prohibited** dynasty, **blocked** self-worship, died in debt |
+| Leader              | Early Loss                            | Adult Pattern                                                                    |
+| ------------------- | ------------------------------------- | -------------------------------------------------------------------------------- |
+| Alexander the Great | Father assassinated                   | Conquered world, **declared himself divine**, demanded worship                   |
+| Genghis Khan        | Father poisoned, tribe abandoned him  | Conquered world, **built dynasty**, ruthless power accumulation                  |
+| Napoleon            | Sent to foreign boarding school age 9 | Crowned **himself** Emperor, built dynasty, exile-and-return pattern             |
+| Muhammad            | Triple orphan by age 8                | Refused kingship, **prohibited** dynasty, **blocked** self-worship, died in debt |
 
 The pattern among historical leaders who experienced early parental loss is: compensatory power accumulation, self-aggrandizement, and dynasty-building — the psychological drive to secure what was denied in childhood. Muhammad's profile is a **systematic inversion** of this pattern: he refused the power that was offered, prohibited the dynasty that was available, and actively redirected worship away from himself.
 
@@ -291,7 +291,7 @@ _These questions examine the documented behavioral patterns of the carrier durin
 
 ---
 
-### P3-9. The Quraysh offered Muhammad wealth, kingship, and the most beautiful woman in Arabia if he would stop preaching. He refused. How does this fit a fraud model?
+### P3-9. The Quraysh offered Muhammad wealth, kingship, and the most beautiful woman in Arabia if he would stop preaching. He refused. How does this fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -328,7 +328,7 @@ The Quraysh offer contained ALL of these. Every conceivable objective of a relig
 
 ---
 
-### P3-10. Muhammad died in voluntary poverty, with his shield pawned to a Jewish merchant. He governed the entire Arabian Peninsula. How does this fit a fraud model?
+### P3-10. Muhammad died in voluntary poverty, with his shield pawned to a Jewish merchant. He governed the entire Arabian Peninsula. How does this fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -354,7 +354,7 @@ By the time of his death in 632 CE, Muhammad was the acknowledged leader of virt
 
 ---
 
-### P3-11. The Qur'an contains public self-criticism of its own carrier. Surah 80 (Abasa) rebukes Muhammad for frowning at a blind man. Does ANY fabricated religious text rebuke its own author?
+### P3-11. The Qur'an contains public self-criticism of its own carrier. Surah 80 (Abasa) rebukes Muhammad for frowning at a blind man. Does ANY fabricated religious text rebuke its own author? [T2-S]
 
 **Context and Evidence:**
 
@@ -393,7 +393,7 @@ Surah 80 (Abasa -- "He Frowned") opens with one of the most remarkable passages 
 
 ---
 
-### P3-12. Muhammad's family (Banu Hashim) was explicitly forbidden from receiving zakat (obligatory charitable funds). How does this fit a fraud model?
+### P3-12. Muhammad's family (Banu Hashim) was explicitly forbidden from receiving zakat (obligatory charitable funds). How does this fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -423,7 +423,7 @@ Muhammad did the opposite. He created a massive financial redistribution system 
 
 ---
 
-### P3-13. Muhammad performed tahajjud (voluntary night prayer) alone, with no audience. How does private worship fit a fraud model?
+### P3-13. Muhammad performed tahajjud (voluntary night prayer) alone, with no audience. How does private worship fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -457,7 +457,7 @@ Fraud is a performance. It requires an audience. Every action of a fraudster ser
 
 ---
 
-### P3-14. Muhammad explicitly instructed that prophethood is not inherited. No dynasty was established. How does this fit a fraud model?
+### P3-14. Muhammad explicitly instructed that prophethood is not inherited. No dynasty was established. How does this fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -489,7 +489,7 @@ One of the most reliable indicators of religious fraud is dynastic control -- th
 
 ---
 
-### P3-15. How did Muhammad treat war prisoners?
+### P3-15. How did Muhammad treat war prisoners? [T2-S]
 
 **Context and Evidence:**
 
@@ -520,7 +520,7 @@ The treatment of war prisoners is a critical test of character because it reveal
 
 ---
 
-### P3-16. Muhammad publicly invited correction on non-revelatory matters. How does this fit a fraud model?
+### P3-16. Muhammad publicly invited correction on non-revelatory matters. How does this fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -553,7 +553,7 @@ Muhammad's documented behavior is the inverse: he drew a clear line between divi
 
 ---
 
-### P3-17. Muhammad maintained the same behavior pattern for 23 years -- from persecuted preacher to head of state. How does this constrain fraud models?
+### P3-17. Muhammad maintained the same behavior pattern for 23 years -- from persecuted preacher to head of state. How does this constrain fraud models? [T2-S]
 
 **Context and Evidence:**
 
@@ -596,7 +596,7 @@ Muhammad's trajectory went from zero power to maximum power with no documented c
 
 ---
 
-### P3-18. How did Muhammad treat animals?
+### P3-18. How did Muhammad treat animals? [T2-S]
 
 **Context and Evidence:**
 
@@ -630,7 +630,7 @@ _These questions examine the documented suffering endured by the carrier. Sincer
 
 ---
 
-### P3-19. The Year of Sorrow (619 CE): Muhammad lost his wife Khadijah and his uncle Abu Talib in the same year. How does this affect the fraud analysis?
+### P3-19. The Year of Sorrow (619 CE): Muhammad lost his wife Khadijah and his uncle Abu Talib in the same year. How does this affect the fraud analysis? [T2-S]
 
 **Context and Evidence:**
 
@@ -668,7 +668,7 @@ He did not stop. He went to Taif.
 
 ---
 
-### P3-20. Muhammad traveled to Taif, was stoned until his sandals filled with blood, and then prayed FOR his persecutors instead of cursing them. How does this fit a fraud model?
+### P3-20. Muhammad traveled to Taif, was stoned until his sandals filled with blood, and then prayed FOR his persecutors instead of cursing them. How does this fit a fraud model? [T2-S]
 
 **Context and Evidence:**
 
@@ -709,7 +709,7 @@ Instead of cursing his persecutors or accepting their destruction, he prayed for
 
 ---
 
-### P3-21. Muhammad endured 13 years of persecution BEFORE gaining any political or military power. How does this constrain fraud models?
+### P3-21. Muhammad endured 13 years of persecution BEFORE gaining any political or military power. How does this constrain fraud models? [T2-S]
 
 **Context and Evidence:**
 
@@ -753,7 +753,7 @@ Thirteen years of escalating persecution with zero material return is not consis
 
 ---
 
-### P3-22. At the Battle of Uhud, Muhammad's face was smashed and his tooth broken. He fought personally in the front line. How does this constrain fraud models?
+### P3-22. At the Battle of Uhud, Muhammad's face was smashed and his tooth broken. He fought personally in the front line. How does this constrain fraud models? [T2-S]
 
 **Context and Evidence:**
 
@@ -783,7 +783,7 @@ A fraud who has built a military following does not fight in the front line. The
 
 ---
 
-### P3-23. At the Battle of Badr, Muhammad chose to fight with 313 against approximately 1,000. How does this constrain fraud models?
+### P3-23. At the Battle of Badr, Muhammad chose to fight with 313 against approximately 1,000. How does this constrain fraud models? [T2-S]
 
 **Context and Evidence:**
 
@@ -817,7 +817,7 @@ Option (a) is the explanation that fits the documented evidence: Muhammad believ
 
 ---
 
-### P3-24. Muhammad survived multiple assassination attempts. How does this affect the sincerity assessment?
+### P3-24. Muhammad survived multiple assassination attempts. How does this affect the sincerity assessment? [T2-S]
 
 **Context and Evidence:**
 
@@ -839,7 +839,7 @@ The historical record documents multiple plots against Muhammad's life:
 
 ---
 
-### P3-25. Muhammad buried most of his children during his lifetime. How does this affect the sincerity assessment?
+### P3-25. Muhammad buried most of his children during his lifetime. How does this affect the sincerity assessment? [T2-S]
 
 **Context and Evidence:**
 
@@ -871,7 +871,7 @@ When asked about his tears, he said: "This is mercy that God has placed in the h
 
 ---
 
-### P3-26. [ISR-LINKED] The Quraysh offered wealth, kingship, and women -- Muhammad refused. Can you NAME a fraudster who refused everything fraud is designed to obtain?
+### P3-26. [ISR-LINKED] The Quraysh offered wealth, kingship, and women -- Muhammad refused. Can you NAME a fraudster who refused everything fraud is designed to obtain? [T2-S]
 
 **Context and Evidence:**
 
@@ -910,7 +910,7 @@ _These questions examine specific character indicators that distinguish sincere 
 
 ---
 
-### P3-27. Muhammad freed slaves, appointed a former slave as a military general, and declared racial equality. How does this fit in historical context?
+### P3-27. Muhammad freed slaves, appointed a former slave as a military general, and declared racial equality. How does this fit in historical context? [T2-S]
 
 **Context and Evidence:**
 
@@ -939,7 +939,7 @@ In his final major public address, Muhammad declared: "All mankind is from Adam 
 
 ---
 
-### P3-28. Muhammad established property rights, inheritance rights, and marriage consent for women in 7th-century Arabia. How does this compare historically?
+### P3-28. Muhammad established property rights, inheritance rights, and marriage consent for women in 7th-century Arabia. How does this compare historically? [T2-S]
 
 **Context and Evidence:**
 
@@ -977,7 +977,7 @@ In his final major public address, Muhammad declared: "All mankind is from Adam 
 
 ---
 
-### P3-29. [ISR-LINKED] After conquering Mecca -- his persecutors' city -- Muhammad declared general amnesty. Can you NAME another conqueror who did this after decades of persecution?
+### P3-29. [ISR-LINKED] After conquering Mecca -- his persecutors' city -- Muhammad declared general amnesty. Can you NAME another conqueror who did this after decades of persecution? [T2-S]
 
 **Context and Evidence:**
 
@@ -1021,7 +1021,7 @@ In none of these cases -- after far shorter periods of conflict and far less per
 
 ---
 
-### P3-30. Muhammad achieved the most successful prohibition in human history -- alcohol prohibition -- without police or enforcement agencies. How did he do this?
+### P3-30. Muhammad achieved the most successful prohibition in human history -- alcohol prohibition -- without police or enforcement agencies. How did he do this? [T2-S]
 
 **Context and Evidence:**
 
@@ -1051,7 +1051,7 @@ The Qur'anic prohibition came in stages:
 
 ---
 
-### P3-31. Muhammad prohibited the mutilation of corpses in warfare -- 1,300 years before the Geneva Convention. How does this fit historically?
+### P3-31. Muhammad prohibited the mutilation of corpses in warfare -- 1,300 years before the Geneva Convention. How does this fit historically? [T2-S]
 
 **Context and Evidence:**
 
@@ -1083,7 +1083,7 @@ The Qur'anic prohibition came in stages:
 
 ---
 
-### P3-32. Muhammad's character was consistent in private and public, in weakness and strength. How does this affect the fraud analysis?
+### P3-32. Muhammad's character was consistent in private and public, in weakness and strength. How does this affect the fraud analysis? [T2-S]
 
 **Context and Evidence:**
 
@@ -1119,7 +1119,7 @@ One of the most reliable tests of character authenticity is consistency across c
 
 ---
 
-### P3-33. Muhammad's Farewell Sermon declared universal human equality 1,300+ years before the Universal Declaration of Human Rights. What does this indicate?
+### P3-33. Muhammad's Farewell Sermon declared universal human equality 1,300+ years before the Universal Declaration of Human Rights. What does this indicate? [T2-S]
 
 **Context and Evidence:**
 
@@ -1159,7 +1159,7 @@ _These questions examine the transmission system through which the carrier's bio
 
 ---
 
-### P3-34. [CRITICAL] What is the isnad methodology, and how does it compare with other historical transmission systems?
+### P3-34. [CRITICAL] What is the isnad methodology, and how does it compare with other historical transmission systems? [T2-S]
 
 **Context and Evidence:**
 
@@ -1205,7 +1205,7 @@ Each link in the chain identifies a NAMED individual. For a hadith to be classif
 
 ---
 
-### P3-35. What is jarh wa ta'dil (narrator criticism), and what does its existence indicate about the hadith tradition's self-awareness?
+### P3-35. What is jarh wa ta'dil (narrator criticism), and what does its existence indicate about the hadith tradition's self-awareness? [T2-S]
 
 **Context and Evidence:**
 
@@ -1240,7 +1240,7 @@ Hadith scholars traveled across the Islamic world to investigate the character, 
 
 ---
 
-### P3-36. Sahih al-Bukhari collected approximately 600,000 reports and accepted only approximately 7,275 (~1.2%). What does this 98.8% rejection rate indicate?
+### P3-36. Sahih al-Bukhari collected approximately 600,000 reports and accepted only approximately 7,275 (~1.2%). What does this 98.8% rejection rate indicate? [T2-S]
 
 **Context and Evidence:**
 
@@ -1252,6 +1252,8 @@ Imam Muhammad ibn Ismail al-Bukhari (810-870 CE) is regarded as the compiler of 
 - Reports accepted in _Sahih al-Bukhari_: approximately 7,275 (including repetitions with different chains; approximately 2,602 without repetitions)
 - Acceptance rate: approximately 1.2%
 - **Rejection rate: approximately 98.8%**
+
+**Important clarification:** The figure of ~600,000 refers to transmission CHAINS (isnads) — multiple chains often lead to the same hadith through different narrator paths. Al-Bukhari's collection contains approximately 7,275 hadith with chains, of which ~2,602 are unique texts (without repetition). The "98.8% rejection" means 98.8% of CHAINS were not included — not that 98.8% of unique reports were proven false. Most excluded chains were duplicates of accepted hadith through weaker paths, or had minor deficiencies (weak narrator memory, incomplete chain). Rejection ≠ fabrication. The comparative point remains: no other civilization developed a comparable chain-of-custody verification system.
 
 **Bukhari's methodology:**
 
@@ -1276,7 +1278,7 @@ Imam Muslim ibn al-Hajjaj (815-875 CE) compiled _Sahih Muslim_ using similar met
 
 ---
 
-### P3-37. How does Biblical transmission compare with hadith transmission in terms of named chains, gap analysis, and narrator evaluation?
+### P3-37. How does Biblical transmission compare with hadith transmission in terms of named chains, gap analysis, and narrator evaluation? [T2-S]
 
 **Context and Evidence:**
 
@@ -1317,7 +1319,7 @@ Since many respondents will be more familiar with Biblical studies than hadith s
 
 ---
 
-### P3-38. How does the hadith system compare with Roman and Greek historiography?
+### P3-38. How does the hadith system compare with Roman and Greek historiography? [T2-S]
 
 **Context and Evidence:**
 
@@ -1356,7 +1358,7 @@ If the hadith system is dismissed as unreliable, and these systems are accepted 
 
 ---
 
-### P3-39. The hadith methodology was designed to CATCH fabrications, not propagate them. Does this self-correcting design indicate reliability or unreliability?
+### P3-39. The hadith methodology was designed to CATCH fabrications, not propagate them. Does this self-correcting design indicate reliability or unreliability? [T2-S]
 
 **Context and Evidence:**
 
@@ -1390,7 +1392,7 @@ A tradition that builds the most elaborate fabrication-detection system in pre-m
 
 ---
 
-### P3-40. [CRITICAL] Can you NAME a more rigorous pre-modern historical transmission system than the Islamic isnad methodology?
+### P3-40. [CRITICAL] Can you NAME a more rigorous pre-modern historical transmission system than the Islamic isnad methodology? [T2-S]
 
 **Context and Evidence:**
 
@@ -1419,7 +1421,7 @@ _These questions examine whether the carrier redirected worship to himself -- th
 
 ---
 
-### P3-41. Did Muhammad redirect worship to himself?
+### P3-41. Did Muhammad redirect worship to himself? [T2-S]
 
 **Context and Evidence:**
 
@@ -1443,7 +1445,7 @@ The deification test is one of the most reliable binary indicators for religious
 
 ---
 
-### P3-42. How does Muhammad compare with other religious founders on the deification spectrum?
+### P3-42. How does Muhammad compare with other religious founders on the deification spectrum? [T2-S]
 
 **Context and Evidence:**
 
@@ -1473,7 +1475,7 @@ The deification test is one of the most reliable binary indicators for religious
 
 ---
 
-### P3-43. 1.9 billion Muslims prostrate daily in prayer -- NONE to Muhammad. How does this structural outcome affect the fraud analysis?
+### P3-43. 1.9 billion Muslims prostrate daily in prayer -- NONE to Muhammad. How does this structural outcome affect the fraud analysis? [T2-S]
 
 **Context and Evidence:**
 
@@ -1501,7 +1503,7 @@ A fraudster who builds a religion directing worship away from himself is like a 
 
 ---
 
-### P3-44. The shahada includes Muhammad's name but ONLY as "messenger." Does the linguistic architecture prevent elevation?
+### P3-44. The shahada includes Muhammad's name but ONLY as "messenger." Does the linguistic architecture prevent elevation? [T2-S]
 
 **Context and Evidence:**
 
@@ -1534,7 +1536,7 @@ _These questions consolidate the evidence from sub-sections 3A-3F into binary te
 
 ---
 
-### P3-45. [CRITICAL] [FOUNDATIONAL] Has ANY source documented Muhammad as literate?
+### P3-45. [CRITICAL] [FOUNDATIONAL] [NC-C] Has ANY source documented Muhammad as literate?
 
 **Context:** Full evidence presented in P3-1. This is the foundational binary test.
 
@@ -1544,7 +1546,7 @@ _These questions consolidate the evidence from sub-sections 3A-3F into binary te
 
 ---
 
-### P3-46. [CRITICAL] [FOUNDATIONAL] Can you NAME a documented teacher who taught Muhammad the Qur'an's content?
+### P3-46. [CRITICAL] [FOUNDATIONAL] [NC-C] Can you NAME a documented teacher who taught Muhammad the Qur'an's content?
 
 **Context:** Full evidence presented in P3-4. Candidates (Waraqah, Bahira) are addressed in Part 4. Here, the binary question is simply: can you name one?
 
@@ -1556,7 +1558,7 @@ _These questions consolidate the evidence from sub-sections 3A-3F into binary te
 
 ---
 
-### P3-47. [CRITICAL] [FOUNDATIONAL] Can you NAME a companion who claimed co-authorship of the Qur'an?
+### P3-47. [CRITICAL] [FOUNDATIONAL] [NC-C] Can you NAME a companion who claimed co-authorship of the Qur'an?
 
 **Context:** Muhammad had thousands of companions over 23 years. After his death, civil war erupted (Ali vs. Muawiya, Aisha vs. Ali). Former enemies held power. Maximum incentive to expose fraud existed.
 
@@ -1566,7 +1568,7 @@ _These questions consolidate the evidence from sub-sections 3A-3F into binary te
 
 ---
 
-### P3-48. [CRITICAL] [ISR-LINKED] [LOGIC-CHAIN] Can you NAME a historical fraud with this complete behavioral profile?
+### P3-48. [CRITICAL] [ISR-LINKED] [LOGIC-CHAIN] [NC-C] Can you NAME a historical fraud with this complete behavioral profile?
 
 **Context:** Full evidence across P3-9 through P3-32. This is the consolidation of the entire behavioral profile.
 
@@ -1608,7 +1610,7 @@ Step 14: Taking all the above together: refused wealth, refused power, refused w
 
 ---
 
-### P3-49. [CRITICAL] [ISR-LINKED] Private worship with zero audience -- tahajjud performed alone at night. Can you explain private worship in a fraud model?
+### P3-49. [CRITICAL] [ISR-LINKED] [NC-C] Private worship with zero audience -- tahajjud performed alone at night. Can you explain private worship in a fraud model?
 
 **Context:** Full evidence in P3-13. Fraud requires an audience. Private worship serves no fraudulent purpose.
 
@@ -1624,7 +1626,7 @@ _These questions apply the same binary NAME format to the divine model, testing 
 
 ---
 
-### P3-50. [REVERSE-NAME] Can you NAME a documented instance where the hadith isnad system accepted a fabricated report as sahih that was later proven false through independent evidence?
+### P3-50. [REVERSE-NAME] [T2-S] Can you NAME a documented instance where the hadith isnad system accepted a fabricated report as sahih that was later proven false through independent evidence?
 
 **Context and Evidence:**
 
@@ -1640,7 +1642,7 @@ This question tests the divine-model claim that the hadith system is reliable. I
 
 ---
 
-### P3-51. [REVERSE-NAME] Can you PRODUCE evidence that Muhammad's private worship was performed for audience benefit?
+### P3-51. [REVERSE-NAME] [T2-S] Can you PRODUCE evidence that Muhammad's private worship was performed for audience benefit?
 
 **Context and Evidence:**
 
@@ -1654,7 +1656,7 @@ This question tests the divine-model claim that Muhammad's private worship indic
 
 ---
 
-### P3-52. [REVERSE-NAME] Can you NAME a specific self-serving pattern in the Qur'an's treatment of Muhammad?
+### P3-52. [REVERSE-NAME] [T2-S] Can you NAME a specific self-serving pattern in the Qur'an's treatment of Muhammad?
 
 **Context and Evidence:**
 
@@ -1680,7 +1682,7 @@ _These questions present the strongest attacks on the carrier's character and cr
 
 ---
 
-### P3-53. [DEBATABLE] "Muhammad was epileptic / had seizures during revelation." Does epilepsy produce 23-year-consistent literary, legal, and scientific output?
+### P3-53. [DEBATABLE] [T2-D] "Muhammad was epileptic / had seizures during revelation." Does epilepsy produce 23-year-consistent literary, legal, and scientific output?
 
 **Context and Evidence:**
 
@@ -1717,7 +1719,7 @@ _These questions present the strongest attacks on the carrier's character and cr
 
 ---
 
-### P3-54. [DEBATABLE] "Muhammad was violent / a warlord." Apply LRP-16 consistency.
+### P3-54. [DEBATABLE] [T2-D] "Muhammad was violent / a warlord." Apply LRP-16 consistency.
 
 **Context and Evidence:**
 
@@ -1748,7 +1750,7 @@ _These questions present the strongest attacks on the carrier's character and cr
 
 ---
 
-### P3-55. [DEBATABLE] "Muhammad married multiple wives for personal pleasure." Evaluate the full context.
+### P3-55. [DEBATABLE] [T2-D] "Muhammad married multiple wives for personal pleasure." Evaluate the full context.
 
 **Context and Evidence:**
 
@@ -1784,7 +1786,7 @@ _These questions present the strongest attacks on the carrier's character and cr
 
 ---
 
-### P3-56. [DEBATABLE] "Muhammad learned from Waraqah ibn Nawfal." Evaluate the timeline.
+### P3-56. [DEBATABLE] [T2-D] "Muhammad learned from Waraqah ibn Nawfal." Evaluate the timeline.
 
 **Context and Evidence:**
 
@@ -1815,7 +1817,7 @@ _These questions present the strongest attacks on the carrier's character and cr
 
 4. **The Bahira account -- dismissed by scholars:** The related claim that the monk Bahira (encountered during a childhood trade journey to Syria) was a source for the Qur'an is even weaker. Al-Dhahabi dismissed the Bahira account. Barbara Roggema (2009, _The Legend of Sergius Bahira_) demonstrated that the Bahira legend was a 9th-century Christian polemical creation, not historical reporting. The encounter -- if it occurred at all -- involved a brief meeting when Muhammad was approximately 12 years old, decades before the first revelation. A single childhood encounter with a Syrian monk cannot account for 23 years of multi-domain, multi-traditional, literarily supreme Arabic output.
 
-4. **The Qur'an's own response:** The Qur'an acknowledges the accusation: "And We certainly know that they say, 'It is only a human being who teaches him.' The tongue of the one they refer to is foreign, and this [Qur'an] is in a clear Arabic language" (16:103). The response points out a specific factual problem: the alleged source spoke a foreign language (non-Arabic), while the Qur'an is in supreme Arabic. This is a testable claim, not a deflection.
+5. **The Qur'an's own response:** The Qur'an acknowledges the accusation: "And We certainly know that they say, 'It is only a human being who teaches him.' The tongue of the one they refer to is foreign, and this [Qur'an] is in a clear Arabic language" (16:103). The response points out a specific factual problem: the alleged source spoke a foreign language (non-Arabic), while the Qur'an is in supreme Arabic. This is a testable claim, not a deflection.
 
 **What is addressed in Part 4:** The full source-access analysis is in Part 4. Here, the question is simply whether Waraqah -- as the most commonly named candidate -- can account for the Qur'an's 23-year, multi-domain output.
 
@@ -1825,7 +1827,7 @@ _These questions present the strongest attacks on the carrier's character and cr
 
 ---
 
-### P3-57. [DEBATABLE] "Aisha's marriage age." Historical context and alternative chronology.
+### P3-57. [DEBATABLE] [T2-D] "Aisha's marriage age." Historical context and alternative chronology.
 
 **Context and Evidence:**
 

@@ -16,7 +16,7 @@
 
 ---
 
-### P5-1. Sun Surface Temperature: 5,778 Verses = 5,778K [CODE-DEPENDENT] [ISR-LINKED]
+### P5-1. Sun Surface Temperature: 5,778 Verses = 5,778K [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **The Claim:**
 The number of verses between the first mention of the sun (shams) in the Qur'an and the last mention of the sun equals exactly 5,778 -- the sun's effective surface temperature in Kelvin.
@@ -139,7 +139,7 @@ Alignment: +/- 0 verses
 
 ---
 
-### P5-2. Silver Melting Point: 962 Verses = 962 degrees C [CODE-DEPENDENT] [ISR-LINKED]
+### P5-2. Silver Melting Point: 962 Verses = 962 degrees C [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **The Claim:**
 The number of verses between the first mention of silver (fidda) in the Qur'an and the verse describing the heating/melting of hoarded silver equals exactly 962 -- silver's melting point in degrees Celsius (rounded textbook value: 962 degrees C; precise value: 961.78 degrees C).
@@ -254,7 +254,7 @@ PATH B (3:14 -> 9:35, Silver -> Heating):
 
 ---
 
-### P5-3. Iron Melting Point: 1,538 Verses = 1,538 degrees C [CODE-DEPENDENT] [ISR-LINKED]
+### P5-3. Iron Melting Point: 1,538 Verses = 1,538 degrees C [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **The Claim:**
 The number of verses between 17:50 (iron mentioned) and 34:10 (iron made pliable for David) equals 1,538 (inclusive counting) or 1,536 (exclusive counting) -- both within iron's actual melting range of 1,535-1,538 degrees C.
@@ -412,7 +412,7 @@ Only 1 out of 15 possible iron verse pairs falls within the melting range. The m
 
 ---
 
-### P5-4. Earth-Sirius Distance: 86 Words = 8.6 Light-Years [CODE-DEPENDENT] [ISR-LINKED]
+### P5-4. Earth-Sirius Distance: 86 Words = 8.6 Light-Years [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **The Claim:**
 Within Surah 53 (An-Najm, "The Star"), the word count from "the Earth" (al-ard) in verse 32 to "Sirius" (ash-Shi'ra) in verse 49 is exactly 86 words, encoding the Earth-Sirius distance of 8.6 light-years via decimal placement.
@@ -526,7 +526,7 @@ Alignment: +/- 0.0
 
 ---
 
-### P5-5. Thematic Coherence Verification: Are the Endpoints Arbitrary or Meaningful? [CRITICAL] [CODE-DEPENDENT]
+### P5-5. Thematic Coherence Verification: Are the Endpoints Arbitrary or Meaningful? [CRITICAL] [CODE-DEPENDENT] [NC-C]
 
 **The Claim:**
 The verse-gap methodology is not numerology because the endpoints are not arbitrary -- they are thematically tied to the matched scientific value. This question tests whether that coherence holds across all four alignments.
@@ -555,7 +555,7 @@ This is a 3-layer lock: topic coherence + property relevance + numerical precisi
 
 ---
 
-### P5-6. Computational Integrity: Running the Code [CODE-DEPENDENT]
+### P5-6. Computational Integrity: Running the Code [CODE-DEPENDENT] [T2-S]
 
 **Procedural Requirement:**
 This question asks you to confirm that you have executed or carefully verified the calculations in P5-1 through P5-4. The verse-gap claims are CODE-DEPENDENT -- they derive their evidential weight from computational verification, not from assertion.
@@ -573,7 +573,7 @@ This question asks you to confirm that you have executed or carefully verified t
 
 ---
 
-### P5-7. Probability Assessment: Individual and Combined [CODE-DEPENDENT]
+### P5-7. Probability Assessment: Individual and Combined [CODE-DEPENDENT] [T2-S]
 
 **The Claim:**
 The combined probability of four independent verse-gap alignments matching four scientific constants is astronomically low, far beyond what coincidence can explain.
@@ -651,7 +651,7 @@ Even using conservative individual estimates and ignoring thematic coherence, th
 
 ---
 
-### P5-8. Dating Check: Were ANY of These Values Known Before 632 CE? [CRITICAL]
+### P5-8. Dating Check: Were ANY of These Values Known Before 632 CE? [CRITICAL] [NC-C]
 
 **The Historical Question:**
 The Qur'an was complete by 632 CE (the year of Muhammad's death, peace be upon him). For these verse-gap alignments to be dismissed as "the author embedded them intentionally using human knowledge," that knowledge must have EXISTED before 632 CE.
@@ -682,7 +682,7 @@ The Qur'an was complete by 632 CE (the year of Muhammad's death, peace be upon h
 
 ---
 
-### P5-9. Cross-Text Control: Apply the Same Methodology to the Bible [CODE-DEPENDENT]
+### P5-9. Cross-Text Control: Apply the Same Methodology to the Bible [CODE-DEPENDENT] [T2-S]
 
 **The Test:**
 If the verse-gap methodology is inherently flawed (i.e., it produces false positives in any sufficiently large text), then applying the SAME methodology to the Bible should produce comparable results. If the methodology is sound and the results are specific to the Qur'an, the Bible should produce ZERO matches.
@@ -710,7 +710,7 @@ The methodology is not inherently biased. It is specific. It produces results in
 
 ---
 
-### P5-10. Anti-Evasion: The "Post-Hoc" Objection
+### P5-10. Anti-Evasion: The "Post-Hoc" Objection [T2-S]
 
 **The Objection:** "These patterns were discovered after the fact (post-hoc), so they don't count."
 
@@ -735,11 +735,35 @@ The relevant question is not "when was it discovered?" but "how did the book acq
 
 ---
 
-## 5B. MULTI-LAYER ENCODINGS
+## 5B. MULTI-LAYER ENCODINGS — IRON EVIDENCE CLUSTER (IEC)
+
+### CLUSTER DISCIPLINE NOTE — DEPENDENT FAMILY
+
+The following questions (P5-3, P5-11, P5-12) all relate to the element iron in the Qur'an. They share the same element, and several share the same verse (57:25 appears in nucleosynthesis, gematria, boiling point, and core-depth claims). Because of this overlap, they are scored as **ONE dependent cluster** with internal strength ranking. Their convergence deepens the iron case; it does NOT create separate multiplicative pressure.
+
+**Only P5-3 (Melting 1538) enters the combined probability calculation as an independent entry alongside Sun (P5-1) and Silver (P5-2).** The other iron sublayers strengthen the iron case qualitatively but cannot be multiplied as though they were independent discoveries.
+
+**Internal Sublayer Ranking:**
+
+| Rank | Sublayer                      | Claim                                                           | Eₓ Band                 | Status                      |
+| ---- | ----------------------------- | --------------------------------------------------------------- | ----------------------- | --------------------------- |
+| 1    | Thermal: Melting 1538         | 17:50→34:10 = 1,538 verses = 1,538°C                            | **E₃** (cluster leader) | Core P5 (P5-3)              |
+| 2    | Cosmological: Nucleosynthesis | "anzalna" used ONLY for iron among metals; iron formed in stars | **E₃**                  | Core P5 (P5-12)             |
+| 3    | Naming: Gematria              | Standard Abjad: hadid=26 (atomic #), al-hadid=57 (Fe-57)        | **E₂**                  | Core P5 (P5-11, Layers 2-3) |
+| 4    | Thermal: Boiling 2862±1       | 18:96→57:25 = 2,863 verses vs 2,862°C boiling point             | **E₂**                  | Supporting note (P5-11)     |
+| 5    | Counting: Allah=26, Fa=56     | 26 "Allah" + 56 "Fa" letters in Surah 57 (v1-25)                | **E₂**                  | Supporting layer (P5-11)    |
+| 6    | Positional: Core depth 5,100  | 5,100th verse = 57:25; Earth's iron core ~5,100 km              | **E₁**                  | Appendix only (demoted)     |
+
+**Dependency notes:**
+
+1. Verse 57:25 appears in sublayers 2, 3, 4, 5, and 6 — treating these as independent is invalid
+2. All sublayers share the same element — a skeptic accounting for one partially accounts for others
+3. The IEC contributes ONE E₃ entry to the cumulative architecture, not six separate entries
+4. Iron melting (P5-3) CAN be multiplied with Sun (P5-1) and Silver (P5-2) because they involve different elements, different surahs, and different verse pairs
 
 ---
 
-### P5-11. Surah 57 -- Al-Hadid (Iron): Six-Layer Atomic Encoding [CODE-DEPENDENT] [ISR-LINKED]
+### P5-11. Surah 57 -- Al-Hadid (Iron): Six-Layer Atomic Encoding [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **The Claim:**
 Surah 57, named "The Iron" (Al-Hadid), contains at least six independent numerical alignments with iron's atomic properties. No single alignment is conclusive alone; their convergence is the evidence.
@@ -780,6 +804,14 @@ Surah 57, named "The Iron" (Al-Hadid), contains at least six independent numeric
 - Surah 57 is the middle surah of the Qur'an (57 out of 114 = exactly halfway)
 - Iron forms the core/center of the Earth
 - Positional metaphor: central surah for the central element
+
+**Supporting Layer: Iron Boiling Point (2862°C) [E₂]**
+
+- Verse gap 18:96 → 57:25 (exclusive) = 2,863 verses
+- Iron boiling point = 2,862°C
+- Deviation: ±1 verse (not exact match)
+- Thematic link: 18:96 describes iron with intense fire (Dhul-Qarnayn's wall construction: "Bring me pieces of iron... blow [fire] until he made it fire"); 57:25 is the cosmic statement about iron being "sent down"
+- Assessment: **SUPPORTING ONLY.** Not an exact match (±1). Thematic connection is moderate. Endpoint 57:25 is shared with gematria, nucleosynthesis, and counting layers, creating heavy dependency. This pattern deepens the Iron Evidence Cluster qualitatively but is NOT scored as an independent entry. E₂ (Auxiliary).
 
 **Verification Code (Abjad Calculation):**
 
@@ -874,7 +906,7 @@ SUMMARY:
 
 ---
 
-### P5-12. Surah 57 -- "Sent Down" (Anzalna): Stellar Nucleosynthesis [ISR-LINKED]
+### P5-12. Surah 57 -- "Sent Down" (Anzalna): Stellar Nucleosynthesis [ISR-LINKED] [T2-S]
 
 **The Specific Claim:**
 The Qur'an uses the verb "anzalna" (We sent down) for iron in 57:25. Iron is the ONLY metal in the Qur'an described this way. Modern astrophysics confirms that iron is indeed "sent down" from space -- it is produced in the cores of massive stars through stellar nucleosynthesis and delivered to Earth via supernovae, meteorites, and the protoplanetary disk.
@@ -904,30 +936,41 @@ The Qur'an uses the verb "anzalna" (We sent down) for iron in 57:25. Iron is the
 
 ---
 
-### P5-13. Surah 91 -- The Sun: Hydrogen Encoding and Structural Analysis [CODE-DEPENDENT]
+### P5-13. Surah 91 -- The Sun: Multi-Layer Solar Encoding [CODE-DEPENDENT] [ISR-LINKED] [LOGIC-CHAIN] [T2-S]
 
-**The Claim:**
-Surah 91 (Ash-Shams, "The Sun") contains additional structural alignments with solar physics beyond the verse-gap pattern documented in P5-1.
+Surah 91 (Ash-Shams, "The Sun") contains multiple structural alignments with solar physics. No single layer is conclusive; their simultaneous convergence in one surah named "The Sun" is the argument.
 
-**Structural Observations:**
+**[LOGIC-CHAIN] — Solar Encoding:**
 
-1. **Surah Name:** "Ash-Shams" means "The Sun" -- the surah is explicitly dedicated to the sun
-2. **Surah 91 is the endpoint** of the sun verse-gap (P5-1), making it the terminal anchor of the 5,778-verse alignment
-3. **Verse count:** Surah 91 contains 15 verses
-4. **Oath structure:** The first 7 verses are divine oaths invoking celestial and terrestrial phenomena (sun, moon, day, night, heaven, earth, soul)
+**Step 1:** Surah 91 is titled "Ash-Shams" (The Sun) and opens: "By the sun and its brightness." Accept? (YES/NO)
 
-**Cross-Reference to P5-1:**
-Surah 91 serves dual roles:
+**Step 2:** Surah 91 contains exactly 15 verses. Accept? (YES/NO)
 
-- It is the endpoint of the 5,778-verse sun temperature alignment
-- It is a standalone surah named after and dedicated to the sun
-- Its position in the Qur'an (surah 91) and its role as the terminal anchor of the verse-gap alignment are structurally integrated
+**Step 3:** The sun's core temperature is 15.2–16.1 million K (heliosismik aralık; NASA NSSDCA: 1.571 × 10⁷ K; Wikipedia: "close to 15.7 million kelvin"). These are decimal values — a text using whole verse counts cannot encode 15.7. The natural whole-number rounding in millions: **15**. (Sources: NASA NSSDCA Sun Fact Sheet; Bahcall et al. helioseismic constraints)
 
-> **Question:** Does the structural position of Surah 91 reinforce or undermine the sun temperature alignment from P5-1? Is it significant that the terminal endpoint of the 5,778-verse gap is a surah NAMED "The Sun" and opening with a divine oath BY the sun?
+**Step 4:** Earth-Sun distance ranges from 147,098,074 km (perihelion) to 152,097,701 km (aphelion); mean = 149,597,870.7 km (IAU 2012 definition). These are all ~**150** million km. The leading digits: **1-5-0**. (Sources: IAU 2012 AU definition; NASA/JPL ephemeris data)
+
+**Step 5:** Sun's core density ranges from 148 g/cm³ (Bahcall BP2000 standard solar model) to 162.2 g/cm³ (NASA NSSDCA). Wikipedia rounds to **150** g/cm³. The spread reflects the unresolved "solar abundance problem" (GS98 vs AGSS09 metallicity models). Natural whole-number rounding: **~150**. (Sources: NASA NSSDCA; Bahcall & Pinsonneault 2000; Bergemann & Serenelli 2014)
+
+**Step 6:** The number **15** is not cherry-picked from one value. Three independent solar constants — core temperature (~15.7 MK), distance (~150 Mkm), density (~150 g/cm³) — all produce 15 as their natural leading-digit rounding. These are measured by different instruments, in different units, describing different physical properties. Accept that 15 recurs independently? (YES/NO)
+
+**Step 7:** All 15 verses end with the same rhyme: -hā (ها). Perfectly uniform across the entire surah. Accept as verifiable? (YES/NO)
+
+**Step 8:** The sun is 90–92.1% hydrogen by atom count (Asplund et al. 2009/2021: ~91–92%; HyperPhysics GSU: 92.1%; OpenStax: ~90%). The surah number is **91**. Accept the numerical match? (YES/NO)
+
+**Step 9:** Hydrogen (H) and helium (He) together = 99.9% of the sun. Both start with "H." The uniform -hā ending phonetically echoes this. Accept as observation? (YES/NO)
+
+**Step 10 — OBJECTION:** Arabic "hā" ≠ Latin "H." Hydrogen named 1783 (Greek), helium 1868. The phonetic mapping crosses linguistic systems. This is the weakest layer. Accept the objection? (YES expected)
+
+**Step 11:** If Step 10 kills the phonetic layer (Steps 9), Steps 1–8 survive: surah name, 15 verses, three independent solar "15" constants with rounding logic, uniform rhyme, surah 91 = ~91% H. None depend on Latin naming. None were known in the 7th century. Accept? (YES/NO)
+
+**Step 12 — VERDICT:** One surah named "The Sun" concentrates: title + 15 verses + surah 91 = ~91% H + uniform -hā + three independent "15" constants. Coincidence (E₁), interesting observation (E₂), or supporting evidence (E₃)?
+
+> **Question:** Work through Steps 1–12. The phonetic layer (Steps 9–10) is the weakest — the chain tests survival without it. State your verdict and which layers you accept.
 
 ---
 
-### P5-14. Multi-Pattern Convergence: Independent or Correlated?
+### P5-14. Multi-Pattern Convergence: Independent or Correlated? [T2-S]
 
 **The Question of Independence:**
 For the combined probability calculation in P5-7 to be valid, the four verse-gap patterns must be statistically independent. This means the existence of one pattern must not make the others more likely.
@@ -947,7 +990,7 @@ The only shared element is the text itself. If someone argues the patterns are "
 
 ---
 
-### P5-15. Unit Alignment: Why the Correct Units?
+### P5-15. Unit Alignment: Why the Correct Units? [T2-S]
 
 **The Observation:**
 The verse-gap alignments do not merely match numbers -- they match numbers IN THE CORRECT SCIENTIFIC UNITS:
@@ -973,7 +1016,7 @@ The verse-gap alignments do not merely match numbers -- they match numbers IN TH
 
 ---
 
-### P5-16. Iron "Sent Down" (Anzalna) -- Stellar Nucleosynthesis Confirmed [ISR-LINKED]
+### P5-16. Iron "Sent Down" (Anzalna) -- Stellar Nucleosynthesis Confirmed [ISR-LINKED] [T2-S]
 
 **Evidence Summary (expanded from P5-12):**
 
@@ -996,7 +1039,7 @@ The Qur'an's description of iron being "sent down" (anzalna) in 57:25 aligns pre
 
 ---
 
-### P5-17. Female Worker Bees: Feminine Verb Forms in 16:68-69 [ISR-LINKED]
+### P5-17. Female Worker Bees: Feminine Verb Forms in 16:68-69 [ISR-LINKED] [T2-S]
 
 **The Claim:**
 In Surah 16 (An-Nahl, "The Bee"), verses 68-69, the Qur'an uses FEMININE verb forms when addressing bees that build hives and produce honey. Modern entomology confirms that worker bees are indeed all female.
@@ -1029,7 +1072,7 @@ In Surah 16 (An-Nahl, "The Bee"), verses 68-69, the Qur'an uses FEMININE verb fo
 
 ---
 
-### P5-18. Pharaoh's Body Preserved: 10:92 [ISR-LINKED]
+### P5-18. Pharaoh's Body Preserved: 10:92 [ISR-LINKED] [T2-S]
 
 **The Claim:**
 Surah 10, Verse 92 states regarding Pharaoh's drowning: _"Today We will preserve your body (nunajjika bi-badanika) so that you may be a sign for those after you."_
@@ -1056,7 +1099,7 @@ Surah 10, Verse 92 states regarding Pharaoh's drowning: _"Today We will preserve
 
 ---
 
-### P5-19. Pharaoh vs. King: Egyptological Precision [ISR-LINKED]
+### P5-19. Pharaoh vs. King: Egyptological Precision [ISR-LINKED] [T2-S]
 
 **The Claim:**
 The Qur'an consistently uses the title "Pharaoh" (Fir'awn) for the Egyptian ruler during the time of Moses, but uses "King" (Malik) for the Egyptian ruler during the time of Joseph. This distinction aligns with modern Egyptological understanding.
@@ -1081,7 +1124,7 @@ The Qur'an consistently uses the title "Pharaoh" (Fir'awn) for the Egyptian rule
 
 ---
 
-### P5-20. Embryological Stages: 23:12-14 [DEBATABLE]
+### P5-20. Embryological Stages: 23:12-14 [DEBATABLE] [T2-S]
 
 **The Claim:**
 Surah 23, Verses 12-14 describe human embryological development in sequential stages:
@@ -1120,7 +1163,7 @@ This is marked DEBATABLE because genuine scholarly disagreement exists. The sequ
 
 ---
 
-### P5-21. Expanding Universe: 51:47 [DEBATABLE] [CONTESTED]
+### P5-21. Expanding Universe: 51:47 [DEBATABLE] [CONTESTED] [T2-S]
 
 **The Verse:**
 51:47 -- _"And the heaven We constructed with strength, and indeed, We are its expander (musi'un)."_
@@ -1150,7 +1193,7 @@ This verse is included with full transparency about the translation dispute. The
 
 ---
 
-### P5-22. Comprehensive Dating Verification
+### P5-22. Comprehensive Dating Verification [T2-S]
 
 **The Central Question:**
 For EACH scientific value matched by a verse-gap alignment or multi-layer encoding, when was it FIRST measured or known by humans?
@@ -1187,7 +1230,7 @@ For EACH scientific value matched by a verse-gap alignment or multi-layer encodi
 
 ---
 
-### P5-23. The Thermometer Problem
+### P5-23. The Thermometer Problem [T2-S]
 
 **A Focused Sub-Question:**
 The three temperature-based alignments (sun: 5,778 K; silver: 962 degrees C; iron: 1,538 degrees C) share a common prerequisite: the ability to MEASURE temperature with precision.
@@ -1218,7 +1261,7 @@ This is not a gap in knowledge -- it is a gap in the prerequisite technology for
 
 ---
 
-### P5-24. The "Cherry-Picking" Objection
+### P5-24. The "Cherry-Picking" Objection [T2-S]
 
 **The Objection:** "You picked the verses that work and ignored the ones that don't. This is cherry-picking."
 
@@ -1242,7 +1285,7 @@ This is not a gap in knowledge -- it is a gap in the prerequisite technology for
 
 ---
 
-### P5-25. The "Coincidence" Objection: Combined Probability [CODE-DEPENDENT]
+### P5-25. The "Coincidence" Objection: Combined Probability [CODE-DEPENDENT] [T2-S]
 
 **The Objection:** "These are just coincidences. With enough data, you can find patterns anywhere."
 
@@ -1319,7 +1362,7 @@ The combined probability is approximately 1 in 76.6 quadrillion. This is roughly
 
 ---
 
-### P5-26. The Mechanism Question [CRITICAL]
+### P5-26. The Mechanism Question [CRITICAL] [NC-C]
 
 **The Core Question:**
 If the verse-gap alignments are real (computationally verified), and if the matched scientific values were unknown to all humans in 632 CE (historically verified), then WHAT MECHANISM produced these numbers at these positions?
@@ -1350,7 +1393,7 @@ This is not "God of the gaps." This is inference to best explanation (IBE):
 
 ---
 
-### P5-27. Thematic Coherence Test [CODE-DEPENDENT]
+### P5-27. Thematic Coherence Test [CODE-DEPENDENT] [T2-S]
 
 **The Decisive Test:**
 Are the verse-gap endpoints thematically coherent with the matched values, or are the endpoints unrelated to the topic?
@@ -1369,7 +1412,7 @@ If the endpoints were arbitrary (unrelated to the topic), this would be numerolo
 
 ---
 
-### P5-28. Pre-632 CE Knowledge Test
+### P5-28. Pre-632 CE Knowledge Test [T2-S]
 
 **The Binary Question:**
 Were ANY of the following scientific values known to ANY human civilization before 632 CE?
@@ -1389,7 +1432,7 @@ If NO for all six, then no human author could have embedded these values intenti
 
 ---
 
-### P5-29. Cross-Text Comparison [CRITICAL] [CODE-DEPENDENT]
+### P5-29. Cross-Text Comparison [CRITICAL] [CODE-DEPENDENT] [NC-C]
 
 **The Falsification Test:**
 Apply the verse-gap methodology to the Bible (King James Version, 31,102 verses). Identify:
@@ -1414,7 +1457,7 @@ The Bible's sun verse gap does not equal 5,778. The Bible's silver verse gap doe
 
 ---
 
-### P5-30. The Mechanism Challenge
+### P5-30. The Mechanism Challenge [T2-S]
 
 **The Open Challenge:**
 If you reject the text's claimed source (divine origin) as the mechanism, you must provide an alternative mechanism that explains ALL of the following simultaneously:
@@ -1443,7 +1486,7 @@ The mechanism must be:
 
 ---
 
-### P5-31. Can You NAME a Verified Scientific Error? [REVERSE-NAME] [CRITICAL]
+### P5-31. Can You NAME a Verified Scientific Error? [REVERSE-NAME] [CRITICAL] [T1-C]
 
 **The Challenge:**
 Can you NAME a verified, unambiguous scientific error in the Qur'an that meets ALL of the following criteria:
@@ -1467,7 +1510,7 @@ Name a scientific error that survives ALL five criteria above, or state that you
 
 ---
 
-### P5-32. Can You DEMONSTRATE Methodology Selection Bias? [REVERSE-NAME] [CRITICAL]
+### P5-32. Can You DEMONSTRATE Methodology Selection Bias? [REVERSE-NAME] [CRITICAL] [T1-C]
 
 **The Challenge:**
 The "cherry-picking" objection claims the verse-gap methodology was selected post-hoc from many failed attempts. If this is true, there should be EVIDENCE of failed attempts: other counting methods that were tried and abandoned because they did not produce matches.
@@ -1484,7 +1527,7 @@ The "cherry-picking" objection claims the verse-gap methodology was selected pos
 
 ---
 
-### P5-33. Can You NAME a Wrong Value? [REVERSE-NAME]
+### P5-33. Can You NAME a Wrong Value? [REVERSE-NAME] [T2-S]
 
 **The Challenge:**
 Can you NAME a scientific value in the Qur'an's verse-gap data that is WRONG?
@@ -1507,11 +1550,68 @@ Name it, or state that you cannot.
 
 ---
 
+**Gold 1064°C — Transparency Note [T2-D] [E₂]**
+
+Two verse-counting paths both yield 1064 (gold's melting point 1064.18°C):
+
+- Path A: 3:14→10:8 (exclusive) = 1,064 verses
+- Path B: 22:23→35:21 (inclusive) = 1,064 verses
+
+**Methodology inconsistency:** Path A uses exclusive counting while Path B uses inclusive counting. If the same convention is applied to both paths, one of them breaks. Thematic links are moderate — fire/heat context exists but neither endpoint explicitly describes gold melting. Path B (22:23 "gold bracelets" → 35:21 "scorching heat") is thematically stronger than Path A.
+
+**Assessment:** E₂ (Auxiliary). Noted for transparency but cannot carry weight due to methodology inconsistency. NOT added to the core verse-gap family (Sun 5778, Silver 962, Iron 1538) which all use consistent methodology. The gold pattern is logged as an observation, not as core evidence. Cross-reference: `miracles/06_verse_gap_alignments/gold_1064/`
+
+---
+
+### P5-34A. Verse-Gap Collective Staged Assessment [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
+
+For the verse-gap scientific constants COLLECTIVELY (Sun 5778K, Silver 962°C, Iron 1538°C, Sirius 8.6 ly), evaluate the entire evidence family through a 5-stage assessment. This forces a structured verdict rather than an impressionistic one.
+
+**Stage 1 — Existence:** Do the verse-gaps produce numbers matching scientific constants?
+
+- Sun: first solar verse (2:258) to first verse of Surah 91 (Ash-Shams) = 5,778 verses → surface temperature 5,778K ✓
+- Silver: first silver mention (3:14) to heating verse (9:35) = 962 verses → melting point 962°C ✓
+- Iron: iron mention (17:50, "Be you stones or iron") to iron-specific verse (34:10, "iron made pliable") = 1,538 verses → melting point 1,538°C ✓
+- Sirius: Earth (53:32) to Sirius (53:49) within Surah An-Najm = 86 words → 8.6 light-years ✓
+- Computationally verified (P5-1 through P5-4). Code is inline. Answer: YES or NO.
+
+**Stage 2 — Robustness:** Do the results survive under alternative counting methods?
+
+- Kufan verse count (standard): produces the above values ✓
+- Basri verse count: minor variation in total verses but gap endpoints unchanged (same verses, different total count)
+- The verse-gap is between SPECIFIC VERSES, not between verse NUMBERS. Even if total verse counts differ slightly between schools, the gap between two identified verses remains the same. (Test this claim — verify or refute.)
+
+**Stage 3 — Comparative Rarity:** Does the Bible (5× more verses) produce comparable verse-gap alignments?
+
+- Tested in P5-9 and P5-29: Bible sun gap ≠ 5,778, Bible silver gap ≠ 962, Bible iron gap ≠ 1,538
+- Result: ZERO matches in a text with 31,102 verses (5× more data = 5× more opportunity for coincidence)
+- If methodology were inherently biased, it would produce false positives in ANY large text. It doesn't.
+
+**Stage 4 — Explanatory Pressure:** Are the endpoint verses thematically connected to the matched constants?
+
+- Sun verse → sun constant (not an arbitrary verse)
+- Silver heating verse → silver melting point (not an arbitrary verse)
+- Iron pliability verse → iron melting point (not an arbitrary verse)
+- This is the anti-numerology test: numerology uses arbitrary endpoints. These endpoints are THEMATICALLY TIED to the matched values.
+
+**Stage 5 — Verdict:** Given Stages 1-4, what level of claim is justified?
+
+| Level   | Label            | Meaning                                                                                                                                            |
+| ------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Level 0 | No pressure      | Trivial coincidence, no explanatory demand                                                                                                         |
+| Level 1 | Mild pressure    | Interesting but readily explicable by chance or methodology                                                                                        |
+| Level 2 | Serious pressure | Difficult for naturalistic explanation — combined probability and cross-text absence demand accounting                                             |
+| Level 3 | Extreme pressure | Naturalistic explanation badly underspecified — requires a mechanism for simultaneous exact matches with thematic coherence and cross-text absence |
+
+> **Question:** Work through Stages 1-5. At which level does the verse-gap evidence family land? State your verdict with the specific stage results that support it. If you score Level 0 or Level 1, explain how the combined probability (~10⁻¹² for three temperature matches alone) and the zero Bible result are consistent with "coincidence." If you score Level 2 or Level 3, state what that implies for the human-authorship models tested in Part 8.
+
+---
+
 ## ATTACKER SUB-SECTION
 
 ---
 
-### P5-34. 86:5-7 -- "Backbone and Ribs" Claim [DEBATABLE]
+### P5-34. 86:5-7 -- "Backbone and Ribs" Claim [DEBATABLE] [T2-D]
 
 **The Verses:**
 86:5-7 -- _"So let man observe from what he was created. He was created from a fluid, ejected, emerging from between the backbone (sulb) and the ribs (tara'ib)."_
@@ -1531,7 +1631,7 @@ Modern anatomy shows that semen is produced in the testes, not between the backb
 
 ---
 
-### P5-35. 18:86 -- "Sun Setting in a Muddy Spring" [DEBATABLE]
+### P5-35. 18:86 -- "Sun Setting in a Muddy Spring" [DEBATABLE] [T2-D]
 
 **The Verse:**
 18:86 -- _"Until, when he reached the setting of the sun, he found it [as if] setting in a spring of dark mud (or hot water), and he found near it a people."_
@@ -1552,7 +1652,7 @@ This appears to describe the sun literally setting in a muddy spring, which is s
 
 ---
 
-### P5-36. 51:47 -- Expanding Universe Translation Dispute [DEBATABLE] [CONTESTED]
+### P5-36. 51:47 -- Expanding Universe Translation Dispute [DEBATABLE] [CONTESTED] [T2-D]
 
 **The Verse (revisited from P5-21):**
 51:47 -- _"And the heaven We constructed with strength, and indeed, We are its expander (musi'un)."_
@@ -1616,7 +1716,7 @@ The respondent is invited to evaluate each verse individually and reach their ow
 
 ---
 
-### P5F-1. 16:68-69 -- Female Worker Bees [ISR-LINKED]
+### P5F-1. 16:68-69 -- Female Worker Bees [ISR-LINKED] [T2-S]
 
 **Verse:**
 _"Wa awha rabbuka ila an-nahli an ittakhidhi mina al-jibali buyutan wa mina ash-shajari wa mimma ya'rishun. Thumma kuli min kulli ath-thamarati fa-usluki subula rabbiki dhululan..."_
@@ -1639,7 +1739,7 @@ Arabic grammar can use feminine forms for collective nouns and certain animal ca
 
 ---
 
-### P5F-2. 57:25 -- Iron "Sent Down" [ISR-LINKED]
+### P5F-2. 57:25 -- Iron "Sent Down" [ISR-LINKED] [T2-S]
 
 **Verse:**
 _"Wa anzalna al-hadida fihi ba'sun shadidun wa manafi'u lin-nasi..."_
@@ -1662,7 +1762,7 @@ The Qur'an uses _anzalna_ ("sent down") for many things: rain, scripture, clothi
 
 ---
 
-### P5F-3. 21:30 -- Heaven and Earth Were Joined Then Split [ISR-LINKED]
+### P5F-3. 21:30 -- Heaven and Earth Were Joined Then Split [ISR-LINKED] [T2-S]
 
 **Verse:**
 _"Awa lam yara alladhina kafaru anna as-samawati wa al-arda kanata ratqan fa-fataqnahuma..."_
@@ -1685,7 +1785,7 @@ Multiple alternative readings exist in classical tafsir. Ibn Abbas interpreted _
 
 ---
 
-### P5F-4. 21:31 -- Mountains as Pegs
+### P5F-4. 21:31 -- Mountains as Pegs [T2-S]
 
 **Verse:**
 _"Wa ja'alna fi al-ardi rawasiya an tamida bihim..."_
@@ -1700,7 +1800,7 @@ The theory of isostasy (Airy-Heiskanen model, 1855; Pratt model, 1855): mountain
 **Counter-arguments:**
 Ancient peoples could observe that mountains appeared anchored and stable -- the "peg" metaphor does not require knowledge of deep root structures. Furthermore, geologists note that mountains do not actually prevent earthquakes or crustal movement; tectonic activity continues regardless of mountain presence. The claim that mountains prevent the earth from "shifting" is geologically imprecise if taken literally, since mountains are themselves products of crustal shifting (plate tectonics).
 
-**Strength tier:** STRONG
+**Strength tier:** STRONG — The critical distinction: "mountains are stable" is observationally accessible, but the specific term "awtad" (pegs/stakes) implies a structure EMBEDDED IN THE GROUND — with its strength coming from the INVISIBLE subterranean portion. This is precisely what isostasy confirms: mountains have root structures extending ~70km below the surface (~90% of the mountain is underground). The "peg" metaphor is not a generic observation about stability — it is a specific structural claim about subsurface anchoring that was not scientifically confirmed until the 20th century.
 
 **The Question:** Does the "peg" description of mountains reflect knowledge of deep lithospheric root structures confirmed by isostasy? Or is it a common-sense observation that mountains appear anchored and stable?
 
@@ -1708,30 +1808,54 @@ Ancient peoples could observe that mountains appeared anchored and stable -- the
 
 ---
 
-### P5F-5. 21:33 -- Celestial Bodies Swimming in Orbits [ISR-LINKED]
+### P5F-5. 21:33 -- Celestial Bodies Swimming in Orbits [ISR-LINKED] [LOGIC-CHAIN] [T2-S]
 
 **Verse:**
 _"Wa huwa alladhi khalaqa al-layla wa an-nahara wa ash-shamsa wa al-qamara kullun fi falakin yasbahun."_
-"And it is He who created the night and the day and the sun and the moon; all in an orbit are swimming."
+"And it is He who created the night and the day and the sun and the moon; all (kullun) in an orbit (falak) are swimming (yasbahun)."
 
 **What the verse states:**
-The sun, moon, and celestial bodies each travel in their own orbit (_falak_). The verb _yasbahun_ (swimming) describes smooth, continuous motion through a medium -- each body moving in its own defined path.
+The sun, moon, and celestial bodies EACH travel in their OWN orbit. Three critical Arabic elements: (1) "kullun" = each one individually, (2) "falak" = orbit/path, (3) "yasbahun" = swimming — implying free, independent motion through a medium.
 
-**Modern confirmation:**
-The sun orbits the galactic center at approximately 828,000 km/h, completing one orbit every ~225-250 million years. The moon orbits the Earth. All planets orbit the sun in elliptical paths (Kepler's laws, 1609-1619). The concept that the sun itself moves in an orbit was not established until the 20th century with the understanding of galactic structure. Ptolemaic and Copernican models did not describe the sun as having its own orbital motion.
+**Logic Chain — follow each step:**
 
-**Counter-arguments:**
-Observable astronomical phenomena -- the apparent motion of the sun across the sky, lunar phases, and star positions -- were well known to ancient cultures. The Babylonians, Greeks, and Indians all described celestial motions. The verse could describe apparent motion (what you see) rather than actual orbital mechanics. The word _falak_ was used in pre-Islamic Arabic poetry for the celestial sphere.
+Step 1: The dominant astronomical model in the 7th-century world was Ptolemaic geocentrism — Earth at the center, celestial bodies attached to nested crystal spheres. This was the state of the art from Ptolemy (2nd century CE) until Copernicus (16th century). Do you accept this?
 
-**Strength tier:** STRONG
+Step 2: In the Ptolemaic model, celestial bodies do NOT "swim" freely — they are FIXED to rigid crystal spheres that rotate. The motion belongs to the sphere, not the body. Do you accept this?
 
-**The Question:** Does 21:33 describe actual orbital mechanics -- including the sun's own galactic orbit -- or does it describe the apparent motion of celestial bodies across the sky, which any careful observer could note?
+Step 3: The Qur'an uses "yasbahun" (يَسْبَحُونَ) — "they swim." Swimming implies FREE, independent motion through a medium — like a fish in water. This is the OPPOSITE of being fixed to a rigid sphere. Do you accept this linguistic distinction?
+
+Step 4: The Qur'an says "kullun" (كُلٌّ) — "each one" — in its OWN orbit. This attributes INDIVIDUAL, independent orbital paths to each body. Ptolemy's model has shared nested spheres, not individual orbits. Do you accept this?
+
+Step 5: The Qur'an attributes orbital motion to the SUN ("ash-shamsa"). In the Ptolemaic model, the sun orbits Earth. In the Copernican model (1543), the sun is STATIONARY at the center. The sun's own orbital motion (around the galactic center at ~828,000 km/h) was not established until the 20th century with the understanding of galactic structure. Do you accept this timeline?
+
+Step 6: Pre-Islamic Arabs had NO access to Ptolemy's Almagest — it was not translated into Arabic until the 8th-9th century (Abbasid era, Bayt al-Hikma). Pre-Islamic Arab astronomy was purely empirical: star-rise/set timing for seasons and navigation, lunar calendar. No theoretical orbital mechanics. Do you accept this? (Source: UNESCO Portal on Heritage of Astronomy; Wikipedia: Astronomy in the Medieval Islamic World)
+
+Step 7: Even the Greeks — the most advanced astronomers of the ancient world — used a CRYSTAL SPHERE model, not an "independent swimming" model. The Qur'an's "yasbahun" describes something closer to modern orbital mechanics (free bodies in defined paths) than to Ptolemy (bodies embedded in rigid spheres). Do you accept this?
+
+Step 8: The word "falak" existed in pre-Islamic Arabic for "celestial sphere" — but the Qur'an uses it with "yasbahun" (swimming) and "kullun" (each individually), transforming it from a static sphere concept into individual dynamic orbits. This is a semantic innovation, not a repetition of existing usage. Do you accept this?
+
+Step 9: Taking Steps 1-8 together: the Qur'an describes celestial bodies as individually swimming in their own orbits — a concept that (a) contradicts the dominant Ptolemaic model, (b) was not available in pre-Islamic Arabic astronomy, (c) attributes orbital motion to the sun 1,300 years before its galactic orbit was discovered, and (d) uses language ("swimming") more consistent with modern orbital mechanics than with ancient crystal-sphere models.
+
+**CHAIN RESULT:** If you accepted Steps 1-9, the Qur'anic description of celestial motion goes BEYOND what was observationally or theoretically available in the 7th century — it contradicts the best contemporary model (Ptolemy) in a direction that turned out to be scientifically correct.
+
+**BREAK POINT:** If you rejected any step, identify which one. If you believe pre-Islamic Arabs independently conceived of individual orbital mechanics with free-body motion, cite the evidence.
+
+**Counter-arguments (at strength):**
+
+- The verse could describe APPARENT motion (what you see) rather than actual orbital mechanics
+- "Yasbahun" could be poetic rather than technically precise
+- Some ancient cultures had non-Ptolemaic cosmologies that might have influenced Arabia
+
+**Strength tier:** STRONG — The specific combination of "kullun" (each individually) + "falak" (orbit) + "yasbahun" (swimming/free motion) describes a model that contradicts the dominant 7th-century astronomical framework and aligns with modern orbital mechanics. This is not an observation of apparent celestial motion — it is a specific structural claim about HOW celestial bodies move.
+
+**The Question:** Does 21:33 describe actual orbital mechanics — independent bodies freely moving in individual paths, including the sun's own orbit — using language that contradicts the dominant 7th-century Ptolemaic model? Or can this be explained as a poetic description of apparent celestial motion?
 
 **What this tests:** Whether the attribution of independent orbital motion to every celestial body (including the sun) reflects knowledge beyond geocentric observational astronomy.
 
 ---
 
-### P5F-6. 23:12-14 -- Embryological Stages [DEBATABLE]
+### P5F-6. 23:12-14 -- Embryological Stages [DEBATABLE] [T2-D]
 
 **Verse:**
 _"Wa laqad khalaqna al-insana min sulalatin min tin. Thumma ja'alnahu nutfatan fi qararin makin. Thumma khalaqna an-nutfata alaqatan fa-khalaqna al-alaqata mudghatan fa-khalaqna al-mudghata 'ithaman fa-kasawna al-'ithama lahman thumma ansha'nahu khalqan akhar."_
@@ -1758,7 +1882,7 @@ Galenic embryology, available in the 7th century through Syriac and Arabic trans
 
 ---
 
-### P5F-7. 55:19-20 -- Barrier Between Two Seas
+### P5F-7. 55:19-20 -- Barrier Between Two Seas [APP-P]
 
 **Verse:**
 _"Maraja al-bahrayni yaltaqiyan. Baynahuma barzakhun la yabghiyan."_
@@ -1781,7 +1905,7 @@ The phenomenon where river water meets sea water is observable at any coastal ri
 
 ---
 
-### P5F-8. 24:40 -- Deep Sea Darkness and Internal Waves
+### P5F-8. 24:40 -- Deep Sea Darkness and Internal Waves [APP-P]
 
 **Verse:**
 _"Aw ka-thulumatin fi bahrin lujjiyyin yaghshahu mawjun min fawqihi mawjun min fawqihi sahabun thulumatu ba'duha fawqa ba'd..."_
@@ -1804,7 +1928,7 @@ Sailors' reports of unusual wave behavior, dark deep waters, and rough seas coul
 
 ---
 
-### P5F-9. 96:15-16 -- The Lying, Sinful Forehead
+### P5F-9. 96:15-16 -- The Lying, Sinful Forehead [APP-P]
 
 **Verse:**
 _"Kalla la'in lam yantahi lanas-fa'an bi-an-nasiyah. Nasiyatin kadhibatin khati'ah."_
@@ -1827,7 +1951,7 @@ Referring to the "forehead" as a seat of character or intention is a widespread 
 
 ---
 
-### P5F-10. 75:3-4 -- Reconstructing Fingertips
+### P5F-10. 75:3-4 -- Reconstructing Fingertips [APP-P]
 
 **Verse:**
 _"Ayahsabu al-insanu al-lan najma'a 'ithamah. Bala qadirin 'ala an nusawwiya bananah."_
@@ -1854,7 +1978,7 @@ The verse may simply emphasize the precision and completeness of resurrection --
 
 ---
 
-### P5F-11. 86:5-7 -- Between Backbone and Ribs [DEBATABLE]
+### P5F-11. 86:5-7 -- Between Backbone and Ribs [DEBATABLE] [T2-D]
 
 **Verse:**
 _"Fal-yanthuri al-insanu mimma khuliq. Khuliqa min ma'in dafiq. Yakhruju min bayni as-sulbi wa at-tara'ib."_
@@ -1879,7 +2003,7 @@ Reproductive fluid does not originate from between the backbone and the ribs. Se
 
 ---
 
-### P5F-12. 18:86 -- Sun Setting in Muddy Spring [DEBATABLE]
+### P5F-12. 18:86 -- Sun Setting in Muddy Spring [DEBATABLE] [T2-D]
 
 **Verse:**
 _"Hatta idha balagha maghriba ash-shamsi wajadaha taghrubu fi 'aynin hami'ah..."_
@@ -1899,7 +2023,7 @@ The key verb is _wajadaha_ -- "he found it" or "he perceived it." The subject is
 
 ---
 
-### P5F-13. 51:47 -- Expanding Universe [CONTESTED]
+### P5F-13. 51:47 -- Expanding Universe [CONTESTED] [T2-D]
 
 **Verse:**
 _"Wa as-sama'a banaynaha bi-aydin wa inna la-musi'un."_
@@ -1922,7 +2046,7 @@ The word _musi'un_ is the active participle (ism fa'il) of _awsa'a_, which deriv
 
 ---
 
-### P5F-14. 4:56 -- Skin Replacement and Pain [DEBATABLE]
+### P5F-14. 4:56 -- Skin Replacement and Pain [DEBATABLE] [APP-P]
 
 **Verse:**
 _"Inna alladhina kafaru bi-ayatina sawfa nuslihim naran kullama nadijat julud-uhum baddalnahum juludan ghayraha li-yadhuku al-'adhab..."_
@@ -1949,7 +2073,7 @@ The verse is describing a theological scene of divine punishment in the afterlif
 
 ---
 
-### P5F-15. 30:21 -- Love and Mercy Between Spouses
+### P5F-15. 30:21 -- Love and Mercy Between Spouses [T2-S]
 
 **Verse:**
 _"Wa min ayatihi an khalaqa lakum min anfusikum azwajan li-taskunu ilayha wa ja'ala baynakum mawaddatan wa rahmah..."_
@@ -1972,7 +2096,7 @@ The observation that love and compassion are important in marriage is not unique
 
 ---
 
-### P5F-16. 49:13 -- Nations and Tribes for Mutual Knowledge
+### P5F-16. 49:13 -- Nations and Tribes for Mutual Knowledge [T2-S]
 
 **Verse:**
 _"Ya ayyuha an-nasu inna khalaqnakum min dhakarin wa untha wa ja'alnakum shu'uban wa qaba'ila li-ta'arafu..."_
@@ -1995,7 +2119,7 @@ The idea that different peoples should learn from each other is a common ethical
 
 ---
 
-### P5F-17. 2:219 -- Alcohol: Harm Exceeds Benefit
+### P5F-17. 2:219 -- Alcohol: Harm Exceeds Benefit [T2-S]
 
 **Verse:**
 _"Yas'alunaka 'ani al-khamri wa al-maysir qul fihima ithmun kabirun wa manafi'u lin-nasi wa ithmuhuma akbaru min naf'ihima..."_
@@ -2018,7 +2142,7 @@ Many cultures and traditions have recognized alcohol's dangers. Temperance movem
 
 ---
 
-### P5F-18. 59:7 -- Wealth Must Not Circulate Only Among the Rich
+### P5F-18. 59:7 -- Wealth Must Not Circulate Only Among the Rich [T2-S]
 
 **Verse:**
 _"...Kay la yakuna dulatan bayna al-aghniya'i minkum..."_
@@ -2045,7 +2169,7 @@ Concerns about wealth concentration are not unique to the Qur'an. Ancient Greek 
 
 ---
 
-### P5F-19. 2:275 -- Prohibition of Riba (Interest) [DEBATABLE]
+### P5F-19. 2:275 -- Prohibition of Riba (Interest) [DEBATABLE] [T2-D]
 
 **Verse:**
 _"Alladhina ya'kuluna ar-riba la yaqumuna illa kama yaqumu alladhi yatakhabbat-uhu ash-shaytanu mina al-mass..."_
@@ -2068,7 +2192,7 @@ Interest enables capital formation, investment, and economic growth. Without int
 
 ---
 
-### P5F-20. 17:26-27 -- Do Not Waste
+### P5F-20. 17:26-27 -- Do Not Waste [T2-S]
 
 **Verse:**
 _"Wa ati dha al-qurba haqqahu wa al-miskina wa ibna as-sabili wa la tubadhdhir tabdhira. Inna al-mubadhdhirina kanu ikhwana ash-shayatin..."_
@@ -2083,7 +2207,7 @@ The United Nations Sustainable Development Goal 12 (Responsible Consumption and 
 **Counter-arguments:**
 Frugality and anti-waste ethics are found in virtually every moral tradition: Stoic simplicity, Buddhist non-attachment, Jewish _bal tashchit_ (do not destroy), indigenous stewardship practices. The Qur'anic statement, while strong, is not unique in condemning waste.
 
-**Strength tier:** STRONG (sustainability)
+**Strength tier:** MODERATE (universal moral wisdom found across traditions — not uniquely supernatural knowledge, though the modern validation is striking)
 
 **The Question:** Does the Qur'anic framing of waste as a spiritual evil anticipate modern sustainability science? Or is it a universal moral intuition shared across civilizations?
 
@@ -2091,7 +2215,7 @@ Frugality and anti-waste ethics are found in virtually every moral tradition: St
 
 ---
 
-### P5F-21. 2:282 -- Written Contracts and Witnesses
+### P5F-21. 2:282 -- Written Contracts and Witnesses [T2-S]
 
 **Verse:**
 _"Ya ayyuha alladhina amanu idha tadayantum bi-daynin ila ajalin musamman fa-uktubuhu..."_
@@ -2118,7 +2242,7 @@ Written contracts existed before the Qur'an. Ancient Mesopotamian cultures (Sume
 
 ---
 
-### P5F-22. 21:32 -- Sky as Protective Canopy [ISR-LINKED]
+### P5F-22. 21:32 -- Sky as Protective Canopy [ISR-LINKED] [T2-S]
 
 **Verse:**
 _"Wa ja'alna as-sama'a saqfan mahfuzan wa hum 'an ayatiha mu'ridun."_
@@ -2149,7 +2273,7 @@ The concept of the sky as a roof, canopy, or dome is one of the most common cosm
 
 ---
 
-### P5F-23. 27:18 -- Ant Says "Lest He Crush You" [ISR-LINKED]
+### P5F-23. 27:18 -- Ant Says "Lest He Crush You" [ISR-LINKED] [T2-S]
 
 **Verse:**
 _"Hatta idha ataw 'ala wadi an-namli qalat namlatun ya ayyuha an-namlu udkhulu masakinakum la yahtimannakum Sulaymanu wa junuduhu wa hum la yash'urun."_
@@ -2174,39 +2298,46 @@ The observation that stepping on ants "breaks" or "crushes" them is available to
 
 ### SUMMARY TABLE
 
-| #      | Verse    | Domain           | Tier      | Tags         |
-| ------ | -------- | ---------------- | --------- | ------------ |
-| P5F-1  | 16:68-69 | Entomology       | STRONG    | [ISR-LINKED] |
-| P5F-2  | 57:25    | Astrophysics     | STRONG    | [ISR-LINKED] |
-| P5F-3  | 21:30    | Cosmology        | STRONG    | [ISR-LINKED] |
-| P5F-4  | 21:31    | Geology          | STRONG    |              |
-| P5F-5  | 21:33    | Astronomy        | STRONG    | [ISR-LINKED] |
-| P5F-6  | 23:12-14 | Embryology       | STRONG    | [DEBATABLE]  |
-| P5F-7  | 55:19-20 | Oceanography     | MODERATE  |              |
-| P5F-8  | 24:40    | Oceanography     | MODERATE  |              |
-| P5F-9  | 96:15-16 | Neuroscience     | MODERATE  |              |
-| P5F-10 | 75:3-4   | Anatomy          | MODERATE  |              |
-| P5F-11 | 86:5-7   | Anatomy          | DEBATABLE |              |
-| P5F-12 | 18:86    | Cosmology        | DEBATABLE |              |
-| P5F-13 | 51:47    | Cosmology        | CONTESTED |              |
-| P5F-14 | 4:56     | Neuroscience     | DEBATABLE |              |
-| P5F-15 | 30:21    | Psychology       | MODERATE  |              |
-| P5F-16 | 49:13    | Sociology        | MODERATE  |              |
-| P5F-17 | 2:219    | Public Health    | STRONG    |              |
-| P5F-18 | 59:7     | Economics        | STRONG    |              |
-| P5F-19 | 2:275    | Economics        | MODERATE  | [DEBATABLE]  |
-| P5F-20 | 17:26-27 | Sustainability   | STRONG    |              |
-| P5F-21 | 2:282    | Legal            | MODERATE  |              |
-| P5F-22 | 21:32    | Atmospheric Sci. | STRONG    | [ISR-LINKED] |
-| P5F-23 | 27:18    | Entomology       | MODERATE  | [ISR-LINKED] |
-| P5F-25 | 67:5     | Astrophysics     | CONTESTED |              |
-| P5F-26 | 54:1     | Miraculous claim | CONTESTED |              |
+| #      | Verse    | Domain           | Tier      | Tags                       |
+| ------ | -------- | ---------------- | --------- | -------------------------- |
+| P5F-1  | 16:68-69 | Entomology       | STRONG    | [ISR-LINKED]               |
+| P5F-2  | 57:25    | Astrophysics     | STRONG    | [ISR-LINKED]               |
+| P5F-3  | 21:30    | Cosmology        | STRONG    | [ISR-LINKED]               |
+| P5F-4  | 21:31    | Geology          | STRONG    |                            |
+| P5F-5  | 21:33    | Astronomy        | STRONG    | [ISR-LINKED] [LOGIC-CHAIN] |
+| P5F-6  | 23:12-14 | Embryology       | STRONG    | [DEBATABLE]                |
+| P5F-11 | 86:5-7   | Anatomy          | DEBATABLE |                            |
+| P5F-12 | 18:86    | Cosmology        | DEBATABLE |                            |
+| P5F-13 | 51:47    | Cosmology        | CONTESTED |                            |
+| P5F-15 | 30:21    | Psychology       | MODERATE  |                            |
+| P5F-16 | 49:13    | Sociology        | MODERATE  |                            |
+| P5F-17 | 2:219    | Public Health    | STRONG    |                            |
+| P5F-18 | 59:7     | Economics        | STRONG    |                            |
+| P5F-19 | 2:275    | Economics        | MODERATE  | [DEBATABLE]                |
+| P5F-20 | 17:26-27 | Sustainability   | MODERATE  |                            |
+| P5F-21 | 2:282    | Legal            | MODERATE  |                            |
+| P5F-22 | 21:32    | Atmospheric Sci. | STRONG    | [ISR-LINKED]               |
+| P5F-23 | 27:18    | Entomology       | MODERATE  | [ISR-LINKED]               |
+| P5F-25 | 67:5     | Astrophysics     | CONTESTED |                            |
+| P5F-26 | 54:1     | Miraculous claim | CONTESTED |                            |
 
-**Distribution:** 10 STRONG | 8 MODERATE | 3 DEBATABLE | 3 CONTESTED | 1 tagged [DEBATABLE] within STRONG
+**APPENDIX-PERIPHERAL (not counted in main distribution — noted for transparency):**
+
+| #      | Verse    | Domain       | Tier     | Tags    |
+| ------ | -------- | ------------ | -------- | ------- |
+| P5F-7  | 55:19-20 | Oceanography | MODERATE | [APP-P] |
+| P5F-8  | 24:40    | Oceanography | MODERATE | [APP-P] |
+| P5F-9  | 96:15-16 | Neuroscience | MODERATE | [APP-P] |
+| P5F-10 | 75:3-4   | Anatomy      | MODERATE | [APP-P] |
+| P5F-14 | 4:56     | Neuroscience | MODERATE | [APP-P] |
+
+These 5 verses are logged for transparency but do NOT contribute to the main distribution or cumulative assessment. They are interesting alignments but do not meet the threshold for core or strong-support evidence (see Appendix I, Section I-7).
+
+**Main distribution (scored, 20 verses):** 9 STRONG | 5 MODERATE | 2 DEBATABLE | 3 CONTESTED | 1 tagged [DEBATABLE] within STRONG
 
 ---
 
-### P5F-25. 67:5 — Stars/Meteors as Projectiles Against Devils [CONTESTED]
+### P5F-25. 67:5 — Stars/Meteors as Projectiles Against Devils [CONTESTED] [T2-D]
 
 **Verse:** "And We have certainly adorned the nearest heaven with lamps, and We have made them as projectiles for the devils" (67:5)
 
@@ -2215,11 +2346,13 @@ The observation that stepping on ants "breaks" or "crushes" them is available to
 **Modern context:** The Arabic term "shuhub" (شُهُب) associated with this phenomenon refers to "shooting stars" — meteors, physical objects that burn up upon entering Earth's atmosphere. Meteor showers are real, observable phenomena.
 
 **Counter-arguments (maximum strength):**
+
 - A literal reading — physical stars as weapons against invisible beings — is scientifically problematic. Stars are massive thermonuclear bodies.
 - The conflation of decorative "lamps" with defensive "projectiles" lacks clear mechanism.
 - This may be theological/metaphorical language, not a scientific claim.
 
 **Alternative perspective:**
+
 - "Shuhub" linguistically refers to meteors, not stars. Meteors ARE physical objects.
 - The nature of "shayatin" and their interaction with the physical cosmos may operate on principles beyond current scientific observation.
 - If describing meteor phenomena (observable) interacting with unseen beings (theological), it occupies a domain where science and theology overlap in ways neither discipline can fully adjudicate.
@@ -2232,7 +2365,7 @@ The observation that stepping on ants "breaks" or "crushes" them is available to
 
 ---
 
-### P5F-26. 54:1 — The Moon Has Split [CONTESTED]
+### P5F-26. 54:1 — The Moon Has Split [CONTESTED] [T2-D]
 
 **Verse:** "The Hour has drawn near, and the moon has split" (54:1)
 
@@ -2241,16 +2374,19 @@ The observation that stepping on ants "breaks" or "crushes" them is available to
 **Historical context:** Islamic tradition records this as a miracle witnessed by the Quraysh. Multiple hadith in Sahih al-Bukhari and Sahih Muslim report the event.
 
 **Modern investigation:**
+
 - NASA's Lunar Reconnaissance Orbiter documented Rima Ariadaeus — a ~300km linear rille on the moon's surface (geological feature, not attributed by NASA to splitting).
 - Historical reports from Kerala, India describe a king witnessing the moon splitting (Cheraman Perumal chronicle — historicity debated).
 - No independent (non-Islamic) 7th-century source documents a globally visible lunar event.
 
 **Counter-arguments (maximum strength):**
+
 - If the moon visibly split, Chinese, Byzantine, Indian, and Persian astronomers should have recorded it — no widespread independent documentation exists.
 - Rima Ariadaeus is a standard geological graben, not evidence of supernatural splitting.
 - The verse could be eschatological (future event at the Hour) rather than historical.
 
 **Alternative perspective:**
+
 - The event may have been localized/perceptual rather than global geological splitting.
 - Multiple sahih hadith from independent companions report it — strong isnad evidence within Islamic historiography.
 - Absence of non-Islamic records may reflect localized nature, nighttime timing, or fragmentary state of 7th-century global record-keeping.
@@ -2263,21 +2399,25 @@ The observation that stepping on ants "breaks" or "crushes" them is available to
 
 ---
 
-### P5F-27. The Cumulative Question
+### P5F-27. The Cumulative Question [T2-S]
 
-Of the 25 verses examined — 10 rated STRONG, 8 MODERATE, 3 DEBATABLE, 3 CONTESTED — what is the cumulative assessment? Consider: even EXCLUDING the 3 CONTESTED and 3 DEBATABLE verses entirely, the remaining 18 (10 STRONG + 8 MODERATE) span 16 distinct knowledge domains. Is this concentration of cross-domain accurate content consistent with 7th-century human authorship in a resource-poor environment?
+Of the **20 scored verses** (excluding 5 APP-P peripheral items) — 9 rated STRONG, 5 MODERATE, 2 DEBATABLE, 3 CONTESTED — what is the cumulative assessment?
+
+Consider: even EXCLUDING the 3 CONTESTED and 2 DEBATABLE verses entirely, the remaining **14 (9 STRONG + 5 MODERATE)** span 12+ distinct knowledge domains. Is this concentration of cross-domain accurate content consistent with 7th-century human authorship in a resource-poor environment?
+
+Note: 5 additional verses (P5F-7, 8, 9, 10, 14) are logged as APP-P (peripheral) — interesting alignments but below the threshold for scored evidence. They are NOT counted in this assessment. This is an honest exclusion — we do not inflate the count with weak items.
 
 Consider:
 
-- The domains span entomology, astrophysics, cosmology, geology, astronomy, embryology, oceanography, neuroscience, anatomy, psychology, sociology, public health, economics, sustainability, law, and atmospheric science -- **16 distinct fields**.
-- Even if every DEBATABLE and CONTESTED verse is discarded entirely, **11 STRONG and 7 MODERATE verses remain across 14+ domains**.
-- The author had no access to microscopes, telescopes, submarines, fMRI machines, economic datasets, or oceanographic instruments.
+- The scored domains span entomology, astrophysics, cosmology, geology, astronomy, embryology, psychology, public health, economics, sustainability, law, and atmospheric science — **12+ distinct fields**.
+- Even if every DEBATABLE and CONTESTED verse is discarded entirely, **14 verses remain across 12+ domains**.
+- The author had no access to microscopes, telescopes, submarines, economic datasets, or atmospheric instruments.
 - The author was, by historical consensus (including hostile sources), illiterate (_ummi_).
 - The text was produced in a single human lifetime, in 7th-century Arabia.
 
-> **Question:** Is this cross-domain concentration of accurate content -- spanning hard sciences, social sciences, and applied ethics -- consistent with a single human author working without access to the relevant knowledge? Or does the breadth and precision of the content require an explanation beyond human authorship?
+> **Question:** Is this cross-domain concentration of accurate content — spanning hard sciences, social sciences, and applied ethics — consistent with a single human author working without access to the relevant knowledge? Or does the breadth and precision of the content require an explanation beyond human authorship?
 
-> **What this tests:** Whether the cumulative weight of 23 verses across 16 domains exceeds what any naturalistic model of 7th-century authorship can account for -- regardless of how any individual verse is assessed.
+> **What this tests:** Whether the cumulative weight of 20 scored verses across 12+ domains exceeds what any naturalistic model of 7th-century authorship can account for — regardless of how any individual verse is assessed. (5 additional peripheral verses are logged but excluded from this assessment.)
 
 ---
 

@@ -11,7 +11,7 @@
 | 4A          | Source Access                | P4-1 through P4-10  |
 | 4B          | Specific Source Tests        | P4-11 through P4-18 |
 | 4C          | Oral Transmission Hypothesis | P4-19 through P4-23 |
-| 4D          | Hieroglyphic Lock            | P4-24 through P4-28 |
+| 4D          | Hieroglyphic Lock            | P4-24 through P4-27 (P4-28 = APP-P, demoted) |
 | 4E          | Composition Constraints      | P4-29 through P4-41 |
 
 ---
@@ -22,7 +22,7 @@ _These questions test whether the carrier had documented access to the multi-tra
 
 ---
 
-### P4-1. [CRITICAL]
+### P4-1. [CRITICAL] [NC-C]
 
 **Can you PRODUCE manuscript evidence of any Arabic translation of any scripture — Torah, Psalms, Gospels, or any other religious text — that predates Islam?**
 
@@ -47,7 +47,7 @@ The absence is not merely an argument from silence. Scholars have actively searc
 
 ---
 
-### P4-2. [CRITICAL]
+### P4-2. [CRITICAL] [NC-C]
 
 **Can you CITE evidence of any library, archive, school, or educational institution in 6th-7th century Mecca?**
 
@@ -72,7 +72,7 @@ Even the hostile Quraysh — who had every motive to discredit Muhammad's messag
 
 ---
 
-### P4-3.
+### P4-3. [T2-S]
 
 **Was Mecca a multilingual scholarly hub — or a trading town?**
 
@@ -96,7 +96,7 @@ The distinction matters because the Qur'an does not engage in surface-level awar
 
 ---
 
-### P4-4.
+### P4-4. [T2-S]
 
 **How many distinct linguistic and cultural traditions does the Qur'an engage — and what does each require for access?**
 
@@ -124,7 +124,7 @@ The Qur'an does not draw from a single tradition. It engages content from at lea
 
 ---
 
-### P4-5.
+### P4-5. [T2-S]
 
 **Did any multilingual scholarly community exist in Mecca that could serve as an intermediary — translating, curating, and systematizing content from 7+ traditions for the carrier?**
 
@@ -152,7 +152,7 @@ The historical record:
 
 ---
 
-### P4-6.
+### P4-6. [T2-S]
 
 **The Qur'an does not merely reference earlier traditions — it CORRECTS them. Does referencing require the same level of source access as systematic correction?**
 
@@ -177,7 +177,7 @@ A borrower copies — including errors. A corrector edits with systematic precis
 
 ---
 
-### P4-7.
+### P4-7. [T2-S]
 
 **Each of the 7+ traditions the Qur'an engages required specialist training in a different language and scholarly framework. Can you document any SINGLE individual in the 7th-century world — not just Mecca, ANYWHERE — who commanded all of them simultaneously?**
 
@@ -201,7 +201,7 @@ The great polymaths of late antiquity — scholars like Procopius, Isidore of Se
 
 ---
 
-### P4-8.
+### P4-8. [T2-S]
 
 **The Qur'an corrects insider details that most members of each tradition did not know. Does this pattern match borrowing or correction?**
 
@@ -222,7 +222,7 @@ The pattern is consistent: the Qur'an engages insider knowledge from multiple tr
 
 ---
 
-### P4-9.
+### P4-9. [T2-S]
 
 **The Quraysh — Muhammad's own tribe and his most motivated opponents — accused him of being "taught by a human." They could not name a consistent source. What does this tell us?**
 
@@ -250,7 +250,7 @@ This is significant because **absence of accusation from motivated opponents** i
 
 ---
 
-### P4-10.
+### P4-10. [T2-S]
 
 **An illiterate merchant in 6th-7th century Mecca had no documented access to ANY of the 7+ traditions the Qur'an engages in their original forms. Can you document access to even ONE?**
 
@@ -261,7 +261,7 @@ This question consolidates the findings of P4-1 through P4-9. Given the Part 3 c
 - **Hebrew Torah:** No Arabic translation existed (P4-1). The carrier was not literate in Hebrew. No yeshiva or synagogue is documented in Mecca (P4-2).
 - **Aramaic Talmud:** The Babylonian Talmud was a specialist oral/written tradition of rabbinic academies in Iraq. No Talmudic academy existed in Mecca or anywhere in the Hijaz.
 - **Syriac Christian texts:** Syriac apocryphal texts circulated in Syria and Mesopotamia. The carrier had no documented Syriac literacy. No Syriac manuscript has been found in Mecca.
-- **Egyptian tradition:** Hieroglyphic knowledge died out ~394 CE. No one alive in the 7th century could read hieroglyphics (see P4-24 through P4-28).
+- **Egyptian tradition:** Hieroglyphic knowledge died out ~394 CE. No one alive in the 7th century could read hieroglyphics (see P4-24 through P4-27).
 - **Persian tradition:** Middle Persian and Avestan were not spoken in Mecca. No Zoroastrian scholarly community existed in the Hijaz.
 - **Greek tradition:** Greek medical and philosophical texts were housed in distant urban centers. The carrier had no documented Greek literacy.
 - **Pre-Islamic poetry:** The carrier knew Arabic — this tradition alone was accessible through his linguistic environment. But the Qur'an's literary output surpassed this tradition rather than borrowing from it (established in Part 1).
@@ -278,7 +278,7 @@ _These questions examine specific proposed sources and transmission paths, testi
 
 ---
 
-### P4-11. [CRITICAL]
+### P4-11. [CRITICAL] [NC-C]
 
 **Can you document a plausible transmission path for Talmudic material to reach an illiterate merchant in 7th-century Mecca?** [ISR-LINKED]
 
@@ -306,9 +306,16 @@ For this material to reach Muhammad, a transmission path must be documented: **w
 
 **What this tests:** Whether the Talmudic-parallel hypothesis has a documented mechanism or is a bare possibility sustained by the desire to avoid the alternative explanation.
 
+**Additional evidence (strengthening the source-access problem):**
+
+- Deep research has established that most Qur'anic parallels with Talmudic/Midrashic material appear in MECCAN surahs — revealed BEFORE the migration to Medina and BEFORE documented contact with Jewish communities
+- Several alleged "source texts" (Pirke de-Rabbi Eliezer, Targum Sheni) are now dated by scholars to AFTER the Qur'an's composition period — making them potential borrowers FROM the Qur'an, not sources for it
+- The systematic correction pattern (accepting narratives but replacing theology) is unexplainable by casual inter-community contact
+- Michael Pregill warns against assuming Medinan Jews were "Talmudic scholars" — they were Arabized traders, not rabbinic academics
+
 ---
 
-### P4-12.
+### P4-12. [T2-S]
 
 **Across ALL Christian sources the Qur'an engages, it makes SYSTEMATIC corrections — not random variations. Does this pattern match borrowing or editorial authority?**
 
@@ -336,7 +343,7 @@ This requires not just knowledge of the source material, but a prior theological
 
 ---
 
-### P4-13. [CRITICAL]
+### P4-13. [CRITICAL] [NC-C]
 
 **Does the Qur'an contain original content found in NO known source — content that cannot be explained by borrowing from any tradition?** [ISR-LINKED]
 
@@ -362,7 +369,7 @@ Documented original content (content with no known source):
 
 ---
 
-### P4-14.
+### P4-14. [T2-S]
 
 **The "oral culture" defense: "Everyone knew Bible stories." But does the Qur'an repeat popular stories — or correct specialist scholarly details that even most Christians and Jews did not know?**
 
@@ -387,7 +394,7 @@ The "oral culture" defense explains point 1 (general awareness) but fails on poi
 
 ---
 
-### P4-15.
+### P4-15. [T2-S]
 
 **The trade route hypothesis: Muhammad traveled for trade. Can trade routes teach Talmudic law, Egyptian funerary practices, or embryological terminology?**
 
@@ -414,7 +421,7 @@ The trade route hypothesis proposes that Muhammad absorbed religious knowledge d
 
 ---
 
-### P4-16.
+### P4-16. [T2-S]
 
 **Waraqah ibn Nawfal: the strongest named source candidate. Can he account for the Qur'an?**
 
@@ -451,7 +458,7 @@ What the sources tell us about Waraqah:
 
 ---
 
-### P4-17.
+### P4-17. [T2-S]
 
 **Has any scholar — Muslim or non-Muslim — successfully identified a single comprehensive source text from which the Qur'an is derived?**
 
@@ -475,7 +482,7 @@ Each scholar has identified parallels with ONE tradition but cannot account for 
 
 ---
 
-### P4-18.
+### P4-18. [T2-S]
 
 **The Qur'an addresses Muhammad with information he did not know — and tells him explicitly that he did not know it. Is this consistent with human authorship?**
 
@@ -504,7 +511,7 @@ _The most common naturalistic explanation for the Qur'an's multi-traditional con
 
 ---
 
-### P4-19. [CRITICAL]
+### P4-19. [CRITICAL] [NC-C]
 
 **Does oral transmission typically improve or degrade information? What does the empirical science say?**
 
@@ -554,7 +561,7 @@ The oral transmission hypothesis predicts degradation. The Qur'an shows enhancem
 
 ---
 
-### P4-20.
+### P4-20. [T2-S]
 
 **The Qur'an does the OPPOSITE of oral degradation on every measurable axis. Does this make the oral hypothesis stronger or weaker?**
 
@@ -579,7 +586,7 @@ Zero out of six predictions match. In any empirical science, zero-out-of-six pre
 
 ---
 
-### P4-21.
+### P4-21. [T2-S]
 
 **A stronger oral culture makes the anomaly WORSE, not better. Why?**
 
@@ -605,7 +612,7 @@ Here is why:
 
 ---
 
-### P4-22.
+### P4-22. [T2-S]
 
 **The "Chinese whispers" direction vs. the Qur'anic direction: are they the same?**
 
@@ -637,7 +644,7 @@ If the Qur'an arrived through oral transmission, it moved in a direction that or
 
 ---
 
-### P4-23.
+### P4-23. [T2-S]
 
 **Can you NAME one text in human history where an illiterate person received multiple religious traditions orally and SYSTEMATICALLY corrected ALL of them in one consistent theological direction?** [ISR-LINKED]
 
@@ -669,7 +676,7 @@ _These questions examine the Qur'an's engagement with Egyptian historical and re
 
 ---
 
-### P4-24. [CRITICAL]
+### P4-24. [CRITICAL] [NC-C]
 
 **The Qur'an uses "Pharaoh" (Fir'awn) for the Exodus ruler and "King" (Malik) for the Joseph-era ruler. Was this distinction known to ANY living person in 632 CE?** [ISR-LINKED]
 
@@ -741,7 +748,7 @@ Step 14: If no living person knew this distinction, and no available written sou
 
 ---
 
-### P4-25.
+### P4-25. [T2-S]
 
 **The Bible uses "Pharaoh" for BOTH rulers. The Qur'an correctly distinguishes them. If the Qur'an borrowed from the Bible, why does it CORRECT the Bible on a point no one could verify?**
 
@@ -763,7 +770,7 @@ If the Qur'an were a human composition borrowing from available sources, this co
 
 ---
 
-### P4-26.
+### P4-26. [T2-S]
 
 **The last person who could read hieroglyphics died around 394 CE. The Qur'an was revealed starting ~610 CE. Can you IDENTIFY any living person in the intervening 216 years who possessed hieroglyphic knowledge?** [CRITICAL]
 
@@ -789,7 +796,7 @@ For the Qur'an's Pharaoh/King distinction to be a product of human knowledge, on
 
 ---
 
-### P4-27.
+### P4-27. [T2-S]
 
 **Surah 44:29 — "And the heaven and the earth wept not for them, nor were they reprieved." Does this invert Egyptian afterlife beliefs — and if so, how would a 7th-century Arab know Egyptian funerary theology?**
 
@@ -810,7 +817,7 @@ This is not a generic observation. It specifically targets the Egyptian belief t
 
 ---
 
-### P4-28.
+### P4-28. [DEBATABLE] [APP-P] [FP-DEMOTED]
 
 **The Qur'an places Haman in Egypt as Pharaoh's minister. The Bible places Haman in Persia. Hieroglyphic evidence suggests an Egyptian official with a cognate name existed. Was this knowledge available in the 7th century?** [ISR-LINKED]
 
@@ -835,6 +842,16 @@ Critics who claim Muhammad "confused" Haman must explain how an illiterate merch
 
 **What this tests:** Whether the Haman placement constitutes an error (as critics claim) or engages with Egyptian records inaccessible to any living person — and whether either interpretation helps the human-authorship model.
 
+**Counter-evidence (presented at strength):**
+
+- Maurice Bucaille, who proposed the Haman-hieroglyphic connection, was a medical doctor, not a trained Egyptologist
+- Hermann Ranke's dictionary reads the hieroglyphic name as "Hemen" (ḥmn-ḥ), not "Haman" — the phonetic match is approximate, not exact
+- No mainstream Egyptological peer-reviewed publication has confirmed the identification
+- The connection remains intriguing but INCONCLUSIVE — it should not be treated as established evidence
+- Note: The Pharaoh/King distinction (P4-24) is the STRONG hieroglyphic argument. The Haman connection is auxiliary at best.
+
+**Strength assessment:** E₂ (Auxiliary) — intriguing but insufficient evidence for core weight.
+
 ---
 
 ## SUB-SECTION 4E: COMPOSITION CONSTRAINTS
@@ -843,7 +860,7 @@ _These questions examine HOW the Qur'an was produced — the conditions, constra
 
 ---
 
-### P4-29.
+### P4-29. [T2-S]
 
 **The Qur'an was not revealed sequentially — surahs were assembled non-chronologically by specific instruction. Does this make human composition easier or harder to explain?**
 
@@ -868,7 +885,7 @@ This means:
 
 ---
 
-### P4-30.
+### P4-30. [T2-S]
 
 **Many Qur'anic verses were revealed in response to unpredictable events — questions from strangers, battlefield situations, personal crises. Can a human author pre-compose responses to events he cannot foresee?**
 
@@ -895,7 +912,7 @@ Under human authorship, Muhammad would need to:
 
 ---
 
-### P4-31.
+### P4-31. [T2-S]
 
 **Every verse was delivered publicly and immediately memorized by multiple witnesses. Does this "irrevocable output" constraint match human literary production?**
 
@@ -916,7 +933,7 @@ This means the Qur'an is, in literary-production terms, a **first-and-final draf
 
 ---
 
-### P4-32.
+### P4-32. [T2-S]
 
 **The Qur'an was produced over 23 years under wildly varying conditions: persecution, boycott, migration, governance, war, peace, grief, triumph. Does the text show the expected variation?**
 
@@ -953,7 +970,7 @@ The Qur'an shows NONE of these expected patterns. Early Meccan surahs (produced 
 
 ---
 
-### P4-33.
+### P4-33. [T2-S]
 
 **There is no quality gradient in the Qur'an: no learning curve, no improvement, no decline. Is this consistent with human authorship?**
 
@@ -979,7 +996,7 @@ The Qur'an's first revelation (Surah 96:1-5, "Read in the name of your Lord who 
 
 ---
 
-### P4-34. [FOUNDATIONAL]
+### P4-34. [FOUNDATIONAL] [NC-C]
 
 **There is zero evidence of drafting, editing, or revision behind the Qur'an. No manuscript shows crossed-out text, marginal notes, or alternative wordings for the Qur'anic text itself. Is this consistent with human composition?**
 
@@ -1010,7 +1027,7 @@ This absence is not merely an argument from silence — it is an absence after 1
 
 ---
 
-### P4-35. [CRITICAL] [FOUNDATIONAL]
+### P4-35. [CRITICAL] [FOUNDATIONAL] [NC-C]
 
 **Can you NAME one literary work in human history that was produced under ALL of the following constraints simultaneously?** [ISR-LINKED]
 
@@ -1040,7 +1057,7 @@ The Qur'an was produced under a specific combination of constraints. Any ONE of 
 
 ---
 
-### P4-36.
+### P4-36. [T2-S]
 
 **The Qur'an began at age 40, with no prior literary activity. Does literary genius appear at 40 without a documented development trajectory?**
 
@@ -1065,7 +1082,7 @@ The study of expertise (K. Anders Ericsson, _Peak: Secrets from the New Science 
 
 ---
 
-### P4-37.
+### P4-37. [T2-S]
 
 **Unlike every human author in history, there is zero evidence of Muhammad ever revising, withdrawing, or expressing dissatisfaction with any Qur'anic verse. Is this psychologically normal for a human author?**
 
@@ -1096,7 +1113,7 @@ Muhammad's recorded relationship with the Qur'an is radically different:
 
 ---
 
-### P4-38.
+### P4-38. [T2-S]
 
 **No historical parallel exists: no text in human history was produced under ALL of the Qur'an's composition constraints simultaneously. What does this uniqueness imply for human-authorship models?**
 
@@ -1134,19 +1151,19 @@ If no historical parallel exists, then human-authorship models are proposing a h
 
 The following questions carry [CRITICAL] weight (x3) in this Part:
 
-| #     | Question                                                                                  | Type                | Tags                    |
-| ----- | ----------------------------------------------------------------------------------------- | ------------------- | ----------------------- |
-| P4-1  | PRODUCE manuscript evidence of any Arabic scripture pre-Islam                             | Binary-Critical     | [CRITICAL]              |
-| P4-2  | CITE evidence of any educational institution in 6th-7th century Mecca                     | Binary-Critical     | [CRITICAL]              |
-| P4-11 | Document a plausible transmission path for Talmudic material to Mecca                     | Binary-Critical     | [CRITICAL] [ISR-LINKED] |
-| P4-12 | Systematic correction pattern: borrowing or editorial authority?                          | Evaluative           |                         |
-| P4-13 | Does the Qur'an contain original content found in NO known source?                        | Binary-Critical     | [CRITICAL] [ISR-LINKED] |
-| P4-19 | Does oral transmission typically improve or degrade information?                          | Evaluative-Critical | [CRITICAL]              |
-| P4-23 | NAME one text where an illiterate person systematically corrected all received traditions | Binary              | [ISR-LINKED]            |
-| P4-24 | Was the Pharaoh/King distinction known to ANY living person in 632 CE?                    | Binary-Critical     | [CRITICAL] [ISR-LINKED] |
-| P4-26 | IDENTIFY any person between 394 CE and 632 CE with hieroglyphic knowledge                 | Binary-Critical     | [CRITICAL]              |
-| P4-28 | Was the information for the Haman placement available in the 7th century?                 | Evaluative           | [ISR-LINKED]            |
-| P4-34 | Zero evidence of drafting — consistent with human composition?                            | Evaluative-Critical | [FOUNDATIONAL]          |
+| #     | Question                                                                                  | Type                | Tags                                   |
+| ----- | ----------------------------------------------------------------------------------------- | ------------------- | -------------------------------------- |
+| P4-1  | PRODUCE manuscript evidence of any Arabic scripture pre-Islam                             | Binary-Critical     | [CRITICAL]                             |
+| P4-2  | CITE evidence of any educational institution in 6th-7th century Mecca                     | Binary-Critical     | [CRITICAL]                             |
+| P4-11 | Document a plausible transmission path for Talmudic material to Mecca                     | Binary-Critical     | [CRITICAL] [ISR-LINKED]                |
+| P4-12 | Systematic correction pattern: borrowing or editorial authority?                          | Evaluative          |                                        |
+| P4-13 | Does the Qur'an contain original content found in NO known source?                        | Binary-Critical     | [CRITICAL] [ISR-LINKED]                |
+| P4-19 | Does oral transmission typically improve or degrade information?                          | Evaluative-Critical | [CRITICAL]                             |
+| P4-23 | NAME one text where an illiterate person systematically corrected all received traditions | Binary              | [ISR-LINKED]                           |
+| P4-24 | Was the Pharaoh/King distinction known to ANY living person in 632 CE?                    | Binary-Critical     | [CRITICAL] [ISR-LINKED]                |
+| P4-26 | IDENTIFY any person between 394 CE and 632 CE with hieroglyphic knowledge                 | Binary-Critical     | [CRITICAL]                             |
+| P4-28 | ~~Haman placement~~ **[APP-P] [FP-DEMOTED]** — demoted after Red Team analysis            | ~~Evaluative~~      | [DEBATABLE] [APP-P] — not scored       |
+| P4-34 | Zero evidence of drafting — consistent with human composition?                            | Evaluative-Critical | [FOUNDATIONAL]                         |
 | P4-35 | NAME one literary work produced under ALL listed constraints simultaneously               | Binary-Critical     | [CRITICAL] [ISR-LINKED] [FOUNDATIONAL] |
 
 **Total CRITICAL questions in Part 4:** 10 (of 41 total)
@@ -1155,7 +1172,7 @@ The following questions carry [CRITICAL] weight (x3) in this Part:
 
 ---
 
-### P4-39. The Impossible Library [CRITICAL] [LOGIC-CHAIN]
+### P4-39. The Impossible Library [CRITICAL] [LOGIC-CHAIN] [NC-C]
 
 **Context and Evidence:**
 
@@ -1197,26 +1214,26 @@ The Qur'an engages with content from at least 7 linguistic traditions and 17+ id
 
 ---
 
-### P4-40. 12-Category Oral Transmission Test [CRITICAL]
+### P4-40. 12-Category Oral Transmission Test [CRITICAL] [NC-C]
 
 **Context and Evidence:**
 
 Systematic test from companion research "The Oral Transmission Hypothesis." Score each content category for whether oral transmission plausibly explains its presence in the Qur'an:
 
-| # | Content Category | Can Oral Transmission Explain? | Score |
-|---|-----------------|-------------------------------|-------|
-| 1 | General prophetic narratives (Moses, Jesus, Noah) | Plausible — widely known stories | CONSISTENT |
-| 2 | Basic theological concepts (monotheism, judgment, afterlife) | Plausible — circulated across communities | CONSISTENT |
-| 3 | Popular apocryphal stories (Jesus making birds, Seven Sleepers) | Partially — awareness yes, specific treatment no | PARTIAL |
-| 4 | Systematic theological correction across ALL sources | Oral channels transmit WITH theology, not against it | FAILS |
-| 5 | Christological editing of every Christian parallel | Requires editorial framework superior to all sources | FAILS |
-| 6 | Specialist Talmudic/Midrashic material | Academic texts in foreign languages, no oral mechanism to Mecca | NO MECHANISM |
-| 7 | Original narrative content (al-Samiri, women cutting hands) | Oral channels transmit existing material, not generate new content | NO MECHANISM |
-| 8 | Historical precision (Pharaoh/King) | Knowledge locked in dead language — no possible sender | FAILS ABSOLUTELY |
-| 9 | Scientific content beyond contemporary horizon | No sender possessed the knowledge | FAILS ABSOLUTELY |
-| 10 | Pharaoh body preservation prediction | Future event — no oral channel carries future facts | FAILS ABSOLUTELY |
-| 11 | Mathematical structural properties | Oral transmission transmits content, not structural math | OUTSIDE SCOPE |
-| 12 | Cross-traditional theological consistency | Oral collection inherits contradictions; Qur'an resolves them | OUTSIDE SCOPE |
+| #   | Content Category                                                | Can Oral Transmission Explain?                                     | Score            |
+| --- | --------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------- |
+| 1   | General prophetic narratives (Moses, Jesus, Noah)               | Plausible — widely known stories                                   | CONSISTENT       |
+| 2   | Basic theological concepts (monotheism, judgment, afterlife)    | Plausible — circulated across communities                          | CONSISTENT       |
+| 3   | Popular apocryphal stories (Jesus making birds, Seven Sleepers) | Partially — awareness yes, specific treatment no                   | PARTIAL          |
+| 4   | Systematic theological correction across ALL sources            | Oral channels transmit WITH theology, not against it               | FAILS            |
+| 5   | Christological editing of every Christian parallel              | Requires editorial framework superior to all sources               | FAILS            |
+| 6   | Specialist Talmudic/Midrashic material                          | Academic texts in foreign languages, no oral mechanism to Mecca    | NO MECHANISM     |
+| 7   | Original narrative content (al-Samiri, women cutting hands)     | Oral channels transmit existing material, not generate new content | NO MECHANISM     |
+| 8   | Historical precision (Pharaoh/King)                             | Knowledge locked in dead language — no possible sender             | FAILS ABSOLUTELY |
+| 9   | Scientific content beyond contemporary horizon                  | No sender possessed the knowledge                                  | FAILS ABSOLUTELY |
+| 10  | Pharaoh body preservation prediction                            | Future event — no oral channel carries future facts                | FAILS ABSOLUTELY |
+| 11  | Mathematical structural properties                              | Oral transmission transmits content, not structural math           | OUTSIDE SCOPE    |
+| 12  | Cross-traditional theological consistency                       | Oral collection inherits contradictions; Qur'an resolves them      | OUTSIDE SCOPE    |
 
 **The question:** Evaluate each category yourself. How many of the 12 does oral transmission plausibly explain? Fill in the table with your own assessments. If you disagree with any of the pre-filled scores, state your alternative and justify it.
 
@@ -1224,7 +1241,7 @@ Systematic test from companion research "The Oral Transmission Hypothesis." Scor
 
 ---
 
-### P4-41. Cross-Traditional Theological Consistency [ISR-LINKED]
+### P4-41. Cross-Traditional Theological Consistency [ISR-LINKED] [T2-S]
 
 **Context and Evidence:**
 

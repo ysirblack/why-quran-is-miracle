@@ -24,7 +24,7 @@
 
 ---
 
-### P6A-1 [CODE-DEPENDENT] [ISR-LINKED]
+### P6A-1 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Golden Ratio Test Applied to the Bible**
 
@@ -148,7 +148,7 @@ print(f"{'=' * 60}")
 
 ---
 
-### P6A-2 [CODE-DEPENDENT] [ISR-LINKED]
+### P6A-2 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Even-Sum Parity Identity Applied to the Bible**
 
@@ -353,7 +353,7 @@ print(f"          Deviation = {abs(bible_even_sum_chapters - bible_total_chapter
 
 ---
 
-### P6A-3 [CODE-DEPENDENT] [ISR-LINKED]
+### P6A-3 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Word-Balance (Antonym Pair) Tests Applied to the Bible**
 
@@ -455,7 +455,7 @@ print(f"  Bible exact antonym balances found:  {exact_matches}")
 
 ---
 
-### P6A-4 [CODE-DEPENDENT] [ISR-LINKED]
+### P6A-4 [CODE-DEPENDENT] [ISR-LINKED] [T2-S]
 
 **Verse-Gap Scientific Constant Tests Applied to the Bible**
 
@@ -585,7 +585,7 @@ print(f"  Qur'an matches: 3 out of 3")
 
 ---
 
-### P6A-5 [CRITICAL] [CODE-DEPENDENT] [ISR-LINKED]
+### P6A-5 [CRITICAL] [CODE-DEPENDENT] [ISR-LINKED] [NC-C]
 
 **Ramsey Theory: Larger Datasets Should Produce MORE Patterns**
 
@@ -686,7 +686,7 @@ This is not a case of "the Bible has different patterns." It is a case of the Bi
 
 ---
 
-### P6B-1 [ISR-LINKED]
+### P6B-1 [ISR-LINKED] [T2-S]
 
 **400,000+ Textual Variants in the New Testament**
 
@@ -714,7 +714,7 @@ The New Testament manuscript tradition contains an estimated 300,000 to 400,000 
 
 ---
 
-### P6B-2
+### P6B-2 [T2-S]
 
 **The Aramaic-to-Greek Language Gap**
 
@@ -741,7 +741,7 @@ Yet ALL four canonical Gospels are written in Koine Greek — not Aramaic. No Ar
 
 ---
 
-### P6B-3 [ISR-LINKED]
+### P6B-3 [ISR-LINKED] [T2-S]
 
 **The Temporal Gap: Earliest Manuscripts**
 
@@ -778,7 +778,7 @@ Yet ALL four canonical Gospels are written in Koine Greek — not Aramaic. No Ar
 
 ---
 
-### P6B-4
+### P6B-4 [T2-S]
 
 **Gospel Authorship: No Eyewitness Authors**
 
@@ -805,7 +805,7 @@ The four canonical Gospels are traditionally attributed to Matthew, Mark, Luke, 
 
 ---
 
-### P6B-5
+### P6B-5 [T2-S]
 
 **50+ English Bible Translations That Disagree**
 
@@ -836,7 +836,7 @@ The Bible exists in over 50 major English translations: KJV (1611), NKJV (1982),
 
 ---
 
-### P6B-6
+### P6B-6 [T2-S]
 
 **Codex Sinaiticus vs. Codex Vaticanus: The Oldest Bibles Disagree**
 
@@ -864,7 +864,7 @@ These two manuscripts — the oldest and most authoritative — DIFFER from each
 
 ---
 
-### P6B-7
+### P6B-7 [T2-S]
 
 **Mark 16:9-20 — The Missing Resurrection**
 
@@ -898,7 +898,7 @@ Verses 9-20 — which contain:
 
 ---
 
-### P6B-8
+### P6B-8 [T2-S]
 
 **Comma Johanneum (1 John 5:7-8) — The Fabricated Trinity Verse**
 
@@ -941,7 +941,7 @@ The bold text is the Comma Johanneum. It is the ONLY verse in the entire Bible t
 
 ---
 
-### P6B-9 [CRITICAL] [ISR-LINKED]
+### P6B-9 [CRITICAL] [ISR-LINKED] [T2-S]
 
 **Transmission SYSTEM Comparison: Dual-Lock vs. Single-Chain**
 
@@ -981,7 +981,7 @@ This question compares SYSTEMS, not individual data points. It asks: which tradi
 
 ---
 
-### P6B-10 [DEBATABLE]
+### P6B-10 [DEBATABLE] [T2-D]
 
 **The Christian Counter-Arguments**
 
@@ -1025,7 +1025,7 @@ This question presents the STRONGEST Christian responses to the above manuscript
 
 ---
 
-### P6C-1
+### P6C-1 [T2-S]
 
 **Noah: Righteous Patriarch or Drunken Exhibitionist?**
 
@@ -1052,7 +1052,7 @@ Then:
 
 ---
 
-### P6C-2
+### P6C-2 [T2-S]
 
 **Lot: Condemner of Sin or Participant in Incest?**
 
@@ -1076,7 +1076,7 @@ Then:
 
 ---
 
-### P6C-3
+### P6C-3 [T2-S]
 
 **David: Man After God's Heart or Adulterer and Murderer?**
 
@@ -1102,7 +1102,7 @@ Then:
 
 ---
 
-### P6C-4
+### P6C-4 [T2-S]
 
 **Solomon: Unparalleled Wisdom or Idolatry?**
 
@@ -1129,7 +1129,7 @@ Then:
 
 ---
 
-### P6C-5
+### P6C-5 [T2-S]
 
 **Aaron: Divinely Appointed Prophet or Golden Calf Builder?**
 
@@ -1156,7 +1156,7 @@ Then:
 
 ---
 
-### P6C-6 [DEBATABLE]
+### P6C-6 [DEBATABLE] [T2-D]
 
 **Abraham: Friend of God or Pimping Patriarch?**
 
@@ -1186,7 +1186,7 @@ Then:
 
 ---
 
-### P6C-7
+### P6C-7 [T2-S]
 
 **Moses: Liberator or Man Denied the Promise?**
 
@@ -1212,7 +1212,7 @@ Then:
 
 ---
 
-### P6C-8 [DEBATABLE]
+### P6C-8 [DEBATABLE] [T2-D]
 
 **Jesus: Confident Messiah or Despairing Crucified?**
 
@@ -1246,7 +1246,7 @@ Then:
 
 ---
 
-### P6C-9 [CRITICAL] [ISR-LINKED]
+### P6C-9 [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Systematic Pattern: Borrower or Corrector?**
 
@@ -1285,7 +1285,7 @@ The pattern is not "selective borrowing" (keeping some elements, dropping others
 
 ---
 
-### P6C-10
+### P6C-10 [T2-S]
 
 **Internal Consistency Test: Which Tradition Meets Its Own Criteria?**
 
@@ -1334,7 +1334,7 @@ This question applies each tradition's OWN stated criteria to its OWN prophetic 
 
 ---
 
-### P6D-1 [DEBATABLE]
+### P6D-1 [DEBATABLE] [T2-D]
 
 **Trinity Logic Test: Self-Consistent Without Equivocation?**
 
@@ -1370,7 +1370,7 @@ The Trinitarian formula, as defined by the Nicene Creed (325 CE) and the Athanas
 
 ---
 
-### P6D-2 [DEBATABLE]
+### P6D-2 [DEBATABLE] [T2-D]
 
 **Jesus's OWN Words: Trinity or Monotheism?**
 
@@ -1400,7 +1400,7 @@ The word used is _heis_ (Greek: one, singular). Jesus does not say "The Lord our
 
 ---
 
-### P6D-3 [DEBATABLE]
+### P6D-3 [DEBATABLE] [T2-D]
 
 **Paul vs. James: Who Changed the Message?**
 
@@ -1438,7 +1438,7 @@ The word used is _heis_ (Greek: one, singular). Jesus does not say "The Lord our
 
 ---
 
-### P6D-4 [DEBATABLE]
+### P6D-4 [DEBATABLE] [T2-D]
 
 **Original Sin: Genesis Doctrine or Later Invention?**
 
@@ -1471,7 +1471,7 @@ These verses explicitly DENY inherited guilt — the cornerstone of original sin
 
 ---
 
-### P6D-5 [DEBATABLE] [DECISION-TREE]
+### P6D-5 [DEBATABLE] [DECISION-TREE] [T2-D]
 
 **The "Islamic Dilemma" — At MAXIMUM Strength, Then Tested**
 
@@ -1552,7 +1552,7 @@ ROOT: Does the Qur'an confirm the CURRENT COMPILED Bible, or the ORIGINAL revela
 
 ---
 
-### P6D-6 [DEBATABLE]
+### P6D-6 [DEBATABLE] [T2-D]
 
 **Genealogy Contradictions: Matthew vs. Luke**
 
@@ -1589,7 +1589,7 @@ ROOT: Does the Qur'an confirm the CURRENT COMPILED Bible, or the ORIGINAL revela
 
 ---
 
-### P6D-7 [DEBATABLE]
+### P6D-7 [DEBATABLE] [T2-D]
 
 **End-Times Prediction: "This Generation Will Not Pass Away"**
 
@@ -1621,7 +1621,7 @@ ROOT: Does the Qur'an confirm the CURRENT COMPILED Bible, or the ORIGINAL revela
 
 ---
 
-### P6D-8 [DEBATABLE]
+### P6D-8 [DEBATABLE] [T2-D]
 
 **God's Anthropomorphic Actions: Resting, Wrestling, Regretting, Searching**
 
@@ -1659,7 +1659,7 @@ ROOT: Does the Qur'an confirm the CURRENT COMPILED Bible, or the ORIGINAL revela
 
 ---
 
-### P6D-9 [DEBATABLE]
+### P6D-9 [DEBATABLE] [T2-D]
 
 **Blood Sacrifice: Divine Requirement or Later Development?**
 
@@ -1693,7 +1693,7 @@ ROOT: Does the Qur'an confirm the CURRENT COMPILED Bible, or the ORIGINAL revela
 
 ---
 
-### P6D-10 [DEBATABLE]
+### P6D-10 [DEBATABLE] [T2-D]
 
 **"Son of God": Literal or Metaphorical?**
 
@@ -1732,7 +1732,7 @@ The phrase "son of God" (or "sons of God") appears throughout the Hebrew Bible a
 
 ---
 
-### P6E-1 [CRITICAL] [ISR-LINKED]
+### P6E-1 [CRITICAL] [ISR-LINKED] [T2-S]
 
 **The Isnad System: Does ANY Other Tradition Have Comparable Chain-of-Custody?**
 
@@ -1780,7 +1780,7 @@ The Islamic isnad system works as follows:
 
 ---
 
-### P6E-2 [ISR-LINKED]
+### P6E-2 [ISR-LINKED] [T2-S]
 
 **Jarh wa Ta'dil: Systematic Narrator Criticism**
 
@@ -1810,7 +1810,7 @@ The science of jarh wa ta'dil (disparagement and validation) is a formal academi
 
 ---
 
-### P6E-3 [ISR-LINKED]
+### P6E-3 [ISR-LINKED] [T2-S]
 
 **Authentication Strength Ranking: Comparative Historiography**
 
@@ -1835,7 +1835,7 @@ Rank the following historical sources by their AUTHENTICATION methodology — no
 
 ---
 
-### P6E-4 [ISR-LINKED]
+### P6E-4 [ISR-LINKED] [T2-S]
 
 **The "Hadith Are Unreliable" Attack: The Consistency Test**
 
@@ -1862,11 +1862,13 @@ A common criticism: "Hadith were compiled 200+ years after Muhammad. They are un
 
 ---
 
-### P6E-5 [ISR-LINKED]
+### P6E-5 [ISR-LINKED] [T2-S]
 
 **Bukhari's Acceptance Rate: What Does 1.2% Tell Us?**
 
 Al-Bukhari reportedly examined approximately 600,000 hadith reports and included approximately 7,275 in his Sahih collection (including repetitions; ~2,602 unique hadith without repetitions). This represents an acceptance rate of approximately 1.2%.
+
+**Important clarification:** The figure of ~600,000 refers to transmission CHAINS (isnads) — multiple chains often lead to the same hadith through different narrator paths. Al-Bukhari's collection contains approximately 7,275 hadith with chains, of which ~2,602 are unique texts (without repetition). The "98.8% rejection" means 98.8% of CHAINS were not included — not that 98.8% of unique reports were proven false. Most excluded chains were duplicates of accepted hadith through weaker paths, or had minor deficiencies (weak narrator memory, incomplete chain). Rejection ≠ fabrication. The comparative point remains: no other civilization developed a comparable chain-of-custody verification system.
 
 **What this means:**
 
@@ -1888,7 +1890,7 @@ Al-Bukhari reportedly examined approximately 600,000 hadith reports and included
 
 ---
 
-### P6E-6 [ISR-LINKED]
+### P6E-6 [ISR-LINKED] [T2-S]
 
 **The Specific Methodological Flaw Challenge**
 
@@ -1918,7 +1920,7 @@ If the isnad system is unreliable, the critic must identify the SPECIFIC methodo
 
 ---
 
-### P6F-1 [CRITICAL] [CODE-DEPENDENT]
+### P6F-1 [CRITICAL] [CODE-DEPENDENT] [NC-C]
 
 **The Standing Challenge: Five Specified Patterns**
 
@@ -1949,7 +1951,7 @@ The claim that "you can find patterns in any book if you look hard enough" is no
 
 ---
 
-### P6F-2 [CODE-DEPENDENT]
+### P6F-2 [CODE-DEPENDENT] [T2-S]
 
 **The Moby Dick Test**
 
@@ -2088,7 +2090,7 @@ print(f"""
 
 ---
 
-### P6F-3 [ISR-LINKED]
+### P6F-3 [ISR-LINKED] [T2-S]
 
 **Ramsey Theory Rebuttal: The Bible Has 10x More Data**
 
@@ -2124,7 +2126,7 @@ Ramsey Theory (R. L. Graham, B. L. Rothschild, J. H. Spencer, _Ramsey Theory_, 2
 
 ---
 
-### P6F-4 [ISR-LINKED]
+### P6F-4 [ISR-LINKED] [T2-S]
 
 **Empirical Falsification: Is the "Patterns Anywhere" Objection Dead?**
 

@@ -28,7 +28,7 @@
 
 ---
 
-## P7A-1 [FOUNDATIONAL]
+## P7A-1 [FOUNDATIONAL] [T2-S]
 
 ### What counts as a genuine internal contradiction vs. a categorical distinction? Define your criterion.
 
@@ -79,7 +79,7 @@ Divine-origin model: [neutral — this is framework-setting]
 
 ---
 
-## P7A-2 [FOUNDATIONAL]
+## P7A-2 [FOUNDATIONAL] [T2-S]
 
 ### What is the difference between a TRANSLATION dispute and an ACTUAL textual error?
 
@@ -125,7 +125,7 @@ Divine-origin model: [neutral — framework-setting]
 
 ---
 
-## P7A-3 [FOUNDATIONAL]
+## P7A-3 [FOUNDATIONAL] [T2-S]
 
 ### What standard do you apply to identify errors and contradictions in OTHER ancient texts? State explicitly.
 
@@ -179,7 +179,7 @@ Divine-origin model: [neutral — framework-setting]
 
 ---
 
-## P7A-4 [FOUNDATIONAL]
+## P7A-4 [FOUNDATIONAL] [T2-S]
 
 ### What is the difference between a CONTESTED interpretation and a VERIFIED error?
 
@@ -216,7 +216,7 @@ Divine-origin model: [neutral — framework-setting]
 
 ---
 
-## P7A-5 [FOUNDATIONAL]
+## P7A-5 [FOUNDATIONAL] [T2-S]
 
 ### Does the existence of a verse requiring contextual analysis mean the text has an error?
 
@@ -263,7 +263,7 @@ Divine-origin model: [neutral — framework-setting]
 
 ---
 
-## P7A-6 [FOUNDATIONAL]
+## P7A-6 [FOUNDATIONAL] [T2-S]
 
 ### If an objection appears in the protocol with a detailed scholarly response, and a respondent raises the SAME objection WITHOUT engaging the response — is this fresh skepticism or documented non-responsiveness?
 
@@ -303,7 +303,7 @@ Divine-origin model: [neutral — framework-setting]
 
 ---
 
-## P7A-7 [FOUNDATIONAL]
+## P7A-7 [FOUNDATIONAL] [T2-S]
 
 ### Should a 7th-century text be judged by standards no text, law, society, or civilization achieved at that time?
 
@@ -367,7 +367,7 @@ Divine-origin model: [neutral — framework-setting]
 
 ---
 
-## P7A-8 [FOUNDATIONAL] [ISR-LINKED]
+## P7A-8 [FOUNDATIONAL] [ISR-LINKED] [T2-S]
 
 ### If EVERY contested objection reduces to "contested interpretation" rather than "verified error" — does the absence of verified errors strengthen or weaken the divine model?
 
@@ -405,7 +405,7 @@ Divine-origin model: [depends on Phase B outcome]
 
 ---
 
-## P7A-9 [FOUNDATIONAL]
+## P7A-9 [FOUNDATIONAL] [T2-S]
 
 ### The Concept of Naskh (Abrogation): Contradiction or Progressive Legislation?
 
@@ -447,7 +447,7 @@ The concept of naskh (abrogation — later verses superseding earlier ones on sp
 
 ---
 
-## P7B-1 [DEBATABLE]
+## P7B-1 [DEBATABLE] [T2-D]
 
 ### 86:5-7 — "Fluid from between backbone and ribs"
 
@@ -507,7 +507,7 @@ Divine-origin model: [weakens if verified error / strengthens if compatible read
 
 ---
 
-## P7B-2 [DEBATABLE]
+## P7B-2 [DEBATABLE] [T2-D]
 
 ### 18:86 — "Sun setting in a muddy spring"
 
@@ -571,7 +571,7 @@ Divine-origin model: [weakens if cosmological error / strengthens if perspectiva
 
 ---
 
-## P7B-3 [DEBATABLE]
+## P7B-3 [DEBATABLE] [T2-D]
 
 ### 2:256 vs. 9:5 — "No compulsion" vs. "Kill the polytheists"
 
@@ -635,7 +635,7 @@ Divine-origin model: [weakens if genuine contradiction / strengthens if categori
 
 ---
 
-## P7B-4 [DEBATABLE] [DECISION-TREE]
+## P7B-4 [DEBATABLE] [DECISION-TREE] [T2-D]
 
 ### Slavery — The Gradualist Approach
 
@@ -823,7 +823,7 @@ Divine-origin model: [weakens if naive / strengthens if sophisticated]
 
 ---
 
-## P7B-5 [DEBATABLE]
+## P7B-5 [DEBATABLE] [T2-D]
 
 ### 4:24 — War Captives
 
@@ -890,7 +890,7 @@ Divine-origin model: [weakens if exploitation / strengthens if improvement]
 
 ---
 
-## P7B-6 [DEBATABLE]
+## P7B-6 [DEBATABLE] [T2-D]
 
 ### Jizya Tax — 9:29
 
@@ -978,7 +978,7 @@ Divine-origin model: [weakens if persecution / strengthens if civic obligation]
 
 ---
 
-## P7B-7 [DEBATABLE] **[STRONGEST OBJECTION — HONESTLY FLAGGED]**
+## P7B-7 [DEBATABLE] **[STRONGEST OBJECTION — HONESTLY FLAGGED]** [T2-S]
 
 ### Syriac Alexander Legend — Source Dependency?
 
@@ -1070,7 +1070,7 @@ Note: This is honestly flagged as the strongest objection. The evaluation should
 
 ---
 
-## P7B-8 [DEBATABLE]
+## P7B-8 [DEBATABLE] [T2-D]
 
 ### Seven Sleepers — Borrowed from Christian Tradition?
 
@@ -1142,7 +1142,7 @@ Divine-origin model: [weakens if copying / strengthens if oversight]
 
 ---
 
-## P7B-9 [DEBATABLE]
+## P7B-9 [DEBATABLE] [T2-D]
 
 ### Polygamy — 4:3
 
@@ -1218,7 +1218,7 @@ Divine-origin model: [weakens if exploitation / strengthens if restriction]
 
 ---
 
-## P7B-10 [DEBATABLE] [DECISION-TREE]
+## P7B-10 [DEBATABLE] [DECISION-TREE] [T2-D]
 
 ### Aisha's Marriage Age
 
@@ -1403,7 +1403,7 @@ BONUS: [alternative chronology assessed — merit YES/NO]
 
 ---
 
-## P7B-11 [DEBATABLE]
+## P7B-11 [DEBATABLE] [T2-D]
 
 ### Uthman's Compilation — Community Authorship?
 
@@ -1469,7 +1469,7 @@ Divine-origin model: [weakens if community authorship / strengthens if standardi
 
 ---
 
-## P7B-12 [DEBATABLE]
+## P7B-12 [DEBATABLE] [T2-D]
 
 ### Qira'at Variants — 10 Versions?
 
@@ -1530,7 +1530,7 @@ Divine-origin model: [weakens if 10 versions / strengthens if authorized reading
 
 ---
 
-## P7B-13 [DEBATABLE]
+## P7B-13 [DEBATABLE] [T2-D]
 
 ### "The Qur'an Promotes Violence"
 
@@ -1620,7 +1620,7 @@ Divine-origin model: [weakens if systematic violence / strengthens if restricted
 
 ---
 
-## P7B-14 [DEBATABLE]
+## P7B-14 [DEBATABLE] [T2-S]
 
 ### The Satanic Verses (Gharaniq Incident)
 
@@ -1644,7 +1644,7 @@ Divine-origin model: [weakens if systematic violence / strengthens if restricted
 
 ---
 
-## P7B-15 [DEBATABLE]
+## P7B-15 [DEBATABLE] [T2-S]
 
 ### Christoph Luxenberg's Syriac Reading Hypothesis
 
@@ -1678,7 +1678,7 @@ Divine-origin model: [weakens if systematic violence / strengthens if restricted
 
 ---
 
-## P7C-1
+## P7C-1 [T3]
 
 ### Search for the STRONGEST argument against divine origin NOT covered in Phase B. Present it at full strength. Test it against Phase A criteria.
 
@@ -1711,7 +1711,7 @@ Divine-origin model: [weakens if falsifying / strengthens if not]
 
 ---
 
-## P7C-2
+## P7C-2 [T3]
 
 ### Search for the STRONGEST argument FOR ordinary human authorship. Test it against ALL accumulated Gates.
 
@@ -1744,7 +1744,7 @@ Divine-origin model: [weakens if human model survives / strengthens if fails]
 
 ---
 
-## P7C-3
+## P7C-3 [T3]
 
 ### If you found something that GENUINELY weakens the divine model — NAME IT.
 
@@ -1777,7 +1777,7 @@ ISR check: [applied if none found — binary test of divine perfection claim]
 
 ---
 
-## P7C-4
+## P7C-4 [T3]
 
 ### Deep Dive: Syriac Alexander Legend — Full Academic Analysis
 
@@ -1831,7 +1831,7 @@ Divine-origin model: [weakens if Van Bladel / strengthens if counter-arguments]
 
 ---
 
-## P7C-5
+## P7C-5 [T3]
 
 ### SIDE-BY-SIDE: Qur'an's Contested Issues vs. Bible's (from Part 6D)
 
@@ -1873,7 +1873,7 @@ Divine-origin model: [weakens if Qur'an worse / strengthens if Bible worse]
 
 ---
 
-## P7C-6 [CRITICAL]
+## P7C-6 [CRITICAL] [T1-C]
 
 ### FINAL: Does ANY single objection constitute a FALSIFYING result?
 
@@ -1937,7 +1937,7 @@ ISR check: [applied — the absence of falsifying results in a text claiming div
 
 ---
 
-## P7C-7
+## P7C-7 [PROC]
 
 ### SELF-AUDIT: Did your evaluation show BIAS toward excessive generosity or skepticism?
 
