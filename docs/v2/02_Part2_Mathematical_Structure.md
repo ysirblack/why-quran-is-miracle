@@ -225,8 +225,8 @@ print(f"Percentage deviation:        {deviation_pct:.4f}%")
 
 ```
 [EXPECTED OUTPUT]
-Surahs in 'repeated' group: 65
-Surahs in 'unique' group:   49
+Surahs in 'repeated' group: 74
+Surahs in 'unique' group:   40
 Sum of repeated group:       7906
 Sum of unique group:         4885
 Total:                       12791
@@ -1065,15 +1065,15 @@ print(f"Expected (6236 + 6555): {6236 + 6555}")
 [EXPECTED OUTPUT]
 SIX-BLOCK SYMPHONY (6 blocks of 19 surahs)
 ======================================================================
-Block 1 (surahs   1- 19): verses= 2820  positions=  190  combined= 3010
-Block 2 (surahs  20- 38): verses= 1675  positions=  551  combined= 2226
-Block 3 (surahs  39- 57): verses=  897  positions=  912  combined= 1809
-Block 4 (surahs  58- 76): verses=  466  positions= 1273  combined= 1739
-Block 5 (surahs  77- 95): verses=  302  positions= 1634  combined= 1936
-Block 6 (surahs  96-114): verses=   76  positions= 1995  combined= 2071
+Block 1 (surahs   1- 19): verses= 2348  positions=  190  combined= 2538
+Block 2 (surahs  20- 38): verses= 1710  positions=  551  combined= 2261
+Block 3 (surahs  39- 57): verses= 1046  positions=  912  combined= 1958
+Block 4 (surahs  58- 76): verses=  518  positions= 1273  combined= 1791
+Block 5 (surahs  77- 95): verses=  484  positions= 1634  combined= 2118
+Block 6 (surahs  96-114): verses=  130  positions= 1995  combined= 2125
 
 Patterns:
-Verse totals by block: [2820, 1675, 897, 466, 302, 76]
+Verse totals by block: [2348, 1710, 1046, 518, 484, 130]
 Monotonically decreasing: True
 Total combined: 12791
 Expected (6236 + 6555): 12791
@@ -1243,6 +1243,10 @@ The Life/Death balance has been reported at two different values depending on me
 # Life vs Death word balance -- Methodology A (Nouns Only)
 # Cross-reference: corpus.quran.com
 # Root ح-ي-ي (life) vs Root م-و-ت (death)
+#
+# NOTE: This snippet displays QAC-verified totals. The actual token-by-token
+# counting against the Tanzil text is implemented in:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/10_life_death/life_death_verification.py
 
 # QAC-verified noun counts:
 life_nouns = {
@@ -1358,6 +1362,9 @@ The disambiguation between malak (angel) and malik (king) is handled by morpholo
 # Angels vs Devils -- QAC verified counts
 # Angels: pos:n lem:malak (angel, not king)
 # Devils: nominal shaytan forms
+#
+# NOTE: This snippet displays QAC-verified totals. Actual Tanzil-text counting:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/08_angels_devils/angels_devils_verification.py
 
 # QAC-verified breakdown:
 angels = {
@@ -1443,6 +1450,9 @@ This pair has profound theological significance. The Qur'an constantly juxtapose
 # FILE: world_hereafter_balance.py
 # World (ad-Dunya) vs Hereafter (al-Akhirah)
 # Source: Quranic Arabic Corpus + Tanzil verification
+#
+# NOTE: This snippet displays the totals. Actual Tanzil-text counting:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/11_world_hereafter/world_hereafter_verification.py
 
 print("WORLD vs HEREAFTER")
 print("=" * 60)
@@ -1505,13 +1515,17 @@ The semantic role method is the most linguistically sophisticated and produces t
 # FILE: man_woman_chromosome.py
 # Man vs Woman count -- four methodologies
 # Biological alignment: 23 chromosomes from each parent
+#
+# NOTE: This snippet displays the four-method results. Actual Tanzil-text
+# counting (with semantic-role logic) is implemented in:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/03_man_woman/man_woman_verification.py
 
 print("MAN vs WOMAN -- Four Counting Methods")
 print("=" * 60)
 print()
 print("| Method              | Man | Woman | Balanced? |")
 print("|---------------------|-----|-------|-----------|")
-print("| All occurrences     |  26 |    26 | YES       |")
+print("| All occurrences     |  29 |    26 | NO        |")
 print("| Singulars only      |  24 |    24 | YES       |")
 print("| By unique verse     |  25 |    25 | YES       |")
 print("| Semantic roles      |  23 |    23 | YES ★     |")
@@ -1545,7 +1559,7 @@ MAN vs WOMAN -- Four Counting Methods
 
 | Method              | Man | Woman | Balanced? |
 |---------------------|-----|-------|-----------|
-| All occurrences     |  26 |    26 | YES       |
+| All occurrences     |  29 |    26 | NO        |
 | Singulars only      |  24 |    24 | YES       |
 | By unique verse     |  25 |    25 | YES       |
 | Semantic roles      |  23 |    23 | YES       |
@@ -1869,6 +1883,11 @@ This is analogous to how both calendars share the concept of "a day" but differ 
 ```python
 # FILE: hijri_354_calendar.py
 # Hijri/Lunar calendar encoding: 354 day-forms
+#
+# NOTE: This snippet displays the four-category totals. Actual Tanzil-text
+# counting per category is implemented in:
+#   https://github.com/ysirblack/why-quran-is-miracle/tree/main/miracles/04_yearly_cycles/hijri_354
+#   (hijri_354_combined.py + per-category scripts)
 
 print("HIJRI CALENDAR ENCODING (354)")
 print("=" * 60)
@@ -2002,15 +2021,22 @@ from collections import Counter
 PHI = 1.6180339887
 
 # KJV Bible: book number -> chapter count
-# (Standard Protestant canon, 66 books)
+# Source: Standard Protestant canon, 66 books, 1,189 chapters
+# (United Bible Societies / SBL standard enumeration; King James Version 1611).
+# NOTE: Bible canon varies by tradition — Catholic Bibles include 7 additional
+# deuterocanonical books (73 total), Eastern Orthodox 76, Ethiopian Orthodox 81.
+# This test uses the Protestant 66-book canon as the most widely circulated form.
 BIBLE_CHAPTERS = {
+    # Old Testament (39 books, 929 chapters)
     1:50, 2:40, 3:27, 4:36, 5:34, 6:24, 7:21, 8:4, 9:31, 10:24,
     11:22, 12:25, 13:29, 14:36, 15:10, 16:13, 17:10, 18:42, 19:150,
     20:31, 21:12, 22:8, 23:66, 24:52, 25:5, 26:48, 27:12, 28:14,
     29:3, 30:9, 31:1, 32:4, 33:7, 34:3, 35:3, 36:3, 37:2, 38:14,
-    39:4, 40:28, 41:16, 42:24, 43:21, 44:28, 45:16, 46:16, 47:13,
+    39:4,
+    # New Testament (27 books, 260 chapters)
+    40:28, 41:16, 42:24, 43:21, 44:28, 45:16, 46:16, 47:13,
     48:6, 49:6, 50:4, 51:4, 52:5, 53:3, 54:6, 55:4, 56:3, 57:1,
-    58:13, 59:5, 60:5, 61:3, 62:1, 63:1, 64:21, 65:5, 66:22
+    58:13, 59:5, 60:5, 61:3, 62:5, 63:1, 64:1, 65:1, 66:22
 }
 
 # Compute book_number + chapter_count
@@ -2063,18 +2089,18 @@ GOLDEN RATIO TEST: BIBLE (KJV) vs QUR'AN
 ============================================================
 
 Bible (66 books, 1189 chapters):
-  Repeated-sum books:    [count]
-  Unique-sum books:      [count]
-  Sum of repeated group: [value]
-  Sum of unique group:   [value]
-  Ratio:                 [value]
-  Deviation from phi:    [value] (~11%)
+  Repeated-sum books:    42
+  Unique-sum books:      24
+  Sum of repeated group: 2015
+  Sum of unique group:   1385
+  Ratio:                 1.454874
+  Deviation from phi:    0.163160 (10.08%)
 
 Qur'an (114 surahs, 6236 verses):
   Ratio:                 1.618424
   Deviation from phi:    0.000390 (0.0241%)
 
-Bible deviation is ~470x WORSE than Qur'an
+Bible deviation is ~418x WORSE than Qur'an
 
 RESULT: Bible FAILS the golden ratio test.
 ```
@@ -2106,6 +2132,7 @@ RESULT: Bible FAILS the golden ratio test.
 # FILE: bible_even_sum_test.py
 # Apply the even-sum identity test to the KJV Bible.
 
+# Source: Standard Protestant canon, 66 books, 1,189 chapters (KJV 1611).
 BIBLE_CHAPTERS = {
     1:50, 2:40, 3:27, 4:36, 5:34, 6:24, 7:21, 8:4, 9:31, 10:24,
     11:22, 12:25, 13:29, 14:36, 15:10, 16:13, 17:10, 18:42, 19:150,
@@ -2113,7 +2140,7 @@ BIBLE_CHAPTERS = {
     29:3, 30:9, 31:1, 32:4, 33:7, 34:3, 35:3, 36:3, 37:2, 38:14,
     39:4, 40:28, 41:16, 42:24, 43:21, 44:28, 45:16, 46:16, 47:13,
     48:6, 49:6, 50:4, 51:4, 52:5, 53:3, 54:6, 55:4, 56:3, 57:1,
-    58:13, 59:5, 60:5, 61:3, 62:1, 63:1, 64:21, 65:5, 66:22
+    58:13, 59:5, 60:5, 61:3, 62:5, 63:1, 64:1, 65:1, 66:22
 }
 
 # Even/odd classification of (book_number + chapter_count)
@@ -2163,15 +2190,15 @@ print(f"  Bible:  Split    = {len(even_group)}:{len(odd_group)} "
 [EXPECTED OUTPUT]
 EVEN-SUM IDENTITY TEST: BIBLE (KJV)
 ============================================================
-Even-sum books:          [count - NOT 33]
-Odd-sum books:           [count - NOT 33]
+Even-sum books:          38
+Odd-sum books:           28
 Balanced split:          False
 
-Sum of even group:       [value]
+Sum of even group:       1910
 Total chapters:          1189
 Even sum = total chap:   False
 
-Sum of odd group:        [value]
+Sum of odd group:        1490
 Sum of positions:        2211
 Odd sum = pos sum:       False
 
