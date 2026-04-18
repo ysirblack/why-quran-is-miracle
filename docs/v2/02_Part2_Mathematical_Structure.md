@@ -156,6 +156,8 @@ The Qur'an has 114 surahs. For each surah, compute (surah_number + verse_count).
 # FILE: golden_ratio_partition.py
 # Compute the golden ratio partition from Qur'an surah structure.
 # Data source: data/quran-uthmani.txt (Tanzil Hafs/Uthmani)
+# Repo verification script:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/new_search/16_golden_ratio/verify.py
 
 from collections import Counter
 from pathlib import Path
@@ -335,8 +337,8 @@ if closer_count == 0:
 ```
 
 ```
-[EXPECTED OUTPUT]
-Observed deviation from phi: 0.0003901738
+[EXPECTED OUTPUT — 1,000,000 trials]
+Observed deviation from phi: 0.0003897575
 Trials:           1,000,000
 Closer or equal:  0
 p-value:          0.00000000
@@ -344,7 +346,20 @@ Significant:      YES (p < 0.05)
 
 ZERO out of 1,000,000 random permutations
 produced a ratio closer to phi than the Qur'an's actual structure.
-Upper bound on p-value: < 0.00000100
+Upper bound on p-value (1M): < 0.00000100
+```
+
+```
+[REPO HIGH-PRECISION RUN — 100,000,000 trials]
+The repo script at:
+  miracles/01_surah_parity_groups/new_search/16_golden_ratio/stats.py
+runs 100,000,000 permutations and yields:
+  Matches (closer or equal): 8
+  p-value:                   ~0.00000008  (≈ 1 in 12.5 million)
+
+This 100M-trial result is the source-of-truth for P2-31's probability
+ledger. The 1M-trial run above is consistent with it (~0.08 expected
+hits in 1M → 0 observed is the most likely outcome).
 ```
 
 ```
@@ -356,7 +371,8 @@ Upper bound on p-value: < 0.00000100
 ```
 
 ```
-[CONSISTENCY NOTE: Record the p-value (< 1/1,000,000) for cumulative probability in P2-31]
+[CONSISTENCY NOTE: Use the 100M-trial p-value (~8e-8 ≈ 1 in 12.5 million) for the
+cumulative probability in P2-31, not the looser 1M upper bound.]
 ```
 
 **Question:** How many out of 1,000,000 random permutations produced a ratio closer to phi than the Qur'an's actual structure? What is the resulting p-value?
@@ -371,7 +387,7 @@ Upper bound on p-value: < 0.00000100
 
 The golden ratio (phi) is not an arbitrary constant. It governs the spiral growth of nautilus shells, the branching of trees, the arrangement of sunflower seeds, and the proportions of the Parthenon. It is the "most irrational" number -- the hardest real number to approximate by rational fractions -- and for this reason it appears as nature's optimal packing constant.
 
-The result from P2-1 and P2-2 shows that the Qur'an's 114-surah structure encodes phi to within 0.024%, and that zero out of one million random permutations achieve a closer fit.
+The result from P2-1 and P2-2 shows that the Qur'an's 114-surah structure encodes phi to within 0.024%, and that zero out of one million random permutations achieve a closer fit. The repo's higher-precision 100,000,000-trial run (P2-2) yields only 8 closer-or-equal matches, giving p ≈ 8e-8 (~1 in 12.5 million).
 
 **Question:** Could a pre-modern author, composing 114 chapters of varying lengths over 23 years of oral revelation, have deliberately encoded the golden ratio into the repeated/unique partition of (surah_number + verse_count) sums -- without computational tools, without knowledge of phi's decimal expansion (first computed by Mark Barr in 1909), and without the combinatorial framework needed to evaluate which verse counts would produce repeated vs. unique sums?
 
@@ -402,6 +418,8 @@ The golden ratio partition depends on the exact verse counts of all 114 surahs. 
 ```python
 # FILE: golden_ratio_sensitivity.py
 # Test how fragile the golden ratio result is.
+# Related repo verification (golden ratio main pattern):
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/new_search/16_golden_ratio/verify.py
 
 from collections import Counter
 
@@ -465,9 +483,9 @@ Original ratio:    1.618424
 Original dev:      0.000390 (0.0241%)
 
 Total perturbations tested:  228
-Perturbations that WORSEN ratio: ~190+
-Perturbations that IMPROVE ratio: ~38-
-Fragility: ~83%+ of single-verse changes worsen the fit
+Perturbations that WORSEN ratio: 157
+Perturbations that IMPROVE ratio: 71
+Fragility: 68.9% of single-verse changes worsen the fit
 ```
 
 ```
@@ -507,6 +525,8 @@ This would mean a single binary operation (even/odd classification) simultaneous
 # FILE: even_sum_identity.py
 # Verify the even/odd partition of (surah_number + verse_count).
 # Data source: data/quran-uthmani.txt (Tanzil Hafs/Uthmani)
+# Repo verification script:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/even_sum_surahs/even_sum_verification.py
 
 from pathlib import Path
 
@@ -606,7 +626,12 @@ both the total verse count (6,236) and the positional sum (6,555).
 
 ```
 [CONSISTENCY NOTE: Record the 57:57 split and the 6236/6555 identity for probability computation in P2-31.
-Also note: 12,791 = 7906 + 4885 from the golden ratio partition (P2-1). Same total, different partition.]
+Also note: 12,791 = 7906 + 4885 from the golden ratio partition (P2-1). Same total, different partition.
+
+CROSS-REFERENCE: This is the EVEN-SUM 57/57 (parity of surah_number + verse_count).
+A SECOND 57/57 split appears in P2-10 (same-vs-mixed parity). The two are
+surface views of the same parity structure — see P2-10's CROSS-REFERENCE box
+and P2-12 for cluster-accounting discipline.]
 ```
 
 **Question:** Does the even/odd partition of (surah_number + verse_count) produce a perfect 57:57 split whose sums exactly equal the total verse count (6,236) and the positional sum (6,555)? Report your exact code outputs.
@@ -710,27 +735,37 @@ if hits == 0:
 ```
 
 ```
-[EXPECTED OUTPUT]
+[EXPECTED OUTPUT — verified by direct 1M-trial run]
 Actual Qur'an passes: True
 
 Trials:  1,000,000
-Hits:    0
-p-value: 0.00000000
+Hits:    ~1,100  (rate ≈ 0.0011, i.e., ~1 in 900)
+p-value: ~0.0011
 
-ZERO out of 1,000,000 shuffled verse-count assignments
-produced the dual-encoding property.
-Upper bound: p < 0.00000100
+NOTE: The dual-encoding test (even_sum == 6,236 AND odd_sum == 6,555) reduces
+to a SINGLE constraint, because sum(positions)+sum(verses) = 12,791 is fixed
+under shuffling. So if even_sum hits 6,236, odd_sum is forced to 6,555.
+The single constraint has rate ~1/900 — strong but NOT 1-in-a-million.
+
+The repo's honest probability analysis at:
+  miracles/01_surah_parity_groups/even_sum_surahs/honest_probability_analysis.py
+independently estimates this at ~1 in 980 (100,000 trials). Both runs agree.
 ```
 
 ```
 [CHECKPOINT: Report your exact numbers]
 - Actual Qur'an passes: ___
 - Hits out of 1,000,000: ___
-- p-value upper bound: ___
+- Approximate rate: ___
 ```
 
 ```
-[CONSISTENCY NOTE: Record p < 1/1,000,000 for cumulative probability in P2-31]
+[CONSISTENCY NOTE: Use p ≈ 0.001 (~1 in 900) for P2-31 — NOT p < 1/1,000,000.
+Cross-reference: this is the SAME 57:57 phenomenon as the 2x2 parity 57:57
+in P2-10. The 57:57 split itself is arithmetically guaranteed (the repo's
+core_2x2_parity_grouping/honest_probability_analysis.py reports p = 1.0 for
+the count being exactly 57:57). The non-trivial constraint here is the
+verse-total match (6,236), not the 57:57 count.]
 ```
 
 **Question:** How many random shuffles of the verse counts produce the same dual-encoding property (even sum = total verses, odd sum = sum of positions)? What does this tell you about the specificity of the Qur'an's verse-count distribution?
@@ -773,6 +808,8 @@ Beyond the golden ratio and even-sum identity, the Qur'an's 114-surah structure 
 ```python
 # FILE: structural_symmetries.py
 # Verify the 2x2 parity grouping and median split of Qur'an surahs.
+# Repo verification script:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/core_2x2_parity_grouping/core_2x2_parity_verification.py
 
 from pathlib import Path
 
@@ -877,10 +914,10 @@ Equal:                    True
 57/57 MEDIAN SPLIT
 ============================================================
 First half (surahs 1-57):
-  Total verses:    5705
+  Total verses:    5104
   Sum of positions: 1653
 Second half (surahs 58-114):
-  Total verses:    531
+  Total verses:    1132
   Sum of positions: 4902
 
 SIX-BLOCK SYMPHONY (blocks of 19)
@@ -896,24 +933,51 @@ SIX-BLOCK SYMPHONY (blocks of 19)
 ```
 
 ```
-[CONSISTENCY NOTE: Record the 57/57 same-parity vs mixed-parity result for P2-31]
+[CONSISTENCY NOTE: Record the 57/57 same-parity vs mixed-parity result for P2-31.
+
+CROSS-REFERENCE — TWO 57/57 SPLITS IN THIS PROTOCOL:
+There are TWO distinct 57/57 split observations in Part 2; do not double-count them:
+
+  (a) P2-6 / P2-8 EVEN-SUM 57/57:
+      Classify each surah by parity of (surah_number + verse_count).
+      Result: 57 even-sum + 57 odd-sum.
+      Repo verification: miracles/01_surah_parity_groups/even_sum_surahs/
+
+  (b) P2-10 SAME-vs-MIXED PARITY 57/57:
+      Classify each surah by whether surah_number and verse_count share
+      the same parity (OO+EE = same, OE+EO = mixed).
+      Result: 57 same + 57 mixed.
+      Repo verification: miracles/01_surah_parity_groups/core_2x2_parity_grouping/
+
+These are TWO SURFACE VIEWS of the same underlying parity structure
+(see P2-12). Repo's honest probability scripts confirm: the 57:57 count
+itself is arithmetically guaranteed (p = 1.0 for the 2x2 grid version).
+The non-trivial surprise is the SUMS produced (6,236 / 6,555), not the
+57:57 counts.]
 ```
 
-**Question:** Does the 2x2 parity classification produce a perfect 57:57 balance between same-parity surahs (OO + EE) and mixed-parity surahs (OE + EO)? Note this is the SAME 57:57 split as the even-sum identity but arrived at through a different classification. Report your exact numbers.
+**Question:** Does the 2x2 parity classification produce a perfect 57:57 balance between same-parity surahs (OO + EE) and mixed-parity surahs (OE + EO)? Note this is the SAME 57:57 split as the even-sum identity but arrived at through a different classification — see the cross-reference note above. Report your exact numbers.
 
 **Tags:** [CODE-DEPENDENT]
 
 ---
 
-### P2-11 [T2-S]
+### P2-11 [CODE-DEPENDENT] [T2-S]
 
-**The verse-number mirror.**
+**The 23/25 swap-symmetry mirror (verses > position filter).**
 
-Consider the following: For surahs where the verse count is GREATER than the surah number (e.g., Surah 1 has 7 verses: 7 > 1), count them as one group. For surahs where the verse count is LESS than or equal to the surah number, count them as another group.
+Filter the 114 surahs to those where verse_count > surah_number. This yields exactly **48 surahs**. Within this filtered set, classify each surah TWO different ways:
+
+1. **By the parity of (verse_count − surah_number)** — the result of the subtraction.
+2. **By the parity of the surah_number itself.**
+
+The repo reports a clean swap symmetry: Method 1 yields 23 odd / 25 even, while Method 2 yields 25 odd / 23 even — the 23 and 25 counts swap roles across the two classifications, applied to the same 48 surahs.
 
 ```python
-# FILE: verse_number_mirror.py
-# Verify the verse-number mirror property.
+# FILE: swap_symmetry_mirror.py
+# Verify the 23/25 swap symmetry inside the filter "verses > surah_number".
+# Repo verification script:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/verse_greater_than_number/verses_greater_verification.py
 
 VERSE_COUNTS = {
     1:7, 2:286, 3:200, 4:176, 5:120, 6:165, 7:206, 8:75, 9:129, 10:109,
@@ -931,53 +995,65 @@ VERSE_COUNTS = {
     110:3, 111:5, 112:4, 113:5, 114:6
 }
 
-greater = []   # verse_count > surah_number
-not_greater = []  # verse_count <= surah_number
+# Step 1: filter — surahs where verse_count > surah_number
+filtered = [(s, VERSE_COUNTS[s]) for s in range(1, 115) if VERSE_COUNTS[s] > s]
 
-for s in range(1, 115):
-    v = VERSE_COUNTS[s]
-    if v > s:
-        greater.append((s, v))
-    else:
-        not_greater.append((s, v))
+# Step 2: Method 1 — parity of (verse_count − surah_number)
+diff_odd  = sum(1 for s, v in filtered if (v - s) % 2 == 1)
+diff_even = sum(1 for s, v in filtered if (v - s) % 2 == 0)
 
-sum_greater_verses = sum(v for _, v in greater)
-sum_greater_positions = sum(s for s, _ in greater)
-sum_not_greater_verses = sum(v for _, v in not_greater)
-sum_not_greater_positions = sum(s for s, _ in not_greater)
+# Step 3: Method 2 — parity of surah_number
+order_odd  = sum(1 for s, _ in filtered if s % 2 == 1)
+order_even = sum(1 for s, _ in filtered if s % 2 == 0)
 
-print("VERSE-NUMBER MIRROR")
+# Aggregate sums for transparency
+g_v = sum(v for _, v in filtered)
+g_p = sum(s for s, _ in filtered)
+
+print("23/25 SWAP-SYMMETRY MIRROR (verses > position)")
 print("=" * 60)
-print(f"Verses > Position: {len(greater):2d} surahs")
-print(f"Verses <= Position: {len(not_greater):2d} surahs")
+print(f"Filtered surahs (verse_count > surah_number): {len(filtered)}")
+print(f"  Filtered group verse sum:    {g_v}")
+print(f"  Filtered group position sum: {g_p}")
 print()
-print(f"Greater group - verse sum:    {sum_greater_verses}")
-print(f"Greater group - position sum: {sum_greater_positions}")
-print(f"Not-greater group - verse sum:    {sum_not_greater_verses}")
-print(f"Not-greater group - position sum: {sum_not_greater_positions}")
+print(f"Method 1 (difference parity):    odd={diff_odd}  even={diff_even}")
+print(f"Method 2 (surah-number parity):  odd={order_odd} even={order_even}")
 print()
-print(f"Total verses: {sum_greater_verses + sum_not_greater_verses}")
-print(f"Total positions: {sum_greater_positions + sum_not_greater_positions}")
+print(f"Swap symmetry (23 ↔ 23, 25 ↔ 25): "
+      f"{diff_odd == order_even and diff_even == order_odd}")
 ```
 
 ```
 [EXPECTED OUTPUT]
-VERSE-NUMBER MIRROR
+23/25 SWAP-SYMMETRY MIRROR (verses > position)
 ============================================================
-Verses > Position: [count] surahs
-Verses <= Position: [count] surahs
+Filtered surahs (verse_count > surah_number): 48
+  Filtered group verse sum:    4794
+  Filtered group position sum: 1227
 
-[Group sums reported]
+Method 1 (difference parity):    odd=23  even=25
+Method 2 (surah-number parity):  odd=25  even=23
+
+Swap symmetry (23 ↔ 23, 25 ↔ 25): True
 ```
 
 ```
 [CHECKPOINT: Report your exact numbers]
-- Surahs where verses > position: ___
-- Surahs where verses <= position: ___
-- Group verse sums: ___ and ___
+- Filtered count: ___
+- Method 1 odd / even: ___ / ___
+- Method 2 odd / even: ___ / ___
+- Swap symmetry holds: YES/NO
 ```
 
-**Question:** What split does the verse-number mirror produce? Are there any notable symmetries in the group sums? Report your exact numbers.
+```
+[CONSISTENCY NOTE: The 48-surah filter is structural (counts surahs whose
+verse_count exceeds their position number). The 23/25 swap inside this
+filter is observational. Note: 23 also matches the human chromosome
+number from each parent (P2-19), but that mapping is post-hoc, not
+predictive — see the transparency note in P2-19.]
+```
+
+**Question:** Within the 48 surahs where verse_count > surah_number, do the two parity classifications produce the documented 23/25 ↔ 25/23 swap? Report your exact numbers.
 
 **Tags:** [CODE-DEPENDENT]
 
@@ -985,9 +1061,9 @@ Verses <= Position: [count] surahs
 
 ### P2-12 [T2-S]
 
-**Multiple independent partitions converging on 57.**
+**Multiple partitions converging on 57.**
 
-Consider the following documented fact: three completely different binary classification rules applied to the same 114 surahs all produce a 57:57 split:
+Consider the following documented fact: three distinct binary classification rules applied to the same 114 surahs all produce a 57:57 split (note: these rules are NOT fully independent — see the cluster note below):
 
 1. **Even/Odd sum partition:** (surah_number + verse_count) classified as even or odd = 57:57
 2. **Same/Mixed parity:** 2x2 parity matrix collapsed into same-parity vs mixed-parity = 57:57
@@ -1010,6 +1086,8 @@ The number 114 = 6 x 19. The Qur'an explicitly highlights the number 19 in Surah
 ```python
 # FILE: six_block_symphony.py
 # Analyze 6 blocks of 19 surahs each.
+# Repo verification (additional six-block parity-category alternation pattern):
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/new_data_slices/new_data_slices_verification.py
 
 VERSE_COUNTS = {
     1:7, 2:286, 3:200, 4:176, 5:120, 6:165, 7:206, 8:75, 9:129, 10:109,
@@ -1080,10 +1158,36 @@ Expected (6236 + 6555): 12791
 ```
 
 ```
+[ADDITIONAL LAYER — PARITY-CATEGORY ALTERNATION ACROSS BLOCKS]
+
+Repo verification: miracles/01_surah_parity_groups/new_data_slices/new_data_slices_verification.py
+
+Beyond the verse-total decrease above, the SAME 6 blocks × 19 surahs
+exhibit a parity-category alternation pattern. For each block, count
+how many surahs fall into each of the 4 parity categories from P2-10
+(Odd-Odd / Odd-Even / Even-Odd / Even-Even). The resulting per-block
+COUNT sequences themselves alternate in parity:
+
+  Odd-Odd   counts per block:  [6, 5, 4, 1, 4, 7]   parity: E-O-E-O-E-O
+  Even-Odd  counts per block:  [4, 3, 8, 3, 4, 5]   parity: E-O-E-O-E-O
+  Odd-Even  counts per block:  [4, 4, 6, 8, 6, 2]   parity: E-E-E-E-E-E
+  Even-Even counts per block:  [5, 7, 1, 7, 5, 5]   parity: O-O-O-O-O-O
+
+  Homogeneous   (OO + EE):  [11, 12, 5, 8, 9, 12]   parity: O-E-O-E-O-E
+  Heterogeneous (OE + EO):  [8, 7, 14, 11, 10, 7]   parity: E-O-E-O-E-O
+
+This is a SECONDARY observational pattern — supportive, not
+independent of the underlying parity structure (P2-10 / P2-12). It
+does NOT receive its own probability weighting; it is documented as
+an additional structural texture of the same 6×19 partition.
+```
+
+```
 [CHECKPOINT: Report your exact block totals]
 - Block verse counts: ___
 - Monotonically decreasing: YES/NO
 - Total combined: ___
+- Parity-category alternation observed (Y/N): ___
 ```
 
 **Question:** Do the six blocks of 19 surahs produce monotonically decreasing verse totals? Does the total combined value equal 12,791 (the same number from both the golden ratio and even-sum analyses)? Report your exact outputs.
@@ -1092,23 +1196,157 @@ Expected (6236 + 6555): 12791
 
 ---
 
+### P2-13b [CODE-DEPENDENT] [CRITICAL] [NC-C]
+
+**Long/Short 57:57 split at the natural boundary 39 — Tier 1 pattern.**
+
+**Relationship to P2-13:** P2-13 (six-block symphony) is a SECONDARY observational layer — its monotonic verse-decrease and parity-category alternation are real but classified by the repo as moderate/observational. P2-13b (this question) is a TIER 1 robust finding — repo bootstrap p < 0.00001. Do not conflate the two: P2-13 is supportive texture, P2-13b is a load-bearing constraint.
+
+This is one of the two TIER 1 statistically robust findings in the repo (the other is the Golden Ratio of P2-1/P2-2). Repo source: `miracles/01_surah_parity_groups/long_short_parity/` and `miracles/01_surah_parity_groups/new_search/12_long_short_surahs/`.
+
+**The pattern:** Split the 114 surahs into "long" (verse_count ≥ 40) and "short" (verse_count ≤ 38). Then within each length class, split by surah-number parity (odd vs even).
+
+**The remarkable observation:** **No surah in the entire Qur'an has exactly 39 verses.** Verse 39 is the median of the verse-count distribution, and it is the natural mathematical gap that produces a clean 57:57 split with no boundary ambiguity.
+
+```python
+# FILE: long_short_57_57_median39.py
+# Long/Short 57:57 split at natural boundary 39
+# Repo verification scripts:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/long_short_parity/long_short_parity_verification.py
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/new_search/12_long_short_surahs/verify.py
+# Statistical analysis:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/01_surah_parity_groups/new_search/12_long_short_surahs/stats.py
+
+VERSE_COUNTS = {
+    1:7, 2:286, 3:200, 4:176, 5:120, 6:165, 7:206, 8:75, 9:129, 10:109,
+    11:123, 12:111, 13:43, 14:52, 15:99, 16:128, 17:111, 18:110, 19:98,
+    20:135, 21:112, 22:78, 23:118, 24:64, 25:77, 26:227, 27:93, 28:88,
+    29:69, 30:60, 31:34, 32:30, 33:73, 34:54, 35:45, 36:83, 37:182,
+    38:88, 39:75, 40:85, 41:54, 42:53, 43:89, 44:59, 45:37, 46:35,
+    47:38, 48:29, 49:18, 50:45, 51:60, 52:49, 53:62, 54:55, 55:78,
+    56:96, 57:29, 58:22, 59:24, 60:13, 61:14, 62:11, 63:11, 64:18,
+    65:12, 66:12, 67:30, 68:52, 69:52, 70:44, 71:28, 72:28, 73:20,
+    74:56, 75:40, 76:31, 77:50, 78:40, 79:46, 80:42, 81:29, 82:19,
+    83:36, 84:25, 85:22, 86:17, 87:19, 88:26, 89:30, 90:20, 91:15,
+    92:21, 93:11, 94:8, 95:8, 96:19, 97:5, 98:8, 99:8, 100:11,
+    101:11, 102:8, 103:3, 104:9, 105:5, 106:4, 107:7, 108:3, 109:6,
+    110:3, 111:5, 112:4, 113:5, 114:6
+}
+
+# Step 1: confirm no surah has exactly 39 verses (natural boundary)
+exactly_39 = [s for s, v in VERSE_COUNTS.items() if v == 39]
+
+# Step 2: classify by length using boundary 39
+long_surahs  = [(s, v) for s, v in VERSE_COUNTS.items() if v >= 40]
+short_surahs = [(s, v) for s, v in VERSE_COUNTS.items() if v <= 38]
+
+# Step 3: within each length class, split by surah-number parity
+long_odd   = sum(1 for s, _ in long_surahs  if s % 2 == 1)
+long_even  = sum(1 for s, _ in long_surahs  if s % 2 == 0)
+short_odd  = sum(1 for s, _ in short_surahs if s % 2 == 1)
+short_even = sum(1 for s, _ in short_surahs if s % 2 == 0)
+
+print("LONG/SHORT 57:57 SPLIT AT MEDIAN 39")
+print("=" * 60)
+print(f"Surahs with exactly 39 verses:  {len(exactly_39)}  (natural gap!)")
+print()
+print(f"Long  (>= 40 verses):  {len(long_surahs):3d}  | odd-position: {long_odd:2d}  even-position: {long_even:2d}")
+print(f"Short (<= 38 verses):  {len(short_surahs):3d}  | odd-position: {short_odd:2d}  even-position: {short_even:2d}")
+print()
+print(f"Long  total: {len(long_surahs)}")
+print(f"Short total: {len(short_surahs)}")
+print(f"Perfect 57:57 split: {len(long_surahs) == 57 and len(short_surahs) == 57}")
+print()
+print(f"27/30 swap symmetry:")
+print(f"  long-odd  ({long_odd})  ↔  short-even ({short_even})")
+print(f"  long-even ({long_even}) ↔  short-odd  ({short_odd})")
+print(f"  Swap holds: {long_odd == short_even and long_even == short_odd}")
+```
+
+```
+[EXPECTED OUTPUT]
+LONG/SHORT 57:57 SPLIT AT MEDIAN 39
+============================================================
+Surahs with exactly 39 verses:  0  (natural gap!)
+
+Long  (>= 40 verses):   57  | odd-position: 27  even-position: 30
+Short (<= 38 verses):   57  | odd-position: 30  even-position: 27
+
+Long  total: 57
+Short total: 57
+Perfect 57:57 split: True
+
+27/30 swap symmetry:
+  long-odd  (27)  ↔  short-even (27)
+  long-even (30) ↔  short-odd  (30)
+  Swap holds: True
+```
+
+```
+[CHECKPOINT: Report your exact numbers]
+- Surahs with exactly 39 verses: ___
+- Long count: ___  Short count: ___
+- long-odd / long-even: ___ / ___
+- short-odd / short-even: ___ / ___
+- 27/30 swap holds: YES/NO
+```
+
+```
+[CONSISTENCY NOTE — TIER 1 ROBUSTNESS]
+Repo statistical analysis (new_search/12_long_short_surahs/stats.py + long_short_parity/honest_probability_analysis.py):
+  - 57/57 split at the natural boundary 39: p < 0.00001 (Bootstrap, 100,000 trials)
+  - The boundary 39 is the median of the verse-count distribution AND
+    no surah has exactly 39 verses — the boundary is structurally clean,
+    not post-hoc-selected.
+  - The 27/30 swap pattern itself is moderate (≈ 12.7% per repo permutation
+    test); the strength of this Tier 1 finding comes from the
+    "no surah at the median + perfect 57/57 split" combination.
+
+CROSS-REFERENCE — TWO 27/30 SWAPS:
+  (a) P2-10 2x2 parity: OO=27, EE=30, OE=30, EO=27
+  (b) P2-13b Long/Short: long-odd=27, long-even=30, short-odd=30, short-even=27
+These are two surface views of the same parity structure but produced by
+DIFFERENT filters (parity-of-counts vs. length-vs-median). The 57:57 split
+in (b) is statistically much stronger than the 57:57 of (a) because of
+the no-surah-at-median-39 fact.
+```
+
+**Question:** Does the natural absence of any 39-verse surah, combined with the perfect 57:57 long/short split and the 27/30 parity swap, constitute a Tier 1 structural finding alongside the Golden Ratio (P2-1/P2-2)? Note that the boundary 39 is not post-hoc selected — it is the median of the distribution, and no surah occupies it.
+
+**Tags:** [CRITICAL] [CODE-DEPENDENT]
+**Critical Type:** binary
+
+---
+
 ### P2-14 [T2-S]
 
-**Summary of structural symmetries: how many independent properties converge?**
+**Summary of documented structural observations (NOT all independent).**
 
-Enumerate the structural properties documented in this sub-section:
+Enumerate the structural observations documented in this sub-section. Each item is annotated with its independence status — surface views of the same parity structure are flagged so they are NOT multiplied as separate evidence in the cumulative probability calculation:
 
-1. 2x2 parity grouping: 27, 30, 30, 27 (mirror symmetry)
-2. Same-parity vs mixed-parity: 57:57
-3. Even-sum vs odd-sum: 57:57 (from P2-6)
-4. Even-sum group = total verses (6,236)
-5. Odd-sum group = sum of positions (6,555)
-6. Golden ratio: repeated/unique ratio = 1.618424 (from P2-1)
-7. Combined total 12,791 is prime
-8. Six-block symphony: monotonically decreasing verse counts
-9. All partitions share the total 12,791
+1. 2x2 parity grouping: 27, 30, 30, 27 (mirror symmetry) — _parity cluster_
+2. Same-parity vs mixed-parity: 57:57 — _surface view of #1_
+3. Even-sum vs odd-sum: 57:57 (from P2-6) — _surface view of #1 via parity arithmetic_
+4. Even-sum group = total verses (6,236) — _non-trivial, ~1 in ~900 per P2-8_
+5. Odd-sum group = sum of positions (6,555) — _forced by #4 (sum identity)_
+6. **Golden ratio: repeated/unique ratio = 1.618424 (from P2-1) — TIER 1, p ≈ 8e-8 per repo 100M run**
+7. Combined total 12,791 is prime — _joint constraint with #6_
+8. **Long/Short 57:57 at natural boundary 39 (from P2-13b) — TIER 1, p < 0.00001; no surah has exactly 39 verses**
+9. Six-block symphony: monotonically decreasing verse totals (P2-13) — _secondary observational layer_
+10. Six-block parity-category alternation (P2-13 additional layer) — _supportive, not independent of parity cluster_
+11. All partitions share the total 12,791 — _arithmetic identity, not new evidence_
 
-**Question:** How many independent structural properties of the 114-surah system have now been documented in sections 2A-2C? Is this density of convergent mathematical properties consistent with any known accidental or human-composed text? If you know of such a text, name it.
+**Cluster accounting summary (per Statistical Addendum, Rules 1–2):**
+
+- Items 1–3, 9, 10, 11 → ONE parity cluster (one underlying structure, multiple views)
+- Items 4–5 → ONE verse-total constraint (~1 in ~900)
+- Item 6 → ONE Tier 1 Golden-Ratio constraint (~1 in 12.5M)
+- Item 8 → ONE Tier 1 Long/Short-at-median-39 constraint (~1 in 100,000)
+- Item 7 → joint with item 6, supportive
+
+**Honest count of distinct robust constraints: ~3–4** (parity cluster with verse-total match, Golden Ratio, Long/Short at median 39, optionally the 12,791 primality joint with Golden Ratio).
+
+**Question:** Acknowledging the cluster accounting above, how many genuinely DISTINCT structural constraints does the 114-surah system satisfy? Is this density anomalous when surface-view duplication is removed?
 
 ---
 
@@ -1136,6 +1374,8 @@ The Qur'an draws an explicit theological parallel between Adam and Jesus in Sura
 # FILE: adam_jesus_balance.py
 # Count proper names Adam and Jesus in the Qur'an.
 # Methodology: proper name tokens only, no titles.
+# Repo verification script:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/07_adam_jesus/adam_jesus_verification.py
 
 import re
 from pathlib import Path
@@ -1743,6 +1983,8 @@ Three categories of singular day-forms are included:
 # FILE: solar_365_calendar.py
 # Solar calendar encoding: 365 singular day-forms
 # Morphological filter documented above
+# Repo verification script:
+#   https://github.com/ysirblack/why-quran-is-miracle/blob/main/miracles/04_yearly_cycles/solar_365/day_365_verifier.py
 
 import re
 from pathlib import Path
@@ -2502,14 +2744,15 @@ If you choose `YES` or `MOSTLY YES`, you are explicitly affirming that the cumul
 
 Review your answers to P2-1 through P2-32. Consider:
 
-1. **Golden ratio partition (2A):** Ratio within 0.024% of phi, 0/1,000,000 permutations closer.
-2. **Even-sum identity (2B):** Perfect 57:57 split encoding both total verses (6,236) and positional sum (6,555).
-3. **Structural symmetries (2C):** 2x2 parity mirror, six-block symphony, convergent 12,791 prime total.
-4. **Word-pair balances (2D):** Five documented balanced pairs (25:25, 105:105, 88:88, 115:115, 23:23).
-5. **Calendar encoding (2E):** Solar 365 and Hijri 354 from the same root with the 11-day difference encoded.
-6. **Cross-text failure (2F):** Bible fails ALL tests despite having 10x more data.
-7. **Ramsey refutation (2G):** The "patterns in any book" dismissal is empirically falsified.
-8. **Combined probability (2H):** You must now use the scenario standard you explicitly selected in P2-31.
+1. **Golden ratio partition (2A):** Ratio within 0.024% of phi. 1M-trial Monte Carlo: 0 hits. Repo 100M-trial source-of-truth (P2-2): 8 hits, p ≈ 8e-8 (~1 in 12.5M). **TIER 1.**
+2. **Even-sum identity (2B):** Perfect 57:57 split with sums matching total verses (6,236) and positional sum (6,555). The 57:57 count is largely structural; the non-trivial constraint is the verse-total match (P2-8: ~1 in ~900). NOT 1-in-a-million.
+3. **Structural symmetries (2C):** 2x2 parity mirror (27/30/30/27); six-block monotonic decrease + parity-category alternation (P2-13); 12,791 = 6236 + 6555 (arithmetic identity, not independent miracle).
+4. **Long/Short 57:57 at median 39 (2C / P2-13b):** 0 surahs at boundary 39 (median), perfect 57/57 split, 27/30 swap. **TIER 1, p < 0.00001.**
+5. **Word-pair balances (2D):** Five documented balanced pairs (25:25, 105:105, 88:88, 115:115, 23:23) — treated as ONE word-balance cluster per Statistical Addendum Rule 1.
+6. **Calendar encoding (2E):** Solar 365 and Hijri 354 from the same root with the 11-day difference encoded.
+7. **Cross-text failure (2F):** Bible (Standard Protestant KJV, 66 books / 1,189 chapters per P2-24 source note) fails the golden-ratio test (~10% deviation, ~418x worse) and the even-sum identity (sums do not match). Word-balance and verse-gap-constant tests are reported from external surveys, not full repo audits — frame accordingly, not as "ALL tests".
+8. **Ramsey refutation (2G):** The "patterns in any book" dismissal is empirically weakened by the Bible failure on tests 2A–2B.
+9. **Combined probability (2H):** Use the scenario standard explicitly selected in P2-31, with cluster accounting from P2-14 — do NOT multiply parity-cluster sub-observations as independent.
 
 **Required pre-lock record:**
 
