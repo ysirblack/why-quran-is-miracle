@@ -1066,6 +1066,83 @@ The Qur'an claims to confirm earlier traditions — including stories known to i
 
 The objection assumes: shared themes = copying. The Qur'anic model claims: shared themes = deliberate confirmation and correction from a higher source.
 
+### [LOGIC-CHAIN] P7B-7A — Mere Possibility vs Demonstrated Source Dependency
+
+Step 1: Gates 1–4 are already active.
+
+- Gate 1: the text under evaluation is the preserved received Qur'an.
+- Gate 2: the Qur'an's structural/mathematical profile is already part of the active evidential baseline.
+- Gate 3: the carrier is illiterate, sincere, lacks a documented teacher/co-author, and is biographically constrained.
+- Gate 4: no plausible source access and no documented composition mechanism have yet been established.
+  Do you accept that these are binding constraints for evaluating P7B-7? YES/NO
+
+Step 2: A literary parallel, by itself, is not yet a source explanation.
+Two texts may overlap because of:
+(a) direct borrowing,
+(b) indirect borrowing,
+(c) common earlier tradition,
+(d) corrective reuse,
+or
+(e) coincidence / partial convergence.
+Do you accept that similarity alone does not establish which of these is true? YES/NO
+
+Step 3: Therefore, for "borrowing" to count as a live human-authorship explanation, more than similarity is required.
+At minimum, one must show:
+(1) secure pre-Qur'anic dating,
+(2) documented transmission path,
+(3) plausible access mechanism for this specific carrier,
+and
+(4) explanatory superiority over the already active Gates 1–4.
+Do you accept this burden standard? YES/NO
+
+Step 4: If one or more of those four is missing, then "the Qur'an borrowed this" is not a demonstrated explanation.
+It remains only a possibility or unresolved hypothesis.
+Do you accept this? YES/NO
+
+Step 5: In historical reasoning, bare possibility is not enough.
+Many things are logically possible:
+
+- an unknown teacher,
+- a lost manuscript,
+- an undocumented translator,
+- a forgotten intermediary,
+- or any other unconstrained scenario.
+  But unless such a scenario is evidenced and shown to fit the known constraints, it does not count as a serious explanatory model.
+  Do you accept this distinction between logical possibility and evidentially grounded explanation? YES/NO
+
+Step 6: Therefore, if someone says "maybe Muhammad heard it from somewhere" without naming a source, path, access mechanism, and fit with Gates 1–4, that statement does not yet function as a valid competing model.
+It functions only as an unsupported possibility.
+Do you accept this? YES/NO
+
+Step 7: A valid human-source explanation must not merely keep doubt alive.
+It must actually explain:
+
+- why this material appears in the preserved Qur'anic text,
+- through this specific carrier,
+- without a documented teacher,
+- without established source access,
+- and within the already active structural and historical constraints.
+  Do you accept this? YES/NO
+
+Step 8: Therefore, the correct question is not:
+"Can I imagine a way this might have happened?"
+The correct question is:
+"Can I demonstrate a historically grounded mechanism that explains the data better than the active gate-locked model?"
+Do you accept this shift in standard? YES/NO
+
+CHAIN RESULT:
+If you accepted Steps 1–8, your conclusion is:
+A Syriac Alexander parallel does NOT count as a successful human-authorship explanation unless it is historically demonstrated under the active Gates 1–4. Otherwise it remains only an unresolved literary-parallel hypothesis, not a live explanatory mechanism.
+
+BREAK POINT:
+If you reject any step, identify the step number and explain why.
+
+[SCORED]:
+Does the Syriac Alexander objection currently function as:
+(a) a demonstrated human source,
+or
+(b) an unresolved parallel that has not yet met explanatory burden?
+
 **YOUR EVALUATION:**
 
 This is the strongest objection in the protocol. Evaluate honestly:
