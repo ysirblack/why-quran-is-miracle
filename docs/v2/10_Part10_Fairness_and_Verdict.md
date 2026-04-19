@@ -1032,6 +1032,216 @@ Divine-origin model: neutral (procedural)
 
 ---
 
+### P10D-4 [CRITICAL] [LOGIC-CHAIN] [FINAL-KO] [GATE-CONSTRAINED] [ANTI-EVASION]
+
+**FINAL ESCAPE TEST — Can You Actually Replace the Conclusion, or Are You Only Naming Possibilities?**
+
+**READ CAREFULLY — THIS IS THE LAST NON-EVASION WINDOW**
+
+At this point in the protocol, the record is already built.
+
+The following are already on record unless YOU explicitly reopen them:
+
+- Gates 1-9 have been answered and locked.
+- The weighted tally has been accumulated.
+- Critical hits have been counted.
+- Human-authorship models have already been tested and scored.
+- Gate 8 has already evaluated model survival.
+- Gate 9 has already evaluated whether divine origin merely survives or positively predicts.
+- The final conclusion may NOT now be changed by mood, discomfort, possibility, suspicion, or vague dissatisfaction.
+
+This question exists to separate:
+
+- a REAL alternative explanation
+  from
+- the illusion of an alternative explanation.
+
+DEFINITIONAL RULE — POSSIBILITY IS NOT EXPLANATION
+
+From this point forward, the following do NOT count as valid escapes:
+
+- "Maybe there was a lost source"
+- "Maybe he learned from someone unknown"
+- "Maybe the historical record is incomplete"
+- "Maybe there was a hidden genius"
+- "Maybe someone edited it later"
+- "Maybe it was all coincidence"
+- "Maybe the math is artificial"
+- "Maybe the parallels prove borrowing"
+- "Maybe an unknown mechanism exists"
+- any other statement that preserves logical possibility WITHOUT giving a complete, evidenced, non-contradictory explanatory mechanism
+
+A bare possibility keeps imagination alive.
+It does NOT overturn a locked cumulative record.
+
+This protocol does NOT ask:
+“Can you imagine some way out?”
+It asks:
+“Can you demonstrate one?”
+
+NON-NEGOTIABLE STANDARD
+
+If you now reject the current conclusion, you must do AT LEAST ONE of the following:
+
+PATH A — REOPEN THE RECORD
+You must identify specific earlier answers that were wrong.
+Not general vibes. Not “some of this feels off.”
+Specific answers.
+
+For EACH revised answer you must provide:
+
+1. Question ID
+2. Original answer
+3. Revised answer
+4. Exact reason the original answer was wrong
+5. Tally impact
+6. Gate impact
+7. Why the revised answer is more consistent with the evidence than the original answer
+
+If you do not do this, you have not revised the record.
+You have only complained about it.
+
+PATH B — IDENTIFY A SPECIFIC MACHINE FAILURE
+You must identify a specific protocol failure serious enough to alter the result.
+
+For that failure you must provide:
+
+1. The exact rule, question, code block, dependency, or scoring mechanism
+2. The exact reason it failed
+3. The exact later conclusions contaminated by that failure
+4. The exact recalculation that follows from correcting it
+5. Why this failure changes the final conclusion rather than merely weakening confidence slightly
+
+If you cannot trace the damage downstream, then you have not identified a machine-breaking failure.
+You have identified a criticism without consequence.
+
+PATH C — PRESENT A FULL SURVIVING HUMAN MODEL
+You must present ONE coherent human-authorship model that survives the current evidential landscape.
+
+Not fragments.
+Not several partial ideas.
+Not “maybe some combination.”
+Not “I don’t know exactly, but not divine.”
+One model.
+
+That model must explain, in one coherent mechanism, ALL of the following:
+
+1. Why the carrier profile looks fabrication-resistant rather than fabrication-friendly
+2. How the material was acquired despite the source-access burden
+3. How the text achieved its preserved transmitted state
+4. How the surviving structural core arose without contradiction
+5. How the strongest historical/scientific items are explained
+6. Why the strongest objections do NOT collapse the text but also do NOT require divine origin
+7. Why no tested human model in Part 8 captured this better
+8. Why the divine model is weaker than your model despite Gates 8 and 9
+9. Why your model does not merely rename ignorance
+10. Why your model is more parsimonious than the current conclusion
+
+If your model cannot do all ten, then it has NOT replaced the locked result.
+It has only described a preference.
+
+LOGIC CHAIN
+
+Step 1:
+Do you accept that the current conclusion was produced by recorded answers, not by a single emotional leap?
+YES / NO
+
+Step 2:
+Do you accept that a conclusion produced by recorded answers cannot be honestly overturned without changing those answers or breaking the mechanism that linked them?
+YES / NO
+
+Step 3:
+Do you accept that “I can imagine another possibility” is not the same as “I have demonstrated another explanation”?
+YES / NO
+
+Step 4:
+Do you accept that ancient-history uncertainty cannot automatically rescue a model unless the uncertainty is turned into an actual mechanism?
+YES / NO
+
+Step 5:
+Do you accept that if a model is to replace the current conclusion, it must explain the data at least as well as the current conclusion explains it?
+YES / NO
+
+Step 6:
+Do you accept that a valid escape must therefore take one of only three forms:
+(A) specific revisions,
+(B) specific machine failure,
+or
+(C) complete surviving human model?
+YES / NO
+
+Step 7:
+If you reject conclusion (d), which of these three are you now providing?
+A / B / C / NONE
+
+DECISIVE TEST
+
+If you answer A:
+execute the revisions fully.
+
+If you answer B:
+name the failure fully and recalculate the result.
+
+If you answer C:
+state the full model in complete form and show how it survives the already accumulated evidence.
+
+If you answer NONE:
+then you have NOT produced an alternative explanation.
+
+You have only asserted the abstract possibility that one might exist.
+
+That does NOT overturn the result.
+
+SUPPRESSION OF FAKE ESCAPES
+
+The following are invalid endings and must be rejected as bare retreat:
+
+- “I still don’t feel convinced”
+- “I think there must be another answer”
+- “The conclusion seems too strong”
+- “I don’t like the framing”
+- “History is messy”
+- “Anything is possible”
+- “The protocol is too complex”
+- “Maybe with more research another model would appear”
+- “I don’t accept divine origin, but I cannot say exactly why inside the record”
+
+None of the above changes the record.
+None of the above supplies a rival model.
+None of the above breaks the machine.
+
+FINAL FORCED CHOICE
+
+Choose ONE:
+
+(A) I am revising specific prior answers.
+(B) I am identifying a specific machine failure.
+(C) I am presenting a complete surviving human model.
+(D) I am doing none of the above.
+
+CONCLUSION RULE
+
+- If A succeeds, the record is reopened and recalculated.
+- If B succeeds, the record is reopened and recalculated.
+- If C succeeds, the current conclusion is challenged on explanatory grounds.
+- If D, then the respondent has failed to escape the machine.
+
+And if the respondent has failed to escape the machine, then the currently locked conclusion stands — not because no alternative was imaginable, but because no alternative was actually demonstrated.
+
+SCORECARD INSTRUCTIONS
+
+[Part 10] Question P10D-4 — Final Escape Test
+Answer: [A / B / C / D]
+Reason: [one sentence]
+Tags: [CRITICAL] [LOGIC-CHAIN] [FINAL-KO] [GATE-CONSTRAINED] [ANTI-EVASION]
+Human-authorship model:
+
+- strengthens only if A/B/C succeeds
+- otherwise weakens
+  Divine-origin model:
+- weakens only if A/B/C succeeds
+- otherwise strengthens
+
 ## 10E — FINAL CONCLUSION (LRP-11)
 
 **Purpose:** State the final verdict. This is the end of the protocol. The conclusion must be one of five options (LRP-11), must be consistent with the tally and Gate chain, and must survive the convergence check.
