@@ -978,11 +978,30 @@ Divine-origin model: [weakens if persecution / strengthens if civic obligation]
 
 ---
 
-## P7B-7 [DEBATABLE] **[STRONGEST OBJECTION — HONESTLY FLAGGED]** [T2-S]
+## P7B-7 [DEBATABLE] [GATE-CONSTRAINED] **[STRONGEST OBJECTION — HONESTLY FLAGGED]** [T2-S]
 
 ### Syriac Alexander Legend — Source Dependency?
 
 **HONEST ACKNOWLEDGMENT:** This is the strongest scholarly objection to the divine origin of the Qur'an currently in academic literature. The protocol flags it as such. It is presented at MAXIMUM hostile strength. The response is also at maximum strength. The respondent evaluates both.
+
+**ACTIVE GATE CONTEXT — BINDING**
+
+This objection must be evaluated under already locked Gates 1–4.
+
+- Gate 1 is active: the text under evaluation is the preserved received Qur'an, not a hypothetical unstable later text.
+- Gate 2 is active: the Qur'an's structural/mathematical profile has already been tested and carried forward; any human-source explanation must be compatible with that profile, not just with narrative overlap.
+- Gate 3 is active: the carrier is illiterate, sincere, lacks a documented teacher/co-author, and the biographical record is tightly transmitted.
+- Gate 4 is active: no plausible source access and no documented composition mechanism have been established.
+
+Therefore, literary parallel alone is insufficient.
+To count as a live human-authorship explanation, this objection must show:
+(1) secure pre-Qur'anic dating,
+(2) documented transmission path,
+(3) plausible access mechanism for this specific carrier,
+and
+(4) explanatory superiority over the already active Gates 1–4.
+
+If those are not shown, the objection remains an unresolved literary-parallel hypothesis, not a demonstrated human source.
 
 **THE OBJECTION — Maximum Hostile Strength:**
 
